@@ -1,0 +1,225 @@
+version: '3.8'
+services:
+  
+  es-master-1:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
+    container_name: es-master-1
+    environment:
+      - cluster.name=studio9
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "xpack.security.enabled=false"
+      - "node.master=true"
+      - "node.data=false"
+      - "xpack.monitoring.enabled=false"
+      - "node.name=es-master"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    mem_limit: 1g
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+    ports:
+      - 20000:9200
+    networks:
+      - studio9
+  
+  es-data-1:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
+    environment:
+      - cluster.name=studio9
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.zen.ping.unicast.hosts=es-master-1"
+      - "xpack.security.enabled=false"
+      - "node.master=false"
+      - "node.data=true"
+      - "node.name=es-data-1"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    mem_limit: 1g
+    depends_on:
+    - es-master-1
+    volumes:
+      - esdata2:/usr/share/elasticsearch/data
+    networks:
+      - studio9
+  
+  es-data-2:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
+    environment:
+      - cluster.name=studio9
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.zen.ping.unicast.hosts=es-master-1,es-data-1"
+      - "xpack.security.enabled=false"
+      - "node.master=false"
+      - "node.data=true"
+      - "node.name=es-data-2"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    mem_limit: 1g
+    volumes:
+      - esdata3:/usr/share/elasticsearch/data
+    networks:
+      - studio9
+    depends_on:
+    - es-data-1
+    - es-master-1
+  
+  es-migrate:
+    image: ubuntu
+    environment:
+    - "es_port=9200"
+    - "es_host=es-master-1"
+    - "MIGRATE=true"
+    volumes:
+    - "$PWD/schema-migration/es-migrate:/es-migrate"
+    networks:
+      studio9:
+    command:
+    - "bash"
+    - "-c"
+    - |
+      cd /es-migrate/scripts
+      bash -x elasticsearch_init.sh
+  
+  kibana:
+    image: kibana:5.6.4
+    container_name: kibana
+    ports:
+      - 20001:5601
+    env_file:
+      - ./envs/kibana.env
+    networks:
+      studio9:
+    depends_on:
+    - es-data-1
+    - es-master-1
+    - es-data-2
+  
+  mongo:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - 20002:27017
+    env_file:
+      - ./envs/mongo.env
+    networks:
+      studio9:
+    volumes:
+      - mongo:/data/db
+  
+  mongo-migrate-um-svc:
+    image: node
+    volumes:
+    - "$PWD/schema-migration/mongo-migrate/um-service:/um-service"
+    container_name: migrate-um-mongo
+    env_file:
+      - ./envs/mongo-migrate.env
+    command:
+    - "bash"
+    - "-c"
+    - |
+      cd /um-service
+      bash -x migrateStagingMongo.sh
+    networks:
+      - studio9
+    depends_on:
+    - mongo
+
+  mongo-migrate-baile:
+    image: rishivantsingh9717/studio9_baile:latest
+    container_name: migrate-baile-mongo
+    environment:
+    - "MONGODB_URL=mongodb://admin:secret@mongo:27017/baile?authSource=admin"
+    - "MONGODB_DB_NAME=baile"
+    entrypoint:
+    - bin/mongo-migration-app
+    networks:
+      studio9:
+    depends_on:
+      - mongo
+  
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express
+    environment:
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=secret
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=secret
+      - ME_CONFIG_MONGODB_SERVER=mongo
+    networks:
+      - studio9
+    depends_on:
+      - mongo
+    ports:
+    - 20003:8081
+    command:
+    - "sh"
+    - "-c"
+    - |
+      sleep 30
+      tini -- /docker-entrypoint.sh mongo-express
+
+  zookeeper:
+    image: zookeeper
+    hostname: zookeeper
+    container_name: zookeeper
+    ports:
+    - 20004:2181
+    restart: always
+    networks:
+      - studio9
+  
+  rabbit:
+    image: rabbitmq:3-management
+    container_name: rabbit
+    hostname: rabbit
+    ports:
+    - 20005:5672
+    - 20006:15672
+    env_file:
+      - ./envs/rabbit.env
+    networks:
+      - studio9
+
+  aries-rest-api:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/aries-api-rest:1.0
+    container_name: aries-rest
+    env_file:
+      - ./envs/aries.env
+    ports:
+    - 20007:9000
+    networks:
+    - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:9000/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    depends_on:
+    - es-data-1
+    - es-master-1
+    - es-data-2
+
+
+volumes:
+  esdata1:
+    driver: local
+  esdata2:
+    driver: local
+  esdata3:
+    driver: local
+  mongo:
+    driver: local
+
+networks:
+  studio9:

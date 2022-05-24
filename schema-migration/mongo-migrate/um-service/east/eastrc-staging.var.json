@@ -1,0 +1,4 @@
+{
+    "adapter": "east-mongo",
+    "url": "mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_URI}/um-service?authSource=${AUTH_DB}"
+}
