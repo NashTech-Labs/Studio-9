@@ -7,3 +7,7 @@
 - `20005` -> `rabbit broker`
 - `20006` -> `rabbit dashboard`
 - `20007` -> `aries`
+- `20008` -> `um-Service`
+- `20009` -> `baile`
+- `20010` -> `sql-server`
+- `20011` -> `sql-server`
