@@ -222,6 +222,9 @@ services:
       - studio9
 
 
+
+
+
 # baile
   baile:
     image: rishivantsingh9717/studio9_baile:latest
@@ -232,6 +235,7 @@ services:
       - ./envs/baile.env
     networks:
       - studio9
+
 
 
 
