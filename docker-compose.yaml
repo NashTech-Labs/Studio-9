@@ -316,6 +316,54 @@ services:
       about: "Pegasus-service"
     restart: unless-stopped
 
+  # um-Service
+  um-service:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/um-service:1.02
+    container_name: um_service
+    ports: 
+      - "20015:9000"
+    env_file:
+      - ./envs/um_service.env
+    networks:
+      - studio9
+
+
+
+
+
+# baile
+  baile:
+    image: rishivantsingh9717/studio9_baile:latest
+    container_name: baile
+    ports: 
+      - "20016:9000"
+    env_file:
+      - ./envs/baile.env
+    networks:
+      - studio9
+
+
+
+
+# sql-server
+
+  sql-server:
+    image: rishivantsingh9717/sql-server:1.0
+    container_name: sql-server
+    ports: 
+      - "20017:8000"
+      - "20018:2552"
+    env_file:
+      - ./envs/sql.env
+    networks:
+      - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:8000/sql-server/v0.1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+
 volumes:
   esdata1:
     driver: local

@@ -14,3 +14,7 @@
 - `20012` -> `orion`
 - `20013` -> `orion`
 - `20014` -> `pegasus`
+- `20015` -> `um-service`
+- `20016` -> `baile`
+- `20017` -> `sql-server`
+- `20018` -> `sql-server`
