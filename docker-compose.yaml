@@ -4,15 +4,8 @@ services:
   es-master-1:
     image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
     container_name: es-master-1
-    environment:
-      - cluster.name=studio9
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-      - "xpack.security.enabled=false"
-      - "node.master=true"
-      - "node.data=false"
-      - "xpack.monitoring.enabled=false"
-      - "node.name=es-master"
+    env_file:
+      - ./envs/es-master-1.env
     ulimits:
       memlock:
         soft: -1
@@ -27,15 +20,8 @@ services:
   
   es-data-1:
     image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
-    environment:
-      - cluster.name=studio9
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-      - "discovery.zen.ping.unicast.hosts=es-master-1"
-      - "xpack.security.enabled=false"
-      - "node.master=false"
-      - "node.data=true"
-      - "node.name=es-data-1"
+    env_file:
+      - ./envs/es-data-1.env
     ulimits:
       memlock:
         soft: -1
@@ -50,15 +36,8 @@ services:
   
   es-data-2:
     image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
-    environment:
-      - cluster.name=studio9
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-      - "discovery.zen.ping.unicast.hosts=es-master-1,es-data-1"
-      - "xpack.security.enabled=false"
-      - "node.master=false"
-      - "node.data=true"
-      - "node.name=es-data-2"
+    env_file:
+      - ./envs/es-data-2.env
     ulimits:
       memlock:
         soft: -1
@@ -74,10 +53,8 @@ services:
   
   es-migrate:
     image: ubuntu
-    environment:
-    - "es_port=9200"
-    - "es_host=es-master-1"
-    - "MIGRATE=true"
+    env_file:
+      - ./envs/es-migrate.env
     volumes:
     - "$PWD/schema-migration/es-migrate:/es-migrate"
     networks:
@@ -136,9 +113,8 @@ services:
   mongo-migrate-baile:
     image: rishivantsingh9717/studio9_baile:latest
     container_name: migrate-baile-mongo
-    environment:
-    - "MONGODB_URL=mongodb://admin:secret@mongo:27017/baile?authSource=admin"
-    - "MONGODB_DB_NAME=baile"
+    env_file:
+      - ./envs/mongo-migrate-baile.env
     entrypoint:
     - bin/mongo-migration-app
     networks:
@@ -149,12 +125,8 @@ services:
   mongo-express:
     image: mongo-express
     container_name: mongo-express
-    environment:
-      - ME_CONFIG_BASICAUTH_USERNAME=admin
-      - ME_CONFIG_BASICAUTH_PASSWORD=secret
-      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
-      - ME_CONFIG_MONGODB_ADMINPASSWORD=secret
-      - ME_CONFIG_MONGODB_SERVER=mongo
+    env_file:
+      - ./envs/mongo-express.env
     networks:
       - studio9
     depends_on:
@@ -193,10 +165,54 @@ services:
   aries-rest-api:
     image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/aries-api-rest:1.0
     container_name: aries-rest
+    depends_on:
+    - es-data-1
+    - es-master-1
+    - es-data-2
     env_file:
       - ./envs/aries.env
     ports:
     - 20007:9000
+    networks:
+    - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:9000/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    labels:
+      maintainer: "MAyank"
+      about: "Orion service"
+    restart: unless-stopped
+
+# Cortex service
+
+  cortex-rest-api:
+    image: rishivantsingh9717/cortex-api-rest:1.0
+    env_file:
+     - ./envs/cortex.env
+    ports:
+    - 20008:9000
+    networks:
+    - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:9000/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    depends_on:
+    - aries-rest-api
+
+# argo-api-rest
+  
+  argo-api-rest:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/argo-api-rest:1.0
+    env_file:
+     - ./envs/argo.env
+    ports:
+    - 20009:9000
     networks:
     - studio9
     healthcheck:
@@ -210,6 +226,95 @@ services:
     - es-master-1
     - es-data-2
 
+#   gemini service
+
+  gemini:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/gemini:1.0
+    env_file:
+     - ./envs/gemini.env
+    ports:
+    - 20010:7777
+    networks:
+    - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:7777/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    depends_on:
+    - zookeeper
+    - sql-server
+
+    #taurus service
+  
+
+  taurus:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/tauraus:1.0
+    env_file:
+     - ./envs/taurus.env
+    ports:
+    - 20011:9000
+    networks:
+    - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:9000/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    depends_on:
+    - rabbit
+    - cortex-rest-api
+    - baile
+    - argo-api-rest
+
+  orion-rest-api:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/orion-api-rest:1.0
+    container_name: orion-rest
+    depends_on: 
+      - cortex-rest-api
+    env_file:
+      - ./envs/orion.env
+    ports:
+      - 20012:9000
+      - 20013:2552
+    init: true
+    networks:
+      - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:9000/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    labels:
+      maintainer: "MAyank"
+      about: "Orion service"
+    restart: unless-stopped
+
+  pegasus-rest-api:
+    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/studio9-pegasus-api-rest:0.1
+    container_name: pegasus-rest
+    depends_on:
+      - taurus
+    env_file:
+      - ./envs/pegasus.env
+    ports:
+      - 20014:9000
+    init: true
+    networks:
+      - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:9000/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s
+    labels:
+      maintainer: "MAyank"
+      about: "Pegasus-service"
+    restart: unless-stopped
 
 volumes:
   esdata1:
