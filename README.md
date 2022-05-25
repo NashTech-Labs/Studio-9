@@ -7,3 +7,10 @@
 - `20005` -> `rabbit broker`
 - `20006` -> `rabbit dashboard`
 - `20007` -> `aries`
+- `20008` -> `cortex`
+- `20009` -> `argo`
+- `20010` -> `gemini`
+- `20011` -> `taurus`
+- `20012` -> `orion`
+- `20013` -> `orion`
+- `20014` -> `pegasus`
