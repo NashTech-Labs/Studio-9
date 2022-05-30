@@ -11,7 +11,7 @@ volumes:
 
 networks:
   studio9:
-  
+
 services:
   
   es-master-1:
@@ -377,3 +377,12 @@ services:
       retries: 5
       start_period: 15s
 
+  salsa:
+    image: rishivantsingh9717/salsa-service:2.1
+    container_name: salsa
+    ports: 
+      - "20019:80"
+    env_file:
+      - ./envs/salsa.env
+    networks:
+      - studio9
