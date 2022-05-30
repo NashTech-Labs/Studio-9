@@ -386,3 +386,35 @@ services:
       - ./envs/salsa.env
     networks:
       - studio9
+
+  # postgres
+  postgres-db:
+    image: postgres
+    container_name: postgres-db
+    restart: always
+    env_file:
+      - ./envs/postgres.env
+    networks:
+      - studio9 
+    labels:
+      maintainer: "MAyank"
+      about: "Postgres-db"
+
+  postgres-adminer:
+    image: adminer
+    depends_on:
+      - postgres-db
+    restart: always
+    ports:
+      - 20020:8080
+    networks:
+      - studio9
+    healthcheck:
+      test: ["CMD", "curl","-I","localhost:8080/v1/health"]
+      interval: 4s
+      timeout: 20s
+      retries: 5
+      start_period: 15s 
+    labels:
+      maintainer: "MAyank"
+      about: "Postgres-adminer"   

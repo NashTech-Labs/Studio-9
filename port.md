@@ -19,3 +19,4 @@
 - `20017` -> `sql-server`
 - `20018` -> `sql-server`
 - `20019` -> `salsa`
+  `20020` -> `postgres`
