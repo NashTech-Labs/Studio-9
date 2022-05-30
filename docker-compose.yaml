@@ -1,4 +1,17 @@
 version: '3.8'
+volumes:
+  esdata1:
+    driver: local
+  esdata2:
+    driver: local
+  esdata3:
+    driver: local
+  mongo:
+    driver: local
+
+networks:
+  studio9:
+  
 services:
   
   es-master-1:
@@ -364,15 +377,3 @@ services:
       retries: 5
       start_period: 15s
 
-volumes:
-  esdata1:
-    driver: local
-  esdata2:
-    driver: local
-  esdata3:
-    driver: local
-  mongo:
-    driver: local
-
-networks:
-  studio9:
