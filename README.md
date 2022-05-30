@@ -17,17 +17,27 @@ Below are described the major components of Studio-9.
 
 6. *PEGASUS* - A prediction storage service that receives messages from Taurus via Orion to upload data to RedShift. The messages contain metadata for online prediction job and CSV file with prediction results. 
 
+
 # What are use cases?
 
+
 # What Studio9 can do?
+
 ## Reduce Your AI Workload 120x
 Studio9 provides a large inventory of building blocks from which you can stitch together custom AI and Data Engineering pipelines. Rapidly assemble and test many different pipelines to create the AI you need. Turn your data into AI with near-zero effort and cost. Since Studio9 is an open platform, newer cutting-edge AI building blocks that are emerging every day are put right at your fingertips.
+
+## Studio9 helps you find the breakthroughs hidden in your data
+Studio9 streamlines your burden of wrangling data. With its continuously expanding portfolio of building blocks, Studio9 makes it easier for you to clean, integrate, enrich, and harmonize your data. Do it all within your own infinitely scalable database environment without any of the hassle of managing your own database.
+
+## Push-button Model Deployment
+You now have the power to deploy and run your Data Processing pipelines, Models, and AI anywhere – from infinitely scalable Cloud computing infrastructure to your own laptop to ultra-low power edge computing devices – with no additional programming or engineering effort required. We designed Studio9 for deployment flexibility so you can build, train, share, and execute your AI anywhere you want.
+
 
 # How to deploy Studio9 on Local?
 
 We'll be deploying Studio9 on local using a docker-compose file.
 
-### Prerequisites
+## Prerequisites
 
 - Docker should be installed on your local system.
 - If you don't have docker installed in your system, kindly refer to this [link](https://docs.docker.com/engine/install/ubuntu/)
