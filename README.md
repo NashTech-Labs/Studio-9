@@ -45,6 +45,8 @@ You now have the power to deploy and run your Data Processing pipelines, Models,
 
 
 # How to deploy Studio9 on Local?
+![Studio-9_flow](https://user-images.githubusercontent.com/86958663/171150086-22fb8783-bc07-45a0-a989-d100a3f50de8.png)
+
 
 We'll be deploying Studio9 on local using a docker-compose file.
 
