@@ -27,11 +27,7 @@ Below are described the major components of Studio-9.
 
 
 ## Automated Model Governance & Compliance
->Studio9 allows Model Risk Management, Regulatory Constraints, and Documentation Policies that your models must abide by to be encoded right into Pipeline and automatically reproduced every time a model is refreshed by Studio9. This includes Model Explainability, Model Fairness & Bias Analytics, Model Uncertainty, and Model Drift analytics – all of which are performed automatically.
-
-We don’t think AI makes machines smarter. It exists to make you smarter.
-
-The easier it is for you to make AI, the greater your ability to make breakthroughs. Whether you have unlimited compute resources in the cloud, or you are limited at the edge, your ability to make breakthroughs should be unencumbered. We are committed to giving you the breakthrough Data Management & AI/ML capabilities you need so you can create the breakthroughs you want – anywhere, anytime, and with anyone.
+>Studio9 allows Model Risk Management, Regulatory Constraints, and Documentation Policies that your models must abide by to be encoded right into Pipeline and automatically reproduced every time a model is refreshed by Studio9. This includes Model Explainability, Model Fairness & Bias Analytics, Model Uncertainty, and Model Drift analytics – all of which are performed automatically. We don’t think AI makes machines smarter. It exists to make you smarter. The easier it is for you to make AI, the greater your ability to make breakthroughs. Whether you have unlimited compute resources in the cloud, or you are limited at the edge, your ability to make breakthroughs should be unencumbered. We are committed to giving you the breakthrough Data Management & AI/ML capabilities you need so you can create the breakthroughs you want – anywhere, anytime, and with anyone.
 
 
 # What Studio9 can do?
