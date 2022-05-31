@@ -1,8 +1,7 @@
 
 # What is Studio-9?
-```
-**Studio9** is an open source platform for doing collaborative Data Management & AI/ML anywhere Whether your data is trapped in silos or you’re generating data at the edge, Studio9 gives you the flexibility to create AI and data engineering pipelines wherever your data is. And you can share your AI, Data, and Pipelines with anyone anywhere. With Studio9, you can achieve newfound agility to effortlessly move between compute environments, while all your data and your work replicates automatically to wherever you want.
-```
+> Studio9 is an open source platform for doing collaborative Data Management & AI/ML anywhere Whether your data is trapped in silos or you’re generating data at the edge, Studio9 gives you the flexibility to create AI and data engineering pipelines wherever your data is. And you can share your AI, Data, and Pipelines with anyone anywhere. With Studio9, you can achieve newfound agility to effortlessly move between compute environments, while all your data and your work replicates automatically to wherever you want.
+
 Below are described the major components of Studio-9. 
 ```
 1. *ORION* - A service further consisting of three components namely Job Dispatcher, Job Supervisor and Job Resource Cleaner. Job Dispatcher mainly forwards messages from RabbitMQ to the proper Job Supervisor, instantiating it for each new job request. Job Supervisor is responsible for instantiating job master for each new job which will have a new job supervisor setup. Job Resource Cleaner consumes messages from RabbitMQ and spins a new JobResourcesCleanerWorker for handling each message which then executes tasks for cleaning the resources. 
@@ -19,9 +18,9 @@ Below are described the major components of Studio-9.
 ```
 
 # What are use cases?
-```
+
 ## Computational Data Core that Automatically Scales and Adapts to You
-Imagine never having to worry about how to keep your data organized, keep track of how, when, and where it was manipulated, keep track of where it came from, or keep track of all its meta-data. Now imagine being able to effortlessly and securely share your data and its lineage with your colleagues. Finally, imagine being able to do any Analytics or Machine Learning right where your data is. The Studio9 Computational Data Core makes this all possible.
+>Imagine never having to worry about how to keep your data organized, keep track of how, when, and where it was manipulated, keep track of where it came from, or keep track of all its meta-data. Now imagine being able to effortlessly and securely share your data and its lineage with your colleagues. Finally, imagine being able to do any Analytics or Machine Learning right where your data is. The Studio9 Computational Data Core makes this all possible.
 ```
 
 ## The Data Science Replication Engine
