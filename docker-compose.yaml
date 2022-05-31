@@ -1,4 +1,6 @@
 version: '3.8'
+# volume defined
+
 volumes:
   esdata1:
     driver: local
@@ -9,11 +11,17 @@ volumes:
   mongo:
     driver: local
 
+# network defined.
+
 networks:
   studio9:
 
+#Now all the services have beeen defined as per the Studio9 dependency.
+
 services:
   
+  # Elastic search :- 
+
   es-master-1:
     image: docker.elastic.co/elasticsearch/elasticsearch:5.6.4
     container_name: es-master-1
@@ -78,6 +86,8 @@ services:
     - |
       cd /es-migrate/scripts
       bash -x elasticsearch_init.sh
+
+  # Service for Kibana is defined.
   
   kibana:
     image: kibana:5.6.4
@@ -92,6 +102,8 @@ services:
     - es-data-1
     - es-master-1
     - es-data-2
+
+  # Service for mongo is defined.
   
   mongo:
     image: mongo
@@ -153,6 +165,8 @@ services:
       sleep 30
       tini -- /docker-entrypoint.sh mongo-express
 
+  # service for zookeper is defined.
+
   zookeeper:
     image: zookeeper
     hostname: zookeeper
@@ -163,6 +177,8 @@ services:
     networks:
       - studio9
   
+  #Service for rabbit mq is defined.
+
   rabbit:
     image: rabbitmq:3-management
     container_name: rabbit
@@ -174,6 +190,8 @@ services:
       - ./envs/rabbit.env
     networks:
       - studio9
+
+  # Aries service is defined.
 
   aries-rest-api:
     image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/aries-api-rest:1.0
@@ -217,6 +235,7 @@ services:
       start_period: 15s
     depends_on:
     - aries-rest-api
+    - rabbit
 
 # argo-api-rest
   
@@ -281,12 +300,18 @@ services:
     - cortex-rest-api
     - baile
     - argo-api-rest
+    - aries-rest-api
+
+  #Orion service is defined.
 
   orion-rest-api:
     image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/orion-api-rest:1.0
     container_name: orion-rest
     depends_on: 
       - cortex-rest-api
+      - zookeper
+      - rabbit
+      
     env_file:
       - ./envs/orion.env
     ports:
@@ -301,16 +326,23 @@ services:
       timeout: 20s
       retries: 5
       start_period: 15s
+    
+    
     labels:
       maintainer: "MAyank"
       about: "Orion service"
     restart: unless-stopped
+    
+    
+# Pegasus service is defined.
 
   pegasus-rest-api:
     image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/studio9-pegasus-api-rest:0.1
     container_name: pegasus-rest
     depends_on:
       - taurus
+      - postgres-db
+      - rabbit
     env_file:
       - ./envs/pegasus.env
     ports:
@@ -339,10 +371,8 @@ services:
       - ./envs/um_service.env
     networks:
       - studio9
-
-
-
-
+    depends_on:
+    - mongo
 
 # baile
   baile:
@@ -354,6 +384,15 @@ services:
       - ./envs/baile.env
     networks:
       - studio9
+    depends_on:
+    - mongo
+    - um-service
+    - cortex
+    - aries-rest-api
+    - cortex-rest-api
+    - gemini
+    - zookeper
+
 
 
 
@@ -376,7 +415,11 @@ services:
       timeout: 20s
       retries: 5
       start_period: 15s
+    depends_on:
+    - baile
+    - um-service
 
+ # Salsa service - > The service for UI .
   salsa:
     image: rishivantsingh9717/salsa-service:2.1
     container_name: salsa
@@ -386,6 +429,8 @@ services:
       - ./envs/salsa.env
     networks:
       - studio9
+    depends_on:
+    - salsa
 
   # postgres
   postgres-db:
