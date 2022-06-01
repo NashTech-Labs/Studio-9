@@ -136,7 +136,7 @@ services:
     - mongo
 
   mongo-migrate-baile:
-    image: rishivantsingh9717/studio9_baile:latest
+    image: knoldusstudio9/baile:1.0
     container_name: migrate-baile-mongo
     env_file:
       - ./envs/mongo-migrate-baile.env
@@ -194,7 +194,7 @@ services:
   # Aries service is defined.
 
   aries-rest-api:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/aries-api-rest:1.0
+    image: knoldusstudio9/aries-rest-api:1.0
     container_name: aries-rest
     depends_on:
     - es-data-1
@@ -220,7 +220,7 @@ services:
 # Cortex service
 
   cortex-rest-api:
-    image: rishivantsingh9717/cortex-api-rest:1.0
+    image: knoldusstudio9/cortex-rest-api:1.0
     env_file:
      - ./envs/cortex.env
     ports:
@@ -240,7 +240,7 @@ services:
 # argo-api-rest
   
   argo-api-rest:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/argo-api-rest:1.0
+    image: knoldusstudio9/argo-api-rest:1.0
     env_file:
      - ./envs/argo.env
     ports:
@@ -261,7 +261,7 @@ services:
 #   gemini service
 
   gemini:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/gemini:1.0
+    image: knoldusstudio9/gemini:1.0
     env_file:
      - ./envs/gemini.env
     ports:
@@ -282,7 +282,7 @@ services:
   
 
   taurus:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/tauraus:1.0
+    image: knoldusstudio9/taurus:1.0
     env_file:
      - ./envs/taurus.env
     ports:
@@ -305,11 +305,11 @@ services:
   #Orion service is defined.
 
   orion-rest-api:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/orion-api-rest:1.0
+    image: knoldusstudio9/orion-rest-api:1.0
     container_name: orion-rest
     depends_on: 
       - cortex-rest-api
-      - zookeper
+      - zookeeper
       - rabbit
       
     env_file:
@@ -337,7 +337,7 @@ services:
 # Pegasus service is defined.
 
   pegasus-rest-api:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/studio9-pegasus-api-rest:0.1
+    image: knoldusstudio9/pegasus-rest-api:1.0
     container_name: pegasus-rest
     depends_on:
       - taurus
@@ -363,7 +363,7 @@ services:
 
   # um-Service
   um-service:
-    image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/um-service:1.02
+    image: knoldusstudio9/um-service:1.02
     container_name: um_service
     ports: 
       - "20015:9000"
@@ -376,7 +376,7 @@ services:
 
 # baile
   baile:
-    image: rishivantsingh9717/studio9_baile:latest
+    image: knoldusstudio9/baile:1.0
     container_name: baile
     ports: 
       - "20016:9000"
@@ -387,11 +387,10 @@ services:
     depends_on:
     - mongo
     - um-service
-    - cortex
     - aries-rest-api
     - cortex-rest-api
-    - gemini
-    - zookeper
+    - sql-server
+    - zookeeper
 
 
 
@@ -400,7 +399,7 @@ services:
 # sql-server
 
   sql-server:
-    image: rishivantsingh9717/sql-server:1.0
+    image: knoldusstudio9/sql-server:1.0
     container_name: sql-server
     ports: 
       - "20017:8000"
@@ -416,12 +415,11 @@ services:
       retries: 5
       start_period: 15s
     depends_on:
-    - baile
     - um-service
 
  # Salsa service - > The service for UI .
   salsa:
-    image: rishivantsingh9717/salsa-service:2.1
+    image: knoldusstudio9/salsa-local:1.2
     container_name: salsa
     ports: 
       - "20019:80"
@@ -430,7 +428,7 @@ services:
     networks:
       - studio9
     depends_on:
-    - salsa
+    - baile
 
   # postgres
   postgres-db:
