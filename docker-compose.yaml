@@ -305,7 +305,7 @@ services:
   #Orion service is defined.
 
   orion-rest-api:
-    image: knoldusstudio9/orion-rest-api:1.0
+    image: knoldusstudio9/orion-rest-api:2.0
     container_name: orion-rest
     depends_on: 
       - cortex-rest-api
