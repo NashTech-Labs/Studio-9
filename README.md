@@ -54,13 +54,21 @@ We'll be deploying Studio9 on local using a docker-compose file.
 - If you don't have docker installed in your system, kindly refer to this [link](https://docs.docker.com/engine/install/ubuntu/)
 - After successfully installing Docker, clone the [Repository](https://github.com/knoldus/Studio-9.git).
 - Run the Docker Compose file by running the below command:
+
 ```sh docker-compose up -d```
+
 or
+
 ```sh docker compose up -d```
+
 - If you want to see the logs, use the below command:
+
 ```sh docker-compose up```
+
 - To stop the services, use the below commands:
+
 ```sh docker compose down```
+
 NOTE: Use the above commands in the directory where the docker compose file exists.
 
 ## Explanation of Docker Compose
