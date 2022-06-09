@@ -48,8 +48,8 @@ Below are described the major components of Studio-9.
 
 We'll be deploying Studio9 on local using a docker-compose file.
 
-## Prerequisites
 
+## Prerequisites
 - Docker should be installed on your local system.
 - If you don't have docker installed in your system, kindly refer to this [link](https://docs.docker.com/engine/install/ubuntu/)
 - After successfully installing Docker, clone the [Repository](https://github.com/knoldus/Studio-9.git).
@@ -72,7 +72,24 @@ or
 NOTE: Use the above commands in the directory where the docker compose file exists.
 
 ## Explanation of Docker Compose
-
-  
-
-# How to deploy Studio9 on Cloud?
+For running the Studio-9 on local, we are using docker-compose. 
+- We are using a single network i.e. 'studio9' for all the services that'll run for studio-9.
+- Here we have 17 services that will be deployed on local machine to run the Studio-9.
+- There are four volumes being used in Studio-9, three for elastic-search and one for mongoDB.
+- The elastic-search master node is accessible at the port 9200.
+- Kibana service will run after the Elastic-search nodes are up and will be accessible at port 5601.
+- Mongo express service depends on mongo and will be accessible at 8081.
+- Zookeeper is using the same network i.e. 'studio9' and will be accessible 2181.
+- RabbitMQ is accessible at ports 5672 and 15672.
+- Next we have Aries service and it depends on Elastic-search nodes and will be accessible at 9000.
+- The Cortex service depends on Aries RabbitMQ and will be accessible at 9000.
+- The Argo service also depends on Elastic-search nodes and will be accessible at 9000.
+- Gemini service depends on zookeeper and sql-server and will be accessible at 9000.
+- Taurus service depends on RabbitMQ, Cortex, Baile, Argo and Aries and will be accessible at 9000.
+- Orion service depends on Cortex, Zookeeper and RabbitMQ and will be accessible at 9000.
+- Pegasus service depends on Taurus RabbitMQ and Postgres nad  will be accessible at 9000.
+- UM service depends on Mongo and will be accessible at 9000.
+- Baile service depends on Mongo, UM service, Aries, Cortex, SQL-server and Zookeeper and will be accessible at 9000.
+- SQL-Server depends on UM Service and will be accessible at 9000.
+- Salsa service is responsible for the UI of Studio-9 and it depends on Baile with port 80.
+- Postgres service depends on postgres-db and will be accessible at 8080.
