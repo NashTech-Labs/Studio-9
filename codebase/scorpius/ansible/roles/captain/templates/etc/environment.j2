@@ -1,0 +1,137 @@
+
+# Main Deployment
+PRIVATE_DEPLOYMENT={{private_deployment}}
+DOCKER_REGISTRY_PREFIX={{docker_registry_prefix}}
+FORCE_PULL_DOCKER={{force_pull_docker}}
+PLAINTEXT_PASSWORDS={{plaintext_passwords}}
+
+# Common
+RABBIT_HOSTS={{rabbit_hosts}}
+RABBIT_USERNAME={{rabbit_user}}
+ELASTIC_HOST={{elastic_host}}
+ELASTIC_PORT={{elastic_port}}
+ELASTIC_SSL={{elastic_ssl}}
+MONGODB_AUTH={{mongodb_auth}}
+MONGODB_APP_USER={{mongodb_app_user}}
+MONGODB_HOSTS={{mongodb_hosts}}
+PRIVATE_DEPLOYMENT={{private_deployment}}
+AKKA_LOGLEVEL={{akka_loglevel}}
+REDSHIFT_PORT={{redshift_port}}
+
+# Aries
+ARIES_HTTP_SEARCH_USER_NAME={{aries_http_search_user_name}}
+ARIES_HTTP_COMMAND_USER_NAME={{aries_http_command_user_name}}
+ARIES_SRV_INSTANCES={{aries_srv_instances}}
+ARIES_SRV_CPUS={{aries_srv_cpus}}
+ARIES_SRV_MEM={{aries_srv_mem}}
+ARIES_HOST={{aries_host}}
+ARIES_PORT={{aries_port}}
+ARIES_ELASTIC_JOB_INDEX={{aries_elastic_job_index}}
+ARIES_ELASTIC_HEARTBEAT_INDEX={{aries_elastic_heartbeat_index}}
+ARIES_REST_URL={{aries_rest_url}}
+
+# Argo
+ARGO_HTTP_AUTH_USER_NAME={{argo_http_auth_user_name}}
+ARGO_ELASTIC_CONFIG_SETTING_INDEX={{argo_elastic_config_setting_index}}
+ARGO_SRV_INSTANCES={{argo_srv_instances}}
+ARGO_SRV_CPUS={{argo_srv_cpus}}
+ARGO_SRV_MEM={{argo_srv_mem}}
+ARGO_HOST={{argo_host}}
+ARGO_PORT={{argo_port}}
+ARGO_REST_URL={{argo_rest_url}}
+
+# Baile
+BAILE_SRV_INSTANCES={{baile_srv_instances}}
+BAILE_SRV_CPUS={{baile_srv_cpus}}
+BAILE_SRV_MEM={{baile_srv_mem}}
+BAILE_HOST={{baile_host}}
+UM_SERVICE_BACKEND_URL={{um_service_backend_url}}
+BAILE_REST_URL={{baile_rest_url}}
+ONLINE_PREDICTION_USERNAME={{online_prediction_username}}
+BAILE_ARIES_REST_VERSION={{baile_aries_rest_version}}
+BAILE_CORTEX_REST_VERSION={{baile_cortex_rest_version}}
+BAILE_ARGO_REST_VERSION={{baile_argo_rest_version}}
+BAILE_USERNAME={{baile_username}}
+READ_STORED_PROCESSES={{read_stored_processes}}
+REQUIRE_EMAIL_CONFIRMATION={{require_email_confirmation}}
+ADMIN_ROLE_ID={{admin_role_id}}
+
+# Baile HAProxy
+BAILE_HAPROXY_SRV_INSTANCES={{baile_haproxy_srv_instances}}
+BAILE_HAPROXY_SRV_CPUS={{baile_haproxy_srv_cpus}}
+BAILE_HAPROXY_SRV_MEM={{baile_haproxy_srv_mem}}
+BAILE_HAPROXY_REST_URL={{baile_haproxy_rest_url}}
+
+# Cortex
+CORTEX_HTTP_SEARCH_USER_NAME={{cortex_http_search_user_name}}
+CORTEX_ARIES_REST_VERSION={{cortex_aries_rest_version}}
+CORTEX_SRV_INSTANCES={{cortex_srv_instances}}
+CORTEX_SRV_CPUS={{cortex_srv_cpus}}
+CORTEX_SRV_MEM={{cortex_srv_mem}}
+CORTEX_HOST={{cortex_host}}
+CORTEX_PORT={{cortex_port}}
+CORTEX_REST_URL={{cortex_rest_url}}
+
+# Logstash
+LOGSTASH_SRV_INSTANCES={{logstash_srv_instances}}
+LOGSTASH_SRV_CPUS={{logstash_srv_cpus}}
+LOGSTASH_SRV_MEM={{logstash_srv_mem}}
+
+# Orion
+ORION_HTTP_SEARCH_USER_NAME={{orion_http_search_user_name}}
+JOB_MASTER_START_TIMEOUT={{job_master_start_timeout}}
+JOB_MASTER_HEARTBEAT_TIMEOUT={{job_master_heartbeat_timeout}}
+JOB_MASTER_MESOS_MASTER_ADDRESS={{job_master_mesos_master_address}}
+JOB_MASTER_CPUS={{job_master_cpus}}
+JOB_MASTER_MEMORY={{job_master_memory}}
+JOB_MASTER_INSTANCES={{job_master_instances}}
+ORION_SRV_INSTANCES={{orion_srv_instances}}
+ORION_SRV_CPUS={{orion_srv_cpus}}
+ORION_SRV_MEM={{orion_srv_mem}}
+JOB_SUPERVISOR_MESSAGE_PUBLISHING_TIMEOUT={{job_supervisor_message_publishing_timeout}}
+
+# Pegasus
+PEGASUS_HTTP_AUTH_USER_NAME={{pegasus_http_auth_user_name}}
+PEGASUS_SRV_INSTANCES={{pegasus_srv_instances}}
+PEGASUS_SRV_CPUS={{pegasus_srv_cpus}}
+PEGASUS_SRV_MEM={{pegasus_srv_mem}}
+
+# RabbitMQ
+RMQ_SRV_INSTANCES={{rmq_srv_instances}}
+RMQ_SRV_CPUS={{rmq_srv_cpus}}
+RMQ_SRV_MEM={{rmq_srv_mem}}
+
+# Taurus
+TAURUS_CORTEX_REST_VERSION={{taurus_cortex_rest_version}}
+TAURUS_BAILE_REST_VERSION={{taurus_baile_rest_version}}
+TAURUS_ARIES_REST_VERSION={{taurus_aries_rest_version}}
+TAURUS_ARGO_REST_VERSION={{taurus_argo_rest_version}}
+TAURUS_SRV_INSTANCES={{taurus_srv_instances}}
+TAURUS_SRV_CPUS={{taurus_srv_cpus}}
+TAURUS_SRV_MEM={{taurus_srv_mem}}
+TAURUS_AKKA_PERSISTENCE_MONGODB_JOURNAL_DATABASE_NAME={{taurus_akka_persistence_mongodb_journal_database_name}}
+TAURUS_AKKA_PERSISTENCE_MONGODB_JOURNAL_COLLECTIONS_NAME_PREFIX={{taurus_akka_persistence_mongodb_journal_collections_name_prefix}}
+TAURUS_AKKA_PERSISTENCE_MONGODB_JOURNAL_INDEX_NAME={{taurus_akka_persistence_mongodb_journal_index_name}}
+
+# UM Service
+UM_SRV_INSTANCES={{um_srv_instances}}
+UM_SRV_CPUS={{um_srv_cpus}}
+UM_SRV_MEM={{um_srv_mem}}
+
+# Gemini
+GEMINI_USER={{gemini_user}}
+GEMINI_HOST={{gemini_host}}
+GEMINI_REST_URL={{gemini_rest_url}}
+GEMINI_SRV_INSTANCES={{gemini_srv_instances}}
+GEMINI_SRV_CPUS={{gemini_srv_cpus}}
+GEMINI_SRV_MEM={{gemini_srv_mem}}
+TASK_RESOURCES_WAIT_PERIOD={{task_resources_wait_period}}
+TASK_KILL_GRACE_PERIOD={{task_kill_grace_period}}
+JUPYTER_APP_MEMORY_LIMIT={{jupyter_app_memory_limit}}
+
+# SQL-SERVER
+SQL_SERVER_SRV_INSTANCES={{sql_server_srv_instances}}
+SQL_SERVER_SRV_CPUS={{sql_server_srv_cpus}}
+SQL_SERVER_SRV_MEM={{sql_server_srv_mem}}
+SQL_SERVER_HOST={{sql_server_host}}
+SQL_SERVER_REST_URL={{sql_server_rest_url}}

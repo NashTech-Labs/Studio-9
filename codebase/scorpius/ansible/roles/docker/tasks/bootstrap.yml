@@ -1,0 +1,10 @@
+---
+
+- name: Download httpd docker tar
+  get_url:
+    url: "http://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/docker-tars/httpd.tar"
+    dest: /tmp
+    mode: 0644
+
+- name: Load httpd docker tar
+  command: 'docker load -i /tmp/httpd.tar'

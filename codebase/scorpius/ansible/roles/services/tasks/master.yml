@@ -1,0 +1,16 @@
+---
+
+- name: Install dcos-journalctl-filebeat service on master
+  copy:
+    src: master_dcos-journalctl-filebeat.service
+    dest: /etc/systemd/system/dcos-journalctl-filebeat.service
+
+- name: Install dcos-journalctl-filebeat target on master
+  copy:
+    src: dcos-journalctl-filebeat.target
+    dest: /etc/systemd/system/dcos-journalctl-filebeat.target
+
+- name: Enable dcos-journalctl-filebeat service on master
+  service:
+    name: dcos-journalctl-filebeat
+    enabled: yes

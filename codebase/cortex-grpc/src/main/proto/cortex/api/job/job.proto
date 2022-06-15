@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package cortex.api.job;
+
+enum JobType {
+    CVModelTrain = 0;
+    CVPredict = 1;
+    CVEvaluate = 2;
+    TabularTrain = 4;
+    TabularPredict = 5;
+    S3ImagesImport = 6;
+    TabularEvaluate = 7;
+    OnlinePrediction = 8;
+    S3VideoImport = 11;
+    TabularUpload = 15;
+    AlbumAugmentation = 17;
+    TabularColumnStatistics = 18;
+    CVModelImport = 19;
+    ProjectPackage = 20;
+    TabularModelImport = 21;
+    Pipeline = 22;
+    S3DatasetImport = 23;
+    S3DatasetExport = 24;
+    //TODO ModelDelete? General or CV and Tabular separate?
+}
+
+message JobRequest {
+    JobType type = 1;
+    bytes payload = 2;
+}

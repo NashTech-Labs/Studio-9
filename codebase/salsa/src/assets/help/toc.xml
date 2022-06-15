@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <item>
+    <title><![CDATA[Getting Started]]></title>
+    <tooltip><![CDATA[Getting Started]]></tooltip>
+    <item url="accessinginsilico.htm">
+      <title><![CDATA[Accessing inSilico]]></title>
+      <tooltip><![CDATA[Accessing inSilico]]></tooltip>
+    </item>
+    <item url="creatinganinsilicoaccount.htm">
+      <title><![CDATA[Creating an inSilico Account]]></title>
+      <tooltip><![CDATA[Creating an inSilico Account]]></tooltip>
+    </item>
+    <item url="troubleloggingin.htm">
+      <title><![CDATA[Trouble logging in?]]></title>
+      <tooltip><![CDATA[Trouble logging in?]]></tooltip>
+    </item>
+    <item url="changingyourpassword.htm">
+      <title><![CDATA[Changing your password]]></title>
+      <tooltip><![CDATA[Changing your password]]></tooltip>
+    </item>
+    <item url="loggingoutandsessiontimeout.htm">
+      <title><![CDATA[Logging out and Session Timeout]]></title>
+      <tooltip><![CDATA[Logging out and Session Timeout]]></tooltip>
+    </item>
+  </item>
+  <item>
+    <title><![CDATA[Introduction to InSilico]]></title>
+    <tooltip><![CDATA[Introduction to InSilico]]></tooltip>
+    <item url="whatisinsilicosupposedtodo.htm">
+      <title><![CDATA[What is inSilico supposed to do?]]></title>
+      <tooltip><![CDATA[What is inSilico supposed to do?]]></tooltip>
+    </item>
+    <item url="forwhomisthistoolintended.htm">
+      <title><![CDATA[For whom is this tool intended?]]></title>
+      <tooltip><![CDATA[For whom is this tool intended?]]></tooltip>
+    </item>
+    <item url="insilicomodules.htm">
+      <title><![CDATA[inSilico Modules]]></title>
+      <tooltip><![CDATA[inSilico Modules]]></tooltip>
+      <item url="whatislibrary.htm">
+        <title><![CDATA[What is Library?]]></title>
+        <tooltip><![CDATA[What is Library?]]></tooltip>
+      </item>
+      <item url="whatiscompose.htm">
+        <title><![CDATA[What is Compose?]]></title>
+        <tooltip><![CDATA[What is Compose?]]></tooltip>
+      </item>
+      <item url="whatistrain.htm">
+        <title><![CDATA[What is Train?]]></title>
+        <tooltip><![CDATA[What is Train?]]></tooltip>
+      </item>
+      <item url="validate.htm">
+        <title><![CDATA[Validate]]></title>
+        <tooltip><![CDATA[Validate]]></tooltip>
+      </item>
+      <item url="whatisdeploy.htm">
+        <title><![CDATA[What is Deploy?]]></title>
+        <tooltip><![CDATA[What is Deploy?]]></tooltip>
+      </item>
+      <item url="whatisvisualize.htm">
+        <title><![CDATA[What is Visualize?]]></title>
+        <tooltip><![CDATA[What is Visualize?]]></tooltip>
+      </item>
+    </item>
+  </item>
+  <item>
+    <title><![CDATA[Library]]></title>
+    <tooltip><![CDATA[Library]]></tooltip>
+    <item url="navigation.htm">
+      <title><![CDATA[Navigation]]></title>
+      <tooltip><![CDATA[Navigation]]></tooltip>
+    </item>
+    <item url="insilicoassettypes.htm">
+      <title><![CDATA[inSilico Asset Types]]></title>
+      <tooltip><![CDATA[inSilico Asset Types]]></tooltip>
+      <item url="tables.htm">
+        <title><![CDATA[Tables]]></title>
+        <tooltip><![CDATA[Tables]]></tooltip>
+      </item>
+      <item url="flows.htm">
+        <title><![CDATA[Flows]]></title>
+        <tooltip><![CDATA[Flows]]></tooltip>
+      </item>
+      <item url="models.htm">
+        <title><![CDATA[Models]]></title>
+        <tooltip><![CDATA[Models]]></tooltip>
+      </item>
+      <item url="predictions.htm">
+        <title><![CDATA[Predictions]]></title>
+        <tooltip><![CDATA[Predictions]]></tooltip>
+      </item>
+      <item url="dashboards.htm">
+        <title><![CDATA[Dashboards]]></title>
+        <tooltip><![CDATA[Dashboards]]></tooltip>
+      </item>
+    </item>
+    <item url="importingdata.htm">
+      <title><![CDATA[Importing Data]]></title>
+      <tooltip><![CDATA[Importing Data]]></tooltip>
+    </item>
+    <item url="tablepreview.htm">
+      <title><![CDATA[Table Preview]]></title>
+      <tooltip><![CDATA[Table Preview]]></tooltip>
+    </item>
+    <item url="quickactions.htm">
+      <title><![CDATA[Quick Actions]]></title>
+      <tooltip><![CDATA[Quick Actions]]></tooltip>
+    </item>
+    <item url="assetactions.htm">
+      <title><![CDATA[Asset Actions]]></title>
+      <tooltip><![CDATA[Asset Actions]]></tooltip>
+      <item url="tables1.htm">
+        <title><![CDATA[Tables]]></title>
+        <tooltip><![CDATA[Tables]]></tooltip>
+      </item>
+      <item url="flows1.htm">
+        <title><![CDATA[Flows]]></title>
+        <tooltip><![CDATA[Flows]]></tooltip>
+      </item>
+      <item url="models1.htm">
+        <title><![CDATA[Models]]></title>
+        <tooltip><![CDATA[Models]]></tooltip>
+      </item>
+      <item url="predictions1.htm">
+        <title><![CDATA[Predictions]]></title>
+        <tooltip><![CDATA[Predictions]]></tooltip>
+      </item>
+      <item url="dashboards1.htm">
+        <title><![CDATA[Dashboards]]></title>
+        <tooltip><![CDATA[Dashboards]]></tooltip>
+      </item>
+    </item>
+  </item>
+  <item url="compose.htm">
+    <title><![CDATA[Compose]]></title>
+    <tooltip><![CDATA[Compose]]></tooltip>
+    <item url="createaflow.htm">
+      <title><![CDATA[Create a Flow]]></title>
+      <tooltip><![CDATA[Create a Flow]]></tooltip>
+    </item>
+    <item url="addtablestoaflow.htm">
+      <title><![CDATA[Add Tables to a Flow]]></title>
+      <tooltip><![CDATA[Add Tables to a Flow]]></tooltip>
+    </item>
+    <item url="createastep.htm">
+      <title><![CDATA[Create a Step]]></title>
+      <tooltip><![CDATA[Create a Step]]></tooltip>
+    </item>
+    <item url="steptransformations.htm">
+      <title><![CDATA[Step Transformations]]></title>
+      <tooltip><![CDATA[Step Transformations]]></tooltip>
+      <item url="formula.htm">
+        <title><![CDATA[Formula]]></title>
+        <tooltip><![CDATA[Formula]]></tooltip>
+      </item>
+      <item url="aggregate.htm">
+        <title><![CDATA[Aggregate]]></title>
+        <tooltip><![CDATA[Aggregate]]></tooltip>
+      </item>
+      <item url="join.htm">
+        <title><![CDATA[Join]]></title>
+        <tooltip><![CDATA[Join]]></tooltip>
+      </item>
+      <item url="cluster.htm">
+        <title><![CDATA[Cluster]]></title>
+        <tooltip><![CDATA[Cluster]]></tooltip>
+      </item>
+      <item url="query.htm">
+        <title><![CDATA[Query]]></title>
+        <tooltip><![CDATA[Query]]></tooltip>
+      </item>
+      <item url="train.htm">
+        <title><![CDATA[Train]]></title>
+        <tooltip><![CDATA[Train]]></tooltip>
+      </item>
+    </item>
+  </item>
+  <item url="validate1.htm">
+    <title><![CDATA[Validate]]></title>
+    <tooltip><![CDATA[Validate]]></tooltip>
+  </item>
+  <item url="reportfeedback.htm">
+    <title><![CDATA[Report Feedback]]></title>
+    <tooltip><![CDATA[Report Feedback]]></tooltip>
+  </item>
+</toc>

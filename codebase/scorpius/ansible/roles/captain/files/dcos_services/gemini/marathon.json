@@ -1,0 +1,101 @@
+{
+  "id": "gemini",
+  "backoffFactor": 1.15,
+  "backoffSeconds": 1,
+  "constraints": [
+    [
+      "hostname",
+      "UNIQUE"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "gpu"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "gpu-jupyter"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "cpu-jupyter"
+    ]
+  ],
+  "container": {
+    "portMappings": [
+      {
+        "containerPort": 7777,
+        "hostPort": 0,
+        "labels": {
+          "VIP_0": "/gemini:7777"
+        }
+      },
+      {
+        "containerPort": 2552,
+        "hostPort": 0
+      }
+    ],
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/gemini:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "privileged": false,
+      "parameters": []
+    }
+  },
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "instances": ${SRV_INSTANCES},
+  "env": {
+    "SRV_MEM": "${SRV_MEM}",
+    "HOSTNAME": "${GEMINI_HOST}",
+    "HTTP_AUTH_PASSWORD": {
+      "secret" : "gemini_http_auth_password"
+    },
+    "JUPYTER_APP_FORCE_PULL": "${FORCE_PULL_DOCKER}",
+    "ZOOKEEPER_URL": "${ZOOKEEPER_URL}",
+    "JUPYTER_APP_DOCKER_IMAGE": "${JUPYTER_LAB_DOCKER_IMAGE}",
+    "BASE_JUPYTER_LAB_DOMAIN": "${BASE_JUPYTER_LAB_DOMAIN}",
+    "HTTP_AUTH_USERNAME": "${HTTP_AUTH_USERNAME}",
+    "AKKA_PERSISTENCE_MONGODB_URI": "${AKKA_PERSISTENCE_MONGODB_URI}",
+    "MARATHON_CLIENT_URL": "${MARATHON_CLIENT_URL}",
+    "USE_HTTPS_FOR_JUPYTER_LAB": "false",
+    "SRV_INSTANCES": "${SRV_INSTANCES}",
+    "SRV_CPUS": "${SRV_CPUS}",
+    "AKKA_PERSISTENCE_MONGODB_WRITE_CONCERN": "${AKKA_PERSISTENCE_MONGODB_WRITE_CONCERN}",
+    "TASK_RESOURCES_WAIT_PERIOD": "${TASK_RESOURCES_WAIT_PERIOD}",
+    "TASK_KILL_GRACE_PERIOD": "${TASK_KILL_GRACE_PERIOD}",
+    "JUPYTER_APP_MEMORY_LIMIT": "${JUPYTER_APP_MEMORY_LIMIT}",
+    "SQL_SERVER_URL": "${SQL_SERVER_URL}",
+    "DEEPCORTEX_URL": "${DEEPCORTEX_URL}"
+  },
+  "healthChecks": [
+    {
+      "gracePeriodSeconds": 60,
+      "ignoreHttp1xx": false,
+      "intervalSeconds": 2,
+      "maxConsecutiveFailures": 10,
+      "portIndex": 0,
+      "timeoutSeconds": 10,
+      "delaySeconds": 15,
+      "protocol": "HTTP",
+      "path": "/v0.1/health"
+    }
+  ],
+  "networks": [
+    {
+      "mode": "container/bridge"
+    }
+  ],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  },
+  "secrets": {
+     "gemini_http_auth_password": {
+       "source": "gemini_http_auth_password"
+     }
+  }
+}

@@ -1,0 +1,213 @@
+syntax = "proto3";
+
+package cortex.api.job.computervision;
+
+import "google/protobuf/wrappers.proto";
+import "cortex/api/job/album/common.proto";
+import "cortex/api/job/album/augmentation.proto";
+import "cortex/api/job/common.proto";
+import "cortex/api/job/table.proto";
+
+message CVModelTrainRequest {
+    google.protobuf.StringValue feature_extractor_id = 1;
+    cortex.api.job.common.ClassReference feature_extractor_class_reference = 2;
+    repeated cortex.api.job.album.common.TaggedImage images = 3;
+    string file_path_prefix = 4;
+    TLModelType model_type = 5;
+    AutoAugmentationParams augmentation_params = 6;
+    bool tune_feature_extractor = 7;
+    map<string, ParameterValue> feature_extractor_parameters = 8;
+    map<string, ParameterValue> model_parameters = 10;
+    cortex.api.job.table.TableMeta probability_prediction_table = 11;
+    InputSize input_size = 12;
+    repeated LabelOfInterest labels_of_interest = 13;
+    google.protobuf.DoubleValue default_visual_threshold = 14;
+    google.protobuf.DoubleValue iou_threshold = 15;
+    google.protobuf.DoubleValue feature_extractor_learning_rate = 16;
+    google.protobuf.DoubleValue model_learning_rate = 17;
+}
+
+message CVModelTrainResult {
+    cortex.api.job.common.ModelReference feature_extractor_reference = 1;
+    cortex.api.job.common.ModelReference cv_model_reference = 2;
+    repeated PredictedImage images = 3;
+    cortex.api.job.common.ConfusionMatrix confusion_matrix = 4;
+    google.protobuf.DoubleValue map = 5; // TODO if more localization-only (or classification-only) summary fields will be introduced, move those to the dedicated summary messages and put oneof here
+    repeated cortex.api.job.album.augmentation.AugmentedImage augmented_images = 6;
+    cortex.api.job.album.augmentation.AugmentationSummary augmentation_summary = 7;
+    int64 data_fetch_time = 8;
+    int64 training_time = 9;
+    int64 save_model_time = 10;
+    int64 prediction_time = 11;
+    google.protobuf.DoubleValue reconstruction_loss = 12; // TODO if more autoencoder-only summary fields will be introduced, move those to the dedicated summary messages and put oneof here
+    map<string, int64> pipeline_timings = 13;
+    ProbabilityPredictionTableSchema probability_prediction_table_schema = 14;
+}
+
+message PredictRequest {
+    CVModelType model_type = 1;
+    string model_id = 2;
+    repeated cortex.api.job.album.common.Image images = 3;
+    string file_path_prefix = 4;
+    repeated LabelOfInterest labels_of_interest = 5;
+    VideoParams video_params = 6;
+    google.protobuf.StringValue target_prefix = 7;
+    cortex.api.job.table.TableMeta probability_prediction_table = 8;
+    google.protobuf.DoubleValue default_visual_threshold = 9;
+}
+
+message PredictResult {
+    repeated PredictedImage images = 1;
+    google.protobuf.Int64Value video_file_size = 2;
+    int64 data_fetch_time = 3;
+    int64 load_model_time = 4;
+    int64 prediction_time = 5;
+    map<string, int64> pipeline_timings = 6;
+    ProbabilityPredictionTableSchema probability_prediction_table_schema = 7;
+}
+
+message EvaluateRequest {
+    CVModelType model_type = 1;
+    string model_id = 2;
+    repeated cortex.api.job.album.common.TaggedImage images = 3;
+    string file_path_prefix = 4;
+    repeated LabelOfInterest labels_of_interest = 5;
+    cortex.api.job.table.TableMeta probability_prediction_table = 6;
+    google.protobuf.DoubleValue default_visual_threshold = 7;
+    google.protobuf.DoubleValue iou_threshold = 8;
+}
+
+message EvaluateResult {
+    repeated PredictedImage images = 1;
+    cortex.api.job.common.ConfusionMatrix confusion_matrix = 2;
+    google.protobuf.DoubleValue map = 3; // TODO if more localization-only (or classification-only) summary fields will be introduced, move those to the dedicated summary messages and put oneof here
+    int64 data_fetch_time = 4;
+    int64 load_model_time = 5;
+    int64 score_time = 6;
+    map<string, int64> pipeline_timings = 7;
+    ProbabilityPredictionTableSchema probability_prediction_table_schema = 8;
+}
+
+message DeleteRequest {
+    string model_id = 1;
+}
+
+message DeleteResult {
+    enum Code {
+        DELETED = 0;
+        NOT_FOUND = 1;
+        BEING_USED = 2;
+    }
+    Code code = 1;
+}
+
+message CVModelImportRequest {
+    string path = 1;
+    CVModelType model_type = 2;
+    bool fe_only = 3;
+}
+
+message CVModelImportResult {
+    cortex.api.job.common.ModelReference feature_extractor_reference = 1;
+    cortex.api.job.common.ModelReference cv_model_reference = 2;
+}
+
+message CVModelType {
+    oneof type {
+        TLModel tl_model = 1;
+        CustomModel custom_model = 2;
+    }
+}
+
+message TLModel {
+    TLModelType model_type = 1;
+    cortex.api.job.common.ClassReference feature_extractor_class_reference = 2;
+}
+
+message CustomModel {
+    cortex.api.job.common.ClassReference class_reference = 1;
+}
+
+message AutoAugmentationParams {
+    repeated cortex.api.job.album.augmentation.RequestedAugmentation augmentations = 1;
+    google.protobuf.Int32Value bloat_factor = 2;
+    bool generate_sample_album = 3;
+    google.protobuf.StringValue sample_album_target_prefix = 4;
+}
+
+message PredictedTag {
+    cortex.api.job.album.common.Tag tag = 1;
+    double confidence = 2;
+}
+
+message PredictedImage {
+    cortex.api.job.album.common.Image image = 1;
+    repeated PredictedTag predicted_tags = 2;
+}
+
+message VideoParams {
+    string target_video_file_path = 1;
+    double video_assemble_frame_rate = 2;
+    int32 video_assemble_height = 3;
+    int32 video_assemble_width = 4;
+}
+
+message LabelOfInterest {
+    string label = 1;
+    double threshold = 2;
+}
+
+message InputSize {
+    int32 width = 1;
+    int32 height = 2;
+}
+
+message TLModelType {
+    oneof type {
+        cortex.api.job.common.ClassReference localizer_type = 1;
+        cortex.api.job.common.ClassReference classifier_type = 2;
+        cortex.api.job.common.ClassReference autoencoder_type = 3;
+    }
+}
+
+message ParameterValue {
+    oneof value {
+        string string_value = 1;
+        int32 int_value = 2;
+        float float_value = 3;
+        bool boolean_value = 4;
+        StringSequenceValue string_values = 5;
+        IntSequenceValue int_values = 6;
+        FloatSequenceValue float_values = 7;
+        BooleanSequenceValue boolean_values = 8;
+    }
+}
+
+message StringSequenceValue {
+    repeated string values = 1;
+}
+
+message IntSequenceValue {
+    repeated int32 values = 1;
+}
+
+message FloatSequenceValue {
+    repeated float values = 1;
+}
+
+message BooleanSequenceValue {
+    repeated bool values = 1;
+}
+
+message ProbabilityPredictionTableSchema {
+    repeated cortex.api.job.table.ProbabilityClassColumn probability_columns = 1;
+    string image_file_name_column_name = 2;
+    ProbabilityPredictionAreaColumns area_columns = 3;
+}
+
+message ProbabilityPredictionAreaColumns {
+    string x_min_column_name = 1;
+    string x_max_column_name = 2;
+    string y_min_column_name = 3;
+    string y_max_column_name = 4;
+}

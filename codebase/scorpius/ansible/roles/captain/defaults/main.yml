@@ -1,0 +1,137 @@
+---
+
+# Main Deployment
+private_deployment: ""
+docker_registry_prefix: ""
+force_pull_docker: 'true'
+plaintext_passwords: 'false'
+
+# Common
+rabbit_hosts: "rabbitmq.marathon.l4lb.thisdcos.directory"
+rabbit_user: "rabbit_user"
+elastic_host: "coordinator.elastic.l4lb.thisdcos.directory"
+elastic_port: 9200
+elastic_ssl: 'false'
+mongodb_auth: 'true'
+mongodb_app_user: "app"
+mongodb_hosts: "mongo-rs-0-mongod.percona-server-mongodb.autoip.dcos.thisdcos.directory,mongo-rs-1-mongod.percona-server-mongodb.autoip.dcos.thisdcos.directory,mongo-rs-2-mongod.percona-server-mongodb.autoip.dcos.thisdcos.directory"
+akka_loglevel: "INFO"
+redshift_port: 5439
+
+# Aries
+aries_http_search_user_name: "aries-search-user"
+aries_http_command_user_name: "aries-command-user"
+aries_srv_instances: 3
+aries_srv_cpus: 1
+aries_srv_mem: 1024
+aries_host: "aries-api-rest.marathon.l4lb.thisdcos.directory"
+aries_port: 9000
+aries_rest_url: "http://aries-api-rest.marathon.l4lb.thisdcos.directory:9000"
+aries_elastic_job_index: "cortex_jobs_dev"
+aries_elastic_heartbeat_index: "cortex_job_heartbeats_dev"
+
+# Argo
+argo_http_auth_user_name: "argo-auth-user"
+argo_elastic_config_setting_index: "cortex_config_settings_dev"
+argo_srv_instances: 3
+argo_srv_cpus: 1
+argo_srv_mem: 1024
+argo_host: "argo-api-rest.marathon.l4lb.thisdcos.directory"
+argo_port: 9000
+argo_rest_url: "http://argo-api-rest.marathon.l4lb.thisdcos.directory:9000"
+
+# Baile
+baile_srv_instances: 1
+baile_srv_cpus: 1
+baile_srv_mem: 4096
+baile_host: "baile.marathon.l4lb.thisdcos.directory"
+baile_rest_url: "http://baile.marathon.l4lb.thisdcos.directory:9000"
+online_prediction_username: "online-predictor"
+baile_aries_rest_version: "v1"
+baile_cortex_rest_version: "v1"
+baile_argo_rest_version: "v1"
+baile_username: "knoldususa"
+read_stored_processes: "true"
+require_email_confirmation: "false"
+admin_role_id: "groups_superuser"
+
+# Baile Haproxy
+baile_haproxy_srv_instances: 1
+baile_haproxy_srv_cpus: 0.1
+baile_haproxy_srv_mem: 65
+baile_haproxy_rest_url: "http://baile-haproxy.marathon.l4lb.thisdcos.directory"
+
+# Cortex
+cortex_http_search_user_name: "cortex-search-user"
+cortex_aries_rest_version: "v1"
+cortex_srv_instances: 3
+cortex_srv_cpus: 1
+cortex_srv_mem: 1024
+cortex_host: "cortex-api-rest.marathon.l4lb.thisdcos.directory"
+cortex_port: 9000
+cortex_rest_url: "http://cortex-api-rest.marathon.l4lb.thisdcos.directory:9000"
+
+# Logstash
+logstash_srv_instances: 1
+logstash_srv_cpus: 0.1
+logstash_srv_mem: 1024
+
+# Orion
+orion_http_search_user_name: "orion-search-user"
+job_master_start_timeout: "5minutes"
+job_master_heartbeat_timeout: "5minutes"
+job_master_mesos_master_address: "master.mesos:5050"
+job_master_cpus: 1
+job_master_memory: 4096
+job_master_instances: 1
+orion_srv_instances: 3
+orion_srv_cpus: 1
+orion_srv_mem: 1024
+job_supervisor_message_publishing_timeout: "30seconds"
+
+# Pegasus
+pegasus_http_auth_user_name: "pegasus-user"
+pegasus_srv_instances: 3
+pegasus_srv_cpus: 1
+pegasus_srv_mem: 1024
+
+# RabbitMQ
+rmq_srv_instances: 3
+rmq_srv_cpus: 0.1
+rmq_srv_mem: 512
+
+# Taurus
+taurus_cortex_rest_version: "v1"
+taurus_baile_rest_version: "v1.4"
+taurus_aries_rest_version: "v1"
+taurus_argo_rest_version: "v1"
+taurus_srv_instances: 1
+taurus_srv_cpus: 1
+taurus_srv_mem: 1024
+taurus_akka_persistence_mongodb_journal_database_name: "taurus"
+taurus_akka_persistence_mongodb_journal_collections_name_prefix: "akka-persistence-journal"
+taurus_akka_persistence_mongodb_journal_index_name: "akka-persistence-journal-index"
+
+# UM Service
+um_service_backend_url: "http://um-service.marathon.l4lb.thisdcos.directory"
+um_srv_instances: 1
+um_srv_cpus: 1
+um_srv_mem: 1024
+
+# Gemini
+gemini_user: "gemini-knoldususa"
+gemini_host: "gemini.marathon.l4lb.thisdcos.directory"
+gemini_rest_url: "http://gemini.marathon.l4lb.thisdcos.directory:7777"
+gemini_srv_instances: 3
+gemini_srv_cpus: 1
+gemini_srv_mem: 1024
+task_resources_wait_period: "5minutes"
+task_kill_grace_period: "30seconds"
+jupyter_app_memory_limit: 16384
+
+# SQL-SERVER
+sql_server_srv_instances: 1
+sql_server_srv_cpus: 1
+sql_server_srv_mem: 1024
+sql_server_host: "sql-server.marathon.l4lb.thisdcos.directory"
+sql_server_rest_url: "http://sql-server.marathon.l4lb.thisdcos.directory:8000"

@@ -1,0 +1,26 @@
+{
+  "id": "jm-ucr-smoke-test",
+  "instances": 1,
+  "portDefinitions": [],
+  "container": {
+    "type": "DOCKER",
+    "volumes": [],
+    "docker": {
+      "image": "deepcortex/cortex-job-master:0.10.0-53-g58c04aa"
+    }
+  },
+  "cpus": 1,
+  "mem": 1024,
+  "requirePorts": false,
+  "networks": [],
+  "healthChecks": [],
+  "fetch": [],
+  "constraints": [],
+  "cmd": "bin/cortex-job-master -Dconfig.resource=docker.conf job --type smoke --mesos-master master.mesos:5050",
+  "env": {
+    "S3_ACCESS_KEY": "<provide s3 access key>",
+    "S3_SECRET_KEY": "<provide s3 secret key>",
+    "S3_BUCKET": "<provide s3 bucket>",
+    "S3_REGION": "<provide s3 region>"
+  }
+}

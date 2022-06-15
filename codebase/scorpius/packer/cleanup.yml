@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    main_user: "some_user"
+  roles:
+    - cleanup

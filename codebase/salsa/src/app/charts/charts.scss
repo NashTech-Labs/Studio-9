@@ -1,0 +1,99 @@
+progress-bar,
+chart-gauge,
+box-chart,
+chart-bar,
+chart-one-d-scatter,
+chart-two-d-scatter {
+  svg {
+    width: 100%;
+    height: 100%;
+    g.series > .active {
+      stroke: #f00;
+    }
+    g.brush {
+      path.handle--custom {
+        fill: #eee;
+        stroke: #666;
+      }
+      rect.selection {
+        fill: white;
+        stroke: none;
+        fill-opacity: 0.2;
+      }
+    }
+  }
+}
+
+progress-bar {
+  line {
+    &.background {
+      stroke-width: 1px;
+    }
+    &.foreground {
+      stroke-width: 4px;
+    }
+  }
+}
+
+box-chart {
+  line {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1px;
+    &.center {
+      stroke-dasharray: 3, 3;
+    }
+    &.median {
+      stroke-width: 3px;
+    }
+  }
+}
+
+chart-gauge {
+  line {
+    &.delimiter {
+      stroke-width: 2px;
+    }
+  }
+  path {
+    &.delimiter,
+    &.left-delimiter,
+    &.right-delimiter {
+      stroke-width: 2px;
+    }
+  }
+}
+
+chart-two-d-scatter {
+  .lasso path {
+    stroke: rgb(80, 80, 80);
+    stroke-width: 2px;
+    fill: white;
+  }
+
+  .lasso .drawn {
+    fill-opacity: 0.4;
+  }
+
+  .lasso .loop_close {
+    fill: none;
+    stroke-dasharray: 4, 4;
+  }
+
+  .lasso .origin {
+    fill: #3399FF;
+    fill-opacity: .5;
+  }
+
+  svg g.series rect.not_possible {
+    fill: rgb(200, 200, 200);
+  }
+
+  svg g.series rect.possible {
+    fill: #EC888C;
+  }
+
+  svg g.series rect.selected {
+    fill: steelblue;
+  }
+}

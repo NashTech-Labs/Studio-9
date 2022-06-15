@@ -1,0 +1,77 @@
+---
+# This playbook installs docker
+
+- name: enable overlay module
+  lineinfile:
+    dest: /etc/modules-load.d/overlay.conf
+    state: present
+    create: yes
+    line: 'overlay'
+
+- name: load overlay module
+  modprobe:
+    name: overlay
+    state: present
+
+- name: enable docker yum repo
+  template:
+    src: docker.repo.j2
+    dest: /etc/yum.repos.d/docker.repo
+    mode: 0644
+  when: "private_deployment != 'true'"
+
+- name: create docker systemd directory
+  file:
+    path: /etc/systemd/system/docker.service.d/
+    state: directory
+    mode: 0755
+
+- name: configure docker to use overlay driver
+  template:
+    src: override.conf.j2
+    dest: /etc/systemd/system/docker.service.d/override.conf
+    mode: 0644
+    force: yes
+  notify:
+    - restart docker
+
+- name: install docker packages
+  yum:
+    name: "docker-engine-{{ docker_version }}, docker-engine-selinux-{{ docker_version }}"
+    update_cache: yes
+    state: present
+
+- name: enable docker
+  service:
+    name: docker
+    enabled: yes
+    state: started
+
+- name: allow the default user to use docker
+  user:
+    name: "{{main_user}}"
+    groups: docker
+    append: yes
+
+- name: Transfer docker config script
+  copy:
+    src: configure-docker-deamon.sh
+    dest: /opt
+    mode: 0644
+  when: "private_deployment == 'true'"
+
+- name: Execute docker config script
+  command: bash /opt/configure-docker-deamon.sh
+  when: "private_deployment == 'true'"
+
+- import_tasks: bootstrap.yml
+  when: "'bootstrap' in group_names and private_deployment == 'true'"
+  tags: docker_bootstrap
+
+- import_tasks: slave.yml
+  when: "'slave' in group_names and private_deployment == 'true'"
+  tags: docker_slave
+
+- import_tasks: public_slave.yml
+  when: "'public-slave' in group_names and private_deployment == 'true'"
+  tags: docker_public_slave

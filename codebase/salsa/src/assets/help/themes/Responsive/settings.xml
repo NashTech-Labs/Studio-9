@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <theme>
+    <name>Responsive</name>
+    <predefined>true</predefined>
+    <baseTheme>Responsive</baseTheme>
+    <baseVersion>1.2.3</baseVersion>
+    <type>Responsive</type>
+  </theme>
+</settings>

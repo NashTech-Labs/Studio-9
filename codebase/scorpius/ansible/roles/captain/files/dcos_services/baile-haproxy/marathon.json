@@ -1,0 +1,77 @@
+{
+  "id": "baile-haproxy",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/baile-haproxy:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "network": "BRIDGE",
+      "portMappings": [
+        { "hostPort": 0,
+          "containerPort": 80,
+          "servicePort": 10000,
+          "labels": {
+            "VIP_0": "/baile-haproxy:80"
+          }
+        },
+        { "hostPort": 0,
+          "containerPort": 80,
+          "servicePort": 10001
+        }
+      ]
+    }
+  },
+  "env": {
+    "S3_BUCKET": "${S3_BUCKET}",
+    "BAILE_ADDRESS": "${BAILE_ADDRESS}",
+    "SQL_SERVER_ADDRESS": "${SQL_SERVER_ADDRESS}",
+    "VPC_DNS": "${VPC_DNS}",
+    "BAILE_API_PATH": "/${BAILE_API_PATH}/",
+    "SQL_SERVER_API_PATH": "/${SQL_SERVER_API_PATH}/",
+    "DNS_RESOLVER": "${DNS_RESOLVER}"
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu-jupyter"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "cpu-jupyter"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/haproxy_check",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "labels":{
+    "HAPROXY_GROUP":"external",
+    "HAPROXY_0_VHOST":"${BAILE_LB_URL}",
+    "HAPROXY_1_VHOST":"${BAILE_INTERNAL_LB_URL}",
+    "HAPROXY_0_BACKEND_HEAD":"backend {backend}\n  balance {balance}\n  mode {mode}\n  timeout server 3600s\n  timeout client 3600s\n",
+    "HAPROXY_1_BACKEND_HEAD":"backend {backend}\n  balance {balance}\n  mode {mode}\n  timeout server 3600s\n  timeout client 3600s\n"
+  },
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  }
+}

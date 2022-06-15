@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "job": {
+      "dynamic": "strict",
+      "properties": {
+	  	"id": { "type": "keyword" },
+	  	"owner": { "type": "keyword" },
+	  	"created_at": { "type": "date" },
+	  	"started_at": { "type": "date" },
+	  	"completed_at": { "type": "date" },
+	 	"job_type": { "type": "keyword" },
+	 	"status": { "type": "keyword" },
+	  	"input_path": { "type": "keyword" },
+	  	"output_path": { "type": "keyword" }
+      }
+    }
+  }
+}

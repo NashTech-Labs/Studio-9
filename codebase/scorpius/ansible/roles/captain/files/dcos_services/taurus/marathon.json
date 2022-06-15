@@ -1,0 +1,127 @@
+{
+  "id": "taurus",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/taurus:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "containerPort": 9000,
+          "labels": {
+            "VIP_0": "/taurus:9000"
+          }
+        },
+        {
+          "hostPort": 0,
+          "containerPort": 2552
+        }
+      ]
+    }
+  },
+  "env": {
+    "RABBIT_HOSTS": "${RABBIT_HOSTS}",
+    "RABBIT_USERNAME": "${RABBIT_USERNAME}"
+    "CORTEX_REST_URL": "${CORTEX_REST_URL}",
+    "CORTEX_REST_VERSION": "${CORTEX_REST_VERSION}",
+    "CORTEX_USERNAME": "${CORTEX_USERNAME}",
+    "CORTEX_PASSWORD": "${CORTEX_PASSWORD}",
+    "BAILE_REST_URL": "${BAILE_REST_URL}",
+    "BAILE_REST_VERSION": "${BAILE_REST_VERSION}",
+    "BAILE_USERNAME": "${BAILE_USERNAME}",
+    "BAILE_PASSWORD": "${BAILE_PASSWORD}",
+    "ARIES_REST_URL": "${ARIES_REST_URL}",
+    "ARIES_REST_VERSION": "${ARIES_REST_VERSION}",
+    "ARIES_USERNAME": "${ARIES_USERNAME}",
+    "ARIES_PASSWORD": "${ARIES_PASSWORD}",
+    "S3_ACCESS_KEY": "${TAURUS_S3_ACCESS_KEY}",
+    "S3_SECRET_KEY": "${TAURUS_S3_SECRET_KEY}",
+    "S3_REGION": "${S3_REGION}",
+    "S3_BUCKET": "${S3_BUCKET}",
+    "STREAM_ID": "${STREAM_ID}",
+    "ARGO_HOST": "${ARGO_HOST}",
+    "ARGO_PORT": "${ARGO_PORT}",
+    "ARGO_API_VERSION": "${ARGO_API_VERSION}",
+    "ARGO_USERNAME": "${ARGO_USERNAME}",
+    "ARGO_PASSWORD": "${ARGO_PASSWORD}",
+    "SQS_ACCESS_KEY": "${TAURUS_SQS_ACCESS_KEY}",
+    "SQS_SECRET_KEY": "${TAURUS_SQS_SECRET_KEY}",
+    "SQS_REGION": "${SQS_REGION}",
+    "SQS_QUEUE_NAME": "${SQS_QUEUE_NAME}",
+    "AKKA_PERSISTENCE_MONGODB_CREDENTIAL_DATABASE_URL": "${AKKA_PERSISTENCE_MONGODB_CREDENTIAL_DATABASE_URL}",
+    "AKKA_PERSISTENCE_MONGODB_JOURNAL_DATABASE_NAME": "${AKKA_PERSISTENCE_MONGODB_JOURNAL_DATABASE_NAME}",
+    "AKKA_PERSISTENCE_MONGODB_JOURNAL_COLLECTIONS_NAME_PREFIX": "${AKKA_PERSISTENCE_MONGODB_JOURNAL_COLLECTIONS_NAME_PREFIX}",
+    "AKKA_PERSISTENCE_MONGODB_JOURNAL_INDEX_NAME": "${AKKA_PERSISTENCE_MONGODB_JOURNAL_INDEX_NAME}",
+    "RABBIT_PASSWORD": {
+      "secret": "rabbitmq_password"
+    },
+    "BAILE_PASSWORD": {
+      "secret": "baile_online_prediction_password"
+    },
+    "ARIES_PASSWORD": {
+      "secret": "aries_http_search_user_password"
+    },
+    "ARGO_PASSWORD": {
+      "secret": "argo_http_auth_user_password"
+    },
+    "CORTEX_PASSWORD": {
+      "secret": "cortex_http_search_user_password"
+    }
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu-jupyter"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "cpu-jupyter"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/v1/health",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  },
+  "secrets": {
+    "rabbitmq_password": {
+      "source": "rabbitmq_password"
+    },
+    "baile_online_prediction_password": {
+      "source": "baile_online_prediction_password"
+    },
+    "aries_http_search_user_password": {
+      "source": "aries_http_search_user_password"
+    },
+    "argo_http_auth_user_password": {
+      "source": "argo_http_auth_user_password"
+    },
+    "cortex_http_search_user_password": {
+      "source": "cortex_http_search_user_password"
+    }
+  }
+}

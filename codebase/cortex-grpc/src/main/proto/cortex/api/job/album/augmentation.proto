@@ -1,0 +1,219 @@
+syntax = "proto3";
+
+package cortex.api.job.album.augmentation;
+
+import "cortex/api/job/album/common.proto";
+import "google/protobuf/wrappers.proto";
+
+message RotationRequestParams {
+    repeated float angles = 1;
+    bool resize = 2;
+}
+
+message ShearingRequestParams {
+    repeated float angles = 1;
+    bool resize = 2;
+}
+
+message NoisingRequestParams {
+    repeated float noise_signal_ratios = 1;
+}
+
+message ZoomInRequestParams {
+    repeated float magnifications = 1;
+    bool resize = 2;
+}
+
+message ZoomOutRequestParams {
+    repeated float shrink_factors = 1;
+    bool resize = 2;
+}
+
+enum OcclusionMode {
+    BACKGROUND = 0;
+    ZERO = 1;
+}
+
+message OcclusionRequestParams {
+    repeated float occ_area_fractions = 1;
+    OcclusionMode mode = 2;
+    bool is_sar_album = 3;
+    int32 tar_win_size = 4;
+}
+
+enum TranslationMode {
+    REFLECT = 0;
+    CONSTANT = 1;
+}
+
+message TranslationRequestParams {
+    repeated float translate_fractions = 1;
+    TranslationMode mode = 2;
+    bool resize = 3;
+}
+
+message SaltPepperRequestParams {
+    repeated float knockout_fractions = 1;
+    float pepper_probability = 2;
+}
+
+enum MirroringAxisToFlip {
+    HORIZONTAL = 0;
+    VERTICAL = 1;
+    BOTH = 2;
+}
+
+message MirroringRequestParams {
+    repeated MirroringAxisToFlip axes_to_flip = 1;
+}
+
+message CroppingRequestParams {
+    repeated float crop_area_fractions = 1;
+    int32 crops_per_image = 2;
+    bool resize = 3;
+}
+
+message BlurringRequestParams {
+    repeated float sigma_list = 1;
+}
+
+message PhotometricDistortAlphaBounds {
+    float min = 1;
+    float max = 2;
+}
+
+message PhotometricDistortRequestParams {
+    PhotometricDistortAlphaBounds alpha_bounds = 1;
+    float delta_max = 2;
+}
+
+message RequestedAugmentation {
+    int32 bloat_factor = 1;
+    oneof params {
+        RotationRequestParams rotation_params = 2;
+        ShearingRequestParams shearing_params = 3;
+        NoisingRequestParams noising_params = 4;
+        ZoomInRequestParams zoom_in_params = 5;
+        ZoomOutRequestParams zoom_out_params = 6;
+        OcclusionRequestParams occlusion_params = 7;
+        TranslationRequestParams translation_params = 8;
+        SaltPepperRequestParams salt_pepper_params = 9;
+        MirroringRequestParams mirroring_params = 10;
+        CroppingRequestParams cropping_params = 11;
+        BlurringRequestParams blurring_params = 12;
+        PhotometricDistortRequestParams photometric_distort_params = 13;
+    }
+}
+
+message AugmentationRequest {
+    repeated cortex.api.job.album.common.TaggedImage images = 1;
+    string file_path_prefix = 2;
+    repeated RequestedAugmentation augmentations = 3;
+    google.protobuf.Int32Value bloat_factor = 4;
+    string target_prefix = 5;
+    bool include_original_images = 6;
+}
+
+message AppliedRotationParams {
+    float angle = 1;
+    bool resize = 2;
+}
+
+message AppliedShearingParams {
+    float angle = 1;
+    bool resize = 2;
+}
+
+message AppliedNoisingParams {
+    float noise_signal_ratio = 1;
+}
+
+message AppliedZoomInParams {
+    float magnification = 1;
+    bool resize = 2;
+}
+
+message AppliedZoomOutParams {
+    float shrink_factor = 1;
+    bool resize = 2;
+}
+
+message AppliedOcclusionParams {
+    float occ_area_fraction = 1;
+    OcclusionMode mode = 2;
+    bool is_sar_album = 3;
+    int32 tar_win_size = 4;
+}
+
+message AppliedTranslationParams {
+    float translate_fraction = 1;
+    TranslationMode mode = 2;
+    bool resize = 3;
+}
+
+message AppliedSaltPepperParams {
+    float knockout_fraction = 1;
+    float pepper_probability = 2;
+}
+
+message AppliedMirroringParams {
+    MirroringAxisToFlip axis_flipped = 1;
+}
+
+message AppliedCroppingParams {
+    float crop_area_fraction = 1;
+    bool resize = 2;
+}
+
+message AppliedBlurringParams {
+    float sigma = 1;
+}
+
+message AppliedPhotometricDistortParams {
+    float delta_max = 1;
+    float alpha_constant = 2;
+    float alpha_saturation = 3;
+    float delta_hue = 4;
+}
+
+message AppliedAugmentation {
+    oneof generalParams {
+        AppliedRotationParams rotation_params = 1;
+        AppliedShearingParams shearing_params = 2;
+        AppliedNoisingParams noising_params = 3;
+        AppliedZoomInParams zoom_in_params = 4;
+        AppliedZoomOutParams zoom_out_params = 5;
+        AppliedOcclusionParams occlusion_params = 6;
+        AppliedTranslationParams translation_params = 7;
+        AppliedSaltPepperParams salt_pepper_params = 8;
+        AppliedMirroringParams mirroring_params = 9;
+        AppliedCroppingParams cropping_params = 10;
+        AppliedBlurringParams blurring_params = 11;
+        AppliedPhotometricDistortParams photometric_distort_params = 12;
+    }
+    map<string, float> extra_params = 13;
+    map<string, float> internal_params = 14;
+}
+
+message AugmentedImage {
+    cortex.api.job.album.common.TaggedImage image = 1;
+    repeated AppliedAugmentation augmentations = 2;
+    int64 file_size = 3;
+}
+
+message AugmentationResult {
+    repeated cortex.api.job.album.common.TaggedImage original_images = 1;
+    repeated AugmentedImage augmented_images = 2;
+    int64 data_fetch_time = 3;
+    int64 augmentation_time = 4;
+    map<string, int64> pipeline_timings = 5;
+}
+
+message AugmentationSummaryCell {
+    RequestedAugmentation requested_augmentation = 1;
+    int64 images_count = 2;
+}
+
+message AugmentationSummary {
+    repeated AugmentationSummaryCell augmentation_summary_cells = 1;
+}

@@ -1,0 +1,10 @@
+---
+
+- name: Copy populate-local-registry script
+  copy:
+   dest: /opt/
+   src: populate-local-registry.sh
+   owner: root
+   group: root
+   mode: 0644
+

@@ -1,0 +1,4 @@
+[Unit]
+Description=/etc/environment available and hostname set
+Requires=etc-environment.service
+After=etc-environment.service

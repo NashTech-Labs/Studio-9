@@ -1,0 +1,23 @@
+{
+  "mongodb": {
+    "mem": 2048,
+    "disk": 50000,
+    "placement": {
+      "constraint": "[[\"hostname\", \"UNIQUE\"]],[[\"cluster\", \"UNLIKE\", \"gpu\"]],[[\"cluster\", \"UNLIKE\", \"gpu-jupyter\"]],[[\"cluster\", \"UNLIKE\", \"cpu-jupyter\"]]"
+    }
+  },
+  "mongodb-auditlog": {
+    "enabled": true
+  },
+  "mongodb-credentials": {
+    "backupUser": "backup",
+    "backupPassword": "${MONGODB_BACKUP_PASSWORD}",
+    "userAdminUser": "useradmin",
+    "userAdminPassword": "${MONGODB_USERADMIN_PASSWORD}",
+    "clusterAdminUser": "clusteradmin",
+    "clusterAdminPassword": "${MONGODB_CLUSTERADMIN_PASSWORD}",
+    "clusterMonitorUser": "clustermonitor",
+    "clusterMonitorPassword": "${MONGODB_CLUSTERMONITOR_PASSWORD}",
+    "key": "${MONGODB_KEY}"
+  }
+}

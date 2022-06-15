@@ -1,0 +1,4 @@
+[Unit]
+Description=DCOS journalctl parser to filebeat
+Requires=dcos-journalctl-filebeat.service
+After=dcos-journalctl-filebeat.service

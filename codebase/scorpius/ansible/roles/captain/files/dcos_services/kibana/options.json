@@ -1,0 +1,22 @@
+{
+  "service": {
+    "name": "kibana"
+  },
+  "constraints": [
+    [
+      "cluster",
+      "UNLIKE",
+      "gpu"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "gpu-jupyter"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "cpu-jupyter"
+    ]
+  ]
+}

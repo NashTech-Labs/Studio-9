@@ -1,0 +1,38 @@
+@import '../../assets/scss/variables';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+
+.develop-file-list {
+  .glyphicon {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+
+  @media (min-width: $screen-md-min) {
+    .develop-file-list-row:not(:hover) > .develop-file-list-actions {
+      display: none;
+    }
+  }
+
+  .develop-file-list-row > .develop-file-list-actions > *:hover {
+    color: $brand-primary;
+    padding: 5px;
+    margin: -5px 0;
+    background-color: $btn-default-bg;
+  }
+
+  > li > div > .develop-file-list {
+    margin-left: 15px;
+    border-left: 1px dashed $btn-default-border;
+  }
+}
+
+.develop-code-editor {
+  border-top: 1px solid $btn-default-border;
+}
+
+app-check.my-package {
+  .checkbox {
+    margin-top: 0px;
+  }
+}

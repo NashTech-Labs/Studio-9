@@ -1,0 +1,31 @@
+/var/log/cron
+/var/log/maillog
+/var/log/messages
+{
+    daily
+    missingok
+    rotate 5
+    dateext
+    notifempty
+    compress
+    delaycompress
+    sharedscripts
+    postrotate
+	    /bin/kill -HUP `cat /var/run/syslogd.pid 2> /dev/null` 2> /dev/null || true
+    endscript
+}
+/var/log/secure
+/var/log/spooler
+{
+    daily
+    missingok
+    rotate 5
+    dateext
+    notifempty
+    compress
+    delaycompress
+    sharedscripts
+    postrotate
+	    /bin/kill -HUP `cat /var/run/syslogd.pid 2> /dev/null` 2> /dev/null || true
+    endscript
+}

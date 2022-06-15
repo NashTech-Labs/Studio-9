@@ -1,0 +1,74 @@
+{
+  "id": "logstash",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/logstash-rmq:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "network": "HOST",
+      "portMappings": []
+    }
+  },
+  "env": {
+    "RABBITMQ_USER": "${RABBITMQ_USER}",
+    "RABBITMQ_PASSWORD": {
+      "secret": "rabbitmq_password"
+    }
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu-jupyter"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "cpu-jupyter"
+      ]
+    ],
+  "portDefinitions": [
+    {
+      "port": 5044,
+      "protocol": "tcp"
+    },
+    {
+      "port": 9600,
+      "protocol": "tcp"
+    }
+  ],
+  "healthChecks": [
+    {
+      "gracePeriodSeconds": 300,
+      "intervalSeconds": 60,
+      "timeoutSeconds": 20,
+      "maxConsecutiveFailures": 3,
+      "delaySeconds": 15,
+      "command": {
+        "value": "pgrep java && exit 0 || exit 1"
+      },
+      "protocol": "COMMAND"
+    }
+  ],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  },
+  "secrets": {
+    "rabbitmq_password": {
+      "source": "rabbitmq_password"
+    }
+  }
+}

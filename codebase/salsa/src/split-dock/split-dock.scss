@@ -1,0 +1,204 @@
+/* Docker-panel */
+
+.p-DockTabPanel {
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+.p-DockPanel {
+  overflow: visible;
+}
+
+.p-DockPanel > .p-Widget.p-DockPanel-widget {
+  padding: 10px;
+  background: white;
+  border: 1px solid #C0C0C0;
+  border-top: none;
+}
+
+.p-DockPanel > .p-Widget.p-SplitDockTab {
+  background: white;
+  border: 1px solid #C0C0C0;
+  /*border-bottom: none;*/
+}
+
+.p-DockPanel-overlay {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px dashed black;
+}
+
+
+.p-DockPanel-overlay.p-mod-root-top,
+.p-DockPanel-overlay.p-mod-root-left,
+.p-DockPanel-overlay.p-mod-root-right,
+.p-DockPanel-overlay.p-mod-root-bottom,
+.p-DockPanel-overlay.p-mod-root-center {
+  border-width: 2px;
+}
+
+
+.p-SplitDockTab {
+  display: block;
+  min-height: 24px;
+  max-height: 24px;
+}
+
+
+.p-SplitDockTab-header {
+  display: none;
+}
+
+
+.p-SplitDockTab-footer {
+  flex: 0 0 1px;
+  background: #C0C0C0;
+}
+
+
+.p-SplitDockTab-content {
+  min-width: 0;
+  align-items: flex-end;
+}
+
+
+.p-SplitDockTab-tab {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-height: 20px;
+  max-height: 20px;
+  min-width: 35px;
+  margin-left: -1px;
+  padding: 0px 10px;
+  background: #E5E5E5;
+  font: 12px Helvetica, Arial, sans-serif;
+}
+
+
+.p-SplitDockTab-tab:first-child {
+  margin-left: 0;
+}
+
+
+.p-SplitDockTab-tab.p-mod-current {
+  min-height: 23px;
+  max-height: 23px;
+  background: white;
+  transform: translateY(1px);
+}
+
+.p-SplitDockTab-tabLabel {
+  flex: 1 1 auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.p-SplitDockTab-tabIcon,
+.p-SplitDockTab-tabText,
+.p-SplitDockTab-tabLabel,
+.p-SplitDockTab-tabEditIcon,
+.p-SplitDockTab-tabRefreshIcon,
+.p-SplitDockTab-tabMinimizeIcon,
+.p-SplitDockTab-tabExpandIcon,
+.p-SplitDockTab-tabCollapseIcon,
+.p-SplitDockTab-tabCloseIcon,
+.p-SplitDockTab-tabFilterIcon,
+.p-SplitDockTab-tabExportIcon,
+.p-SplitDockTab-tabPinIcon {
+  line-height: 23px;
+}
+
+.p-SplitDockTab-tabEditIcon,
+.p-SplitDockTab-tabRefreshIcon,
+.p-SplitDockTab-tabMinimizeIcon,
+.p-SplitDockTab-tabExpandIcon,
+.p-SplitDockTab-tabCollapseIcon,
+.p-SplitDockTab-tabCloseIcon,
+.p-SplitDockTab-tabFilterIcon,
+.p-SplitDockTab-tabExportIcon,
+.p-SplitDockTab-tabPinIcon {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.p-SplitDockTab-tabEditIcon,
+.p-SplitDockTab-tabPinIcon,
+.p-SplitDockTab-tabFilterIcon,
+.p-SplitDockTab-tabRefreshIcon,
+.p-SplitDockTab-tabMinimizeIcon,
+.p-SplitDockTab-tabExpandIcon,
+.p-SplitDockTab-tabCollapseIcon,
+.p-SplitDockTab-tabExportIcon,
+.p-SplitDockTab-tab.p-mod-closable > .p-SplitDockTab-tabCloseIcon:hover {
+  color: #657e87;
+}
+
+.p-SplitDockTab-tabEditIcon:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f040";
+  /*font-family: "Glyphicons Halflings";
+  content: "\E061";*/
+}
+
+.p-SplitDockTab-tabExportIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\E197";
+}
+
+.p-SplitDockTab-tabRefreshIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\E031";
+}
+
+.p-SplitDockTab-tabExpandIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\E096";
+}
+
+.p-SplitDockTab-tabMinimizeIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\2212";
+}
+
+.p-SplitDockTab-tabCollapseIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\E097" !important;
+}
+
+.p-SplitDockTab-tabCloseIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\e014";
+}
+
+.p-SplitDockTab-tabFilterIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\e138";
+}
+
+.p-SplitDockTab-tabPinIcon:before {
+  font-family: "Glyphicons Halflings";
+  content: "\e146";
+}
+
+.p-SplitDockTab-tab.p-mod-drag-image {
+  min-height: 23px;
+  max-height: 23px;
+  min-width: 125px;
+  border: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transform: translateX(-40%) translateY(-58%);
+}
+
+
+.p-DockPanel > .p-Widget.p-DockPanel-widget.p-DockPanel-selected {
+  background: #e3e3e3;
+}
+
+.p-DockPanel > .p-Widget.p-DockPanel-widget.p-DockPanel-hidden {
+  display: none;
+}
+
+.p-DockPanel > .p-Widget.p-DockPanel-widget.p-DockPanel-shown {
+  display: inherit;
+}

@@ -1,0 +1,50 @@
+{
+    "id": "mongobackup",
+    "description": "A job that runs mongobkp on a schedule",
+    "run": {
+        "cmd": "/bin/bash /mongobackup.sh",
+        "cpus": 1,
+        "mem": 2048,
+        "disk": 0,
+        "docker": {
+          "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/scorpius-mongobackup:${SCORPIUS_MONGOBACKUP_VERSION}"
+        },
+        "env": {
+            "MONGODB_HOSTS": "${MONGODB_HOSTS}",
+            "DBS": "${DBS}",
+            "AWS_S3_BUCKET": "${AWS_S3_BUCKET}",
+            "AWS_REGION": "${AWS_REGION}",
+            "MONGODB_ROOTADMIN_PASSWORD": "${MONGODB_ROOTADMIN_PASSWORD}",
+            "MONGODB_PORT": "${MONGODB_PORT}"
+        },
+      "placement": {
+        "constraints": [
+          {
+            "attribute": "cluster",
+            "operator" : "UNLIKE",
+            "value"    : "gpu"
+          },
+          {
+            "attribute": "cluster",
+            "operator" : "UNLIKE",
+            "value"    : "gpu-jupyter"
+          },
+          {
+            "attribute": "cluster",
+            "operator" : "UNLIKE",
+            "value"    : "cpu-jupyter"
+          }
+        ]
+      }
+    },
+    "schedules": [
+      {
+        "id": "daily-run-mongobackup",
+        "enabled": true,
+        "cron": "0 0 * * *",
+        "concurrencyPolicy": "ALLOW",
+        "startingDeadlineSeconds": 90,
+        "timezone": "UTC"
+      }
+    ]
+}

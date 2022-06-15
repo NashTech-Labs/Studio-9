@@ -1,0 +1,10 @@
+---
+
+- name: Download regsitry docker tar
+  get_url:
+    url: "http://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/docker-tars/registry.tar"
+    dest: /tmp
+    mode: 0644
+
+- name: Load registry docker tar
+  command: 'docker load -i /tmp/registry.tar'

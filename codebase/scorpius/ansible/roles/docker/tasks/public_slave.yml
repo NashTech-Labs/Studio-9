@@ -1,0 +1,10 @@
+---
+
+- name: Download marathon-lb docker tar
+  get_url:
+    url: "http://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/docker-tars/marathon-lb.tar"
+    dest: /tmp
+    mode: 0644
+
+- name: Load marathon-lb docker tar
+  command: 'docker load -i /tmp/marathon-lb.tar'

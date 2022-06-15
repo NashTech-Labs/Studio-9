@@ -1,0 +1,10 @@
+export CONFIG=deepcortex-settings
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export CUSTOMER_KEY=391d14f4-2eec-a099-e53a-d4263afba016
+export DCOS_USERNAME=
+export DCOS_PASSWORD=
+export DOCKER_REGISTRY_AUTH_TOKEN='ZGVlcGNvcnRleHJlYWQ6bnkyUDJwUlVMWHcyY1Vydg=='
+export DOCKER_EMAIL_LOGIN='dcos-readonly@deepcortex.ai'
+export APPS_AWS_ACCESS_KEY_ID=
+export APPS_AWS_SECRET_ACCESS_KEY=

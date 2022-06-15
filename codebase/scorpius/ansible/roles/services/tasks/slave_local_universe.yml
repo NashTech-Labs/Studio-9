@@ -1,0 +1,31 @@
+---
+
+- name: Prepare folders
+  file:
+    path: "{{ item }}"
+    state: directory
+  with_items:
+    - /etc/docker/certs.d/master.mesos:5000/
+    - /var/lib/dcos/pki/tls/certs/
+
+- name: Install local-universe docker cert
+  get_url:
+    url: "https://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/dcos-latest/domain.crt"
+    dest: /etc/docker/certs.d/master.mesos:5000/ca.crt
+
+- name: Copy docker cert to dcos location
+  copy:
+    src: /etc/docker/certs.d/master.mesos:5000/ca.crt
+    dest: /var/lib/dcos/pki/tls/certs/docker-registry-ca.crt
+    remote_src: true
+
+- name: Get cert hash
+  command: openssl x509 -hash -noout -in /var/lib/dcos/pki/tls/certs/docker-registry-ca.crt
+  register: docker_key_hash
+
+- name: Symlink dcos cert by hash
+  file:
+    path: /var/lib/dcos/pki/tls/certs/{{ docker_key_hash.stdout }}.0
+    state: link
+    src: /var/lib/dcos/pki/tls/certs/docker-registry-ca.crt
+

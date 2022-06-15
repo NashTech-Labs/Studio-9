@@ -1,0 +1,71 @@
+{
+  "id": "argo-api-rest",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/argo-api-rest:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "network": "BRIDGE",
+      "portMappings": [
+        { "hostPort": 0,
+          "containerPort": 9000,
+          "labels": {
+            "VIP_0": "/argo-api-rest:9000"
+          }
+        }
+      ]
+    }
+  },
+  "env": {
+    "HTTP_AUTH_USER_NAME": "${HTTP_AUTH_USER_NAME}",
+    "ELASTIC_HOST": "${ELASTIC_HOST}",
+    "ELASTIC_PORT": "${ELASTIC_PORT}",
+    "ELASTIC_CONFIG_SETTING_INDEX": "${ELASTIC_CONFIG_SETTING_INDEX}",
+    "ELASTIC_SSL": "${ELASTIC_SSL}",
+    "HTTP_AUTH_USER_PASSWORD": {
+      "secret": "argo_http_auth_user_password"
+    }
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu-jupyter"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "cpu-jupyter"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/v1/health",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  },
+  "secrets": {
+    "argo_http_auth_user_password": {
+      "source": "argo_http_auth_user_password"
+    }
+  }
+}

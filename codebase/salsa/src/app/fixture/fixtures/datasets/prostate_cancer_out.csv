@@ -1,0 +1,1933 @@
+all_pre_rt_psa_responded_to_therapy_predicted,all_pre_rt_psa_responded_to_therapy_probability,all_pre_rt_psa_responded_to_therapy,__days_of_btw_end_of_rt_and_last_follow_up,ethnicity,age_at_time_of_enrolled,pre_rt_psa,__cores_positive,total_gleason,prior_radical_prostatectomy,prior_androgen_suppression,prior_dutasteride,prior_testosterone_,prior_finasteride,prior_medication_for_urinary_symptoms,length_rt,__of_sites,interruption_in_treatment
+0,0.091,0,602,Non-Hispanic,57.97043011,5.7,0.08,6,No,No,No,No,No,Yes,59,1,No
+1,0.393,0,1480,Not Reported,53.49193548,4.5,0.13,6,No,No,No,No,No,No,72,1,No
+1,0.738,1,759,Unknown,66.52956989,0.1,0.5,9,No,Yes,No,No,No,No,64,1,No
+1,0.687,1,890,Non-Hispanic,69.16666667,1.3,0.17,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+0,0.597,0,171,Non-Hispanic,72.96505376,12.1,0.13,6,No,No,No,No,No,Yes,61,1,No
+1,0.55,0,297,Not Reported,67.76344086,3.33,0.57,7,Yes (R0),No,No,No,No,No,67,3,No
+1,0.415,0,1099,Non-Hispanic,57.51612903,6.95,0.25,6,No,No,No,No,No,Yes,9,1,No
+0,0.765,1,553,Non-Hispanic,55.59408602,6.2,0.17,6,No,No,No,No,No,No,58,2,No
+1,0.743,1,1007,Non-Hispanic,78.88978495,6.76,0.33,8,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.984,1,705,Non-Hispanic,67.90591398,5.02,0.33,6,No,No,No,No,No,No,57,1,No
+0,0.816,1,369,Non-Hispanic,62.96236559,4.9,0.92,7,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.895,1,1569,Non-Hispanic,68.15053763,0.14,0.8,7,No,Yes,No,No,No,No,71,1,"Yes, due to other reason (specify)"
+1,0.413,0,877,Non-Hispanic,57.7688172,14.8,0.5,7,No,No,No,No,No,No,65,2,"Yes, due to other reason (specify)"
+0,0.688,1,299,Non-Hispanic,71.64247312,3.14,0.25,6,No,No,No,No,No,Yes,64,1,No
+0,0.719,1,741,Non-Hispanic,64.40322581,5.69,0.25,7,No,No,No,No,No,Yes,65,1,No
+1,0.867,1,746,Hispanic or Latino,65.23655914,2.77,0.08,7,No,No,No,No,No,No,69,4,"Yes, due to other reason (specify)"
+1,0.745,1,1845,Non-Hispanic,66.59139785,6.0,0.25,6,No,No,No,No,No,Yes,64,1,"Yes, due to other reason (specify)"
+1,0.734,1,1216,Non-Hispanic,67.25268817,14.5,0.25,8,No,No,No,No,No,No,59,1,No
+1,0.779,1,1098,Non-Hispanic,66.67473118,4.1,0.08,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.741,1,342,Non-Hispanic,68.96236559,16.9,0.11,6,No,No,No,No,Yes,No,64,2,No
+0,0.379,0,420,Non-Hispanic,63.73387097,4.22,0.25,7,No,No,No,No,No,No,41,1,No
+1,0.088,0,1479,Non-Hispanic,81.20698925,9.16,0.42,8,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.843,1,815,Non-Hispanic,56.00537634,5.27,0.42,6,No,No,No,No,No,No,58,1,"Yes, due to other reason (specify)"
+1,0.947,1,1069,Non-Hispanic,71.72311828,7.13,0.33,6,No,No,No,No,No,Yes,65,1,No
+1,0.679,1,730,Non-Hispanic,63.4811828,4.23,0.46,7,No,No,No,No,No,No,63,2,No
+1,1,1,1848,Non-Hispanic,69.84408602,8.9,0.5,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.477,0,685,Non-Hispanic,66.54032258,4.48,0.42,6,No,No,No,No,No,No,62,1,No
+0,0.03,0,84,Non-Hispanic,69.33064516,5.07,0.92,8,No,No,No,No,No,Yes,69,3,"Yes, due to other reason (specify)"
+0,0.554,0,90,Non-Hispanic,71.44354839,6.05,0.5,7,No,No,No,No,No,No,60,1,No
+0,0.444,0,91,Not Reported,53.5483871,6.29,0.17,6,No,No,No,No,No,Yes,67,1,"Yes, due to other reason (specify)"
+1,0.43,0,727,Non-Hispanic,64.43548387,1.39,0.5,6,No,Yes,No,No,No,Yes,64,1,"Yes, due to other reason (specify)"
+0,0.504,0,609,Non-Hispanic,56.36827957,9.96,0.25,6,No,No,No,No,No,No,64,2,No
+0,0.338,0,281,Non-Hispanic,76.16397849,9.8,0.17,7,No,No,No,No,No,Yes,56,1,No
+1,0.938,1,1435,Non-Hispanic,58.16129032,1.4,1.0,9,No,No,No,No,Yes,Yes,64,1,"Yes, due to other reason (specify)"
+1,0.698,1,1134,Not Reported,49.89784946,4.9,0.33,6,No,No,No,No,No,No,63,1,No
+1,0.779,1,731,Non-Hispanic,69.83333333,4.2,0.33,7,No,No,No,No,No,No,62,2,No
+1,0.858,1,1805,Non-Hispanic,66.20967742,9.02,0.17,10,No,No,No,No,No,No,58,1,No
+0,0.012,0,391,Not Reported,54.70430108,3.22,0.83,7,No,No,No,No,No,No,59,1,No
+0,0.092,0,526,Non-Hispanic,69.65860215,5.06,0.08,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.335,0,93,Not Reported,60.44354839,8.58,0.5,7,No,No,No,No,No,No,63,3,"Yes, due to other reason (specify)"
+0,0.017,0,347,Non-Hispanic,71.08870968,7.9,0.08,6,No,No,No,No,No,No,45,1,No
+0,0.189,0,280,Hispanic or Latino,71.44086022,10.2,0.33,7,No,No,No,No,No,No,60,1,No
+0,0.501,0,307,Non-Hispanic,63.65322581,5.8,0.0,7,No,No,No,No,No,No,64,4,"Yes, due to other reason (specify)"
+1,0.236,0,913,Not Reported,75.56989247,11.89,0.33,7,No,No,No,No,No,Yes,60,1,No
+0,0.691,1,296,Non-Hispanic,74.48387097,1.7,0.33,8,No,No,No,No,No,Yes,56,1,"Yes, due to other reason (specify)"
+1,0.738,1,1127,Non-Hispanic,50.25806452,3.21,0.42,6,No,No,No,No,No,Yes,61,1,"Yes, due to other reason (specify)"
+1,0.688,1,1101,Non-Hispanic,62.91129032,5.5,0.33,7,No,No,No,No,No,No,62,1,No
+0,0.719,1,314,Non-Hispanic,63.25,7.6,0.67,6,No,No,No,No,No,No,58,1,No
+0,0.222,0,81,Non-Hispanic,59.71505376,11.6,0.17,6,No,No,No,No,No,Yes,65,2,"Yes, due to other reason (specify)"
+1,0.651,0,186,Non-Hispanic,80.5,5.0,0.17,9,Yes (R0),Yes,No,No,No,No,58,2,"Yes, due to other reason (specify)"
+1,0.328,0,1115,Non-Hispanic,61.61290323,7.34,1.0,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.862,1,1824,Non-Hispanic,81.14516129,5.9,0.42,8,No,No,No,No,No,Yes,61,1,"Yes, due to other reason (specify)"
+0,0.079,0,531,Non-Hispanic,65.15053763,4.2,0.08,7,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.48,0,180,Non-Hispanic,67.89247312,10.65,0.5,6,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.778,1,747,Non-Hispanic,74.7688172,0.1,0.25,6,Yes (R1),No,No,No,No,No,56,2,No
+0,0.094,0,663,Non-Hispanic,47.54569892,4.4,0.5,6,No,No,No,No,No,Yes,59,1,No
+1,0.2,0,1208,Non-Hispanic,52.25537634,6.2,0.33,7,No,No,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+0,0.089,0,546,Non-Hispanic,68.0188172,3.97,0.17,6,No,No,No,No,No,No,9,1,No
+0,0.293,0,463,Not Reported,77.04569892,8.17,0.33,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.234,0,540,Non-Hispanic,64.35483871,7.9,0.17,7,No,No,No,No,No,No,72,3,No
+1,0.514,0,1140,Hispanic or Latino,56.90053763,10.1,0.08,6,Yes (R1),No,No,No,No,Yes,63,1,No
+0,0.32,0,722,Non-Hispanic,68.76344086,8.5,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.811,1,834,Not Reported,63.84139785,6.0,0.67,7,No,No,No,No,No,Yes,62,1,"Yes, due to other reason (specify)"
+0,0.193,0,305,Non-Hispanic,67.92204301,5.6,0.17,6,No,No,No,No,No,No,25,1,No
+0,0.514,0,0,Non-Hispanic,84.11021505,8.06,0.58,7,No,No,No,No,No,No,60,1,No
+0,0.276,0,405,Non-Hispanic,66.02688172,3.63,0.17,6,No,No,No,No,No,Yes,69,1,No
+0,0.332,0,228,Non-Hispanic,63.75537634,3.1,0.17,7,No,No,No,No,No,No,62,1,No
+1,0.568,0,478,Non-Hispanic,73.81989247,3.92,0.92,7,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.978,1,779,Non-Hispanic,49.85215054,2.32,0.42,6,No,No,No,No,No,No,62,1,No
+1,0.695,1,1473,Non-Hispanic,62.66129032,4.29,0.42,7,No,No,No,No,No,No,61,1,No
+1,0.851,1,1113,Non-Hispanic,62.12634409,1.9,0.92,8,No,Yes,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+1,0.799,1,779,Non-Hispanic,72.2311828,2.52,0.31,7,No,No,No,No,No,No,64,2,No
+1,0.995,1,1106,Not Reported,69.35483871,0.5,0.33,7,No,Yes,No,No,No,Yes,65,1,No
+1,0.547,0,1095,Non-Hispanic,61.40053763,4.13,0.17,7,No,No,No,No,No,No,63,1,No
+0,0.987,1,186,Non-Hispanic,61.0672043,4.1,0.08,6,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.982,1,114,Non-Hispanic,63.26612903,5.13,1.0,7,No,No,No,No,No,No,62,4,No
+1,0.688,1,955,Not Reported,67.49193548,4.4,0.42,7,No,Yes,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.901,1,265,Non-Hispanic,61.93010753,11.7,0.75,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.967,1,904,Non-Hispanic,76.38978495,0.06,0.33,7,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.047,0,119,Non-Hispanic,61.36827957,3.0,0.33,7,No,Yes,No,No,No,No,34,1,No
+0,0.83,1,388,Non-Hispanic,52.02419355,3.98,0.5,6,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+0,0.801,1,111,Non-Hispanic,60.58870968,0.68,0.67,6,Yes (R0),No,No,No,No,No,54,1,"Yes, due to other reason (specify)"
+0,0.235,0,198,Non-Hispanic,60.2983871,5.2,0.08,7,No,No,No,No,No,No,65,4,"Yes, due to other reason (specify)"
+1,0.285,0,1490,Non-Hispanic,59.25,8.1,0.17,7,No,No,No,No,No,No,63,1,No
+1,0.209,0,479,Non-Hispanic,69.77956989,11.25,0.75,9,No,Yes,No,No,No,No,64,2,No
+1,0.782,1,752,Non-Hispanic,68.34139785,4.92,0.17,8,No,No,No,No,No,No,59,1,No
+1,0.312,0,1847,Non-Hispanic,60.41666667,12.4,0.83,7,No,No,No,No,No,No,62,1,No
+1,0.323,0,1143,Non-Hispanic,60.34677419,5.9,0.08,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.82,1,343,Non-Hispanic,61.58870968,6.9,0.25,7,No,No,NotAvailable,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.255,0,389,Not Reported,51.45430108,7.82,0.22,8,No,No,No,No,No,No,31,2,"Yes, due to other reason (specify)"
+0,0.833,1,168,Non-Hispanic,67.44086022,2.0,0.5,7,No,No,No,No,No,Yes,66,2,"Yes, due to other reason (specify)"
+0,0.034,0,215,Not Reported,65.21236559,4.9,0.33,7,Yes (R0),No,No,No,No,No,53,1,"Yes, due to other reason (specify)"
+0,0.474,0,804,Non-Hispanic,54.99462366,4.14,0.08,6,No,No,No,No,No,No,59,1,No
+1,0.994,1,714,Non-Hispanic,63.79032258,0.08,0.33,7,Yes (R1),No,No,No,No,No,53,1,No
+0,0.619,0,108,Non-Hispanic,66.32258065,12.6,0.42,7,No,No,No,No,No,No,40,2,No
+0,0.779,1,91,Non-Hispanic,67.18548387,4.13,0.83,6,No,No,No,No,No,No,62,1,No
+0,0.912,1,327,Non-Hispanic,50.87903226,4.71,0.42,6,No,No,No,No,No,No,59,1,No
+1,0.885,1,1140,Non-Hispanic,66.07795699,6.4,0.2,7,No,No,No,No,No,No,63,1,No
+0,0.62,0,376,Non-Hispanic,70.30107527,5.01,0.08,6,No,No,No,No,No,No,9,1,No
+0,0.7,1,730,Non-Hispanic,62.27150538,1.4,0.8,6,No,No,No,No,No,No,72,1,No
+1,0.833,1,398,Non-Hispanic,64.58870968,5.0,0.67,7,No,No,No,Yes,No,No,59,2,No
+0,0.754,1,670,Non-Hispanic,64.72849462,3.9,0.42,7,No,No,No,No,No,No,59,2,No
+1,0.681,1,1421,Non-Hispanic,54.96505376,5.2,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.878,1,196,Non-Hispanic,78.80913978,6.1,0.42,7,No,No,Yes,No,Yes,Yes,59,4,No
+1,0.861,1,886,Non-Hispanic,64.35483871,3.2,0.58,7,No,No,No,No,No,No,62,1,No
+0,0.536,0,201,Non-Hispanic,67.81989247,7.5,0.56,7,No,No,No,No,No,No,66,2,No
+0,0.975,1,183,Non-Hispanic,72.23387097,8.45,0.17,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.753,1,1828,Non-Hispanic,72.34946237,4.2,0.25,7,No,Yes,No,No,No,No,64,1,No
+1,0.662,1,1887,Non-Hispanic,73.89784946,4.3,0.14,6,No,No,No,No,No,No,4,1,No
+1,0.72,1,1163,Non-Hispanic,66.81989247,4.76,0.67,7,No,No,No,No,No,No,64,1,No
+0,0.893,1,365,Non-Hispanic,63.94354839,9.83,0.8,8,No,No,No,No,No,Yes,62,2,"Yes, due to other reason (specify)"
+0,0.654,0,559,Non-Hispanic,60.85215054,5.7,0.17,6,No,No,No,No,No,No,60,1,No
+0,0.397,0,95,Non-Hispanic,59.25537634,6.3,0.08,6,No,No,No,No,No,No,63,2,No
+1,0.634,0,1510,Non-Hispanic,65.51075269,7.98,0.17,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+0,0.858,1,195,Non-Hispanic,52.37634409,7.52,0.17,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.817,1,571,Non-Hispanic,77.23387097,3.9,0.33,6,No,No,No,No,Yes,Yes,61,1,No
+0,0.808,1,216,Non-Hispanic,73.50806452,7.8,0.25,7,No,No,No,No,No,No,56,1,No
+0,0.367,0,315,Non-Hispanic,74.23387097,6.5,0.42,7,No,No,No,No,No,No,63,1,No
+1,0.772,1,772,Non-Hispanic,68.15591398,1.99,0.33,6,No,No,No,No,No,No,62,2,No
+1,0.879,1,784,Non-Hispanic,81.6344086,0.81,0.08,6,No,Yes,No,No,No,Yes,65,2,"Yes, due to other reason (specify)"
+0,0.762,1,740,Non-Hispanic,62.07258065,5.88,0.08,6,No,No,No,No,No,No,64,1,No
+0,0.819,1,367,Non-Hispanic,65.0483871,5.3,0.5,6,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.793,1,565,Non-Hispanic,69.21774194,4.7,0.58,7,No,No,Yes,No,No,Yes,64,1,No
+1,0.669,1,1111,Non-Hispanic,64.58333333,0.11,1.0,7,Yes (R1),No,No,No,No,No,51,1,No
+0,0.101,0,107,Non-Hispanic,65.08333333,5.06,0.17,6,No,No,No,No,No,No,48,2,"Yes, due to other reason (specify)"
+1,0.687,1,1815,Non-Hispanic,66.68010753,3.1,0.5,6,No,No,No,No,No,No,64,1,No
+0,0.657,0,208,Non-Hispanic,56.42473118,12.1,0.13,6,No,No,No,No,No,Yes,45,1,"Yes, due to other reason (specify)"
+1,0.685,1,749,Non-Hispanic,78.59408602,4.3,0.25,6,No,No,No,No,No,No,59,1,No
+1,0.703,1,1534,Non-Hispanic,65.62903226,6.35,0.27,7,No,No,No,No,No,No,38,2,No
+1,0.697,1,1848,Non-Hispanic,61.36827957,3.89,0.17,6,No,No,No,No,No,Yes,69,1,No
+0,0.798,1,365,Non-Hispanic,65.88709677,3.2,0.5,6,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+0,0.694,1,729,Non-Hispanic,59.24462366,5.3,0.45,6,No,No,No,No,No,No,41,1,"Yes, due to other reason (specify)"
+1,0.786,1,799,Not Reported,58.29032258,2.7,0.5,7,No,Yes,No,No,No,No,64,4,No
+1,0.93,1,374,Non-Hispanic,88.33064516,1.6,0.33,9,No,Yes,No,No,No,No,58,1,"Yes, due to other reason (specify)"
+0,0.919,1,240,Non-Hispanic,68.04301075,9.09,0.75,7,No,No,No,No,No,No,41,2,"Yes, due to other reason (specify)"
+1,0.861,1,843,Non-Hispanic,59.52419355,4.4,0.33,7,No,No,No,No,No,No,61,1,No
+1,0.927,1,1507,Non-Hispanic,76.69892473,16.09,0.33,7,No,No,Yes,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.563,0,184,Hispanic or Latino,62.79032258,4.63,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.041,0,93,Non-Hispanic,66.09408602,4.5,0.08,6,No,No,No,No,No,Yes,62,1,No
+1,0.698,1,1465,Non-Hispanic,61.63978495,3.6,0.38,6,No,No,No,No,No,Yes,65,2,"Yes, due to other reason (specify)"
+1,0.047,0,1803,Non-Hispanic,73.11021505,12.7,0.5,7,No,No,No,No,No,No,61,1,No
+1,0.765,1,1795,Non-Hispanic,69.47580645,4.8,0.25,7,No,No,No,No,No,No,62,1,No
+1,0.979,1,378,Non-Hispanic,67.44354839,7.1,0.5,7,No,Yes,No,No,No,No,63,1,No
+1,0.612,0,847,Non-Hispanic,59.65860215,3.46,0.5,6,No,No,Yes,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.401,0,188,Non-Hispanic,66.08064516,6.23,0.14,6,No,No,No,Yes,No,No,60,1,No
+0,0.202,0,32,Not Reported,62.70967742,11.7,0.42,7,No,No,No,No,No,Yes,61,2,No
+1,0.071,0,759,Non-Hispanic,64.66397849,5.25,0.17,7,No,No,No,No,No,No,63,2,No
+1,0.096,0,1117,Non-Hispanic,73.26612903,18.17,0.5,8,No,Yes,No,No,No,No,59,2,No
+1,0.022,0,1459,Non-Hispanic,71.89516129,8.8,0.25,6,No,No,No,No,No,Yes,59,1,No
+1,0.981,1,190,Non-Hispanic,72.92204301,0.7,0.58,7,No,Yes,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.059,0,246,Not Reported,64.26344086,6.7,0.33,6,No,No,No,No,No,No,64,2,No
+1,0.789,1,1479,Not Reported,62.34946237,3.1,0.08,6,No,No,No,No,No,Yes,62,1,No
+0,0.703,1,184,Non-Hispanic,71.59408602,4.69,0.42,7,No,No,No,No,No,Yes,63,2,No
+1,0.275,0,1442,Non-Hispanic,84.49731183,24.96,1.0,7,No,Yes,No,No,Yes,No,63,1,No
+1,0.986,1,740,Non-Hispanic,67.48655914,5.47,0.33,7,No,No,No,No,No,Yes,77,2,"Yes, due to other reason (specify)"
+1,0.662,1,1549,Non-Hispanic,68.35483871,5.19,0.23,7,No,No,No,No,No,No,59,1,No
+1,0.851,1,761,Non-Hispanic,85.73924731,1.467,0.13,6,No,Yes,No,No,Yes,No,59,1,No
+0,0.345,0,343,Non-Hispanic,59.27956989,5.02,0.42,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.091,0,2027,Non-Hispanic,66.16935484,5.1,1.0,8,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.751,1,131,Hispanic or Latino,69.62365591,2.49,0.13,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.878,1,102,Non-Hispanic,67.33333333,0.22,0.29,7,No,Yes,No,No,No,No,59,4,"Yes, due to other reason (specify)"
+0,0.489,0,322,Non-Hispanic,71.45698925,8.74,0.31,7,No,No,No,No,No,No,44,1,"Yes, due to other reason (specify)"
+0,0.049,0,728,Non-Hispanic,69.03225806,5.1,0.33,6,No,No,No,No,No,No,59,1,No
+1,0.935,1,1339,Non-Hispanic,63.61021505,2.0,0.42,7,No,No,No,No,No,No,63,1,No
+0,0.507,0,235,Non-Hispanic,63.60752688,9.65,0.11,7,No,No,No,No,No,No,41,2,No
+0,0.392,0,591,Non-Hispanic,58.17204301,6.3,1.0,6,No,No,No,No,No,No,69,1,"Yes, due to other reason (specify)"
+0,0.604,0,112,Non-Hispanic,65.17741935,4.23,0.69,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.692,1,523,Non-Hispanic,74.96774194,3.4,0.17,7,No,Yes,No,No,No,Yes,63,2,No
+1,0.817,1,1281,Non-Hispanic,71.92741935,0.8,0.6,8,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.125,0,231,Non-Hispanic,68.34139785,6.84,0.08,6,No,No,No,No,No,No,62,1,No
+1,0.533,0,1103,Non-Hispanic,52.74193548,5.6,0.33,6,No,No,No,No,No,No,59,1,No
+0,0.499,0,214,Non-Hispanic,60.24193548,4.46,0.33,7,No,No,No,No,No,No,63,2,No
+0,0.525,0,375,Non-Hispanic,69.69892473,5.0,0.29,7,No,No,No,No,No,No,63,1,No
+0,0.363,0,318,Non-Hispanic,57.77419355,5.4,0.08,6,No,No,No,No,No,No,27,1,No
+1,0.057,0,1460,Non-Hispanic,73.81989247,5.0,0.25,7,No,No,No,No,No,No,63,1,No
+1,0.817,1,1123,Non-Hispanic,61.55107527,4.29,0.75,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.802,1,349,Non-Hispanic,57.44892473,6.8,0.75,6,No,No,No,No,No,No,60,3,No
+0,0.39,0,346,Non-Hispanic,62.30645161,7.97,0.33,6,No,No,No,No,No,No,62,1,No
+0,0.283,0,167,Non-Hispanic,65.67473118,4.48,0.4,8,No,No,No,No,No,No,60,2,No
+0,0.684,1,200,Non-Hispanic,65.65591398,0.86,0.44,6,No,No,No,No,No,No,69,2,No
+0,0.158,0,527,Non-Hispanic,54.3655914,7.4,0.5,7,No,No,No,Yes,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.685,1,961,Non-Hispanic,64.70967742,2.8,0.25,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.834,1,1018,Non-Hispanic,59.15591398,0.4,0.26,6,Yes (RX),No,No,No,No,No,35,1,"Yes, due to other reason (specify)"
+0,0.291,0,322,Non-Hispanic,67.90053763,4.71,0.29,7,No,No,No,No,Yes,No,56,3,No
+0,0.193,0,203,Non-Hispanic,51.91935484,2.95,0.25,6,No,No,No,No,No,No,64,1,No
+0,0.561,0,1084,Not Reported,53.75537634,5.1,0.08,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.043,0,141,Hispanic or Latino,65.72580645,3.97,0.25,7,No,No,No,No,No,No,76,1,"Yes, due to other reason (specify)"
+0,0.389,0,387,Non-Hispanic,63.56451613,5.24,0.42,7,No,No,No,No,No,No,65,4,"Yes, due to other reason (specify)"
+0,0.966,1,97,Non-Hispanic,69.76075269,3.5,1.0,7,No,No,No,No,Yes,No,67,2,"Yes, due to other reason (specify)"
+0,0.804,1,545,Non-Hispanic,62.5,6.08,0.08,6,No,No,No,No,No,No,59,1,No
+1,0.589,0,202,Non-Hispanic,72.49462366,0.67,0.07,6,No,Yes,No,No,No,Yes,64,1,No
+1,0.661,1,1454,Non-Hispanic,65.84139785,1.1,0.17,6,No,No,No,No,No,No,59,1,No
+0,0.762,1,367,Non-Hispanic,69.01612903,2.22,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.686,1,732,Non-Hispanic,56.29569892,3.8,0.83,7,No,No,No,Yes,No,No,60,2,No
+1,0.962,1,1043,Non-Hispanic,67.47311828,4.46,0.42,7,No,No,No,No,No,No,65,1,No
+1,1,1,1421,Non-Hispanic,54.96505376,5.2,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.945,1,1850,Non-Hispanic,67.89247312,6.19,0.17,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.809,1,1110,Non-Hispanic,59.48924731,3.32,1.0,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.706,1,748,Non-Hispanic,64.49462366,5.12,1.0,7,No,No,No,No,No,No,59,4,No
+1,0.786,1,1083,Non-Hispanic,68.92741935,26.1,0.5,7,No,No,No,No,No,No,59,2,No
+1,0.73,1,982,Non-Hispanic,79.50268817,9.99,1.0,7,No,No,No,No,No,No,95,1,"Yes, due to other reason (specify)"
+1,0.871,1,1934,Non-Hispanic,74.61290323,13.76,0.33,6,No,No,No,No,No,No,61,1,No
+1,0.766,1,408,Non-Hispanic,68.18548387,19.05,0.75,7,No,Yes,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+1,0.788,1,755,Non-Hispanic,73.21505376,4.9,0.25,7,No,No,Yes,No,No,Yes,62,2,No
+1,0.35,0,745,Non-Hispanic,55.18010753,6.0,0.75,7,No,No,No,No,No,No,61,5,No
+1,0.696,1,1845,Non-Hispanic,56.85483871,6.4,0.08,7,No,No,No,No,No,No,59,1,No
+1,0.097,0,1269,Non-Hispanic,61.22311828,6.5,0.33,6,No,No,No,No,No,Yes,54,1,No
+0,0.365,0,793,Non-Hispanic,65.84677419,10.09,0.5,6,No,No,No,No,No,No,63,1,No
+1,0.718,1,369,Non-Hispanic,61.45967742,0.1,0.5,9,Yes (R1),No,No,No,No,Yes,53,2,No
+0,0,0,723,Not Reported,61.13978495,4.7,0.17,7,No,No,No,No,No,No,71,2,"Yes, due to other reason (specify)"
+0,0.901,1,808,Non-Hispanic,57.61021505,3.08,0.5,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.918,1,1093,Not Reported,64.30645161,6.0,0.25,5,No,No,No,No,No,No,63,1,No
+0,0.816,1,315,Non-Hispanic,69.7688172,8.0,0.35,7,No,No,No,No,No,Yes,56,1,No
+0,0.801,1,571,Non-Hispanic,55.56989247,2.89,1.0,6,No,No,No,No,No,No,62,2,No
+1,0.847,1,86,Non-Hispanic,62.73387097,0.274,0.5,7,Yes (R1),No,No,No,No,No,53,1,No
+1,0.736,1,1455,Non-Hispanic,73.43817204,4.6,0.67,7,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.701,1,943,Non-Hispanic,68.44354839,11.5,0.5,8,No,No,No,No,No,No,64,1,No
+1,0.398,0,1814,Non-Hispanic,59.34946237,6.69,0.25,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.952,1,346,Non-Hispanic,67.18548387,1.64,0.15,6,No,No,Yes,No,Yes,Yes,67,1,"Yes, due to other reason (specify)"
+1,0.932,1,321,Non-Hispanic,69.1344086,0.1,0.5,9,Yes (R0),No,No,No,No,No,58,1,"Yes, due to other reason (specify)"
+1,0.665,1,1390,Non-Hispanic,83.08333333,2.85,0.5,8,Yes (R0),No,No,No,No,No,57,1,No
+0,0.126,0,352,Non-Hispanic,60.8172043,7.45,0.17,6,No,No,No,Yes,No,Yes,68,2,"Yes, due to other reason (specify)"
+0,0.57,0,194,Non-Hispanic,68.28763441,5.4,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.102,0,729,Non-Hispanic,66.86290323,7.8,0.42,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.177,0,186,Non-Hispanic,57.41397849,5.3,0.08,6,No,No,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+0,0.637,0,184,Non-Hispanic,66.6827957,9.08,0.58,7,No,No,No,No,No,No,63,4,No
+0,0.875,1,195,Non-Hispanic,52.37634409,7.52,0.17,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.134,0,174,Non-Hispanic,54.14247312,4.0,0.31,7,No,No,No,No,No,No,38,2,No
+0,0.26,0,587,Non-Hispanic,64.49462366,8.67,0.25,7,No,No,No,No,No,Yes,69,4,No
+0,0.783,1,203,Non-Hispanic,81.19354839,3.18,0.08,6,No,No,No,Yes,No,Yes,65,2,"Yes, due to other reason (specify)"
+1,0.683,1,1601,Non-Hispanic,63.79032258,4.9,0.25,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.68,1,1115,Not Reported,47.22043011,4.9,0.5,7,No,No,No,No,No,Yes,41,1,No
+1,0.939,1,1113,Non-Hispanic,65.06451613,12.28,0.08,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.754,1,1350,Non-Hispanic,60.77150538,2.04,0.5,8,No,No,No,No,No,Yes,62,1,No
+1,0.997,1,188,Unknown,71.15322581,0.28,0.46,8,Yes (R0),No,No,No,No,No,57,2,No
+0,0.563,0,385,Not Reported,73.67741935,6.0,0.22,6,No,No,No,No,No,No,9,1,No
+0,0.042,0,195,Non-Hispanic,56.42204301,5.85,0.0,7,No,No,No,No,No,Yes,59,2,No
+1,0.895,1,1448,Non-Hispanic,69.73924731,5.6,0.11,6,No,No,No,No,No,Yes,60,1,No
+1,0.844,1,563,Non-Hispanic,64.7016129,4.37,0.42,8,No,Yes,No,No,No,No,34,2,No
+1,0.95,1,1437,Non-Hispanic,66.76344086,3.02,0.33,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.674,1,456,Non-Hispanic,67.79301075,4.57,0.17,6,No,No,No,No,No,No,63,1,No
+1,0.799,1,1153,Non-Hispanic,64.00537634,4.4,0.42,7,No,No,No,No,No,No,60,1,No
+1,0.994,1,280,Non-Hispanic,59.72849462,4.57,0.25,8,No,Yes,No,No,No,No,68,2,"Yes, due to other reason (specify)"
+0,0.864,1,749,Non-Hispanic,49.84408602,4.3,0.83,6,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.669,1,185,Non-Hispanic,59.04301075,5.4,0.21,6,No,No,No,No,No,No,61,1,No
+1,0.1,0,1525,Non-Hispanic,61.34677419,5.74,0.08,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.4,0,223,Non-Hispanic,68.16935484,4.98,0.17,7,No,No,No,No,No,No,60,2,No
+0,0.605,0,183,Non-Hispanic,69.13978495,7.2,0.05,7,No,No,No,No,Yes,Yes,63,2,No
+0,0.68,1,273,Non-Hispanic,70.5483871,5.1,0.67,7,No,No,No,No,No,No,41,4,No
+1,0.849,1,1077,Non-Hispanic,70.64516129,2.7,0.08,6,No,No,No,No,Yes,Yes,65,1,"Yes, due to other reason (specify)"
+1,0.845,1,748,Non-Hispanic,71.57258065,6.12,0.67,7,No,Yes,No,No,No,No,63,1,No
+1,0.43,0,1186,Non-Hispanic,73.00268817,6.76,0.33,7,No,Yes,No,No,No,Yes,64,2,No
+0,0.796,1,419,Non-Hispanic,62.1827957,6.7,0.25,7,No,No,No,No,No,No,60,1,No
+1,0.696,1,978,Non-Hispanic,63.01075269,8.43,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.941,1,759,Not Reported,68.79301075,10.0,0.5,7,No,No,No,Yes,No,No,39,1,"Yes, due to other reason (specify)"
+1,0.835,1,1865,Non-Hispanic,63.30913978,6.7,0.25,6,No,No,No,No,No,No,58,1,No
+1,0.834,1,1442,Non-Hispanic,70.32258065,8.4,0.33,8,No,No,No,No,No,No,58,1,No
+1,0.862,1,1173,Non-Hispanic,67.60752688,4.1,0.17,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.179,0,375,Non-Hispanic,57.09139785,15.46,0.42,7,No,No,No,Yes,No,No,39,2,No
+1,0.712,1,1474,Non-Hispanic,68.47580645,4.7,0.33,7,No,No,No,No,No,No,63,1,No
+0,0.201,0,195,Non-Hispanic,62.4811828,7.04,0.25,6,No,No,No,No,No,Yes,62,1,No
+0,0.957,1,811,Hispanic or Latino,52.08870968,7.04,0.17,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.669,1,1516,Non-Hispanic,70.04301075,3.21,0.42,6,No,No,No,No,No,No,61,1,No
+1,0.706,1,1322,Non-Hispanic,77.26075269,10.4,0.25,7,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+1,0.986,1,1077,Non-Hispanic,75.80645161,4.7,0.08,6,No,No,Yes,No,No,No,60,1,No
+1,0.992,1,1141,Non-Hispanic,64.99462366,5.4,0.33,6,No,No,No,No,No,Yes,66,1,"Yes, due to other reason (specify)"
+0,0.891,1,551,Non-Hispanic,60.00268817,4.4,0.47,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.728,1,731,Non-Hispanic,68.72580645,7.96,0.5,7,No,No,No,No,No,No,63,4,"Yes, due to other reason (specify)"
+1,0.896,1,1421,Non-Hispanic,54.96505376,5.2,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.928,1,1477,Non-Hispanic,84.59946237,5.06,0.17,8,No,No,No,No,Yes,Yes,63,1,No
+1,0.844,1,1735,Non-Hispanic,71.06451613,1.03,1.0,8,No,Yes,No,No,No,No,59,1,No
+1,0.901,1,731,Non-Hispanic,73.64247312,7.96,0.08,7,No,No,No,No,No,No,63,1,No
+1,0.9,1,1045,Non-Hispanic,61.05376344,12.42,0.33,7,No,No,No,No,No,No,63,2,No
+1,0.811,1,1467,Non-Hispanic,69.10752688,2.0,0.5,7,No,No,No,No,No,No,59,1,No
+0,0.851,1,728,Non-Hispanic,43.88172043,14.5,0.25,6,No,No,No,No,No,No,58,1,"Yes, due to other reason (specify)"
+1,0.881,1,743,Non-Hispanic,68.14516129,6.8,0.75,8,No,No,Yes,No,No,Yes,61,1,"Yes, due to other reason (specify)"
+1,0.798,1,710,Non-Hispanic,65.72311828,23.0,0.67,7,No,Yes,No,No,No,Yes,73,3,"Yes, due to other reason (specify)"
+1,0.859,1,1081,Non-Hispanic,73.7983871,15.4,1.0,8,No,No,No,No,No,No,62,1,No
+1,0.712,1,1826,Non-Hispanic,78.41666667,7.7,0.5,7,No,No,No,No,No,No,59,1,No
+1,0.802,1,1473,Non-Hispanic,69.30376344,10.1,0.83,7,No,Yes,No,Yes,No,No,62,1,No
+1,0.832,1,1172,Non-Hispanic,71.91935484,5.7,0.33,7,No,No,No,No,No,No,63,1,No
+1,0.73,1,870,Non-Hispanic,65.05107527,6.41,0.5,6,No,No,Yes,No,No,Yes,62,1,No
+0,0.314,0,702,Not Reported,51.08064516,5.37,0.17,6,No,No,No,No,No,No,42,2,"Yes, due to other reason (specify)"
+0,0.879,1,97,Non-Hispanic,67.46505376,6.0,0.27,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.222,0,189,Non-Hispanic,66.10752688,2.76,0.17,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.221,0,727,Non-Hispanic,65.71774194,5.3,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.945,1,1060,Non-Hispanic,60.4811828,5.93,0.67,7,No,No,No,No,No,Yes,60,1,No
+0,0.159,0,119,Non-Hispanic,60.41935484,12.06,0.5,6,No,No,No,No,No,Yes,60,2,No
+1,0.921,1,1163,Non-Hispanic,72.19354839,5.3,0.75,7,No,No,No,No,No,Yes,68,2,"Yes, due to other reason (specify)"
+0,0.804,1,764,Non-Hispanic,68.14784946,14.3,0.13,6,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+0,0.172,0,89,Non-Hispanic,71.18548387,11.28,0.33,6,No,No,No,No,No,Yes,60,2,"Yes, due to other reason (specify)"
+0,0.248,0,336,Non-Hispanic,41.48387097,10.18,0.75,7,No,No,No,No,No,No,34,1,"Yes, due to other reason (specify)"
+0,0.705,1,516,Non-Hispanic,65.11827957,4.45,0.08,6,No,No,No,No,No,Yes,59,1,No
+0,0.928,1,434,Non-Hispanic,63.46236559,7.89,0.5,6,No,No,No,No,No,Yes,64,4,No
+0,0.681,1,218,Non-Hispanic,70.23924731,4.99,0.85,7,No,No,No,No,No,Yes,61,1,No
+1,0.689,1,643,Not Reported,73.52150538,3.9,0.5,7,No,No,No,No,No,No,62,1,No
+1,0.699,1,2147,Non-Hispanic,65.37903226,5.2,0.08,6,No,No,No,No,No,Yes,59,1,"Yes, due to other reason (specify)"
+0,0.896,1,356,Non-Hispanic,72.79569892,7.0,0.08,6,No,No,No,No,No,Yes,61,1,No
+0,0.943,1,751,Not Reported,53.46236559,6.6,0.08,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.904,1,1837,Non-Hispanic,70.73655914,6.23,1.0,6,No,No,No,No,No,No,51,1,No
+1,0.743,1,1110,Non-Hispanic,69.58064516,11.54,0.13,7,No,No,No,No,No,Yes,42,1,"Yes, due to other reason (specify)"
+0,0.558,0,543,Non-Hispanic,67.07526882,5.2,0.17,7,No,No,No,No,No,No,63,2,No
+1,0.912,1,1099,Not Reported,68.02419355,5.61,0.25,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.764,1,1581,Non-Hispanic,62.83602151,5.44,0.08,6,No,No,Yes,No,No,Yes,67,1,"Yes, due to other reason (specify)"
+0,0.874,1,756,Hispanic or Latino,70.09946237,5.63,0.33,6,No,No,No,No,No,Yes,62,1,No
+0,0.715,1,461,Non-Hispanic,77.47311828,8.8,0.27,7,No,No,No,No,No,No,56,1,No
+1,0.954,1,1470,Non-Hispanic,66.81989247,3.73,0.5,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.925,1,1121,Non-Hispanic,69.67473118,5.8,0.5,7,No,No,No,No,No,Yes,62,1,No
+1,0.846,1,1817,Non-Hispanic,60.8844086,3.7,0.17,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.842,1,1076,Non-Hispanic,61.88172043,8.4,0.67,7,No,No,No,No,No,No,58,1,No
+1,0.857,1,585,Non-Hispanic,78.8172043,8.5,0.06,8,No,Yes,Yes,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.808,1,747,Hispanic or Latino,59.21236559,4.7,0.33,8,No,Yes,No,No,No,No,73,3,No
+1,0.771,1,758,Non-Hispanic,66.66935484,9.6,0.17,7,No,No,No,No,No,Yes,71,2,"Yes, due to other reason (specify)"
+1,0.961,1,562,Non-Hispanic,61.3844086,5.25,0.25,7,No,No,No,No,No,No,65,4,"Yes, due to toxicity"
+1,0.962,1,910,Non-Hispanic,78.25,9.2,0.75,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.945,1,1134,Non-Hispanic,72.32795699,6.92,0.58,7,No,Yes,No,No,No,No,37,1,No
+1,0.741,1,1859,Non-Hispanic,59.59677419,20.7,0.5,7,No,No,No,No,No,No,62,1,No
+0,0.956,1,185,Non-Hispanic,58.37096774,11.92,0.92,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.795,1,574,Not Reported,78.42473118,6.69,0.17,8,No,Yes,No,No,No,Yes,64,1,No
+0,0.859,1,523,Not Reported,57.28494624,5.0,0.31,6,No,No,No,Yes,No,No,62,2,"Yes, due to other reason (specify)"
+1,0.811,1,1096,Non-Hispanic,67.80913978,4.5,0.17,6,No,No,No,No,No,No,65,1,No
+1,0.829,1,719,Non-Hispanic,65.34139785,4.69,0.42,7,No,No,No,No,No,Yes,67,3,"Yes, due to other reason (specify)"
+0,0.871,1,542,Non-Hispanic,53.65322581,6.2,0.5,7,No,No,No,No,No,No,62,1,No
+0,0.592,0,56,Non-Hispanic,63.77150538,5.17,0.5,6,No,No,No,No,No,No,56,2,No
+0,0.089,0,688,Non-Hispanic,70.19354839,5.4,0.08,6,No,No,No,No,No,No,72,2,"Yes, due to other reason (specify)"
+1,0.784,1,1138,Non-Hispanic,64.43010753,4.2,1.0,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.85,1,1436,Non-Hispanic,73.55645161,6.0,0.5,9,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.83,1,1134,Non-Hispanic,62.17473118,5.3,0.5,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.706,1,1081,Not Reported,40.25806452,4.7,0.17,6,No,No,Unknown,Unknown,Unknown,No,60,1,No
+0,0.92,1,372,Non-Hispanic,63.02956989,4.22,0.58,7,No,No,No,No,No,Yes,62,4,"Yes, due to other reason (specify)"
+0,0.913,1,720,Non-Hispanic,73.53494624,2.8,0.08,6,No,No,No,No,No,Yes,60,1,No
+1,0.994,1,1064,Non-Hispanic,65.7983871,7.31,0.42,7,No,Yes,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.777,1,282,Non-Hispanic,70.81451613,5.3,0.17,6,No,No,No,No,No,No,58,1,No
+0,0.669,1,369,Non-Hispanic,71.93548387,6.5,0.23,6,No,No,No,No,No,No,9,1,No
+1,0.719,1,372,Non-Hispanic,68.59408602,9.91,0.07,7,No,Yes,No,No,No,Yes,43,1,"Yes, due to other reason (specify)"
+0,0.902,1,727,Non-Hispanic,57.88172043,5.67,0.42,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.836,1,229,Non-Hispanic,77.51075269,4.93,0.42,8,No,No,No,No,No,No,59,4,No
+1,0.802,1,1510,Non-Hispanic,71.11290323,5.57,0.08,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.994,1,1265,Non-Hispanic,56.72849462,7.19,0.08,6,No,No,No,No,No,No,64,1,No
+1,0.791,1,722,Non-Hispanic,62.41666667,4.9,0.33,6,No,No,No,Yes,No,No,58,1,No
+1,0.852,1,731,Not Reported,65.86021505,5.23,0.33,7,No,No,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+1,0.85,1,794,Non-Hispanic,67.91935484,13.981,1.0,9,No,Yes,No,No,No,No,64,2,No
+1,0.836,1,1308,Non-Hispanic,74.3844086,5.3,0.42,7,No,Yes,No,No,No,Yes,61,1,No
+1,0.998,1,1101,Not Reported,62.87903226,10.1,0.35,7,No,No,No,No,No,No,65,1,No
+1,0.723,1,1863,Non-Hispanic,71.34946237,23.7,1.0,9,No,Yes,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.992,1,223,Non-Hispanic,61.68548387,26.5,0.5,9,No,Yes,No,No,No,No,60,2,No
+1,0.901,1,1256,Non-Hispanic,57.91129032,12.8,1.0,9,No,Yes,No,No,No,No,32,1,No
+0,0.976,1,199,Hispanic or Latino,61.43817204,5.31,0.07,6,No,No,No,No,No,No,63,2,No
+0,0.872,1,1029,Non-Hispanic,58.96774194,8.4,0.08,6,No,No,No,No,No,No,71,1,No
+0,0.51,0,329,Non-Hispanic,58.52419355,4.3,0.58,7,No,No,No,No,No,No,71,1,No
+1,0.961,1,185,Non-Hispanic,81.98924731,3.2,0.13,7,No,No,No,Yes,No,Yes,60,2,No
+1,0.714,1,1135,Non-Hispanic,48.12903226,9.2,0.5,7,No,Yes,No,No,No,No,72,1,"Yes, due to other reason (specify)"
+0,0.799,1,712,Non-Hispanic,72.69623656,1.36,0.08,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.9,1,665,Non-Hispanic,68.29301075,2.4,0.83,7,No,No,No,No,No,No,64,1,No
+0,0.685,1,597,Non-Hispanic,66.50268817,10.67,0.21,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.661,1,699,Non-Hispanic,83.16129032,2.12,0.42,8,No,Yes,No,No,No,No,64,1,No
+1,0.756,1,576,Unknown,71.87096774,4.1,0.17,7,No,No,No,No,No,No,64,4,No
+1,0.947,1,1334,Non-Hispanic,77.48387097,43.83,0.17,8,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.915,1,454,Non-Hispanic,68.70967742,7.0,0.33,7,No,No,No,No,No,No,65,2,"Yes, due to other reason (specify)"
+1,0.859,1,372,Non-Hispanic,65.53494624,43.7,0.0,8,No,Yes,No,No,No,No,65,3,"Yes, due to other reason (specify)"
+1,0.599,0,1338,Non-Hispanic,61.5,7.0,0.08,6,No,No,No,No,No,No,62,1,No
+1,0.296,0,457,Non-Hispanic,65.31989247,49.46,0.5,7,No,Yes,No,No,No,No,62,2,No
+1,0.687,1,713,Non-Hispanic,52.18548387,0.36,0.07,6,No,Yes,No,No,No,No,60,1,No
+0,0.055,0,190,Non-Hispanic,50.90322581,12.0,0.23,6,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.971,1,1164,Non-Hispanic,68.22849462,0.15,0.5,6,Yes (R0),No,No,No,No,No,56,1,No
+0,0.174,0,185,Non-Hispanic,66.78225806,7.3,0.17,6,No,No,No,No,No,No,62,2,No
+0,0.766,1,98,Not Reported,65.23924731,0.7,0.25,7,No,No,No,No,No,No,60,2,No
+1,0.813,1,1392,Non-Hispanic,62.32526882,0.2,0.67,9,Yes (R0),No,No,No,No,No,52,1,No
+0,0.155,0,167,Non-Hispanic,69.31451613,0.36,0.5,7,No,No,No,No,Yes,No,65,1,"Yes, due to other reason (specify)"
+0,0.013,0,247,Hispanic or Latino,79.5483871,11.4,0.08,6,No,No,No,No,No,No,62,1,No
+0,0.207,0,390,Non-Hispanic,72.03763441,5.3,0.33,6,No,No,No,No,No,No,65,2,"Yes, due to other reason (specify)"
+1,0.833,1,813,Not Reported,65.65322581,4.7,0.33,6,No,No,No,No,No,Yes,68,1,No
+1,0.714,1,1464,Non-Hispanic,67.34946237,3.6,0.08,6,No,No,No,No,No,No,72,2,"Yes, due to other reason (specify)"
+0,0.454,0,93,Non-Hispanic,73.78763441,9.185,0.33,7,No,No,No,No,No,No,61,4,No
+1,0.672,1,212,Non-Hispanic,67.3655914,2.0,0.5,8,No,Yes,No,No,No,No,61,1,No
+1,0.677,1,1129,Non-Hispanic,68.65591398,3.4,0.08,6,No,No,No,No,No,No,9,1,No
+1,0.32,0,663,Non-Hispanic,75.36827957,14.35,0.33,8,No,No,No,No,No,Yes,65,2,"Yes, due to other reason (specify)"
+0,0.398,0,213,Non-Hispanic,59.39784946,5.39,0.08,7,No,No,No,No,No,No,60,2,No
+0,0.194,0,461,Non-Hispanic,62.14247312,8.7,0.64,7,No,No,No,No,No,No,62,2,No
+0,0.075,0,126,Non-Hispanic,73.3655914,5.8,0.23,7,No,No,No,No,No,Yes,64,4,No
+0,0.203,0,570,Non-Hispanic,66.55913978,3.97,0.08,6,No,No,No,No,No,No,59,1,No
+0,0.025,0,39,Non-Hispanic,67.29569892,5.48,0.17,7,No,No,No,No,No,No,59,1,No
+0,0.288,0,196,Non-Hispanic,51.15591398,5.3,0.59,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.382,0,114,Non-Hispanic,64.39516129,7.7,0.13,7,No,No,No,No,No,No,62,2,No
+0,0.696,1,202,Non-Hispanic,68.15591398,5.69,0.06,6,No,No,No,No,No,Yes,57,1,"Yes, due to other reason (specify)"
+0,0.511,0,94,Non-Hispanic,71.00806452,14.23,0.25,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.789,1,356,Non-Hispanic,68.15860215,5.5,0.25,6,No,No,No,Yes,No,Yes,59,1,No
+1,0.982,1,888,Non-Hispanic,63.78225806,4.57,0.92,7,No,No,No,No,No,No,64,2,No
+0,0.567,0,148,Non-Hispanic,58.80376344,5.3,0.33,6,No,No,No,No,No,No,62,1,No
+1,0.718,1,1918,Non-Hispanic,65.57526882,0.39,0.17,8,Yes (R0),No,No,No,No,No,54,1,No
+0,0.62,0,316,Non-Hispanic,67.14784946,12.9,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.707,1,497,Non-Hispanic,51.23387097,4.3,0.25,7,No,No,No,No,No,Yes,63,2,No
+1,0.835,1,1455,Non-Hispanic,64.8844086,4.5,0.5,8,No,No,No,No,No,No,59,1,No
+1,0.805,1,777,Non-Hispanic,68.26612903,4.0,0.5,7,No,No,No,No,No,Yes,60,1,No
+1,0.818,1,1645,Non-Hispanic,67.74462366,5.33,0.2,6,No,No,No,No,No,No,62,1,No
+0,0.759,1,516,Non-Hispanic,69.91935484,13.2,0.5,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.827,1,362,Non-Hispanic,60.81182796,7.29,0.25,6,No,No,No,No,No,No,61,1,No
+0,0.751,1,268,Not Reported,71.91666667,8.54,0.25,7,No,No,No,No,No,No,62,2,No
+1,0.886,1,463,Non-Hispanic,70.98924731,0.77,0.29,9,No,Yes,No,No,No,No,61,2,No
+0,0.839,1,88,Non-Hispanic,81.27956989,16.5,0.35,6,No,No,No,No,No,Yes,65,4,"Yes, due to other reason (specify)"
+0,0.872,1,108,Non-Hispanic,75.15591398,8.3,0.42,7,No,No,No,No,No,No,62,1,No
+0,0.857,1,331,Non-Hispanic,59.15860215,124.3,0.0,8,No,Yes,No,No,No,No,70,2,"Yes, due to other reason (specify)"
+1,0.752,1,924,Non-Hispanic,66.90860215,6.23,0.7,7,No,No,No,No,No,Yes,64,4,No
+1,0.901,1,1604,Non-Hispanic,70.71505376,0.4,0.58,9,Yes (RX),No,No,No,No,No,51,1,No
+0,0.451,0,163,Not Reported,65.91666667,3.67,0.75,6,No,No,No,No,No,No,62,1,No
+0,0.246,0,112,Not Reported,70.83333333,5.0,0.33,7,No,No,No,No,No,Yes,64,2,No
+0,0.509,0,357,Non-Hispanic,46.76075269,2.72,0.17,6,No,No,No,No,No,No,62,1,No
+1,0.824,1,1211,Non-Hispanic,53.64516129,3.1,0.5,6,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+1,0.854,1,774,Non-Hispanic,52.05376344,0.19,0.58,6,Yes (R1),No,No,No,No,No,18,1,"Yes, due to other reason (specify)"
+0,0.135,0,106,Non-Hispanic,70.16935484,4.11,0.17,7,No,No,No,No,No,Yes,63,2,No
+1,0.454,0,825,Non-Hispanic,61.30913978,8.0,0.4,7,No,No,No,No,No,No,69,2,"Yes, due to other reason (specify)"
+0,0.964,1,726,Non-Hispanic,52.96236559,4.08,0.42,7,No,No,No,No,No,No,65,4,"Yes, due to other reason (specify)"
+0,0.336,0,218,Non-Hispanic,72.08333333,2.9,0.17,7,No,No,No,No,No,No,63,2,No
+1,0.001,0,742,Non-Hispanic,68.2311828,5.2,1.0,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.838,1,353,Non-Hispanic,62.44892473,0.34,0.88,8,No,Yes,No,No,No,Yes,57,1,No
+0,0.566,0,170,Non-Hispanic,73.0672043,8.618,0.05,6,No,No,No,No,No,Yes,63,2,No
+0,0.682,1,1085,Non-Hispanic,52.50806452,3.0,0.08,6,No,No,No,No,No,No,63,1,No
+1,0.759,1,1231,Non-Hispanic,61.65860215,6.9,0.58,7,No,No,No,No,No,Yes,59,2,No
+0,0.931,1,755,Non-Hispanic,68.75537634,12.81,0.31,6,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.826,1,1820,Non-Hispanic,70.06451613,5.06,0.13,6,No,No,No,No,No,No,62,1,No
+1,0.665,1,692,Non-Hispanic,82.19086022,0.59,1.0,9,No,No,No,No,No,Yes,65,2,"Yes, due to other reason (specify)"
+1,0.972,1,1174,Not Reported,48.68010753,10.8,0.92,7,No,Yes,No,No,No,No,62,1,No
+1,0.86,1,1087,Not Reported,69.44086022,8.93,0.75,9,No,No,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+0,0.894,1,288,Non-Hispanic,62.64247312,3.7,0.25,7,No,No,No,No,No,Yes,62,1,No
+1,0.855,1,722,Non-Hispanic,72.92204301,7.0,0.42,8,No,No,No,No,No,Yes,71,2,"Yes, due to other reason (specify)"
+0,0.351,0,725,Non-Hispanic,55.84946237,6.8,0.17,6,No,No,No,No,No,Yes,64,1,No
+0,0.017,0,374,Non-Hispanic,70.05376344,10.1,0.46,6,No,No,No,No,No,Yes,62,2,No
+1,0.307,0,556,Non-Hispanic,69.21236559,14.5,0.5,8,No,No,No,Yes,No,Yes,64,2,No
+0,0.52,0,491,Non-Hispanic,66.98655914,4.52,0.25,7,No,No,No,No,No,No,63,1,No
+1,0.945,1,1460,Non-Hispanic,66.3172043,1.4,0.08,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.98,1,378,Not Reported,65.59677419,0.4,0.08,7,Yes (R0),No,No,No,No,No,20,2,No
+0,0.661,1,782,Non-Hispanic,60.45430108,10.61,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.78,1,1833,Not Reported,61.37634409,6.17,0.5,7,No,No,No,No,No,No,60,2,No
+0,0.754,1,94,Non-Hispanic,72.62903226,5.8,0.23,7,No,No,No,No,No,Yes,66,4,"Yes, due to other reason (specify)"
+1,0.959,1,1114,Non-Hispanic,66.5672043,5.2,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.697,1,749,Not Reported,72.16666667,22.7,0.92,10,No,Yes,No,No,No,No,67,3,"Yes, due to other reason (specify)"
+1,0.694,1,827,Non-Hispanic,62.83333333,4.4,0.29,7,No,No,No,No,No,Yes,62,1,No
+0,0.289,0,553,Non-Hispanic,56.69354839,5.02,0.3,6,No,No,No,No,No,Yes,10,1,No
+0,0.694,1,1067,Non-Hispanic,57.77419355,4.35,0.08,6,No,No,No,No,No,No,6,1,No
+1,0.907,1,403,Non-Hispanic,65.47580645,26.0,1.0,7,No,Yes,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.418,0,1153,Non-Hispanic,56.83333333,3.0,0.08,6,No,No,No,No,No,No,69,1,"Yes, due to other reason (specify)"
+1,0.676,1,1470,Non-Hispanic,57.83064516,1.6,0.08,6,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+1,0.361,0,789,Non-Hispanic,61.74462366,13.32,0.42,7,No,No,No,No,No,Yes,60,4,No
+1,0.858,1,1210,Non-Hispanic,56.78763441,1.77,0.25,6,No,No,No,No,No,No,64,1,No
+0,0.326,0,123,Non-Hispanic,70.39784946,5.6,0.25,7,No,No,No,No,No,No,27,1,No
+1,0.388,0,1470,Non-Hispanic,53.34139785,4.8,1.0,6,No,No,No,No,No,Yes,62,1,No
+0,0.41,0,368,Non-Hispanic,65.68010753,8.43,0.08,6,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+1,0.737,1,1114,Unknown,75.40860215,1.7,0.17,6,No,No,No,No,No,No,64,2,No
+0,0.86,1,322,Non-Hispanic,69.50537634,5.43,0.29,6,No,No,No,No,No,Yes,62,1,No
+1,0.874,1,1827,Non-Hispanic,65.35483871,7.71,0.17,6,No,No,No,No,No,Yes,59,1,"Yes, due to other reason (specify)"
+1,0.871,1,1360,Non-Hispanic,67.83870968,3.66,0.17,7,No,No,No,No,No,No,62,2,No
+1,0.903,1,210,Hispanic or Latino,74.29569892,4.78,0.0,7,No,Yes,No,No,No,No,56,1,No
+1,0.648,0,1774,Non-Hispanic,73.17204301,0.4,0.5,8,No,Yes,No,No,No,No,62,1,No
+1,0.499,0,1144,Non-Hispanic,56.30107527,5.5,0.17,6,No,No,No,No,No,No,68,2,"Yes, due to other reason (specify)"
+0,0.412,0,581,Hispanic or Latino,59.83870968,6.8,0.17,6,No,No,No,No,No,No,63,1,No
+1,0.019,0,1458,Non-Hispanic,73.85752688,7.22,0.33,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.852,1,568,Non-Hispanic,68.3172043,4.08,0.5,6,No,No,No,No,No,Yes,61,1,No
+1,0.904,1,1450,Non-Hispanic,68.58333333,4.9,0.08,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.673,1,776,Non-Hispanic,72.9327957,6.65,0.25,6,No,No,No,No,No,Yes,10,1,No
+0,0.825,1,403,Non-Hispanic,61.02419355,3.6,0.58,6,No,No,No,No,No,Yes,69,1,"Yes, due to other reason (specify)"
+0,0.827,1,395,Not Reported,66.02956989,8.3,0.08,7,No,No,No,No,No,Yes,67,2,"Yes, due to other reason (specify)"
+0,0.196,0,296,Non-Hispanic,71.08333333,1.81,0.17,6,No,No,Yes,No,No,No,58,1,No
+0,0.342,0,119,Non-Hispanic,71.93817204,4.21,0.08,7,No,No,No,No,Yes,No,64,1,"Yes, due to other reason (specify)"
+0,0.787,1,379,Non-Hispanic,67.5672043,1.36,0.33,7,No,No,No,No,No,No,63,2,No
+1,0.797,1,1142,Not Reported,62.68817204,2.7,0.08,6,No,No,No,Yes,No,No,63,1,No
+0,0.884,1,370,Non-Hispanic,67.10215054,6.36,0.1,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.948,1,1059,Non-Hispanic,64.97580645,7.73,0.42,6,No,No,No,No,No,Yes,9,1,No
+1,0.957,1,1350,Non-Hispanic,58.20698925,7.73,0.29,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.607,0,0,Non-Hispanic,68.24731183,5.36,0.67,6,No,No,No,No,No,No,62,1,No
+0,0.106,0,734,Non-Hispanic,63.92473118,5.6,0.17,6,No,No,No,No,No,No,64,1,No
+0,0.461,0,199,Non-Hispanic,59.39784946,4.8,0.17,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.726,1,524,Non-Hispanic,50.84139785,3.34,0.14,6,No,Yes,No,No,No,No,60,1,No
+1,0.405,0,1458,Non-Hispanic,57.67204301,1.7,0.5,7,No,No,No,No,No,No,57,1,No
+0,0.112,0,377,Not Reported,60.95698925,3.83,0.36,6,No,No,No,No,No,No,67,4,No
+0,0.927,1,218,Non-Hispanic,65.20430108,2.5,0.15,7,No,No,No,No,No,No,64,4,"Yes, due to other reason (specify)"
+0,0.764,1,328,Non-Hispanic,70.93010753,4.46,0.25,6,No,No,No,No,No,Yes,65,2,"Yes, due to other reason (specify)"
+1,0.791,1,560,Non-Hispanic,64.42204301,0.1,0.67,7,No,Yes,No,No,No,No,63,3,"Yes, due to other reason (specify)"
+0,0.231,0,294,Non-Hispanic,70.57795699,3.05,0.5,7,No,No,Yes,No,No,No,28,1,No
+0,0.313,0,84,Non-Hispanic,65.93010753,7.2,0.42,7,No,No,No,No,No,No,64,4,No
+0,0.935,1,337,Non-Hispanic,62.33870968,3.0,0.58,7,No,No,No,No,No,No,63,2,No
+1,0.922,1,955,Non-Hispanic,71.67204301,4.5,0.17,6,No,No,No,No,No,Yes,62,1,"Yes, due to other reason (specify)"
+0,0.088,0,172,Non-Hispanic,65.26075269,4.65,0.25,6,No,No,No,No,No,No,60,1,No
+1,0.431,0,1081,Non-Hispanic,58.39516129,5.99,0.07,6,No,No,No,No,No,Yes,63,1,No
+1,0.825,1,1238,Non-Hispanic,73.50806452,6.52,0.21,7,No,No,No,No,No,No,63,2,No
+1,0.712,1,1121,Non-Hispanic,74.35483871,3.7,0.1,6,No,No,No,No,Yes,No,65,1,"Yes, due to other reason (specify)"
+0,0.819,1,102,Non-Hispanic,66.59139785,4.54,0.13,6,No,No,No,No,No,No,59,1,No
+1,0.816,1,1150,Non-Hispanic,61.31989247,3.02,0.08,6,No,No,No,No,No,Yes,62,1,No
+1,0.751,1,386,Non-Hispanic,71.93010753,11.42,0.5,7,No,Unknown,No,Unknown,No,No,63,2,No
+1,0.895,1,1088,Non-Hispanic,60.60483871,6.4,0.08,7,No,No,No,No,No,No,60,2,No
+1,0.975,1,1914,Non-Hispanic,65.36021505,4.0,0.08,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.161,0,1452,Non-Hispanic,57.75268817,8.3,0.83,7,No,No,No,No,No,No,75,1,"Yes, due to other reason (specify)"
+1,0.742,1,1461,Non-Hispanic,56.08870968,6.33,0.67,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.78,1,483,Hispanic or Latino,74.86021505,2.0,0.17,7,No,No,Yes,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.91,1,396,Non-Hispanic,72.13978495,1.1,0.08,6,No,No,No,No,No,No,61,2,No
+0,0.68,1,975,Non-Hispanic,53.57258065,0.86,0.14,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.63,0,540,Non-Hispanic,67.66397849,4.74,0.42,7,No,No,No,No,No,No,61,2,No
+0,0.513,0,289,Non-Hispanic,70.23387097,4.71,0.33,7,No,No,No,No,No,Yes,63,1,No
+0,0.267,0,191,Non-Hispanic,62.26075269,7.4,0.21,6,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.872,1,524,Non-Hispanic,76.24462366,0.4,0.5,7,No,Yes,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.115,0,779,Non-Hispanic,57.39784946,4.1,0.17,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.286,0,1183,Non-Hispanic,62.73387097,5.1,0.57,6,No,No,No,No,No,No,63,1,No
+0,0.568,0,545,Non-Hispanic,65.31451613,7.03,0.33,6,No,No,No,No,No,Yes,63,3,"Yes, due to other reason (specify)"
+0,0.797,1,366,Non-Hispanic,68.12365591,4.8,0.24,6,No,No,No,No,No,No,63,2,No
+0,0.253,0,671,Not Reported,59.78225806,6.0,0.62,6,No,No,No,No,No,Yes,63,1,No
+0,0.246,0,184,Non-Hispanic,69.07258065,6.2,0.33,7,No,No,No,No,No,No,62,2,No
+0,0.92,1,106,Not Reported,65.56182796,5.1,0.67,7,No,No,No,No,No,No,63,2,No
+1,0.843,1,1457,Non-Hispanic,60.53494624,5.1,0.33,6,No,No,No,No,No,No,63,1,No
+1,0.878,1,1085,Non-Hispanic,66.98924731,5.66,0.5,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.683,1,1533,Non-Hispanic,68.96774194,6.82,0.5,6,No,No,No,No,No,No,60,1,No
+0,0.855,1,378,Not Reported,68.41397849,2.19,0.36,6,No,No,No,No,No,No,64,1,No
+0,0.922,1,738,Non-Hispanic,60.84408602,5.5,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.984,1,195,Non-Hispanic,67.44892473,5.46,0.83,7,No,No,No,No,No,No,63,2,"Yes, due to toxicity"
+1,0.83,1,843,Non-Hispanic,62.75537634,6.4,0.75,7,No,No,No,No,No,No,60,1,No
+1,0.844,1,1116,Non-Hispanic,53.63709677,4.9,0.58,7,No,No,No,No,No,No,60,1,No
+1,0.807,1,873,Non-Hispanic,83.2016129,4.9,0.42,8,No,Yes,No,No,Yes,No,60,1,No
+1,0.941,1,593,Non-Hispanic,72.7016129,8.28,0.92,9,No,No,No,No,No,Yes,63,2,No
+0,0.987,1,370,Non-Hispanic,59.80913978,9.58,0.08,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.685,1,211,Non-Hispanic,66.9516129,29.6,0.33,8,No,Yes,No,No,No,No,62,3,"Yes, due to other reason (specify)"
+1,0.35,0,762,Non-Hispanic,71.08870968,76.75,0.92,9,No,Yes,No,No,No,Yes,65,2,No
+1,0.916,1,1823,Non-Hispanic,55.26075269,6.4,0.25,6,No,No,No,No,No,No,62,1,No
+0,0.414,0,329,Non-Hispanic,58.26075269,4.24,0.5,7,No,No,No,No,No,No,57,1,No
+0,0.04,0,709,Non-Hispanic,61.32526882,3.76,0.33,6,No,No,No,No,No,Yes,64,1,"Yes, due to other reason (specify)"
+0,0.659,0,143,Non-Hispanic,68.7311828,9.1,0.1,6,No,No,No,No,No,No,67,2,"Yes, due to other reason (specify)"
+1,0.962,1,1112,Non-Hispanic,58.88172043,0.3,0.33,6,Yes (RX),No,No,No,No,No,57,1,No
+0,0.312,0,1128,Non-Hispanic,43.20967742,6.29,0.25,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.297,0,218,Not Reported,68.56451613,9.4,0.25,7,No,No,No,No,No,No,63,4,No
+1,0.785,1,1824,Non-Hispanic,62.35215054,5.6,0.08,6,No,No,No,No,No,No,67,1,No
+1,0.144,0,942,Unknown,50.24193548,4.5,0.08,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.306,0,313,Non-Hispanic,52.72043011,5.3,0.67,7,No,No,No,No,No,No,76,2,"Yes, due to other reason (specify)"
+0,0.991,1,553,Hispanic or Latino,70.31451613,4.97,0.33,6,No,No,No,No,No,Yes,58,2,No
+1,0.568,0,1094,Unknown,49.97311828,10.4,0.08,6,No,No,No,No,No,No,63,2,No
+0,0.871,1,637,Non-Hispanic,59.66935484,5.9,0.08,6,No,No,No,No,No,No,63,1,No
+1,0.781,1,1307,Non-Hispanic,62.94623656,17.5,0.93,8,No,No,No,No,No,Yes,64,1,No
+1,0.784,1,1200,Non-Hispanic,69.76612903,0.65,0.44,7,Yes (R1),No,No,No,No,No,55,1,No
+0,0.682,1,546,Non-Hispanic,59.30913978,7.7,0.42,6,No,No,Yes,No,No,No,62,1,No
+0,0.82,1,145,Non-Hispanic,58.52150538,4.72,0.67,9,No,No,No,No,No,Yes,66,2,No
+1,0.775,1,822,Non-Hispanic,69.71774194,6.7,0.67,8,No,Yes,No,No,No,No,63,1,No
+0,0.127,0,120,Non-Hispanic,70.47580645,3.32,0.25,7,No,No,Yes,No,Unknown,Yes,40,2,No
+1,0.815,1,777,Non-Hispanic,64.15591398,0.3,1.0,8,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.728,1,761,Not Reported,79.91935484,2.63,0.33,7,No,No,Yes,No,Yes,Yes,59,2,No
+1,0.869,1,893,Not Reported,76.03225806,5.54,0.25,7,No,No,No,No,Yes,Yes,65,4,"Yes, due to other reason (specify)"
+1,0.886,1,104,Non-Hispanic,75.9516129,29.74,0.46,7,No,Yes,No,No,No,No,38,2,"Yes, due to other reason (specify)"
+0,0.618,0,110,Non-Hispanic,69.56451613,12.86,0.0,7,No,No,No,No,No,No,65,4,"Yes, due to other reason (specify)"
+1,0.842,1,904,Non-Hispanic,64.37903226,5.96,0.5,7,No,No,No,No,No,No,62,1,No
+0,0.257,0,639,Not Reported,58.40322581,3.92,0.43,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.815,1,694,Non-Hispanic,59.35215054,3.4,0.42,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.948,1,1063,Non-Hispanic,51.5672043,0.1,1.0,7,Yes (R1),No,No,No,No,No,56,1,"Yes, due to other reason (specify)"
+0,0.049,0,241,Non-Hispanic,66.25537634,3.4,0.57,6,No,No,No,No,No,Yes,64,1,No
+1,0.057,0,201,Not Reported,70.04301075,0.78,0.57,9,Yes (R0),No,No,No,No,No,52,2,No
+1,0.487,0,1435,Non-Hispanic,73.91935484,4.6,0.5,6,No,No,No,No,Yes,No,64,1,"Yes, due to other reason (specify)"
+0,0.665,1,110,Non-Hispanic,69.38978495,2.93,0.17,6,No,No,No,No,No,Yes,37,1,No
+0,0.562,0,786,Non-Hispanic,57.49731183,4.96,0.44,6,No,No,No,No,No,No,62,1,No
+0,0.445,0,918,Non-Hispanic,62.78494624,4.4,0.05,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.201,0,214,Non-Hispanic,64.80107527,6.61,0.69,7,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+1,0.903,1,1014,Non-Hispanic,68.49193548,4.02,0.33,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.648,0,1072,Non-Hispanic,69.3172043,6.62,0.21,7,No,No,No,No,No,No,63,1,No
+0,0.201,0,200,Non-Hispanic,60.09946237,9.59,0.38,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.32,0,1193,Non-Hispanic,64.89516129,7.4,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.968,1,195,Non-Hispanic,52.37634409,7.52,0.17,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.81,1,733,Not Reported,61.83602151,7.7,0.25,6,No,No,No,No,No,Yes,11,1,No
+0,0.952,1,378,Non-Hispanic,68.68817204,6.47,0.08,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.313,0,427,Not Reported,64.30645161,9.85,0.5,7,No,Yes,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.904,1,1828,Non-Hispanic,62.66129032,4.8,0.36,6,No,No,No,No,No,No,57,1,No
+0,0.727,1,596,Non-Hispanic,54.01344086,6.2,0.08,7,No,No,No,No,No,No,38,1,No
+0,0.827,1,796,Non-Hispanic,60.0672043,7.53,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.997,1,1826,Non-Hispanic,76.00268817,4.88,0.75,7,No,No,No,No,No,No,59,1,No
+0,0.599,0,232,Hispanic or Latino,63.98924731,62.0,0.5,6,No,Yes,No,No,No,Yes,70,2,"Yes, due to other reason (specify)"
+0,0.752,1,513,Non-Hispanic,65.14784946,7.68,0.1,8,No,No,No,No,No,No,66,4,No
+1,0.715,1,1485,Non-Hispanic,61.44892473,5.93,0.83,8,No,No,No,No,No,No,67,1,No
+1,0.815,1,664,Non-Hispanic,69.02150538,11.9,1.0,9,No,Yes,No,No,No,Yes,58,1,No
+0,0.769,1,310,Non-Hispanic,67.18817204,5.24,0.33,7,No,No,No,No,No,No,62,1,No
+0,0.819,1,567,Non-Hispanic,62.89247312,5.4,0.17,8,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.093,0,539,Non-Hispanic,76.29301075,1.53,0.17,5,Yes (R0),No,Yes,No,No,No,52,1,No
+0,0.096,0,910,Non-Hispanic,64.83602151,5.3,0.17,6,No,No,No,No,No,No,61,1,No
+1,0.258,0,590,Non-Hispanic,76.88172043,10.44,0.22,7,No,No,No,No,No,No,61,1,No
+0,0.542,0,141,Non-Hispanic,58.74731183,7.07,0.17,6,No,No,Yes,No,No,No,69,1,"Yes, due to other reason (specify)"
+0,0.547,0,607,Non-Hispanic,62.53225806,6.59,0.33,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.459,0,468,Non-Hispanic,73.27419355,3.33,0.08,6,No,No,No,No,No,No,58,1,No
+1,0.289,0,1455,Non-Hispanic,57.48924731,4.05,0.17,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.923,1,1064,Non-Hispanic,56.54301075,4.3,0.17,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.8,1,891,Non-Hispanic,60.4327957,4.3,0.25,6,No,No,No,No,No,No,62,1,No
+0,0.348,0,821,Non-Hispanic,65.02419355,4.26,0.33,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.012,0,364,Non-Hispanic,73.60483871,5.4,0.5,6,No,No,No,No,No,No,60,1,No
+1,0.692,1,542,Not Reported,55.60483871,1.6,0.5,7,No,Yes,No,No,No,No,61,2,No
+1,0.864,1,1123,Non-Hispanic,66.82795699,3.1,0.5,7,No,Yes,No,No,No,Yes,61,1,No
+0,0.699,1,204,Non-Hispanic,66.87634409,0.02,0.29,7,Yes (R0),No,No,No,No,No,54,1,No
+1,0.17,0,749,Non-Hispanic,69.67204301,13.5,0.67,6,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.495,0,1817,Non-Hispanic,77.80645161,15.82,1.0,7,No,No,No,No,No,Yes,65,1,No
+1,0.13,0,1455,Non-Hispanic,74.89784946,8.5,0.5,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.166,0,514,Non-Hispanic,51.07526882,13.0,0.67,7,No,No,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+0,0.957,1,511,Non-Hispanic,70.44623656,1.6,0.58,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.826,1,1862,Non-Hispanic,77.02956989,1.7,0.67,9,No,Yes,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.839,1,730,Non-Hispanic,64.42473118,4.85,0.57,6,No,No,No,No,No,No,62,1,No
+0,0.823,1,114,Non-Hispanic,68.52956989,7.52,0.43,6,No,Yes,No,No,No,No,55,1,No
+0,0.673,1,104,Not Reported,73.32258065,0.27,0.17,7,Yes (R0),No,No,No,No,No,52,1,No
+0,0.179,0,391,Non-Hispanic,62.18548387,13.91,0.17,6,No,No,No,No,No,No,70,4,No
+0,0.601,0,313,Non-Hispanic,66.37634409,3.38,0.25,7,No,No,No,No,No,No,59,1,No
+0,0.536,0,610,Non-Hispanic,61.38978495,4.6,0.21,7,No,No,No,No,No,No,64,1,No
+0,0.874,1,624,Non-Hispanic,61.94623656,4.5,0.25,6,No,No,No,No,No,No,61,1,No
+0,0.847,1,258,Non-Hispanic,73.81989247,6.07,0.64,6,No,No,No,No,No,No,61,1,No
+0,0.818,1,375,Non-Hispanic,66.9811828,3.7,0.17,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.76,1,1103,Non-Hispanic,51.43548387,4.1,0.33,7,No,No,No,No,No,No,58,2,No
+0,0.745,1,530,Non-Hispanic,50.7983871,8.4,0.08,7,No,No,No,No,No,No,62,2,No
+1,0.883,1,635,Not Reported,63.27688172,5.2,0.08,6,No,No,No,Yes,No,No,64,2,No
+1,0.951,1,1240,Non-Hispanic,64.97311828,6.69,0.46,7,No,No,No,No,No,No,63,1,No
+1,0.947,1,1078,Non-Hispanic,62.33602151,3.51,0.17,6,No,No,No,No,No,Yes,10,1,No
+1,0.88,1,771,Non-Hispanic,60.0672043,5.2,0.39,7,No,No,No,No,No,No,65,5,No
+1,0.361,0,594,Non-Hispanic,70.09946237,12.11,0.07,8,No,Yes,No,No,No,No,72,6,No
+0,0.961,1,384,Non-Hispanic,58.17204301,13.01,0.83,7,No,No,No,No,No,No,64,1,No
+1,0.918,1,1803,Non-Hispanic,56.51612903,2.18,0.33,6,No,No,No,No,No,No,61,1,No
+0,0.81,1,78,Non-Hispanic,71.10752688,1.6,0.17,8,No,No,No,No,No,No,64,3,No
+1,0.989,1,1038,Non-Hispanic,70.13709677,18.16,0.5,8,No,No,No,No,Yes,Yes,63,1,No
+1,0.661,1,917,Non-Hispanic,72.27150538,4.8,0.5,7,No,Yes,No,No,No,No,64,4,No
+1,0.698,1,1193,Non-Hispanic,62.38978495,6.46,1.0,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.728,1,368,Non-Hispanic,68.44623656,5.87,0.42,8,No,No,No,No,No,Yes,66,2,"Yes, due to other reason (specify)"
+0,0.404,0,450,Non-Hispanic,49.2688172,9.6,0.5,7,No,No,No,No,No,No,62,1,No
+0,0.507,0,346,Non-Hispanic,51.10483871,5.57,0.17,6,No,No,No,No,No,No,60,1,No
+1,0.743,1,1494,Not Reported,58.5483871,6.45,1.0,8,No,No,No,No,No,No,64,2,No
+1,0.745,1,739,Not Reported,52.91397849,5.18,0.75,7,Yes (R1),No,No,No,No,No,58,1,No
+0,0.617,0,445,Non-Hispanic,71.32258065,7.0,0.08,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.99,1,749,Non-Hispanic,64.24193548,3.84,0.25,6,No,No,No,No,No,Yes,71,3,"Yes, due to other reason (specify)"
+1,0.746,1,1129,Non-Hispanic,71.74731183,1.95,0.17,6,No,No,No,No,No,No,62,1,No
+0,0.332,0,230,Non-Hispanic,57.73655914,4.9,0.33,6,No,No,No,No,No,No,60,2,No
+0,0.371,0,118,Non-Hispanic,59.38709677,11.3,0.36,6,No,No,No,No,No,No,25,1,"Yes, due to other reason (specify)"
+1,0.769,1,1735,Non-Hispanic,75.39516129,5.2,0.44,7,No,No,No,No,No,No,65,1,No
+1,0.844,1,554,Non-Hispanic,73.5483871,9.5,0.25,9,No,Yes,No,No,No,No,71,3,"Yes, due to other reason (specify)"
+1,0.752,1,787,Not Reported,71.62903226,7.68,0.75,7,No,No,No,No,No,No,76,2,"Yes, due to other reason (specify)"
+1,0.987,1,361,Non-Hispanic,74.19623656,7.95,0.4,9,No,Yes,No,No,Yes,No,67,3,"Yes, due to other reason (specify)"
+0,0.651,0,111,Not Reported,67.19354839,21.0,0.07,6,No,No,No,No,No,Yes,65,1,"Yes, due to other reason (specify)"
+0,0.699,1,444,Non-Hispanic,65.47580645,1.83,0.3,7,No,No,No,No,No,No,60,4,No
+1,0.924,1,1113,Non-Hispanic,65.48387097,4.29,0.33,6,No,No,No,No,No,Yes,63,1,No
+1,0.716,1,374,Non-Hispanic,67.33602151,7.1,0.5,7,No,Yes,No,No,No,No,62,1,No
+1,0.928,1,353,Hispanic or Latino,74.87365591,8.98,0.58,7,No,Yes,No,No,No,No,62,4,No
+1,0.568,0,740,Non-Hispanic,71.98387097,8.61,0.5,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.973,1,838,Non-Hispanic,70.82795699,5.5,0.17,8,No,No,No,No,No,No,63,2,No
+1,0.084,0,887,Not Reported,65.06989247,6.8,0.06,6,No,No,No,No,No,No,67,1,No
+0,0.092,0,99,Non-Hispanic,75.80913978,7.98,0.17,7,No,No,No,No,Yes,No,59,4,No
+1,0.96,1,1888,Non-Hispanic,64.25,2.9,1.0,6,No,No,No,No,No,No,58,1,No
+1,0.839,1,1816,Non-Hispanic,72.81451613,6.64,0.11,6,No,No,No,No,No,Yes,59,1,"Yes, due to other reason (specify)"
+1,0.922,1,826,Non-Hispanic,65.91935484,18.73,0.3,7,No,No,No,No,No,Yes,62,2,"Yes, due to other reason (specify)"
+1,0.679,1,538,Non-Hispanic,66.80913978,5.78,0.5,7,No,No,No,No,No,No,64,1,"Yes, due to toxicity"
+0,0.512,0,191,Non-Hispanic,66.93548387,2.54,0.58,6,No,No,No,No,No,No,71,2,"Yes, due to other reason (specify)"
+1,0.896,1,741,Not Reported,72.39247312,1.9,0.06,6,No,No,No,No,No,No,59,2,No
+1,0.327,0,1465,Non-Hispanic,55.5,5.3,0.25,7,No,No,No,No,No,No,62,1,No
+1,0.83,1,1253,Non-Hispanic,76.37634409,7.13,0.42,8,No,No,No,No,No,No,62,2,No
+0,0.895,1,181,Non-Hispanic,68.67473118,37.97,0.42,8,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.734,1,1082,Non-Hispanic,55.83870968,4.5,0.5,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.794,1,361,Non-Hispanic,65.11827957,6.6,0.5,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.95,1,1826,Non-Hispanic,47.58064516,1.2,0.58,6,No,Yes,No,No,No,No,62,1,No
+0,0.517,0,364,Non-Hispanic,60.78763441,3.79,0.5,6,No,No,No,No,No,No,60,1,No
+0,0.442,0,349,Non-Hispanic,73.09946237,11.4,0.5,7,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+1,0.072,0,1196,Non-Hispanic,72.39784946,43.9,0.33,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.765,1,385,Non-Hispanic,67.05645161,4.63,0.17,6,No,No,No,No,No,Yes,63,2,No
+0,0.901,1,225,Non-Hispanic,55.13172043,5.64,0.33,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.757,1,1070,Non-Hispanic,82.12634409,4.92,0.17,7,No,No,No,No,No,No,59,1,No
+1,0.82,1,1461,Non-Hispanic,55.5483871,5.55,0.17,6,No,No,No,No,No,No,58,1,No
+0,0.795,1,891,Non-Hispanic,65.30107527,6.54,0.17,6,No,No,No,No,No,No,61,1,No
+0,0.933,1,546,Not Reported,65.50806452,8.2,0.38,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.9,1,595,Non-Hispanic,76.41129032,6.0,0.67,9,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.784,1,248,Non-Hispanic,68.30107527,70.9,0.13,8,No,Yes,No,No,No,No,34,1,No
+1,0.932,1,1820,Non-Hispanic,69.24462366,24.2,1.0,7,No,No,No,No,No,No,60,1,No
+1,0.841,1,335,Non-Hispanic,70.97043011,13.1,0.83,9,No,Yes,No,No,No,No,58,2,No
+1,0.902,1,1105,Non-Hispanic,70.04032258,7.49,0.83,7,No,Yes,No,No,No,No,65,1,No
+1,0.05,0,1502,Non-Hispanic,66.44623656,40.6,0.33,8,No,No,No,No,No,No,68,2,"Yes, due to other reason (specify)"
+0,0.931,1,377,Non-Hispanic,75.96774194,1.33,0.25,6,No,No,Yes,No,Yes,Yes,60,2,No
+0,0.321,0,1096,Non-Hispanic,53.7983871,6.2,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.095,0,386,Non-Hispanic,56.09946237,3.28,0.08,6,No,No,No,No,No,Yes,62,2,"Yes, due to other reason (specify)"
+0,0.928,1,98,Non-Hispanic,63.40860215,4.359,0.42,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.932,1,302,Non-Hispanic,68.64784946,4.98,0.8,7,No,No,No,No,No,No,61,1,No
+1,0.874,1,1098,Non-Hispanic,78.96774194,0.1,0.5,6,No,Yes,No,No,Yes,No,60,1,No
+0,0.481,0,395,Non-Hispanic,67.73924731,3.5,0.08,7,No,No,No,No,No,Yes,61,2,No
+0,0.642,0,386,Non-Hispanic,75.33870968,7.21,0.25,7,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.786,1,710,Non-Hispanic,68.73655914,5.02,0.15,6,No,No,No,No,No,No,64,2,No
+0,0.762,1,731,Non-Hispanic,63.93817204,4.6,0.44,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.806,1,302,Non-Hispanic,65.60483871,7.5,0.17,6,No,No,No,No,No,Yes,41,2,No
+1,0.845,1,1449,Non-Hispanic,81.7016129,3.77,0.33,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.996,1,517,Non-Hispanic,60.75537634,5.51,0.33,9,No,No,No,No,No,No,64,1,No
+1,0.876,1,913,Non-Hispanic,71.59946237,21.88,0.83,7,No,No,No,No,No,No,61,2,No
+1,0.918,1,765,Non-Hispanic,59.72043011,3.03,0.36,7,No,No,No,No,No,Yes,62,2,No
+0,0.989,1,195,Non-Hispanic,52.37634409,7.52,0.17,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.767,1,552,Non-Hispanic,53.05645161,1.44,0.17,6,No,No,No,Yes,No,Yes,59,1,No
+0,0.398,0,426,Non-Hispanic,64.18010753,14.21,0.53,7,No,No,No,No,No,No,63,1,No
+1,0.848,1,1465,Non-Hispanic,67.17741935,5.1,0.33,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.756,1,188,Non-Hispanic,59.06989247,10.1,0.21,6,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+0,0.92,1,115,Non-Hispanic,54.8172043,7.12,0.08,6,No,Yes,No,No,No,No,61,2,No
+1,0.967,1,1333,Non-Hispanic,58.08333333,4.0,0.08,6,No,No,No,No,No,No,6,1,No
+1,0.721,1,1076,Non-Hispanic,55.40322581,4.1,0.17,7,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.837,1,1834,Non-Hispanic,70.16666667,8.5,0.42,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.982,1,764,Non-Hispanic,64.95967742,5.8,0.17,7,No,No,No,No,No,Yes,63,1,No
+1,0.016,0,741,Non-Hispanic,66.44354839,5.5,0.17,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.596,0,833,Non-Hispanic,54.4516129,4.1,0.17,6,No,No,No,No,No,No,61,1,No
+0,0.706,1,731,Non-Hispanic,58.39516129,6.5,0.33,6,No,No,No,No,No,Yes,60,1,No
+0,0.986,1,34,Non-Hispanic,74.25,1.6,0.67,8,No,No,No,No,No,No,67,2,"Yes, due to other reason (specify)"
+0,0.02,0,695,Non-Hispanic,46.84677419,6.5,0.08,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.814,1,1512,Non-Hispanic,56.19623656,3.38,0.25,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+0,0.908,1,175,Non-Hispanic,78.45698925,9.7,0.25,7,No,No,No,No,No,No,64,4,"Yes, due to other reason (specify)"
+1,0.926,1,522,Non-Hispanic,70.40322581,4.7,0.58,7,No,No,Yes,No,No,No,59,1,No
+1,0.668,1,1091,Non-Hispanic,81.19892473,18.4,0.83,8,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.641,0,296,Non-Hispanic,62.40860215,10.1,0.08,6,No,No,No,No,No,No,63,1,No
+1,0.335,0,785,Non-Hispanic,67.20430108,10.9,0.62,9,No,No,No,No,No,No,21,1,No
+0,0.172,0,199,Non-Hispanic,60.51612903,8.6,0.08,7,No,No,No,No,No,No,62,1,No
+1,0.336,0,1099,Non-Hispanic,68.87365591,7.57,0.5,8,No,No,No,No,No,Yes,62,1,No
+0,0.219,0,276,Non-Hispanic,71.9516129,12.5,0.17,7,No,No,No,No,No,No,41,1,No
+0,0.916,1,130,Non-Hispanic,58.34677419,4.0,0.67,7,No,No,No,No,No,No,53,1,"Yes, due to other reason (specify)"
+1,0.397,0,951,Non-Hispanic,66.97849462,8.2,0.08,6,No,Yes,No,No,Yes,Yes,60,1,No
+1,0.741,1,1484,Non-Hispanic,50.55376344,7.5,1.0,7,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.866,1,360,Not Reported,58.11290323,9.5,0.42,8,No,No,No,No,No,No,36,1,"Yes, due to other reason (specify)"
+1,0.851,1,1126,Non-Hispanic,65.47311828,7.9,0.6,6,No,No,No,No,No,No,64,1,No
+0,0.414,0,345,Non-Hispanic,62.82526882,11.0,0.25,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.932,1,1117,Non-Hispanic,73.5,4.2,0.63,8,No,Yes,No,No,No,No,61,2,No
+1,0.754,1,742,Non-Hispanic,74.97311828,4.53,0.5,7,No,No,No,No,No,No,60,1,No
+1,0.997,1,553,Non-Hispanic,56.44623656,4.07,0.33,7,No,Yes,No,Yes,No,No,60,2,No
+0,0.708,1,348,Non-Hispanic,69.23924731,3.76,0.42,6,No,No,No,No,No,Yes,60,1,No
+0,0.799,1,114,Non-Hispanic,57.12096774,9.8,0.67,6,No,No,No,No,No,Unknown,62,1,No
+1,0.773,1,91,Unknown,69.97043011,5.63,0.44,8,No,Yes,No,No,No,Yes,69,4,"Yes, due to other reason (specify)"
+0,0.451,0,284,Non-Hispanic,71.10215054,7.55,0.08,7,No,No,No,No,No,No,59,2,No
+1,0.751,1,862,Non-Hispanic,62.87096774,0.9,0.17,7,No,No,No,No,No,No,49,1,"Yes, due to other reason (specify)"
+0,0.667,1,724,Not Reported,50.09677419,5.21,0.2,6,No,No,No,No,No,No,62,1,No
+1,0.496,0,425,Non-Hispanic,60.43817204,46.01,1.0,8,No,Yes,No,No,No,No,36,1,"Yes, due to other reason (specify)"
+0,0.318,0,215,Non-Hispanic,75.80913978,18.0,0.13,7,No,No,No,No,No,No,34,2,No
+1,0.937,1,1735,Non-Hispanic,59.7311828,11.0,0.63,7,No,No,No,No,No,No,66,1,No
+0,0.23,0,242,Not Reported,57.71236559,2.83,0.42,6,No,No,No,No,No,No,59,2,No
+1,0.431,0,523,Non-Hispanic,58.20430108,5.38,0.42,7,No,Yes,No,No,Yes,No,62,2,"Yes, due to other reason (specify)"
+1,0.334,0,366,Non-Hispanic,82.40860215,13.2,1.0,7,No,Yes,No,No,No,No,63,1,No
+1,0.327,0,744,Non-Hispanic,64.0188172,16.61,0.7,7,No,No,No,No,No,No,65,1,No
+0,0.783,1,720,Non-Hispanic,65.83602151,3.0,0.25,6,No,No,No,No,No,No,63,2,No
+0,0.892,1,728,Not Reported,69.90860215,12.57,0.08,6,No,No,No,No,No,No,59,1,No
+1,0.944,1,858,Hispanic or Latino,56.4516129,4.6,0.75,7,No,No,No,No,No,No,60,2,No
+0,0.674,1,335,Non-Hispanic,70.07258065,11.3,0.75,8,No,No,No,No,No,No,57,1,"Yes, due to other reason (specify)"
+1,0.973,1,1498,Non-Hispanic,59.53763441,5.66,0.08,6,Yes (R0),Yes,No,No,No,No,51,1,No
+1,0.401,0,726,Non-Hispanic,68.76344086,5.86,0.33,7,No,No,No,No,No,Yes,79,5,"Yes, due to other reason (specify)"
+0,0.974,1,430,Non-Hispanic,65.70698925,5.7,0.33,7,No,No,No,No,No,No,61,2,No
+1,0.468,0,948,Non-Hispanic,56.62365591,5.4,0.5,7,No,Yes,No,No,No,No,61,1,No
+1,0.332,0,1106,Non-Hispanic,56.12096774,10.56,1.0,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.876,1,387,Non-Hispanic,64.62634409,6.49,0.33,6,No,No,No,No,No,No,62,1,No
+1,0.737,1,1459,Non-Hispanic,67.57258065,5.5,0.58,7,No,No,No,No,No,No,64,1,No
+1,0.72,1,1100,Non-Hispanic,73.66935484,6.4,0.25,6,No,No,No,No,No,Yes,61,1,No
+0,0.704,1,789,Non-Hispanic,64.9327957,8.8,0.33,6,No,No,No,No,No,No,59,1,No
+1,0.732,1,294,Non-Hispanic,74.96236559,0.38,0.25,7,Yes (R0),No,No,No,No,No,51,1,No
+1,0.719,1,1814,Non-Hispanic,60.35215054,8.4,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.981,1,391,Non-Hispanic,72.57258065,12.4,0.79,7,No,Yes,No,No,No,No,65,2,No
+1,0.676,1,1142,Non-Hispanic,76.31182796,5.37,0.17,7,No,No,No,No,No,Yes,64,1,No
+1,0.671,1,1062,Non-Hispanic,66.07526882,5.24,0.17,7,No,No,No,No,No,No,78,1,"Yes, due to other reason (specify)"
+0,0.662,1,373,Non-Hispanic,73.01612903,5.72,0.67,6,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+0,0.666,1,380,Non-Hispanic,65.74193548,6.0,0.42,6,No,No,No,No,No,No,63,1,No
+1,0.687,1,1832,Non-Hispanic,80.76075269,6.05,0.33,7,No,No,No,No,No,No,57,1,No
+1,0.92,1,1488,Non-Hispanic,74.08870968,5.9,1.0,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.327,0,119,Non-Hispanic,58.27688172,58.85,0.55,7,No,No,No,No,No,No,39,1,"Yes, due to other reason (specify)"
+1,0.923,1,1388,Non-Hispanic,70.4516129,7.1,0.5,8,No,No,No,No,No,Yes,64,1,"Yes, due to other reason (specify)"
+1,0.999,1,1080,Non-Hispanic,65.98655914,11.76,0.12,7,No,Yes,No,No,No,No,61,1,No
+1,0.998,1,939,Non-Hispanic,75.83602151,8.6,0.25,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.849,1,822,Non-Hispanic,61.6827957,3.2,0.33,8,No,No,No,No,No,No,35,1,No
+1,0.852,1,1021,Not Reported,62.33870968,4.1,0.17,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.753,1,931,Non-Hispanic,73.45967742,3.8,0.13,6,No,No,No,No,No,No,64,1,No
+1,0.857,1,1087,Non-Hispanic,68.42473118,0.564,0.25,6,No,Yes,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+0,0.412,0,184,Non-Hispanic,69.88709677,6.8,0.07,6,No,No,No,No,No,Yes,8,1,"Yes, due to other reason (specify)"
+1,0.881,1,774,Non-Hispanic,52.05376344,0.19,0.58,6,Yes (R1),No,No,No,No,No,18,1,"Yes, due to other reason (specify)"
+0,0.003,0,712,Non-Hispanic,61.76075269,5.05,0.42,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.27,0,971,Non-Hispanic,77.15591398,8.1,1.0,7,No,Yes,No,No,No,Yes,37,1,No
+0,0.794,1,194,Non-Hispanic,56.91666667,3.4,0.25,6,No,No,No,No,No,No,59,1,No
+0,0.777,1,799,Non-Hispanic,65.7016129,5.4,0.31,6,No,No,No,No,No,No,63,1,No
+1,0.331,0,1093,Non-Hispanic,70.93010753,8.5,0.17,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.244,0,377,Non-Hispanic,46.95430108,1.2,0.08,6,No,No,No,No,No,Yes,9,1,No
+1,0.854,1,763,Non-Hispanic,70.66129032,0.14,0.08,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.101,0,191,Non-Hispanic,75.04569892,10.0,0.25,7,No,No,No,No,No,Yes,63,2,No
+1,0.138,0,233,Unknown,72.62365591,16.06,0.75,7,No,No,No,No,No,No,64,2,No
+1,0.725,1,386,Not Reported,77.31182796,6.57,0.5,7,No,No,No,No,No,No,62,2,No
+1,0.942,1,1190,Non-Hispanic,67.33870968,1.1,1.0,6,No,No,No,No,No,No,70,1,No
+0,0.806,1,112,Non-Hispanic,70.19623656,2.51,0.07,6,No,No,No,No,No,Yes,64,2,No
+0,0.314,0,264,Non-Hispanic,81.0,6.17,0.31,8,No,No,No,No,No,No,57,1,No
+0,0.257,0,420,Non-Hispanic,62.64247312,4.33,0.25,6,No,No,No,No,No,Yes,64,1,"Yes, due to other reason (specify)"
+0,0.479,0,267,Non-Hispanic,83.7016129,5.3,0.75,7,No,No,No,No,No,No,75,2,"Yes, due to other reason (specify)"
+1,0.924,1,617,Not Reported,53.96505376,0.26,0.0,7,Yes (R0),No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.368,0,1055,Non-Hispanic,55.41397849,5.2,0.38,7,No,No,No,No,No,No,59,1,No
+1,0.912,1,730,Non-Hispanic,80.64247312,0.36,0.07,8,No,Yes,Yes,No,No,No,72,3,No
+1,0.239,0,776,Non-Hispanic,76.59139785,9.6,0.38,7,No,No,No,No,No,No,64,4,No
+0,0.535,0,861,Non-Hispanic,60.7311828,6.96,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.677,1,950,Non-Hispanic,57.26612903,4.3,0.75,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+0,0.18,0,92,Not Reported,73.39247312,9.3,0.42,7,No,No,No,No,No,Yes,62,2,No
+0,0.637,0,206,Non-Hispanic,58.92741935,4.77,0.67,6,No,No,No,No,No,No,63,1,No
+1,0.972,1,1504,Non-Hispanic,52.77419355,3.12,0.08,6,No,No,No,No,No,No,64,1,No
+0,0.765,1,776,Non-Hispanic,52.43010753,7.1,0.5,6,No,No,No,No,No,No,58,1,No
+1,0.889,1,1066,Non-Hispanic,68.62903226,5.0,0.08,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.682,1,386,Not Reported,78.05645161,4.4,0.17,6,No,No,No,No,No,No,64,1,No
+1,0.97,1,1830,Non-Hispanic,70.08602151,4.64,0.17,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.739,1,1146,Non-Hispanic,51.01075269,5.39,0.1,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.79,1,236,Unknown,60.17204301,6.44,0.83,7,No,No,No,No,No,No,65,2,No
+1,0.962,1,1214,Non-Hispanic,55.0188172,6.2,0.17,6,No,No,No,No,No,No,63,1,No
+1,0.778,1,1561,Non-Hispanic,64.19086022,4.5,0.07,6,No,No,No,No,No,No,63,1,No
+0,0.815,1,546,Non-Hispanic,71.24731183,5.2,0.5,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+0,0.833,1,728,Non-Hispanic,60.90322581,14.0,0.17,6,No,No,No,Yes,No,No,58,1,No
+1,0.968,1,1317,Non-Hispanic,54.56182796,4.65,0.17,6,No,No,No,No,No,No,58,1,No
+1,0.86,1,921,Non-Hispanic,65.82258065,9.5,0.42,6,No,No,No,No,No,No,60,1,No
+1,0.592,0,1108,Non-Hispanic,55.35215054,6.4,0.5,6,No,No,No,No,No,No,63,1,No
+1,0.997,1,729,Non-Hispanic,67.05913978,2.1,0.17,6,No,No,No,Yes,No,No,6,1,No
+1,0.968,1,720,Non-Hispanic,73.53763441,6.3,0.5,7,No,No,No,No,No,No,58,1,No
+0,0.904,1,187,Non-Hispanic,63.32526882,4.43,0.17,7,No,No,No,No,No,No,42,2,"Yes, due to other reason (specify)"
+0,0.866,1,614,Non-Hispanic,67.58064516,6.4,0.5,6,No,No,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+1,0.809,1,1831,Non-Hispanic,67.48924731,6.26,0.17,6,No,No,No,No,No,Yes,59,1,No
+0,0.848,1,271,Non-Hispanic,74.06989247,9.3,0.5,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.869,1,775,Not Reported,69.78763441,7.33,0.83,7,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+0,0.763,1,378,Non-Hispanic,66.25806452,6.68,0.33,7,No,No,No,No,No,Yes,68,2,"Yes, due to other reason (specify)"
+1,0.68,1,750,Not Reported,68.53763441,7.27,0.71,8,No,Yes,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+1,0.744,1,1105,Non-Hispanic,68.47580645,7.66,0.2,7,No,No,No,No,No,No,59,1,No
+1,0.761,1,933,Non-Hispanic,60.03494624,9.94,0.92,8,No,No,No,No,No,No,63,2,No
+1,0.783,1,1092,Non-Hispanic,65.27419355,12.35,0.63,6,No,No,No,No,No,No,63,1,No
+1,0.83,1,182,Non-Hispanic,68.18548387,1.1,0.5,8,No,Yes,No,No,No,No,73,2,"Yes, due to other reason (specify)"
+0,0.866,1,566,Non-Hispanic,67.09408602,6.45,1.0,6,No,No,No,No,No,Yes,58,1,No
+0,0.835,1,556,Non-Hispanic,66.43548387,10.27,0.33,6,No,No,No,No,No,Yes,64,2,No
+1,0.723,1,1611,Non-Hispanic,51.91129032,4.6,0.5,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.858,1,795,Non-Hispanic,72.35215054,4.53,0.33,7,No,Yes,No,No,No,No,59,1,No
+0,0.712,1,398,Non-Hispanic,68.78763441,5.0,0.17,6,No,No,No,No,No,No,59,1,No
+1,0.681,1,740,Non-Hispanic,64.23924731,2.8,0.5,7,No,No,No,No,No,No,60,1,No
+1,0.968,1,1122,Non-Hispanic,50.59946237,6.26,1.0,7,No,No,No,No,No,Yes,37,1,No
+1,0.969,1,1437,Non-Hispanic,76.44623656,7.17,0.5,7,No,No,No,No,No,No,76,2,"Yes, due to other reason (specify)"
+1,0.855,1,1084,Non-Hispanic,75.51344086,5.2,0.33,7,No,Yes,No,No,No,No,63,1,No
+1,0.785,1,226,Not Reported,70.3844086,11.2,0.67,8,No,Yes,No,No,No,No,64,2,No
+0,0.558,0,217,Non-Hispanic,71.58064516,7.7,0.58,6,No,No,No,No,No,No,59,1,No
+1,0.468,0,1140,Non-Hispanic,62.06451613,10.9,0.33,7,No,No,No,No,No,No,59,1,No
+1,0.963,1,916,Non-Hispanic,76.01075269,1.2,0.08,7,No,Yes,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.875,1,1115,Non-Hispanic,59.72580645,6.76,0.17,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.67,1,1097,Non-Hispanic,70.34946237,1.5,0.25,6,No,No,No,No,No,No,60,1,No
+1,0.822,1,1531,Non-Hispanic,69.8172043,2.91,0.5,6,No,No,No,No,No,No,63,1,No
+1,0.718,1,192,Non-Hispanic,70.34139785,2.27,0.92,8,No,Yes,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.981,1,759,Non-Hispanic,67.64516129,10.1,0.17,7,No,No,No,No,No,No,69,2,"Yes, due to other reason (specify)"
+1,0.759,1,1421,Non-Hispanic,54.96505376,5.2,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.717,1,561,Non-Hispanic,64.96505376,7.72,0.17,6,No,No,No,No,No,Yes,72,2,"Yes, due to other reason (specify)"
+1,0.863,1,1130,Non-Hispanic,74.75,2.0,0.22,6,No,No,No,No,No,No,57,1,"Yes, due to other reason (specify)"
+0,0.982,1,209,Non-Hispanic,66.49193548,6.03,0.25,7,No,No,No,No,No,No,60,4,No
+1,0.929,1,1128,Non-Hispanic,67.23387097,6.9,0.13,7,No,No,No,No,No,No,65,1,No
+1,0.816,1,698,Non-Hispanic,67.67473118,6.63,0.17,7,No,No,No,No,No,No,64,2,No
+1,0.792,1,1290,Non-Hispanic,52.23924731,6.1,0.38,8,No,Yes,No,No,No,No,64,1,No
+1,0.723,1,777,Non-Hispanic,65.05376344,0.059,1.0,7,Yes (R0),No,No,No,No,No,55,1,"Yes, due to other reason (specify)"
+1,0.468,0,1826,Non-Hispanic,66.9516129,6.7,0.25,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.654,0,781,Non-Hispanic,72.67473118,4.47,0.25,7,No,No,No,No,Yes,No,63,2,"Yes, due to other reason (specify)"
+0,0.168,0,195,Not Reported,78.17473118,5.1,0.08,7,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+1,0.627,0,861,Non-Hispanic,68.72849462,13.0,0.17,6,No,No,No,No,No,No,64,2,No
+0,0.188,0,627,Non-Hispanic,69.63172043,3.0,0.17,7,No,No,No,No,No,Yes,59,1,"Yes, due to other reason (specify)"
+0,0.254,0,210,Non-Hispanic,68.24462366,4.4,0.38,6,No,No,No,No,No,Yes,66,1,"Yes, due to other reason (specify)"
+1,0.962,1,1557,Non-Hispanic,50.76612903,4.94,0.33,6,No,No,No,No,No,No,58,1,No
+1,0.984,1,1448,Non-Hispanic,63.13978495,4.37,0.33,6,No,No,No,No,No,No,67,2,"Yes, due to other reason (specify)"
+1,0.05,0,1435,Non-Hispanic,67.33870968,14.49,0.83,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.806,1,729,Non-Hispanic,70.28225806,5.717,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.655,0,525,Hispanic or Latino,54.49731183,3.75,0.08,6,No,No,No,No,No,No,9,1,No
+0,0.469,0,337,Non-Hispanic,70.85752688,5.3,0.2,7,No,No,No,No,Yes,No,33,1,"Yes, due to other reason (specify)"
+1,0.97,1,1247,Non-Hispanic,57.36827957,0.22,0.1,6,Yes (RX),No,No,No,No,No,57,3,No
+0,0.694,1,722,Non-Hispanic,70.2688172,1.34,0.14,6,No,No,No,No,No,No,63,1,No
+1,0.879,1,1437,Non-Hispanic,76.44623656,7.17,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.9,1,1841,Non-Hispanic,62.37096774,4.5,0.42,7,No,No,No,No,No,No,61,1,No
+1,0.973,1,1841,Non-Hispanic,73.31451613,8.45,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.557,0,1128,Non-Hispanic,51.53494624,8.4,0.8,8,No,Yes,No,No,No,No,59,1,No
+0,0.725,1,765,Not Reported,65.4327957,8.2,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.96,1,1907,Non-Hispanic,55.57526882,3.9,0.42,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.661,1,1454,Non-Hispanic,73.57795699,9.93,0.08,6,No,No,No,No,No,No,59,1,No
+0,0.83,1,175,Non-Hispanic,69.64516129,5.1,0.5,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.805,1,125,Non-Hispanic,73.7983871,22.67,0.4,7,No,Yes,No,No,No,Yes,63,4,"Yes, due to other reason (specify)"
+0,0.681,1,101,Non-Hispanic,63.84139785,20.4,0.06,6,No,Yes,No,No,No,No,60,1,No
+1,0.874,1,650,Non-Hispanic,69.09677419,7.87,0.08,6,No,Yes,No,No,Yes,Yes,63,1,No
+1,0.788,1,1106,Non-Hispanic,64.69623656,6.81,0.17,6,No,No,No,No,No,Yes,62,1,No
+1,0.735,1,1571,Non-Hispanic,76.71236559,8.79,0.25,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.745,1,1099,Non-Hispanic,76.64516129,3.49,0.13,6,No,No,No,No,No,No,61,1,No
+1,0.761,1,1525,Non-Hispanic,64.75268817,17.05,0.58,9,No,No,No,No,No,No,59,1,No
+1,0.904,1,748,Non-Hispanic,70.22311828,10.5,0.33,6,No,Yes,No,No,No,No,73,5,No
+1,0.957,1,106,Non-Hispanic,65.38978495,13.0,0.5,7,No,Yes,No,No,No,No,61,1,No
+1,0.748,1,1859,Non-Hispanic,63.18817204,2.7,0.33,6,No,No,No,No,No,No,60,1,No
+1,0.973,1,1178,Non-Hispanic,80.04301075,14.48,0.33,7,No,No,No,No,No,No,62,2,No
+0,0.075,0,527,Non-Hispanic,61.7311828,6.3,0.17,6,No,No,No,No,No,No,42,1,No
+0,0.738,1,358,Non-Hispanic,72.28225806,4.68,0.33,6,No,No,No,No,No,No,9,1,No
+1,0.079,0,727,Non-Hispanic,50.71505376,16.7,1.0,6,No,Yes,No,No,No,No,62,1,No
+0,0.095,0,601,Non-Hispanic,66.92473118,4.8,0.5,6,No,No,No,No,No,No,67,1,No
+0,0.628,0,372,Non-Hispanic,62.46774194,7.5,0.08,6,No,No,No,No,No,No,61,1,No
+0,0.699,1,99,Non-Hispanic,51.93010753,0.4,0.58,7,No,Yes,No,No,No,No,56,1,No
+0,0.342,0,99,Unknown,67.1155914,4.0,0.58,7,No,No,No,No,No,Yes,40,4,No
+0,0.714,1,353,Non-Hispanic,57.59139785,3.19,0.85,7,No,No,No,No,No,No,60,2,No
+1,0.743,1,1353,Non-Hispanic,72.34408602,1.8,0.42,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.913,1,1093,Non-Hispanic,70.12365591,3.9,0.5,6,No,No,No,No,No,Yes,62,1,"Yes, due to other reason (specify)"
+0,0.363,0,221,Non-Hispanic,62.14247312,8.3,0.42,7,No,No,No,No,No,No,59,1,No
+0,0.267,0,352,Non-Hispanic,59.15860215,6.29,0.08,6,No,No,No,No,No,Yes,62,1,No
+0,0.719,1,196,Non-Hispanic,64.66935484,3.82,0.8,6,No,No,No,No,No,No,63,1,No
+0,0.982,1,189,Non-Hispanic,67.3172043,7.4,1.0,7,No,No,No,No,No,Yes,39,2,No
+0,0.038,0,0,Non-Hispanic,52.92473118,7.0,0.83,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.377,0,113,Non-Hispanic,55.7016129,7.4,0.17,7,No,No,No,No,No,No,69,2,No
+0,0.876,1,794,Not Reported,67.19086022,4.9,0.25,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.207,0,361,Non-Hispanic,72.61290323,12.2,0.23,6,No,No,No,No,No,No,60,2,No
+0,0.788,1,255,Non-Hispanic,69.49193548,1.15,0.5,6,No,No,No,No,No,Yes,6,1,No
+1,0.466,0,188,Non-Hispanic,64.08602151,5.8,0.67,7,No,Yes,No,No,No,Yes,66,2,"Yes, due to other reason (specify)"
+1,0.872,1,723,Non-Hispanic,77.03494624,13.21,0.33,9,No,No,No,No,No,Yes,61,4,No
+1,0.991,1,734,Unknown,61.88709677,10.06,0.14,7,No,No,No,No,No,No,64,4,No
+1,0.666,1,1108,Non-Hispanic,66.48924731,7.79,0.15,7,No,No,No,No,No,No,62,1,No
+0,0.049,0,413,Non-Hispanic,57.29301075,126.18,1.0,8,No,Yes,No,No,No,Yes,64,2,No
+0,0.935,1,360,Not Reported,53.69892473,4.3,0.08,6,No,No,No,No,No,No,60,2,No
+1,0.978,1,1092,Non-Hispanic,65.26612903,4.85,0.54,6,No,No,No,No,No,No,61,1,No
+1,0.974,1,1456,Not Reported,73.78494624,4.7,0.17,7,No,No,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+0,0.697,1,459,Non-Hispanic,69.80913978,15.8,1.0,7,No,No,No,No,No,No,60,1,No
+1,0.893,1,774,Non-Hispanic,56.0188172,14.2,0.5,7,No,Yes,No,No,No,No,62,1,No
+1,0.789,1,575,Non-Hispanic,71.42741935,9.85,0.67,9,No,Yes,No,No,No,No,63,2,No
+1,0.916,1,1125,Non-Hispanic,66.76344086,6.78,0.14,9,No,Yes,No,No,No,No,62,1,No
+0,0.734,1,546,Not Reported,74.37096774,5.73,0.08,6,No,No,No,No,No,Yes,69,1,No
+1,0.717,1,1473,Non-Hispanic,70.36290323,5.85,0.33,6,No,No,No,No,No,No,6,1,No
+1,0.925,1,803,Not Reported,73.76612903,5.1,0.33,7,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+1,0.873,1,1455,Non-Hispanic,79.68548387,1.96,0.25,7,No,No,No,No,No,Yes,66,1,"Yes, due to other reason (specify)"
+1,0.952,1,1843,Non-Hispanic,65.07526882,2.3,0.63,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.936,1,1013,Non-Hispanic,60.99462366,4.3,0.17,7,No,Yes,No,No,No,No,62,1,No
+1,0.761,1,259,Non-Hispanic,76.86290323,0.1,0.17,8,No,Yes,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.978,1,301,Non-Hispanic,71.23387097,0.29,1.0,9,No,Yes,No,No,Yes,Yes,56,2,No
+1,0.932,1,751,Not Reported,67.13172043,6.41,0.17,7,No,No,No,No,No,Yes,62,4,No
+0,0.758,1,531,Non-Hispanic,68.59946237,6.38,0.33,7,No,No,No,No,No,No,59,1,No
+1,0.703,1,1022,Non-Hispanic,72.87634409,14.7,0.92,8,No,No,No,No,No,No,60,1,No
+1,0.688,1,1470,Non-Hispanic,62.42204301,5.75,0.17,7,No,No,No,No,No,No,61,1,No
+1,0.669,1,1441,Non-Hispanic,69.62634409,8.15,1.0,8,No,No,No,No,No,Yes,62,1,No
+1,0.983,1,943,Non-Hispanic,76.95698925,4.9,0.5,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.822,1,1095,Not Reported,68.05913978,4.9,0.58,7,No,No,No,No,No,No,41,2,No
+1,0.982,1,1096,Non-Hispanic,79.33064516,20.28,0.5,9,No,Yes,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+1,0.843,1,527,Non-Hispanic,73.23655914,8.8,1.0,8,No,No,No,No,No,No,60,1,No
+1,0.726,1,332,Not Reported,77.01612903,8.72,0.5,8,No,Yes,No,No,No,Yes,62,3,"Yes, due to other reason (specify)"
+1,0.672,1,931,Not Reported,59.51075269,0.1,0.58,7,Yes (R0),No,No,No,No,No,56,2,"Yes, due to other reason (specify)"
+0,0.067,0,366,Non-Hispanic,55.27150538,4.9,0.08,6,No,No,No,No,No,No,61,1,No
+1,0.962,1,1791,Non-Hispanic,65.60215054,1.84,0.08,6,No,No,No,No,No,No,58,1,No
+1,0.797,1,908,Non-Hispanic,77.59408602,9.2,0.5,8,No,Yes,No,No,No,Unknown,63,1,No
+0,0.475,0,190,Non-Hispanic,90.67473118,6.1,0.3,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.93,1,945,Non-Hispanic,65.38709677,6.65,0.33,7,No,No,No,No,No,No,71,2,"Yes, due to other reason (specify)"
+1,0.872,1,1422,Non-Hispanic,62.72580645,0.12,0.0,6,Yes (R0),No,No,No,No,No,55,1,No
+0,0.12,0,365,Non-Hispanic,55.89516129,5.8,0.0,6,No,No,No,Yes,No,Yes,65,1,"Yes, due to other reason (specify)"
+1,0.698,1,1588,Non-Hispanic,74.48924731,6.89,0.17,6,No,No,Yes,No,No,Yes,53,1,"Yes, due to other reason (specify)"
+1,0.868,1,1484,Non-Hispanic,65.57258065,1.87,0.17,7,No,No,No,No,No,No,65,1,No
+1,0.887,1,682,Not Reported,73.51344086,0.5,0.08,6,No,Yes,No,No,Yes,No,63,1,No
+0,0.98,1,544,Non-Hispanic,59.95967742,7.31,0.08,7,No,No,No,No,No,No,60,2,No
+0,0.843,1,162,Not Reported,65.47043011,4.69,0.5,7,No,No,No,No,No,Yes,60,2,No
+1,0.702,1,704,Non-Hispanic,77.98387097,13.3,0.13,7,No,No,No,No,No,Yes,64,2,No
+1,0.887,1,1078,Non-Hispanic,68.54569892,4.5,0.42,6,No,No,No,No,No,Yes,65,1,No
+1,0.992,1,769,Non-Hispanic,64.48924731,4.7,0.27,7,No,No,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+1,0.668,1,620,Non-Hispanic,67.83064516,18.24,0.17,7,No,Yes,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.938,1,372,Unknown,68.35215054,18.98,0.29,6,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.869,1,469,Unknown,65.45698925,7.0,0.17,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.726,1,226,Unknown,62.07795699,43.15,0.08,9,No,No,No,No,No,No,21,1,No
+1,0.928,1,1129,Non-Hispanic,57.72580645,18.3,1.0,7,No,No,No,No,No,No,62,1,No
+1,0.739,1,1507,Non-Hispanic,59.77419355,5.38,0.5,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.69,1,1463,Non-Hispanic,65.02688172,4.79,0.17,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.191,0,27,Not Reported,62.42204301,6.0,0.17,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.791,1,751,Non-Hispanic,70.50268817,4.29,0.07,7,No,No,No,No,No,Yes,61,1,No
+0,0.834,1,743,Non-Hispanic,65.18548387,4.8,0.17,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.877,1,1852,Non-Hispanic,63.51075269,5.5,0.17,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.826,1,205,Not Reported,74.67741935,11.7,0.08,7,No,Yes,No,No,No,No,65,2,"Yes, due to other reason (specify)"
+1,0.68,1,1883,Non-Hispanic,66.70698925,8.3,0.33,6,No,No,No,No,No,Yes,59,1,No
+1,0.932,1,1512,Non-Hispanic,65.80376344,11.23,1.0,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.97,1,514,Non-Hispanic,61.9811828,4.42,0.17,7,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.965,1,397,Non-Hispanic,81.05107527,8.01,1.0,7,Yes (R0),Yes,No,No,No,Yes,57,2,No
+1,0.817,1,41,Not Reported,67.70967742,6.58,0.58,7,No,Yes,No,No,No,Yes,26,2,No
+1,0.884,1,742,Non-Hispanic,61.37096774,14.47,0.2,7,No,Yes,No,No,Yes,No,63,1,"Yes, due to other reason (specify)"
+1,0.786,1,102,Non-Hispanic,80.56451613,8.4,0.67,9,No,Yes,No,No,No,Yes,60,2,No
+1,0.879,1,770,Non-Hispanic,74.73655914,12.2,0.5,6,No,No,No,No,No,No,59,2,No
+1,0.753,1,1366,Non-Hispanic,67.63978495,6.16,0.42,7,No,No,No,No,No,No,63,1,No
+1,0.99,1,731,Not Reported,66.96774194,5.8,0.17,8,No,No,No,No,No,No,62,1,No
+1,0.938,1,210,Non-Hispanic,67.36021505,0.064,0.29,6,Yes (R1),No,No,No,No,No,57,1,"Yes, due to other reason (specify)"
+0,0.398,0,719,Non-Hispanic,67.77419355,6.07,0.17,6,No,No,No,No,No,Yes,62,1,No
+1,0.97,1,1729,Non-Hispanic,49.19892473,2.27,0.25,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.721,1,2185,Non-Hispanic,70.04301075,8.7,0.25,6,No,Yes,Yes,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.71,1,1489,Non-Hispanic,52.46505376,42.0,0.67,8,No,Yes,No,No,No,No,65,2,No
+1,0.99,1,1391,Non-Hispanic,62.65591398,6.07,0.43,8,No,No,No,No,No,No,58,1,No
+1,0.785,1,602,Non-Hispanic,81.06182796,10.1,1.0,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.982,1,941,Non-Hispanic,66.57526882,5.2,0.17,6,No,No,No,No,No,No,61,1,No
+1,0.938,1,816,Non-Hispanic,65.0672043,4.49,0.33,7,No,Yes,No,No,No,No,59,1,No
+1,0.017,0,377,Non-Hispanic,67.66935484,7.86,0.5,7,Yes (R0),Yes,No,No,No,No,44,2,No
+0,0.325,0,166,Hispanic or Latino,57.28763441,8.1,0.13,6,No,No,No,No,No,No,64,1,No
+1,0.877,1,1080,Not Reported,66.77956989,5.8,0.54,7,No,Yes,No,No,No,No,63,1,No
+0,0.918,1,293,Non-Hispanic,70.61827957,3.42,0.5,6,No,No,No,No,No,No,64,2,No
+1,0.764,1,756,Non-Hispanic,61.30376344,4.02,0.67,7,No,No,No,No,No,No,64,4,No
+0,0.664,1,377,Non-Hispanic,71.5188172,4.4,0.33,7,No,No,No,No,No,Yes,60,1,No
+0,0.77,1,542,Not Reported,72.15322581,5.24,0.42,6,No,No,No,No,No,No,60,1,No
+0,0.995,1,35,Non-Hispanic,78.6155914,5.4,0.67,8,No,No,No,No,No,No,24,1,No
+0,0.938,1,112,Non-Hispanic,78.88978495,21.3,0.25,6,No,No,No,No,No,Yes,59,3,No
+1,0.808,1,1561,Non-Hispanic,56.03763441,5.19,0.5,6,No,No,No,No,No,No,64,1,No
+1,0.714,1,736,Non-Hispanic,67.0672043,6.36,1.0,7,No,Yes,No,No,No,Yes,71,2,"Yes, due to other reason (specify)"
+1,0.432,0,1741,Hispanic or Latino,69.69354839,5.0,0.67,7,No,Yes,No,No,No,Yes,70,2,No
+0,0.016,0,542,Non-Hispanic,67.50806452,6.67,0.25,6,No,No,No,No,No,Yes,61,1,No
+1,0.974,1,1113,Not Reported,74.3655914,5.9,0.5,7,No,No,No,No,No,No,60,1,No
+1,0.777,1,555,Non-Hispanic,61.68010753,6.7,0.58,8,No,No,No,No,No,No,65,5,No
+1,0.907,1,1092,Non-Hispanic,59.67473118,13.12,1.0,10,No,No,No,No,No,No,64,1,No
+1,0.917,1,822,Non-Hispanic,69.71774194,6.7,0.67,8,No,Yes,No,No,No,No,63,1,No
+0,0.651,0,480,Hispanic or Latino,54.63709677,4.51,0.25,6,No,No,No,No,No,No,71,1,"Yes, due to other reason (specify)"
+0,0.05,0,367,Non-Hispanic,65.59946237,5.03,0.08,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.755,1,545,Not Reported,70.36827957,4.9,0.0,8,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.744,1,1125,Non-Hispanic,57.58064516,4.9,0.08,6,No,No,No,No,No,Yes,5,1,No
+0,0.686,1,138,Non-Hispanic,73.85483871,20.4,0.5,8,No,No,No,No,No,No,62,2,No
+1,0.922,1,1455,Non-Hispanic,55.1827957,8.15,0.17,7,No,No,No,No,No,No,60,1,No
+0,0.922,1,303,Non-Hispanic,79.28494624,13.7,0.08,8,No,No,No,No,No,No,62,1,No
+1,0.082,0,1139,Non-Hispanic,65.97311828,7.1,0.17,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.674,1,894,Non-Hispanic,67.22043011,5.49,0.33,6,No,No,No,No,No,No,59,1,No
+1,0.802,1,1122,Non-Hispanic,58.00806452,3.8,0.25,9,No,No,No,No,No,No,63,2,No
+0,0.964,1,289,Non-Hispanic,84.12903226,9.8,0.83,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.252,0,854,Non-Hispanic,58.08602151,43.04,0.83,8,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+0,0.607,0,69,Non-Hispanic,66.26075269,9.35,0.25,7,No,No,No,No,No,No,64,3,"Yes, due to other reason (specify)"
+1,0.807,1,1457,Non-Hispanic,67.79301075,5.8,0.17,6,No,No,No,No,No,No,62,1,No
+0,0.844,1,714,Non-Hispanic,71.11021505,6.67,0.5,6,No,No,No,No,No,No,9,1,No
+1,0.996,1,1466,Non-Hispanic,59.71236559,8.12,0.33,6,No,No,No,No,No,Yes,62,1,No
+1,0.673,1,1096,Not Reported,65.31182796,5.9,0.5,8,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.895,1,258,Non-Hispanic,69.16129032,23.8,1.0,9,No,Yes,No,No,No,No,65,2,No
+0,0.708,1,531,Unknown,56.49462366,5.0,0.15,7,No,No,No,No,No,No,65,1,No
+1,0.825,1,192,Unknown,61.6344086,6.1,0.08,7,No,No,No,Yes,No,No,61,4,No
+0,0.159,0,189,Non-Hispanic,66.67204301,2.1,0.33,6,No,No,No,No,No,No,64,1,No
+0,0.446,0,167,Non-Hispanic,76.57526882,4.47,0.33,7,No,No,Yes,No,No,No,58,1,No
+1,0.697,1,1770,Non-Hispanic,66.2688172,10.3,0.13,8,No,No,Yes,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.993,1,728,Unknown,78.12634409,14.2,0.5,7,No,No,No,No,No,No,65,3,"Yes, due to other reason (specify)"
+0,0.681,1,193,Non-Hispanic,59.19892473,49.9,0.33,9,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.921,1,1044,Non-Hispanic,76.1344086,13.4,0.5,8,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.869,1,728,Non-Hispanic,68.58333333,9.9,0.17,6,No,No,No,No,No,No,59,1,No
+1,0.713,1,445,Non-Hispanic,66.47311828,0.25,0.25,7,Yes (R0),No,No,No,No,No,69,2,"Yes, due to other reason (specify)"
+0,0.905,1,647,Not Reported,66.61827957,2.6,0.17,6,No,No,No,No,No,No,60,1,No
+1,0.948,1,500,Non-Hispanic,70.41397849,7.99,0.5,6,No,No,No,No,No,Yes,68,2,"Yes, due to toxicity"
+1,0.865,1,1671,Non-Hispanic,76.51612903,5.1,1.0,7,No,Yes,No,No,No,No,69,1,No
+1,0.943,1,1094,Non-Hispanic,65.51344086,5.04,0.25,7,No,No,No,No,No,No,62,2,No
+1,1,1,1852,Non-Hispanic,83.47849462,10.08,0.8,7,No,No,No,No,Yes,No,59,1,No
+1,0.929,1,743,Non-Hispanic,78.09946237,20.89,0.5,9,No,Yes,No,No,Yes,No,70,2,No
+0,0.148,0,566,Hispanic or Latino,58.45967742,6.9,0.17,6,No,No,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+0,0.824,1,900,Non-Hispanic,58.58602151,11.2,0.17,6,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.816,1,266,Non-Hispanic,57.37903226,16.2,0.17,7,No,Yes,No,No,No,No,63,4,"Yes, due to other reason (specify)"
+0,0.735,1,187,Non-Hispanic,76.59139785,5.31,0.58,7,No,No,No,No,No,No,65,3,"Yes, due to other reason (specify)"
+0,0.019,0,881,Non-Hispanic,60.05645161,8.85,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.664,1,375,Non-Hispanic,62.7688172,3.5,0.5,6,No,No,No,No,No,No,59,2,No
+1,0.689,1,1471,Non-Hispanic,71.10483871,5.2,1.0,7,No,No,No,No,No,No,58,1,No
+1,0.953,1,1470,Non-Hispanic,63.27150538,4.0,0.5,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+1,0.991,1,1843,Non-Hispanic,83.83870968,5.73,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.933,1,1651,Non-Hispanic,73.54032258,6.2,0.17,6,No,No,No,No,No,Yes,6,1,No
+1,0.727,1,358,Non-Hispanic,81.37903226,9.33,0.25,9,No,No,No,No,No,Yes,62,1,No
+1,0.789,1,553,Non-Hispanic,75.94623656,11.39,0.33,8,No,Yes,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.898,1,1130,Non-Hispanic,53.8844086,4.76,0.42,7,No,No,No,No,No,Yes,65,1,"Yes, due to other reason (specify)"
+1,0.846,1,1199,Non-Hispanic,69.70430108,7.3,0.5,10,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.951,1,407,Non-Hispanic,71.75,5.2,0.2,7,No,No,Yes,No,No,Yes,63,1,No
+1,0.671,1,1483,Non-Hispanic,57.86290323,14.4,1.0,6,No,No,No,No,No,No,59,1,No
+1,0.887,1,1457,Non-Hispanic,50.76612903,11.8,0.75,7,No,No,No,No,No,No,62,1,No
+1,0.68,1,561,Unknown,79.84677419,12.68,0.42,8,No,Yes,No,No,No,No,64,1,No
+0,0.949,1,749,Non-Hispanic,54.53763441,4.62,0.33,6,No,No,No,No,No,No,63,2,No
+0,0.916,1,79,Non-Hispanic,51.30107527,8.3,0.33,8,Yes (R0),No,No,No,No,No,51,1,No
+1,0.991,1,941,Non-Hispanic,68.82526882,17.91,0.42,7,No,No,No,No,No,Yes,60,1,No
+1,0.825,1,822,Non-Hispanic,69.71774194,6.7,0.67,8,No,Yes,No,No,No,No,63,1,No
+1,0.663,1,1092,Not Reported,50.8844086,2.9,0.42,7,No,Yes,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.805,1,738,Non-Hispanic,64.41666667,5.29,0.63,6,No,No,No,No,No,No,11,1,No
+0,0.13,0,379,Non-Hispanic,56.05913978,3.67,0.42,6,No,No,No,No,No,No,64,4,"Yes, due to other reason (specify)"
+0,0.212,0,37,Non-Hispanic,63.33602151,8.0,0.13,6,No,No,No,No,No,No,63,1,No
+0,0.41,0,543,Non-Hispanic,65.48924731,5.8,0.17,6,No,No,No,No,No,No,60,2,No
+0,0.603,0,898,Non-Hispanic,55.25806452,5.3,0.17,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.418,0,193,Non-Hispanic,77.16397849,8.17,0.58,7,No,No,No,No,No,Yes,43,1,"Yes, due to other reason (specify)"
+1,0.867,1,739,Non-Hispanic,65.00537634,4.8,1.0,7,No,Yes,No,No,No,No,65,1,No
+1,0.982,1,206,Non-Hispanic,77.42741935,9.65,0.08,7,No,Yes,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.194,0,195,Non-Hispanic,73.59139785,5.04,0.67,7,No,No,No,No,No,No,60,4,No
+1,0.229,0,1172,Non-Hispanic,62.08064516,6.82,0.08,7,No,No,No,No,No,No,59,1,No
+1,0.046,0,731,Non-Hispanic,73.85215054,10.3,0.17,7,No,No,No,No,No,No,62,2,No
+1,0.915,1,1176,Non-Hispanic,66.62903226,3.37,0.42,7,No,No,No,No,No,No,63,1,No
+1,1,1,910,Non-Hispanic,71.82795699,6.2,0.33,7,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.757,1,1874,Non-Hispanic,70.46236559,7.8,0.5,9,No,No,No,No,No,Yes,59,1,No
+0,0.835,1,397,Non-Hispanic,60.56989247,10.18,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.855,1,1462,Non-Hispanic,57.16666667,8.99,0.33,6,No,No,No,No,No,No,64,1,No
+1,0.857,1,182,Non-Hispanic,76.72311828,6.8,0.29,8,No,Yes,No,No,No,No,64,2,No
+1,0.979,1,234,Non-Hispanic,64.70967742,5.43,0.43,7,No,Yes,No,No,No,No,63,4,"Yes, due to other reason (specify)"
+1,0.276,0,1037,Non-Hispanic,65.00268817,86.6,1.0,8,No,Yes,No,No,No,No,62,1,No
+0,0.814,1,333,Non-Hispanic,66.47580645,7.8,0.25,8,No,No,No,No,No,No,53,1,No
+1,0.018,0,1117,Unknown,66.9327957,7.9,0.19,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.822,1,1130,Non-Hispanic,67.23655914,5.5,0.5,7,No,No,No,Unknown,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.76,1,729,Non-Hispanic,50.41397849,11.1,0.33,7,No,No,No,No,No,No,64,2,No
+1,0.762,1,329,Not Reported,65.00537634,0.2,1.0,9,No,Yes,No,No,No,No,63,2,No
+0,0.689,1,178,Non-Hispanic,74.80107527,2.862,0.31,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.961,1,1099,Non-Hispanic,69.16935484,6.46,0.42,7,No,Yes,No,No,No,Yes,39,1,"Yes, due to other reason (specify)"
+1,0.668,1,538,Non-Hispanic,66.80913978,2.6,0.6,7,No,No,No,No,No,No,64,1,"Yes, due to toxicity"
+1,0.902,1,1838,Non-Hispanic,81.35752688,5.39,0.17,8,No,No,No,No,No,Yes,61,1,No
+1,0.805,1,819,Non-Hispanic,65.57258065,9.3,1.0,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.953,1,366,Non-Hispanic,64.58064516,1.63,0.43,7,No,Yes,No,No,No,No,68,2,"Yes, due to other reason (specify)"
+1,0.919,1,1222,Non-Hispanic,65.15322581,5.59,0.5,7,No,No,No,No,No,No,61,1,No
+1,0.929,1,112,Non-Hispanic,70.56451613,1.58,0.0,7,No,Yes,No,No,No,No,63,1,No
+0,0.896,1,424,Non-Hispanic,58.50268817,7.1,0.08,7,No,No,No,No,No,No,60,4,No
+1,0.714,1,1086,Non-Hispanic,49.32258065,6.8,0.58,7,No,No,No,No,No,No,63,1,No
+1,0.832,1,1106,Non-Hispanic,69.63709677,4.7,0.18,8,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.968,1,1533,Non-Hispanic,77.2016129,7.66,0.5,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.929,1,98,Non-Hispanic,73.85752688,7.0,0.5,8,No,Yes,No,No,No,No,72,3,No
+1,0.945,1,534,Non-Hispanic,71.76344086,3.17,0.58,7,No,No,No,No,No,No,58,2,No
+1,0.81,1,1526,Non-Hispanic,62.41935484,1.06,0.7,7,Yes (RX),No,No,No,No,No,52,1,No
+1,0.885,1,1128,Non-Hispanic,60.85752688,2.83,0.5,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.451,0,175,Non-Hispanic,72.83333333,11.4,0.5,7,No,No,No,No,No,No,59,2,No
+1,0.216,0,1064,Non-Hispanic,65.71774194,1.71,0.25,6,No,No,No,No,No,No,63,1,No
+1,0.556,0,1403,Non-Hispanic,65.33870968,4.66,0.17,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.191,0,291,Non-Hispanic,65.62096774,5.8,0.17,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.962,1,162,Non-Hispanic,80.12365591,0.3,0.67,7,No,No,No,No,No,No,66,1,No
+1,0.836,1,778,Not Reported,76.87634409,4.489,0.58,9,No,Yes,No,No,No,No,62,2,No
+1,0.702,1,105,Non-Hispanic,60.5483871,6.18,0.33,8,No,Yes,No,No,No,No,63,4,No
+0,0.843,1,294,Non-Hispanic,74.02150538,4.85,0.25,6,No,No,No,No,No,No,19,1,No
+1,0.843,1,696,Non-Hispanic,74.50806452,5.2,1.0,7,No,No,No,Yes,No,No,68,1,No
+1,0.685,1,1853,Non-Hispanic,58.55107527,3.3,0.17,7,No,No,No,Yes,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.256,0,175,Non-Hispanic,76.14784946,12.3,1.0,7,No,No,No,No,No,No,60,4,No
+0,0.677,1,782,Non-Hispanic,58.12903226,8.5,0.42,7,No,No,No,No,No,No,76,2,"Yes, due to other reason (specify)"
+1,0.868,1,188,Not Reported,68.16666667,14.03,0.17,8,No,Yes,No,No,No,No,61,4,No
+1,0.899,1,344,Non-Hispanic,72.59946237,0.526,0.83,7,Yes (R0),Yes,No,No,No,No,59,5,No
+1,0.758,1,1373,Non-Hispanic,77.84139785,3.83,0.47,7,No,Yes,No,No,No,Yes,63,1,No
+1,0.754,1,1802,Non-Hispanic,67.23924731,8.3,0.17,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.831,1,1012,Non-Hispanic,67.01075269,2.5,0.08,6,No,No,No,No,No,No,68,1,No
+1,0.64,0,1631,Non-Hispanic,65.29032258,15.1,1.0,8,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.641,0,114,Non-Hispanic,67.60215054,9.6,0.67,8,No,No,No,No,No,No,56,1,No
+1,0.669,1,960,Non-Hispanic,73.51075269,20.25,0.5,8,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.947,1,371,Non-Hispanic,74.72043011,7.7,0.58,7,No,Yes,No,No,No,Yes,66,3,"Yes, due to other reason (specify)"
+1,0.947,1,1133,Non-Hispanic,83.49462366,6.6,0.08,7,No,No,No,No,No,No,62,1,No
+0,0.731,1,385,Non-Hispanic,55.31989247,3.9,0.5,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.916,1,1139,Non-Hispanic,73.40053763,4.41,0.17,7,No,No,No,No,No,Yes,62,1,No
+1,0.819,1,1799,Non-Hispanic,63.08064516,4.9,0.17,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.713,1,975,Non-Hispanic,75.77419355,7.0,0.39,7,No,No,No,No,No,No,65,2,No
+1,1,1,888,Non-Hispanic,70.31989247,13.2,0.33,7,No,No,No,No,No,No,65,3,"Yes, due to other reason (specify)"
+1,0.833,1,190,Non-Hispanic,77.69892473,11.1,1.0,9,No,No,No,No,No,Yes,63,2,No
+1,0.704,1,911,Non-Hispanic,66.63978495,4.11,0.67,7,No,No,No,No,No,No,68,2,No
+0,0.766,1,712,Non-Hispanic,67.57526882,5.35,0.17,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.915,1,538,Non-Hispanic,66.80913978,5.78,0.5,7,No,No,No,No,No,No,64,1,"Yes, due to toxicity"
+1,0.373,0,1135,Non-Hispanic,63.25537634,6.5,0.17,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.472,0,730,Non-Hispanic,64.06989247,4.3,0.08,6,No,No,No,No,No,No,6,1,No
+0,0.15,0,397,Non-Hispanic,66.09946237,6.2,0.17,6,No,No,No,No,No,No,59,2,No
+0,0.135,0,369,Non-Hispanic,61.00268817,6.0,0.17,6,No,No,No,No,No,No,60,1,No
+0,0.458,0,1068,Non-Hispanic,53.79032258,4.71,0.08,6,No,No,No,No,No,No,57,1,No
+1,0.01,0,1829,Not Reported,64.16666667,6.94,0.17,6,No,No,No,No,No,No,70,2,No
+1,0.677,1,553,Non-Hispanic,74.65860215,4.28,0.25,7,No,No,No,No,No,No,63,2,No
+1,0.769,1,612,Not Reported,69.61021505,6.3,0.58,7,No,No,No,No,No,No,63,1,No
+0,0.95,1,161,Non-Hispanic,64.38172043,4.0,0.17,7,No,No,No,No,No,No,59,1,No
+1,0.918,1,1018,Non-Hispanic,61.41129032,6.6,0.42,6,No,No,No,No,No,No,63,1,No
+1,0.285,0,637,Non-Hispanic,79.74193548,22.5,1.0,7,No,Yes,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.73,1,309,Non-Hispanic,69.49731183,5.32,0.29,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.77,1,354,Non-Hispanic,76.86021505,3.6,0.13,7,No,No,Yes,No,No,No,66,4,"Yes, due to other reason (specify)"
+1,0.808,1,1576,Non-Hispanic,56.68010753,17.22,1.0,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.951,1,1503,Non-Hispanic,75.02150538,5.34,0.33,6,No,No,Yes,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.848,1,29,Non-Hispanic,62.81451613,6.64,0.17,9,No,Yes,No,No,No,No,62,1,No
+0,0.357,0,437,Non-Hispanic,68.24193548,5.5,0.5,6,No,No,No,No,No,No,28,1,No
+0,0.636,0,93,Non-Hispanic,69.33064516,8.6,0.83,8,No,No,No,No,No,No,62,1,No
+1,0.834,1,1385,Non-Hispanic,68.1155914,4.2,0.5,7,No,No,No,No,No,No,60,1,No
+1,0.853,1,737,Non-Hispanic,65.17741935,6.19,0.5,7,No,Yes,No,No,No,No,62,1,No
+1,0.623,0,1009,Non-Hispanic,73.14247312,7.31,0.83,7,No,No,No,No,No,No,63,2,No
+0,0.897,1,552,Hispanic or Latino,58.8172043,3.1,0.42,6,No,No,No,No,No,No,64,2,No
+0,0.689,1,95,Non-Hispanic,66.60215054,1.04,0.08,7,No,No,No,No,No,Yes,67,1,No
+0,0.581,0,86,Non-Hispanic,62.32526882,5.3,0.25,6,No,No,No,No,No,No,70,1,"Yes, due to other reason (specify)"
+1,0.849,1,1811,Non-Hispanic,78.6344086,11.27,0.33,7,No,No,No,No,No,No,57,1,No
+1,0.847,1,1898,Non-Hispanic,57.52419355,3.1,0.17,6,No,No,No,No,No,Yes,56,1,No
+0,0.691,1,604,Non-Hispanic,53.87903226,3.4,0.17,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.001,0,315,Non-Hispanic,63.1344086,10.75,0.25,7,No,No,No,No,No,No,59,1,No
+1,0.806,1,596,Non-Hispanic,75.40591398,4.4,0.17,6,No,Yes,No,No,No,No,64,2,No
+0,0.553,0,218,Non-Hispanic,57.58870968,25.6,0.17,6,No,No,No,No,No,Yes,62,1,No
+0,0.64,0,458,Non-Hispanic,78.74731183,12.9,0.11,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.98,1,740,Non-Hispanic,52.68817204,5.42,0.08,6,No,No,No,No,No,Yes,66,1,No
+0,0.714,1,374,Non-Hispanic,68.20698925,8.5,0.29,7,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.671,1,908,Not Reported,57.02688172,3.7,0.25,6,No,No,No,No,No,No,58,1,No
+1,0.931,1,737,Not Reported,71.64516129,13.1,0.17,7,No,No,No,No,No,Yes,62,2,No
+1,0.776,1,730,Non-Hispanic,73.19086022,4.2,0.17,6,No,No,No,No,No,No,63,2,No
+1,0.858,1,1122,Non-Hispanic,59.12365591,6.76,0.08,6,No,No,No,No,No,No,8,1,No
+1,0.096,0,1823,Non-Hispanic,70.09946237,16.3,1.0,9,No,Yes,No,No,Yes,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.936,1,362,Non-Hispanic,72.97043011,0.76,0.17,7,No,No,No,No,No,No,59,1,No
+0,0.024,0,582,Non-Hispanic,58.09946237,4.7,0.17,6,No,No,No,No,No,No,64,1,No
+0,0.899,1,216,Non-Hispanic,65.27419355,1.69,0.14,6,No,No,No,No,Yes,No,60,2,No
+0,0.812,1,605,Non-Hispanic,58.23655914,2.7,0.42,6,No,No,No,No,No,No,70,2,No
+1,0.884,1,757,Non-Hispanic,67.94086022,4.8,0.33,7,No,No,No,No,No,No,72,3,"Yes, due to other reason (specify)"
+0,0.821,1,570,Non-Hispanic,58.60483871,8.5,0.17,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.746,1,556,Not Reported,67.7983871,3.46,0.31,7,No,No,No,No,No,No,65,4,"Yes, due to other reason (specify)"
+1,0.87,1,444,Non-Hispanic,52.52688172,7.94,0.33,7,No,Yes,No,No,No,No,62,2,No
+1,0.637,0,1631,Non-Hispanic,60.88709677,5.2,0.17,6,No,No,No,No,No,No,61,1,No
+0,0.951,1,577,Hispanic or Latino,53.24193548,2.6,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.765,1,784,Non-Hispanic,57.72849462,8.78,0.25,7,No,No,No,No,No,No,64,4,No
+1,0.97,1,982,Non-Hispanic,70.77419355,6.2,0.17,6,No,Yes,No,No,No,No,62,1,No
+1,0.977,1,546,Non-Hispanic,72.93817204,9.4,0.22,8,No,Yes,No,No,No,No,58,4,"Yes, due to other reason (specify)"
+1,0.846,1,1451,Non-Hispanic,74.94892473,18.28,0.25,7,No,Yes,No,No,No,No,64,1,No
+1,0.98,1,1834,Non-Hispanic,70.94086022,7.17,0.17,6,No,Yes,No,No,Yes,No,62,1,"Yes, due to other reason (specify)"
+1,0.799,1,553,Hispanic or Latino,75.78494624,8.8,0.5,9,No,No,No,No,No,No,62,1,No
+1,0.827,1,357,Non-Hispanic,75.02419355,62.1,1.0,9,No,Yes,No,No,No,Yes,59,5,No
+0,0.591,0,376,Non-Hispanic,66.40591398,9.38,0.4,7,No,No,No,No,No,No,9,1,No
+0,0.773,1,718,Non-Hispanic,62.62365591,2.9,0.25,6,No,No,No,No,No,No,70,1,No
+1,0.988,1,576,Non-Hispanic,70.00537634,0.13,1.0,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.221,0,540,Non-Hispanic,55.52150538,4.77,0.42,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.309,0,399,Non-Hispanic,59.34946237,10.8,0.5,7,No,No,No,No,No,No,64,4,"Yes, due to other reason (specify)"
+1,0.708,1,387,Non-Hispanic,66.27419355,0.32,0.18,7,Yes (R0),No,No,No,No,No,54,2,No
+1,0.695,1,380,Unknown,64.85752688,3.69,0.47,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.88,1,1126,Non-Hispanic,65.47311828,6.6,0.6,6,No,No,No,No,No,No,64,1,No
+0,0.667,1,731,Non-Hispanic,66.40053763,9.7,0.17,6,No,No,No,No,No,No,38,1,No
+1,0.815,1,542,Non-Hispanic,66.09946237,24.5,0.58,9,Yes (R0),No,No,No,No,No,70,2,"Yes, due to other reason (specify)"
+0,0.918,1,818,Non-Hispanic,60.53494624,4.3,0.17,6,No,No,No,No,No,No,62,1,No
+0,0.837,1,726,Non-Hispanic,52.26075269,6.9,0.42,7,No,No,No,No,No,No,62,4,No
+1,0.082,0,545,Non-Hispanic,67.26612903,3.48,0.42,7,No,No,No,No,No,No,66,5,"Yes, due to other reason (specify)"
+0,0.99,1,857,Non-Hispanic,63.84408602,1.5,0.08,6,No,No,No,No,No,Yes,63,1,No
+1,0.878,1,1469,Non-Hispanic,57.57526882,3.2,0.13,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.365,0,1386,Non-Hispanic,52.69892473,23.9,0.83,7,No,No,No,No,No,No,68,1,No
+1,0.896,1,1819,Non-Hispanic,51.75268817,5.64,0.17,7,No,No,No,No,No,No,64,1,No
+1,0.796,1,646,Non-Hispanic,64.92741935,9.63,0.08,7,No,Yes,No,No,No,No,63,4,No
+0,0.747,1,874,Non-Hispanic,62.36827957,4.8,0.5,6,No,No,No,No,No,No,8,1,No
+1,0.784,1,1091,Non-Hispanic,77.31989247,1.3,0.33,7,No,No,Yes,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.691,1,1000,Not Reported,66.69354839,5.18,0.5,7,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.386,0,1135,Non-Hispanic,69.19354839,14.71,0.63,7,No,No,No,No,No,No,63,1,No
+0,0.707,1,1072,Non-Hispanic,52.42473118,4.28,0.17,6,No,No,No,No,No,Yes,5,1,No
+1,0.869,1,1473,Not Reported,73.42741935,4.66,0.25,6,No,No,No,No,No,No,63,1,No
+1,0.771,1,1449,Non-Hispanic,65.75,3.89,0.17,6,No,No,No,No,No,No,58,1,No
+1,0.765,1,1644,Non-Hispanic,57.69086022,3.7,0.42,6,No,No,No,No,No,No,63,1,No
+1,0.661,1,1076,Non-Hispanic,59.99193548,4.17,0.33,7,No,No,No,No,No,No,60,1,No
+1,0.439,0,815,Non-Hispanic,68.76344086,5.8,0.33,6,No,No,No,No,No,No,60,1,No
+0,0.683,1,566,Non-Hispanic,62.75537634,4.4,0.08,7,No,No,No,No,No,No,60,3,"Yes, due to other reason (specify)"
+0,0.785,1,353,Non-Hispanic,68.70967742,9.47,0.07,6,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.704,1,925,Non-Hispanic,73.49462366,6.4,1.0,7,No,No,No,No,No,No,63,1,No
+1,0.703,1,197,Non-Hispanic,66.00537634,48.4,0.5,9,No,Yes,No,No,No,No,62,2,No
+1,0.783,1,420,Non-Hispanic,75.78763441,8.82,0.73,8,No,Yes,No,No,No,Yes,78,2,"Yes, due to other reason (specify)"
+1,0.781,1,889,Non-Hispanic,75.36827957,3.89,0.75,8,No,Yes,No,No,No,Yes,68,2,"Yes, due to other reason (specify)"
+0,0.592,0,189,Non-Hispanic,78.11290323,14.17,0.42,7,No,No,No,No,No,Yes,64,2,No
+1,0.668,1,1561,Non-Hispanic,59.9811828,3.18,1.0,7,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+0,0.932,1,860,Non-Hispanic,62.63709677,6.46,0.08,6,No,No,No,No,No,No,60,1,No
+0,0.582,0,749,Non-Hispanic,52.6155914,7.0,0.85,7,No,No,No,No,No,No,60,2,No
+1,0.405,0,747,Not Reported,69.54032258,8.41,0.38,7,No,No,No,No,No,No,66,1,No
+0,0.797,1,866,Non-Hispanic,60.00268817,7.47,0.17,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.851,1,789,Non-Hispanic,68.38709677,7.24,0.67,6,No,No,No,No,No,No,10,1,No
+1,0.719,1,538,Non-Hispanic,66.80913978,2.6,0.6,7,No,No,No,No,No,No,64,1,"Yes, due to toxicity"
+1,0.977,1,571,Non-Hispanic,76.07258065,6.98,0.2,8,No,Yes,No,No,No,No,63,4,"Yes, due to other reason (specify)"
+1,0.937,1,641,Not Reported,66.08870968,9.93,0.33,8,No,Yes,No,No,No,Yes,105,1,"Yes, due to other reason (specify)"
+1,0.755,1,1853,Non-Hispanic,61.47580645,4.65,0.25,6,No,No,No,No,No,No,60,1,No
+1,0.925,1,196,Non-Hispanic,68.87634409,8.67,0.17,8,No,Yes,No,No,No,No,63,2,No
+0,0.663,1,727,Non-Hispanic,50.40860215,10.2,0.83,6,No,No,No,No,No,No,69,1,"Yes, due to other reason (specify)"
+1,0.969,1,1465,Non-Hispanic,69.78225806,4.06,0.25,6,No,Yes,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.799,1,223,Non-Hispanic,64.61290323,7.81,0.33,8,No,No,No,No,No,No,58,1,No
+1,0.723,1,1109,Non-Hispanic,62.01344086,5.5,0.5,6,No,No,No,No,No,No,63,2,No
+1,0.802,1,657,Non-Hispanic,63.51075269,7.9,0.5,7,No,Yes,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+0,0.677,1,89,Non-Hispanic,70.23387097,9.14,0.5,9,No,No,No,No,No,Yes,60,1,No
+1,0.701,1,1115,Non-Hispanic,73.04301075,15.9,0.42,7,No,No,No,No,No,No,62,1,No
+1,0.958,1,1113,Non-Hispanic,52.37096774,44.03,0.83,7,No,Yes,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.012,0,236,Non-Hispanic,58.98655914,3.77,0.17,6,No,No,No,No,No,No,58,1,No
+0,0.212,0,731,Non-Hispanic,53.9327957,4.5,0.08,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.101,0,196,Non-Hispanic,66.11290323,5.12,0.17,7,No,No,No,No,No,No,64,2,No
+1,0.621,0,918,Not Reported,56.44892473,6.03,0.67,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.834,1,724,Non-Hispanic,62.15860215,4.91,0.42,8,No,Yes,No,No,No,No,64,1,No
+1,0.88,1,1057,Non-Hispanic,72.44086022,5.29,0.17,7,No,No,No,No,Yes,Yes,65,1,No
+1,0.869,1,1063,Non-Hispanic,69.11827957,6.21,0.08,6,No,No,No,No,Yes,Yes,9,1,No
+0,0.885,1,186,Non-Hispanic,52.0672043,5.5,0.43,7,No,No,No,No,No,No,63,2,No
+1,0.66,1,830,Non-Hispanic,71.60215054,5.0,0.5,7,No,Yes,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+0,0.771,1,350,Non-Hispanic,70.0,7.0,0.17,6,No,No,No,No,No,No,60,2,No
+1,0.96,1,1463,Non-Hispanic,62.84946237,3.7,1.0,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.225,0,82,Non-Hispanic,75.61827957,44.7,0.92,9,No,Yes,No,No,No,Yes,63,3,"Yes, due to other reason (specify)"
+1,0.809,1,1078,Non-Hispanic,59.14247312,5.8,0.17,6,No,No,No,No,No,No,63,1,No
+1,0.817,1,1826,Non-Hispanic,55.59677419,13.35,0.5,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.727,1,1190,Non-Hispanic,67.17473118,5.76,0.75,7,No,No,No,No,No,No,21,1,No
+1,0.976,1,1185,Non-Hispanic,60.79569892,5.83,0.83,7,No,No,No,No,No,No,36,1,No
+1,0.778,1,1150,Non-Hispanic,79.85752688,10.37,0.08,8,No,Yes,No,No,No,No,64,1,No
+0,0.792,1,607,Non-Hispanic,70.97580645,8.4,0.5,6,No,No,No,No,No,No,63,2,No
+0,0.986,1,169,Non-Hispanic,72.95698925,5.47,0.17,8,No,No,No,No,No,No,57,1,No
+1,0.854,1,1099,Non-Hispanic,74.88172043,8.5,0.58,6,No,No,No,No,No,No,60,1,No
+1,0.81,1,565,Non-Hispanic,69.21774194,4.7,0.58,7,No,No,Yes,No,No,Yes,64,1,No
+1,0.725,1,110,Not Reported,70.75268817,1.17,0.5,7,Yes (R1),No,No,No,No,No,59,1,No
+0,0.372,0,666,Non-Hispanic,66.59677419,7.05,0.08,6,No,No,No,No,No,No,63,1,No
+1,0.381,0,888,Non-Hispanic,77.4327957,7.4,0.33,8,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.861,1,789,Non-Hispanic,66.01344086,2.3,0.17,6,No,No,No,No,No,Yes,7,1,No
+0,0.196,0,213,Non-Hispanic,74.8655914,6.4,0.17,6,No,No,No,No,No,No,78,1,"Yes, due to other reason (specify)"
+0,0.182,0,357,Non-Hispanic,57.79032258,8.0,0.08,6,No,No,No,No,No,Yes,68,1,"Yes, due to other reason (specify)"
+0,0.976,1,184,Non-Hispanic,70.51075269,3.8,0.07,6,No,No,No,No,No,No,41,1,No
+1,0.932,1,1119,Non-Hispanic,67.37903226,5.64,0.2,7,No,No,No,No,No,Yes,59,1,No
+1,0.796,1,763,Not Reported,69.1155914,0.5,0.33,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.657,0,524,Non-Hispanic,67.64516129,5.2,0.46,6,No,No,No,No,No,No,64,1,No
+0,0.064,0,809,Non-Hispanic,65.0483871,7.0903,0.42,6,No,No,No,No,No,No,60,1,No
+1,0.847,1,1464,Non-Hispanic,68.14247312,5.6,0.13,6,No,No,No,No,No,No,64,1,No
+0,0.67,1,741,Non-Hispanic,60.25537634,5.17,0.05,6,No,No,No,No,No,No,9,1,No
+0,0.559,0,397,Non-Hispanic,67.15322581,7.02,0.42,7,No,No,No,No,No,Yes,67,2,"Yes, due to other reason (specify)"
+1,0.968,1,1475,Non-Hispanic,61.82258065,4.19,0.17,7,No,No,No,No,No,No,59,1,No
+1,0.784,1,723,Non-Hispanic,66.83064516,1.46,0.33,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.992,1,1090,Non-Hispanic,74.10215054,1.64,0.25,6,No,No,No,No,No,No,63,1,No
+1,0.704,1,681,Non-Hispanic,56.06989247,5.3,0.86,7,No,No,No,Yes,No,No,65,2,"Yes, due to other reason (specify)"
+0,0.979,1,640,Non-Hispanic,66.68548387,5.31,0.42,7,No,No,No,No,No,No,62,1,No
+0,0.548,0,884,Non-Hispanic,52.90591398,13.7,0.17,6,No,No,No,No,No,No,62,2,No
+0,0.677,1,616,Non-Hispanic,50.5188172,9.3,0.33,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.938,1,978,Non-Hispanic,63.01075269,8.43,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.887,1,736,Non-Hispanic,66.86827957,7.3,0.17,6,No,No,No,No,Yes,Yes,59,2,No
+1,0.952,1,863,Non-Hispanic,69.50268817,9.16,0.67,7,No,No,No,No,No,No,62,2,No
+1,0.841,1,1181,Non-Hispanic,67.90053763,7.3,0.7,6,No,No,No,No,No,No,6,1,No
+1,0.984,1,1469,Non-Hispanic,59.72849462,9.1,0.08,6,No,Yes,Yes,No,No,No,59,1,No
+1,0.821,1,1265,Non-Hispanic,76.93010753,16.8,0.42,8,No,No,No,No,No,No,59,1,No
+0,0.749,1,426,Non-Hispanic,66.90322581,7.5,0.44,7,No,No,No,No,No,No,38,1,"Yes, due to other reason (specify)"
+1,0.981,1,729,Non-Hispanic,51.80645161,0.6,0.33,7,No,Yes,No,No,No,Yes,62,2,No
+1,0.11,0,1279,Non-Hispanic,65.02688172,5.07,0.5,9,No,Yes,Yes,No,Yes,No,61,1,No
+1,0.706,1,968,Non-Hispanic,68.92204301,4.3,0.17,6,No,No,Yes,No,No,Yes,65,1,"Yes, due to other reason (specify)"
+0,0.778,1,636,Non-Hispanic,67.77419355,6.1,0.19,7,No,No,No,No,No,No,60,2,No
+1,0.778,1,1099,Non-Hispanic,63.6155914,8.53,0.57,6,No,No,No,No,No,Yes,59,1,No
+1,0.974,1,1127,Non-Hispanic,69.25268817,5.2,0.17,7,No,No,No,No,No,No,65,1,No
+1,0.863,1,1109,Non-Hispanic,68.95967742,5.67,1.0,8,No,Yes,No,No,No,Yes,62,1,No
+1,0.75,1,1126,Non-Hispanic,65.47311828,7.9,0.6,6,No,No,No,No,No,No,64,1,No
+0,0.915,1,793,Non-Hispanic,59.84408602,9.42,0.25,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.002,0,365,Non-Hispanic,65.91397849,14.02,0.31,7,No,No,No,No,No,No,55,1,No
+0,0.886,1,217,Non-Hispanic,65.37634409,7.01,1.0,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.679,1,978,Non-Hispanic,63.01075269,8.43,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.97,1,771,Non-Hispanic,55.73387097,6.69,0.75,7,No,Yes,No,No,No,No,63,1,No
+1,0.873,1,1665,Non-Hispanic,76.18548387,9.58,0.33,7,No,No,No,No,No,No,64,1,No
+0,0.653,0,763,Non-Hispanic,58.54301075,3.8,0.08,6,No,No,No,No,No,No,62,2,No
+0,0.587,0,97,Non-Hispanic,67.47043011,4.9,0.08,7,No,No,No,No,No,No,60,2,No
+1,0.1,0,1567,Non-Hispanic,58.16397849,18.65,0.5,8,No,Yes,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+1,0.99,1,948,Not Reported,72.95967742,5.2,0.42,7,No,No,No,No,No,Yes,60,1,No
+1,0.983,1,1453,Non-Hispanic,55.37365591,5.85,0.5,6,No,No,No,No,No,No,62,1,No
+1,0.932,1,950,Non-Hispanic,64.03763441,26.83,0.25,6,No,Yes,No,No,No,No,62,1,No
+1,0.852,1,495,Non-Hispanic,91.78225806,4.33,1.0,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.897,1,725,Non-Hispanic,60.52150538,3.1,0.33,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.743,1,1609,Non-Hispanic,63.03494624,4.81,0.25,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.696,1,1196,Non-Hispanic,63.9516129,4.5,0.08,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+0,0.659,0,294,Non-Hispanic,62.73924731,5.88,0.33,7,No,No,No,No,No,No,63,2,No
+1,0.935,1,163,Non-Hispanic,70.99193548,0.3,1.0,8,Yes (R0),Yes,No,No,No,No,56,3,No
+0,0.995,1,191,Non-Hispanic,59.16666667,3.0,0.83,6,No,No,No,No,No,No,62,2,No
+1,0.732,1,1101,Non-Hispanic,65.19086022,5.81,0.08,6,No,No,No,No,No,Yes,63,1,"Yes, due to toxicity"
+1,0.804,1,1827,Non-Hispanic,66.62365591,4.6,0.25,6,No,No,Yes,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.733,1,1830,Non-Hispanic,69.70967742,5.7,0.4,7,No,No,No,No,No,No,58,1,No
+0,0.774,1,721,Non-Hispanic,64.53494624,6.25,0.0,7,No,No,No,No,No,No,63,1,No
+1,0.988,1,854,Non-Hispanic,72.84946237,5.44,0.5,7,No,No,No,No,No,No,67,2,No
+1,0.891,1,1463,Non-Hispanic,67.61827957,4.78,0.25,7,No,Yes,No,No,No,No,60,2,No
+0,0.714,1,192,Non-Hispanic,79.22580645,14.82,0.33,7,No,No,No,No,Yes,Yes,66,1,"Yes, due to other reason (specify)"
+1,0.813,1,290,Not Reported,62.70967742,4.6,0.33,7,Yes (R0),Unknown,No,No,No,No,63,2,No
+0,0.953,1,773,Non-Hispanic,62.31989247,8.1,0.25,6,No,No,No,No,No,No,61,1,No
+0,0.969,1,369,Non-Hispanic,74.18010753,8.3,0.2,6,No,No,No,No,No,No,36,1,"Yes, due to other reason (specify)"
+1,0.934,1,756,Non-Hispanic,70.68817204,4.1,0.08,7,No,No,No,No,No,No,63,1,No
+1,0.871,1,321,Non-Hispanic,70.13709677,11.7,0.25,7,No,Yes,No,No,No,No,63,2,No
+1,0.919,1,1109,Non-Hispanic,81.44086022,6.22,0.5,9,No,Yes,No,No,No,No,60,1,No
+1,0.816,1,1161,Non-Hispanic,84.32526882,4.65,0.38,7,No,No,No,No,No,Yes,78,2,"Yes, due to other reason (specify)"
+0,0.985,1,186,Non-Hispanic,74.76075269,8.69,0.29,7,No,No,No,No,No,No,70,4,No
+1,0.738,1,560,Non-Hispanic,72.08333333,15.8,1.0,9,No,Yes,No,No,No,No,91,3,"Yes, due to other reason (specify)"
+0,0.731,1,98,Not Reported,76.1827957,6.34,0.5,9,No,No,No,No,No,No,62,2,No
+1,0.661,1,1853,Non-Hispanic,73.99731183,15.5,0.17,6,No,No,No,No,Yes,No,60,1,"Yes, due to other reason (specify)"
+1,0.904,1,1126,Non-Hispanic,70.06989247,9.08,0.25,7,No,Yes,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+0,0.193,0,308,Non-Hispanic,78.8172043,26.61,0.75,8,No,No,No,No,Yes,Yes,56,1,No
+0,0.663,1,1057,Non-Hispanic,50.6827957,3.01,0.5,6,No,No,No,No,No,No,62,1,No
+0,0.571,0,97,Non-Hispanic,59.83333333,9.1,0.36,7,No,No,No,No,No,No,41,2,No
+1,0.961,1,1096,Non-Hispanic,67.66397849,5.4,0.17,6,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.673,1,293,Non-Hispanic,70.7016129,3.46,0.33,7,No,No,No,No,No,No,64,2,No
+0,0.996,1,441,Non-Hispanic,57.59408602,5.03,0.5,6,No,No,No,No,No,No,63,1,No
+1,0.827,1,1134,Non-Hispanic,53.61290323,6.2,0.5,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.873,1,730,Non-Hispanic,72.61021505,3.9,0.17,6,No,No,No,No,No,No,61,1,No
+1,0.815,1,768,Non-Hispanic,63.80107527,4.58,0.5,7,No,No,No,No,No,No,64,1,No
+1,0.761,1,1095,Non-Hispanic,67.47849462,4.6,0.1,6,No,No,No,No,No,Yes,6,1,No
+1,0.947,1,741,Non-Hispanic,65.52956989,8.4,0.17,7,No,No,No,No,No,Yes,63,2,No
+1,0.988,1,1480,Non-Hispanic,64.42473118,5.56,0.17,7,No,No,No,Yes,No,No,62,1,No
+1,0.731,1,1815,Non-Hispanic,67.98387097,11.5,0.11,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.154,0,325,Non-Hispanic,77.49462366,10.89,0.58,7,No,No,No,Yes,No,No,62,2,No
+0,0.813,1,519,Non-Hispanic,61.18010753,6.98,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.773,1,693,Non-Hispanic,72.34946237,19.3,0.25,7,No,No,No,No,No,No,62,4,No
+0,0.026,0,750,Non-Hispanic,52.99462366,3.5,0.08,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.769,1,575,Non-Hispanic,67.19086022,6.7,0.67,7,No,No,No,No,No,No,62,1,No
+1,0.965,1,735,Not Reported,74.31182796,3.3,0.46,6,No,Yes,No,No,No,No,64,1,No
+0,0.828,1,734,Non-Hispanic,54.35752688,22.4,1.0,7,No,No,No,No,No,No,64,2,No
+1,0.788,1,736,Non-Hispanic,80.51612903,18.11,0.15,6,No,Yes,No,No,No,Yes,64,4,No
+0,0.828,1,697,Non-Hispanic,54.36290323,17.71,0.58,8,No,No,No,No,No,No,71,3,No
+1,0.9,1,994,Non-Hispanic,63.51344086,10.53,0.17,6,No,No,No,No,No,No,61,1,No
+1,0.813,1,309,Non-Hispanic,74.45430108,8.3,0.25,9,No,No,Yes,No,No,No,65,2,No
+1,0.822,1,1842,Non-Hispanic,68.84139785,10.0,0.5,6,No,No,No,No,No,No,61,1,No
+1,0.889,1,329,Not Reported,64.89516129,5.53,0.17,8,No,Yes,No,No,No,Yes,64,2,No
+1,0.682,1,1883,Non-Hispanic,52.95967742,5.4,0.08,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.099,0,123,Not Reported,60.77419355,15.5,0.83,7,No,No,No,No,No,No,67,2,No
+1,0.895,1,1542,Non-Hispanic,66.52419355,14.2,0.67,6,No,No,No,No,No,No,70,1,"Yes, due to other reason (specify)"
+1,0.828,1,1452,Non-Hispanic,67.96774194,10.81,0.5,6,No,Yes,No,No,No,No,58,1,"Yes, due to other reason (specify)"
+1,0.757,1,729,Non-Hispanic,68.20430108,5.78,0.67,9,No,Yes,No,No,No,Yes,64,4,No
+1,0.851,1,1191,Non-Hispanic,62.17473118,4.19,0.73,6,No,No,No,No,No,Yes,59,2,No
+0,0.773,1,522,Non-Hispanic,58.78494624,7.5,0.5,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.699,1,1945,Non-Hispanic,66.65860215,0.4,0.13,6,No,No,Yes,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.408,0,231,Non-Hispanic,76.03494624,4.0,0.67,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.724,1,1126,Non-Hispanic,65.47311828,6.6,0.6,6,No,No,No,No,No,No,64,1,No
+0,0.74,1,595,Non-Hispanic,65.8844086,13.2,0.33,7,No,No,No,No,No,No,63,1,No
+0,0.277,0,257,Not Reported,52.98387097,5.0,0.08,6,No,No,No,No,No,No,66,1,No
+0,0.27,0,175,Not Reported,70.66397849,11.3,0.0,7,No,No,Yes,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.714,1,1442,Non-Hispanic,56.9327957,3.7,0.17,7,No,No,No,No,Yes,Yes,63,2,No
+1,0.961,1,1331,Non-Hispanic,59.68548387,3.09,0.08,7,No,No,No,No,No,No,59,1,No
+1,0.903,1,1263,Non-Hispanic,59.63172043,4.7,0.25,7,No,No,No,No,No,No,64,1,No
+1,0.821,1,1113,Non-Hispanic,65.53763441,4.2,0.29,8,No,Yes,No,No,No,No,59,1,No
+1,0.783,1,1464,Non-Hispanic,64.48387097,4.9,0.25,7,No,Yes,No,No,No,No,63,1,No
+0,0.449,0,39,Non-Hispanic,69.76612903,6.9,0.42,7,No,No,No,No,No,No,24,2,No
+1,0.494,0,772,Not Reported,61.89784946,5.15,0.06,7,No,No,No,Yes,No,Yes,62,2,No
+0,0.42,0,406,Non-Hispanic,65.59946237,4.81,0.17,7,No,No,No,No,No,No,42,1,No
+1,0.052,0,1093,Non-Hispanic,65.79301075,3.9,0.13,6,No,No,No,No,No,No,58,1,No
+1,0.848,1,1828,Non-Hispanic,53.58064516,4.9,0.08,5,No,No,Yes,No,No,Yes,58,1,"Yes, due to other reason (specify)"
+0,0.68,1,308,Non-Hispanic,71.25268817,4.3,0.17,7,No,No,No,Yes,No,No,28,2,No
+1,0.986,1,1575,Non-Hispanic,48.25537634,0.9,0.17,6,No,No,No,No,No,Yes,57,1,No
+0,0.768,1,462,Non-Hispanic,69.42741935,5.0,0.17,6,No,No,No,No,No,No,63,2,No
+1,0.926,1,1386,Non-Hispanic,70.15053763,6.74,0.5,7,No,No,No,No,No,Yes,65,1,No
+0,0.181,0,70,Non-Hispanic,55.33064516,6.7,0.36,7,No,No,No,No,No,No,69,2,No
+1,0.367,0,1128,Non-Hispanic,72.05913978,4.22,0.33,8,No,No,No,No,No,No,61,1,No
+0,0.657,0,124,Non-Hispanic,67.77419355,7.6,0.54,7,No,No,No,No,No,No,29,1,No
+0,0.725,1,371,Non-Hispanic,68.7016129,9.9,0.13,7,No,No,No,No,No,No,59,1,No
+1,0.938,1,1099,Non-Hispanic,57.83602151,5.8,0.17,6,No,No,No,No,No,No,59,1,No
+1,0.773,1,1125,Non-Hispanic,70.11021505,6.8,0.5,7,No,No,No,No,No,Yes,63,1,No
+1,0.886,1,722,Not Reported,71.8655914,6.3,0.08,7,No,No,No,No,No,No,62,2,"Yes, due to other reason (specify)"
+1,0.707,1,1172,Non-Hispanic,54.96236559,4.92,0.67,6,No,No,No,No,No,No,9,1,No
+0,0.856,1,540,Non-Hispanic,73.37096774,6.23,0.08,6,No,No,No,No,No,No,62,1,No
+1,0.721,1,1486,Non-Hispanic,68.73924731,5.64,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.741,1,1128,Non-Hispanic,66.44623656,6.74,0.83,9,No,No,No,No,No,No,63,2,No
+1,0.842,1,218,Not Reported,68.38978495,8.05,0.92,7,No,Yes,No,No,No,Yes,64,2,No
+1,0.786,1,811,Not Reported,68.55913978,2.9,0.42,7,No,No,No,No,No,Yes,60,2,No
+1,0.891,1,588,Not Reported,68.98924731,6.7,1.0,9,No,No,No,No,No,No,59,1,No
+1,0.994,1,1843,Non-Hispanic,66.24731183,5.1,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.813,1,217,Non-Hispanic,73.28494624,39.66,1.0,6,No,No,No,No,No,No,60,1,No
+1,0.824,1,1462,Non-Hispanic,70.55107527,7.5,0.17,7,No,No,No,No,No,No,60,1,No
+1,0.94,1,718,Non-Hispanic,72.18817204,8.4,0.5,7,No,No,No,No,No,No,63,2,No
+0,0.81,1,544,Non-Hispanic,48.59677419,0.4,0.58,6,Yes (R0),No,No,No,No,No,52,1,No
+0,0.505,0,93,Non-Hispanic,71.90591398,4.2,1.0,7,No,No,No,No,No,Yes,58,1,No
+1,0.723,1,1467,Non-Hispanic,56.98387097,6.61,1.0,7,No,No,No,No,No,No,64,1,No
+1,0.68,1,1097,Non-Hispanic,59.7688172,15.4,1.0,9,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+0,0.878,1,347,Non-Hispanic,72.2688172,6.01,0.17,7,No,No,No,No,No,No,59,1,No
+1,0.78,1,1608,Non-Hispanic,76.88172043,13.64,0.17,8,No,No,No,No,No,No,62,1,No
+0,0.951,1,130,Non-Hispanic,68.82258065,15.1,0.64,8,No,No,No,No,No,No,38,1,"Yes, due to other reason (specify)"
+1,0.764,1,1819,Non-Hispanic,69.72311828,4.0,0.67,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.656,0,721,Non-Hispanic,55.93817204,9.3,0.5,6,No,No,No,No,No,No,65,1,No
+0,0.645,0,353,Non-Hispanic,62.16397849,5.7,0.08,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.294,0,762,Hispanic or Latino,50.02150538,3.65,0.08,6,No,No,No,No,No,No,60,2,No
+1,0.951,1,1451,Non-Hispanic,68.82526882,5.2,0.17,7,No,No,No,No,No,Yes,62,2,No
+1,0.669,1,1465,Non-Hispanic,59.68010753,2.45,0.08,6,No,No,No,No,No,No,51,1,No
+0,0.067,0,549,Not Reported,63.37634409,9.2,0.58,6,No,No,No,No,No,No,60,2,No
+0,0.929,1,365,Non-Hispanic,65.31989247,6.4,0.25,7,No,No,No,No,No,Yes,62,2,"Yes, due to other reason (specify)"
+1,0.974,1,679,Non-Hispanic,76.22311828,6.95,0.08,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.67,1,687,Non-Hispanic,55.44086022,6.9,1.0,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.665,1,938,Non-Hispanic,62.83870968,4.5,0.33,8,No,No,No,No,No,No,70,2,"Yes, due to other reason (specify)"
+0,0.998,1,226,Non-Hispanic,60.87903226,8.9,0.08,6,No,No,No,Yes,No,Yes,58,1,No
+0,0.947,1,82,Non-Hispanic,70.2311828,12.93,0.21,7,No,No,No,No,Yes,No,70,2,"Yes, due to other reason (specify)"
+1,0.891,1,1135,Non-Hispanic,71.80107527,7.1,0.67,7,No,Yes,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.802,1,752,Not Reported,71.53494624,9.7,0.67,7,No,No,No,No,No,No,64,2,No
+1,0.681,1,1196,Non-Hispanic,77.48387097,46.4,0.33,8,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.863,1,212,Non-Hispanic,71.2983871,6.5,0.08,8,No,Yes,No,No,No,No,63,2,No
+0,0.751,1,494,Non-Hispanic,69.2688172,10.0,0.5,7,No,No,No,No,No,No,64,1,No
+1,0.817,1,1372,Non-Hispanic,59.86827957,2.3,0.5,7,No,No,No,No,No,No,57,1,No
+1,0.843,1,1127,Non-Hispanic,64.39247312,5.5,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.868,1,539,Non-Hispanic,66.34946237,6.8,0.23,6,No,No,No,No,No,No,9,1,No
+1,0.93,1,1083,Not Reported,60.8172043,6.72,0.7,6,No,No,No,Yes,No,No,6,1,No
+0,0.95,1,791,Non-Hispanic,65.38172043,2.8,0.25,6,No,No,No,No,No,No,59,1,No
+0,0.977,1,389,Non-Hispanic,52.44354839,6.3,0.5,7,No,No,No,No,No,No,60,1,No
+1,0.673,1,831,Non-Hispanic,62.15322581,79.0,1.0,8,No,No,No,No,No,No,64,2,No
+1,0.784,1,1465,Non-Hispanic,66.63978495,8.1,0.42,7,No,No,No,No,No,No,57,1,No
+1,0.69,1,315,Non-Hispanic,79.41666667,10.7,0.21,8,No,Yes,No,No,No,No,64,1,No
+1,0.792,1,1513,Non-Hispanic,60.4327957,4.11,0.08,6,No,No,No,No,No,No,6,1,No
+1,0.827,1,1820,Non-Hispanic,67.03225806,2.9,0.17,6,No,No,Yes,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.876,1,182,Non-Hispanic,77.14516129,8.58,0.17,7,No,Yes,No,No,Yes,Yes,62,2,No
+0,0.187,0,335,Non-Hispanic,60.66666667,5.564,0.07,7,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+0,0.876,1,285,Non-Hispanic,63.82526882,4.4,0.67,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.951,1,909,Non-Hispanic,70.56451613,7.72,0.25,10,No,Yes,Yes,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.135,0,137,Non-Hispanic,64.20430108,5.5,0.33,6,No,No,No,No,No,No,64,1,No
+0,0.439,0,104,Non-Hispanic,61.43817204,4.4,0.17,7,No,No,No,Yes,No,Yes,60,1,No
+0,0.585,0,403,Non-Hispanic,75.23655914,18.94,0.83,7,No,No,No,No,No,No,58,1,No
+1,0.906,1,1053,Non-Hispanic,79.87903226,8.52,0.75,8,No,No,No,No,No,No,60,1,No
+0,0.908,1,833,Non-Hispanic,56.52150538,2.3,0.08,6,No,No,No,No,No,No,63,1,No
+1,0.505,0,734,Non-Hispanic,75.30376344,8.24,0.83,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.719,1,1276,Non-Hispanic,65.1344086,7.45,0.25,7,No,No,No,No,No,Yes,70,1,No
+1,0.916,1,1093,Non-Hispanic,67.52150538,8.76,0.5,7,No,No,No,No,No,No,64,1,No
+0,0.13,0,92,Non-Hispanic,65.43010753,8.14,0.31,7,No,No,No,No,No,No,59,2,"Yes, due to other reason (specify)"
+0,0.771,1,938,Non-Hispanic,57.59946237,3.4,0.12,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.027,0,123,Non-Hispanic,70.4811828,5.3,0.14,7,Yes (RX),No,No,No,No,No,60,2,"Yes, due to other reason (specify)"
+0,0.261,0,94,Non-Hispanic,74.24193548,6.2,0.27,7,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+1,0.719,1,177,Non-Hispanic,74.11827957,0.15,0.5,6,Yes (R0),No,No,No,No,No,66,4,"Yes, due to other reason (specify)"
+0,0.573,0,316,Non-Hispanic,81.15053763,7.18,0.42,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.767,1,1153,Non-Hispanic,73.18010753,0.1,0.67,7,Yes (RX),Yes,No,No,No,Yes,53,2,"Yes, due to other reason (specify)"
+0,0.024,0,191,Non-Hispanic,67.28225806,6.55,0.17,6,No,No,No,No,No,No,61,1,No
+0,0.587,0,363,Non-Hispanic,68.09139785,5.89,0.17,7,No,No,No,No,No,No,39,2,No
+1,0.711,1,216,Non-Hispanic,59.5672043,4.22,0.5,6,No,No,No,Yes,No,No,78,1,"Yes, due to toxicity"
+1,0.958,1,978,Non-Hispanic,63.01075269,8.43,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.892,1,1314,Non-Hispanic,54.86827957,5.9,0.17,6,No,No,No,No,No,No,65,1,No
+1,0.719,1,1810,Non-Hispanic,63.05107527,7.3,0.08,6,No,No,Yes,No,No,Yes,61,1,No
+1,0.259,0,580,Non-Hispanic,67.23924731,5.8,0.17,7,No,No,No,Yes,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.948,1,1039,Non-Hispanic,61.87365591,10.4,0.3,6,No,No,No,No,No,No,70,1,"Yes, due to other reason (specify)"
+0,0.854,1,186,Non-Hispanic,72.50268817,5.8,0.5,8,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.715,1,732,Non-Hispanic,64.24462366,4.29,0.33,7,No,No,No,No,No,No,63,4,"Yes, due to other reason (specify)"
+1,0.822,1,582,Non-Hispanic,70.16397849,4.1,0.08,8,No,Yes,No,No,No,No,62,1,No
+0,0.74,1,196,Non-Hispanic,72.12096774,10.91,0.18,8,No,No,No,No,No,No,66,2,No
+1,0.856,1,1830,Non-Hispanic,72.13709677,4.55,0.67,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.831,1,352,Non-Hispanic,73.46774194,16.2,0.25,6,No,No,No,No,Yes,Yes,65,2,"Yes, due to other reason (specify)"
+1,0.661,1,1113,Non-Hispanic,74.2688172,9.1,0.08,6,No,No,No,No,No,No,9,1,No
+1,0.978,1,1041,Non-Hispanic,64.47043011,11.09,0.67,7,No,No,No,No,No,Yes,61,1,No
+1,0.875,1,1154,Non-Hispanic,53.8172043,4.4,0.33,6,No,No,No,No,No,No,61,1,No
+0,0.674,1,437,Non-Hispanic,62.33870968,5.0,0.08,6,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+1,0.254,0,1020,Non-Hispanic,80.11827957,6.11,0.42,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.935,1,212,Not Reported,75.58333333,12.85,0.58,8,No,Yes,No,No,No,No,63,3,"Yes, due to other reason (specify)"
+1,0.832,1,1142,Non-Hispanic,54.81182796,3.7,0.25,6,No,No,No,No,No,Yes,68,1,"Yes, due to other reason (specify)"
+1,0.783,1,1897,Non-Hispanic,70.38978495,7.93,0.33,7,No,No,No,No,No,No,69,1,"Yes, due to other reason (specify)"
+1,0.936,1,179,Not Reported,74.63709677,1.2,0.75,7,No,Yes,No,No,No,Yes,59,1,No
+0,0.029,0,104,Non-Hispanic,63.18817204,7.6,0.42,7,No,No,No,No,No,No,66,2,No
+0,0.076,0,269,Not Reported,54.51612903,7.04,0.58,7,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+1,0.936,1,1134,Not Reported,72.65860215,5.44,0.08,7,No,No,No,No,No,No,59,1,No
+1,0.634,0,1460,Non-Hispanic,58.07258065,7.97,0.5,6,No,No,No,No,No,No,64,1,No
+1,0.951,1,405,Non-Hispanic,66.96774194,5.32,0.25,9,No,Yes,No,No,No,Yes,59,2,No
+1,0.743,1,1494,Non-Hispanic,63.4811828,12.93,0.67,9,No,Yes,No,No,No,No,61,1,No
+1,0.741,1,765,Non-Hispanic,65.64516129,4.18,0.5,7,No,No,No,No,No,Yes,62,2,No
+0,0.301,0,357,Not Reported,73.04301075,8.37,0.1,7,No,No,No,No,Yes,Yes,66,2,"Yes, due to other reason (specify)"
+0,0.752,1,719,Non-Hispanic,59.95698925,7.8,0.08,6,No,No,No,No,No,No,9,1,No
+1,0.769,1,119,Non-Hispanic,81.2311828,18.1,0.33,6,No,Yes,Yes,No,Yes,No,60,4,No
+1,0.948,1,209,Non-Hispanic,76.85752688,4.8,0.07,7,No,Yes,No,No,Yes,Yes,60,4,"Yes, due to other reason (specify)"
+0,0.622,0,366,Non-Hispanic,63.43548387,5.39,0.25,6,No,No,No,No,No,No,64,1,No
+1,0.846,1,195,Unknown,47.24193548,13.1,0.5,6,No,Yes,No,No,No,Yes,67,1,No
+0,0.86,1,188,Non-Hispanic,75.94354839,6.03,0.5,7,No,No,No,No,Yes,No,64,2,"Yes, due to other reason (specify)"
+0,0.674,1,567,Hispanic or Latino,65.24731183,6.23,0.33,7,No,No,No,No,No,No,59,2,No
+1,0.791,1,735,Non-Hispanic,72.69892473,4.6,0.33,7,No,No,No,No,No,No,63,2,No
+0,0.804,1,189,Non-Hispanic,65.09139785,4.3,1.0,6,No,No,No,No,No,Yes,59,4,No
+1,0.816,1,908,Non-Hispanic,83.3172043,5.4,1.0,9,No,Yes,No,No,No,No,59,1,No
+0,0.781,1,635,Non-Hispanic,63.4811828,0.1,0.5,7,No,No,No,No,No,No,59,1,No
+0,0.631,0,215,Non-Hispanic,68.76612903,6.9,0.17,6,No,No,No,No,No,Yes,60,2,No
+0,0.796,1,508,Non-Hispanic,64.47311828,2.6,0.17,7,No,No,No,No,No,Yes,63,2,No
+1,0.695,1,349,Non-Hispanic,77.63172043,5.35,0.25,7,No,Yes,No,No,Yes,No,63,2,"Yes, due to other reason (specify)"
+1,0.714,1,1097,Non-Hispanic,68.17204301,12.03,0.25,6,No,No,No,No,Yes,Yes,60,1,No
+1,0.798,1,1093,Non-Hispanic,73.16935484,5.35,0.58,7,No,Yes,No,No,No,Yes,65,1,"Yes, due to other reason (specify)"
+1,0.86,1,1475,Hispanic or Latino,65.6827957,15.76,0.17,9,No,Yes,No,No,No,No,63,2,No
+1,0.857,1,1451,Not Reported,70.27419355,6.62,0.42,6,No,No,No,No,No,No,58,1,No
+1,0.822,1,664,Non-Hispanic,71.67204301,8.51,0.5,7,No,No,No,No,No,Yes,60,1,"Yes, due to other reason (specify)"
+1,0.957,1,311,Non-Hispanic,75.94354839,16.2,0.67,9,No,Yes,No,No,No,Yes,60,1,No
+1,0.701,1,1845,Non-Hispanic,77.73387097,10.2,0.25,8,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.979,1,814,Non-Hispanic,65.01344086,5.8,0.17,7,No,No,No,No,No,No,63,4,No
+0,0.743,1,326,Non-Hispanic,69.06989247,6.3,0.14,6,No,No,No,No,No,No,57,1,"Yes, due to other reason (specify)"
+0,0.735,1,828,Non-Hispanic,62.56989247,7.8,0.4,6,No,No,No,No,No,No,69,1,No
+0,0.859,1,696,Non-Hispanic,57.73924731,3.4,0.75,6,No,No,No,No,No,No,61,1,No
+1,0.693,1,1813,Non-Hispanic,44.84408602,1.0,0.08,6,No,No,No,Yes,No,No,59,1,No
+0,0.775,1,367,Non-Hispanic,70.77688172,7.3,0.23,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.011,0,422,Non-Hispanic,64.38978495,4.9,0.44,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.767,1,1451,Non-Hispanic,66.96236559,0.21,0.08,7,Yes (RX),No,No,No,No,No,57,2,"Yes, due to other reason (specify)"
+1,0.761,1,717,Non-Hispanic,66.14516129,5.65,0.5,7,No,Yes,No,No,No,No,40,1,No
+1,0.855,1,1545,Non-Hispanic,59.83870968,4.56,0.5,7,No,Yes,No,No,No,No,59,1,No
+1,0.832,1,738,Non-Hispanic,71.21236559,5.2,0.25,7,No,No,No,No,Yes,No,61,1,"Yes, due to other reason (specify)"
+0,0.705,1,567,Non-Hispanic,62.89516129,0.91,0.91,7,No,No,No,No,No,No,63,1,No
+1,0.918,1,1824,Non-Hispanic,64.58602151,3.2,0.17,6,No,No,No,No,No,No,61,1,No
+1,0.06,0,739,Non-Hispanic,62.47043011,7.8,0.42,7,No,Yes,No,No,No,No,41,1,"Yes, due to other reason (specify)"
+0,0.86,1,592,Non-Hispanic,65.84139785,5.2,0.67,6,No,No,No,No,No,No,61,1,No
+1,0.994,1,1475,Non-Hispanic,73.76612903,4.9,0.42,8,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.999,1,574,Not Reported,75.73387097,38.8,0.46,7,No,No,No,No,No,No,62,2,No
+1,0.679,1,1811,Non-Hispanic,64.1155914,10.08,0.33,7,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+1,0.749,1,615,Unknown,54.71774194,4.6,0.17,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.195,0,205,Unknown,70.33870968,2.78,0.43,6,No,No,No,No,No,No,62,1,No
+0,0.839,1,716,Non-Hispanic,59.62365591,2.6,0.36,7,No,No,No,No,No,No,69,1,"Yes, due to other reason (specify)"
+0,0.883,1,735,Non-Hispanic,54.82795699,20.6,0.17,6,No,No,No,No,No,No,50,1,No
+1,0.765,1,835,Non-Hispanic,74.71505376,7.08,0.08,8,No,Yes,No,No,No,No,62,4,No
+1,0.998,1,789,Non-Hispanic,66.50806452,5.8,0.25,7,No,No,No,Yes,No,Yes,64,2,"Yes, due to other reason (specify)"
+1,0.693,1,1459,Non-Hispanic,71.16935484,6.28,0.38,6,No,No,No,No,No,No,6,1,No
+1,0.713,1,1142,Non-Hispanic,59.72849462,9.66,1.0,7,No,No,No,No,No,No,68,2,"Yes, due to other reason (specify)"
+0,0.692,1,302,Non-Hispanic,66.95967742,9.5,0.06,6,No,No,No,No,No,No,69,2,"Yes, due to other reason (specify)"
+1,0.986,1,1504,Non-Hispanic,56.89247312,4.61,0.08,5,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.754,1,1101,Non-Hispanic,50.1155914,4.15,0.58,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.949,1,430,Non-Hispanic,73.60483871,2.3,0.5,7,No,Yes,No,No,No,Yes,64,4,No
+0,0.444,0,1068,Non-Hispanic,50.64516129,6.3,0.33,6,No,No,No,No,No,No,63,1,No
+1,0.844,1,1083,Non-Hispanic,58.43010753,1.2,0.43,6,No,No,No,No,No,No,64,1,No
+1,0.761,1,1141,Non-Hispanic,59.90591398,9.62,0.29,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.762,1,1861,Non-Hispanic,80.15860215,6.43,0.42,6,No,No,No,No,No,No,64,1,No
+0,0.705,1,189,Non-Hispanic,49.20430108,6.14,0.17,6,No,No,No,No,No,No,65,2,"Yes, due to other reason (specify)"
+1,0.943,1,565,Non-Hispanic,69.21774194,4.7,0.58,7,No,No,Yes,No,No,Yes,64,1,No
+1,0.698,1,1862,Non-Hispanic,62.33602151,5.2,0.42,7,No,No,No,No,No,No,58,1,No
+1,0.841,1,1389,Non-Hispanic,73.26075269,16.0,0.67,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.663,1,1619,Non-Hispanic,76.53225806,6.58,0.5,9,No,Yes,No,No,No,No,62,1,No
+1,0.863,1,1479,Non-Hispanic,75.19086022,9.22,0.68,7,No,No,No,No,No,No,60,1,No
+1,0.895,1,387,Non-Hispanic,72.44354839,16.19,0.11,8,No,Yes,No,No,No,Yes,61,1,No
+0,0.89,1,404,Non-Hispanic,61.18010753,6.04,0.75,7,No,No,No,No,No,No,60,1,No
+0,0.696,1,972,Non-Hispanic,59.35483871,4.17,0.17,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.448,0,94,Non-Hispanic,64.39247312,4.6,1.0,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.426,0,455,Non-Hispanic,64.71236559,4.2,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.868,1,1019,Non-Hispanic,49.69892473,3.3,0.17,7,No,No,No,No,No,No,59,1,No
+1,0.99,1,225,Non-Hispanic,75.5483871,4.7,0.58,8,No,Yes,No,No,No,Yes,64,3,No
+1,0.733,1,387,Non-Hispanic,69.84677419,7.75,0.42,7,No,Yes,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+0,0.732,1,570,Non-Hispanic,54.77956989,10.39,0.5,7,No,No,No,No,No,Yes,64,2,No
+1,0.875,1,376,Non-Hispanic,72.51075269,13.25,0.25,7,No,No,Yes,No,No,No,58,3,No
+0,0.472,0,231,Non-Hispanic,72.15860215,8.5,0.83,7,No,No,No,No,No,No,60,1,No
+1,0.721,1,1918,Non-Hispanic,59.11290323,7.5,0.25,6,No,No,No,No,No,No,7,1,No
+1,0.808,1,1828,Non-Hispanic,61.22580645,5.3,1.0,6,No,No,Yes,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.953,1,964,Non-Hispanic,66.05645161,1.8,0.17,9,No,Yes,No,No,No,No,63,1,No
+0,0.857,1,262,Non-Hispanic,60.13978495,7.7,0.17,6,No,No,No,No,No,No,63,1,No
+1,0.908,1,1828,Non-Hispanic,71.94892473,5.22,0.5,7,No,No,No,No,No,No,62,1,No
+1,0.802,1,407,Non-Hispanic,65.16397849,28.1,0.0,7,Yes (RX),No,No,No,No,No,64,4,No
+1,0.926,1,1093,Hispanic or Latino,71.06451613,10.14,0.22,6,No,Yes,No,No,No,No,71,1,"Yes, due to other reason (specify)"
+0,0.602,0,559,Non-Hispanic,61.53494624,3.4,0.33,7,No,No,No,No,No,No,60,1,No
+0,0.558,0,188,Non-Hispanic,61.38978495,3.1,0.67,6,No,No,No,No,No,No,59,1,No
+0,0.991,1,609,Non-Hispanic,67.1344086,4.3,0.17,6,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+1,0.726,1,1830,Non-Hispanic,58.92204301,4.7,0.08,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.988,1,129,Not Reported,75.29569892,3.6,0.5,7,No,No,No,No,Yes,Yes,63,2,No
+1,0.887,1,1835,Non-Hispanic,74.30107527,4.2,0.13,6,No,Yes,No,No,No,Yes,58,1,"Yes, due to other reason (specify)"
+1,0.744,1,97,Non-Hispanic,61.82258065,4.6,0.33,7,No,Yes,No,Yes,No,No,63,1,No
+1,0.947,1,1884,Non-Hispanic,68.62365591,11.97,0.75,7,No,Yes,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.819,1,346,Non-Hispanic,68.33064516,43.6,0.17,7,No,No,No,No,No,No,68,3,"Yes, due to other reason (specify)"
+1,0.844,1,1641,Non-Hispanic,65.68817204,5.45,0.08,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.981,1,1253,Non-Hispanic,68.67473118,2.0,0.14,7,No,No,No,No,No,No,63,1,No
+0,0.097,0,388,Non-Hispanic,55.45698925,7.45,0.82,7,No,No,No,No,No,No,39,2,No
+0,0.394,0,827,Non-Hispanic,70.64516129,9.0,0.17,6,No,No,No,No,No,No,58,1,No
+1,0.996,1,755,Non-Hispanic,66.5,6.03,0.58,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.45,0,102,Non-Hispanic,72.54569892,14.24,0.5,6,No,No,No,No,No,Yes,58,1,No
+0,0.893,1,374,Non-Hispanic,68.1344086,2.842,0.25,6,No,No,No,No,No,No,60,2,No
+1,0.912,1,725,Non-Hispanic,66.81989247,9.73,0.42,7,No,Yes,No,No,No,Yes,42,1,No
+1,0.974,1,1115,Non-Hispanic,66.30913978,6.52,0.67,7,Yes (R0),No,No,No,No,No,52,1,No
+1,0.673,1,1462,Non-Hispanic,61.33602151,6.2,0.5,7,No,No,No,No,No,No,60,1,No
+0,0.7,1,435,Hispanic or Latino,57.53225806,5.6,0.08,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+0,0.677,1,286,Non-Hispanic,68.25268817,6.98,0.17,7,No,No,No,No,No,Yes,64,2,No
+1,0.947,1,1055,Non-Hispanic,54.47043011,4.33,0.33,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.968,1,1456,Non-Hispanic,74.69354839,5.25,0.08,6,No,No,No,No,No,Yes,78,1,"Yes, due to other reason (specify)"
+1,0.826,1,99,Non-Hispanic,69.50537634,9.67,0.92,9,No,Yes,No,No,No,Yes,62,2,No
+1,0.808,1,822,Non-Hispanic,69.71774194,6.7,0.67,8,No,Yes,No,No,No,No,63,1,No
+0,0.733,1,421,Non-Hispanic,74.83870968,1.6,0.3,6,No,No,No,No,Yes,Yes,62,2,No
+1,0.964,1,527,Non-Hispanic,86.9516129,8.29,0.08,7,No,No,No,No,No,No,69,2,No
+1,0.777,1,400,Non-Hispanic,75.58333333,10.03,0.14,7,No,Yes,No,No,No,No,58,2,No
+1,0.918,1,755,Non-Hispanic,62.53225806,4.19,0.75,7,No,No,No,No,No,Yes,63,2,No
+1,0.679,1,1481,Not Reported,78.83333333,8.26,0.2,8,No,Yes,No,No,No,No,62,4,No
+0,0.867,1,114,Non-Hispanic,67.99731183,5.1,0.42,9,No,No,No,No,No,No,64,3,No
+1,0.831,1,985,Non-Hispanic,66.57795699,27.4,0.25,8,No,No,No,No,No,No,80,4,"Yes, due to other reason (specify)"
+1,0.865,1,188,Not Reported,77.66935484,16.67,0.83,9,No,Yes,No,No,No,Yes,64,3,No
+1,0.916,1,763,Non-Hispanic,67.90322581,3.4,0.5,7,No,No,No,No,No,No,63,2,No
+1,0.931,1,436,Non-Hispanic,59.10483871,5.3,0.71,7,No,Yes,No,No,No,Yes,61,4,No
+0,0.715,1,190,Non-Hispanic,59.08870968,3.5,0.25,7,No,No,No,No,No,No,62,4,"Yes, due to other reason (specify)"
+0,0.66,1,382,Non-Hispanic,49.26344086,6.5,0.83,7,No,No,No,No,No,No,58,1,No
+1,0.738,1,546,Not Reported,59.38978495,7.83,0.17,8,No,Yes,No,No,No,No,71,4,No
+1,0.864,1,490,Non-Hispanic,52.27419355,0.15,0.58,9,Yes (R0),Yes,No,No,No,No,58,4,"Yes, due to other reason (specify)"
+0,0.594,0,537,Non-Hispanic,55.63978495,4.36,0.17,6,No,No,No,No,No,No,59,1,No
+0,0.82,1,347,Non-Hispanic,71.4327957,1.1,1.0,6,No,No,Yes,No,No,No,57,1,No
+0,0.95,1,819,Non-Hispanic,51.32258065,5.3,0.83,6,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.9,1,1851,Non-Hispanic,55.55107527,4.69,0.5,7,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.684,1,257,Non-Hispanic,69.84408602,6.45,1.0,9,No,Yes,No,Unknown,No,No,64,2,No
+1,0.7,1,1096,Not Reported,65.52688172,0.42,0.38,7,Yes (R0),No,No,No,No,Yes,62,2,No
+0,0.825,1,911,Non-Hispanic,47.04301075,4.24,0.33,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.75,1,1114,Non-Hispanic,59.54032258,11.55,0.33,6,No,No,No,No,No,No,42,1,No
+1,0.815,1,1099,Not Reported,53.91397849,5.3,0.5,6,No,Yes,No,No,No,No,62,1,No
+0,0.813,1,224,Non-Hispanic,52.71774194,7.767,0.11,7,No,Yes,No,No,No,No,41,2,No
+1,0.834,1,731,Non-Hispanic,69.89784946,6.9,0.7,9,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.752,1,741,Non-Hispanic,66.37903226,7.0,0.17,7,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.851,1,721,Non-Hispanic,59.90322581,5.01,0.17,8,No,Yes,Yes,No,No,No,65,2,No
+1,0.868,1,566,Non-Hispanic,64.37096774,27.53,0.57,7,No,Yes,No,No,No,No,64,3,No
+1,0.672,1,367,Non-Hispanic,67.60752688,7.97,0.33,8,No,Yes,No,Yes,No,No,63,1,No
+0,0.834,1,510,Non-Hispanic,74.42741935,9.9,0.08,7,No,No,No,No,No,No,60,1,No
+1,0.869,1,741,Not Reported,60.67473118,4.97,0.08,9,No,Yes,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.979,1,1029,Non-Hispanic,78.72043011,13.3,0.33,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.611,0,796,Non-Hispanic,62.83333333,7.196,0.33,7,No,No,No,No,No,No,63,1,No
+1,0.855,1,1385,Non-Hispanic,65.93010753,4.0,0.75,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.778,1,338,Non-Hispanic,72.73924731,2.6,0.42,7,No,Yes,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.79,1,1102,Non-Hispanic,68.38978495,4.11,0.42,9,No,Yes,No,No,No,Yes,63,1,No
+1,0.959,1,397,Non-Hispanic,73.79569892,6.49,0.92,7,No,Yes,No,No,No,No,60,4,No
+1,0.984,1,1917,Non-Hispanic,73.89784946,8.3,0.08,8,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+1,0.163,0,1080,Non-Hispanic,69.88978495,5.6,0.33,7,No,No,No,No,No,No,62,1,No
+1,0.731,1,708,Not Reported,75.03763441,6.3,0.17,7,No,No,No,No,No,No,67,2,No
+1,0.667,1,689,Non-Hispanic,69.20430108,10.2,1.0,9,No,Yes,No,No,No,Yes,60,1,No
+1,0.709,1,879,Non-Hispanic,66.47849462,3.4,0.08,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.978,1,594,Not Reported,66.70967742,9.51,0.08,9,No,Yes,No,No,No,No,75,2,"Yes, due to other reason (specify)"
+1,0.868,1,574,Non-Hispanic,73.20698925,15.25,0.67,9,No,Yes,No,No,No,No,60,3,No
+1,0.695,1,1101,Non-Hispanic,52.46774194,30.4,0.25,7,No,Yes,No,No,No,Yes,62,1,No
+1,0.688,1,555,Non-Hispanic,77.69354839,5.8,0.42,7,No,No,No,No,Yes,No,61,1,No
+0,0.9,1,1142,Non-Hispanic,67.0483871,383.0,0.67,8,No,No,No,No,No,No,61,1,No
+0,0.955,1,664,Non-Hispanic,58.97311828,12.0,0.25,7,No,No,No,No,No,No,68,4,No
+0,0.803,1,185,Non-Hispanic,82.2983871,19.9,0.08,7,No,No,No,No,No,No,68,2,"Yes, due to other reason (specify)"
+1,0.75,1,920,Non-Hispanic,66.86827957,56.7,0.42,8,No,Yes,No,No,No,Yes,25,1,No
+1,0.803,1,272,Non-Hispanic,56.28494624,22.6,0.6,7,No,Yes,No,No,No,No,64,2,No
+1,0.732,1,1843,Non-Hispanic,57.32795699,8.8,0.67,7,No,No,No,No,No,No,64,1,No
+0,0.831,1,89,Unknown,56.82795699,6.54,0.13,7,No,No,No,No,No,No,65,4,"Yes, due to other reason (specify)"
+1,0.797,1,1120,Non-Hispanic,76.50537634,1.6,0.38,7,No,Yes,No,No,No,No,60,1,No
+0,0.778,1,386,Hispanic or Latino,62.22580645,4.2,0.67,6,No,No,No,No,No,No,63,1,No
+1,0.979,1,1834,Non-Hispanic,48.15860215,3.5,0.67,6,No,No,No,No,No,Yes,59,1,No
+0,0.909,1,742,Non-Hispanic,66.8172043,4.89,0.08,6,No,No,No,No,No,Yes,64,1,No
+1,0.911,1,729,Not Reported,68.26344086,5.59,0.83,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.83,1,548,Not Reported,72.91397849,16.3,0.11,6,No,No,No,No,No,No,63,1,No
+1,0.66,1,730,Non-Hispanic,85.39247312,4.3,0.63,7,No,No,No,No,No,No,63,5,"Yes, due to other reason (specify)"
+1,0.889,1,392,Non-Hispanic,73.53494624,5.97,1.0,7,No,No,No,Unknown,No,No,64,1,No
+0,0.829,1,399,Non-Hispanic,79.5188172,5.66,0.42,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.945,1,180,Non-Hispanic,73.09408602,7.64,0.58,9,No,Yes,No,No,No,Yes,67,2,No
+1,0.427,0,85,Non-Hispanic,75.59946237,32.4,0.75,7,No,Yes,No,No,No,Yes,64,3,No
+1,0.736,1,1819,Non-Hispanic,60.16935484,4.4,0.5,6,No,No,No,No,No,No,61,1,No
+1,0.993,1,350,Non-Hispanic,80.53763441,2.55,0.6,7,No,No,Yes,No,No,Yes,56,1,No
+0,0.85,1,344,Non-Hispanic,65.82795699,9.24,0.08,6,No,No,No,No,Yes,No,62,1,"Yes, due to other reason (specify)"
+1,0.705,1,308,Non-Hispanic,58.5483871,3.29,0.42,9,No,No,Yes,No,Yes,Yes,62,2,No
+1,0.846,1,1834,Non-Hispanic,74.09139785,15.9,1.0,7,No,No,No,No,No,Yes,62,1,No
+1,0.808,1,631,Non-Hispanic,57.44354839,8.48,0.67,8,No,Yes,No,No,No,No,66,3,"Yes, due to other reason (specify)"
+1,0.978,1,1125,Non-Hispanic,74.96505376,17.18,0.58,9,No,No,No,No,No,No,67,1,No
+1,0.781,1,1075,Non-Hispanic,69.91129032,6.82,0.5,7,No,No,No,No,No,No,59,1,No
+1,0.819,1,260,Non-Hispanic,77.26075269,25.8,0.48,7,No,Yes,No,No,Yes,No,65,1,No
+1,0.788,1,1076,Non-Hispanic,63.69892473,2.88,0.42,7,No,No,No,No,No,No,59,1,No
+0,0.965,1,240,Non-Hispanic,68.06451613,27.51,0.0,7,No,No,No,No,No,No,63,6,"Yes, due to other reason (specify)"
+1,0.752,1,1101,Non-Hispanic,65.81451613,13.0,0.58,7,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.859,1,1479,Non-Hispanic,71.22043011,7.6,0.17,8,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.982,1,413,Non-Hispanic,70.61290323,7.5,1.0,10,No,Yes,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+0,0.795,1,190,Non-Hispanic,72.81989247,6.4,0.06,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.958,1,1093,Non-Hispanic,69.15053763,9.6,0.67,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.68,1,1831,Non-Hispanic,66.9327957,3.07,0.33,6,No,No,No,No,No,No,61,1,No
+1,0.785,1,524,Not Reported,66.27419355,8.7,0.58,7,No,Yes,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.871,1,770,Non-Hispanic,69.48387097,4.8,0.17,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.849,1,216,Non-Hispanic,57.56182796,5.86,0.25,7,No,No,No,No,No,No,67,1,"Yes, due to other reason (specify)"
+0,0.025,0,731,Non-Hispanic,64.04301075,9.37,0.07,6,No,No,No,No,No,No,60,2,No
+1,0.791,1,545,Non-Hispanic,61.82795699,0.2,0.5,7,No,Yes,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.684,1,1525,Non-Hispanic,66.34408602,6.3,0.08,6,No,No,Yes,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.818,1,1092,Non-Hispanic,68.49462366,4.0,0.29,6,No,No,No,No,Yes,Yes,63,1,No
+1,0.707,1,721,Not Reported,74.50806452,10.6,0.33,8,No,Yes,No,No,Yes,Yes,63,2,No
+1,0.984,1,1808,Non-Hispanic,74.56182796,6.1,0.5,6,No,No,No,No,No,No,63,1,No
+1,0.951,1,364,Non-Hispanic,68.07526882,6.9,0.17,10,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.92,1,735,Non-Hispanic,65.77419355,2.7,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.93,1,545,Non-Hispanic,73.34677419,5.87,1.0,9,No,Yes,No,No,No,No,60,2,No
+1,0.676,1,250,Not Reported,85.7983871,11.98,0.17,7,No,Yes,No,No,No,Yes,49,2,No
+1,0.854,1,317,Non-Hispanic,69.69086022,6.59,0.75,7,No,Yes,No,No,No,No,63,2,No
+1,0.812,1,1035,Non-Hispanic,86.09946237,23.34,0.5,8,No,Yes,Yes,No,No,Yes,62,1,No
+0,0.038,0,790,Non-Hispanic,59.29032258,4.33,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.858,1,476,Not Reported,69.49193548,5.19,0.16,7,No,Yes,No,No,No,No,62,4,"Yes, due to other reason (specify)"
+1,0.863,1,589,Non-Hispanic,72.38172043,3.59,0.17,8,No,No,Yes,No,No,No,61,1,No
+0,0.896,1,730,Not Reported,61.15860215,6.4,0.25,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.993,1,1070,Non-Hispanic,64.94892473,7.35,0.67,8,No,No,No,No,No,No,58,1,No
+1,0.878,1,93,Not Reported,69.05376344,8.12,0.08,7,No,Yes,No,No,No,Yes,70,4,No
+1,0.938,1,1127,Non-Hispanic,57.38172043,3.2,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.934,1,565,Non-Hispanic,69.21774194,4.7,0.58,7,No,No,Yes,No,No,Yes,64,1,No
+1,0.953,1,1837,Non-Hispanic,56.80645161,4.12,0.13,6,No,No,No,No,No,No,61,1,No
+0,0.938,1,453,Non-Hispanic,72.18548387,5.9,0.08,6,No,No,No,No,Yes,No,59,1,No
+0,0.829,1,179,Non-Hispanic,57.9327957,5.7,0.75,7,No,No,No,No,No,No,62,1,No
+0,0.674,1,751,Hispanic or Latino,52.52419355,6.4,0.5,7,No,No,No,No,No,No,37,1,No
+0,0.724,1,760,Not Reported,59.96774194,3.92,0.33,6,No,No,No,No,No,Yes,60,1,No
+0,0.976,1,187,Unknown,73.09408602,7.22,0.25,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.725,1,366,Non-Hispanic,62.59677419,2.24,0.17,6,No,No,No,No,No,No,65,2,No
+0,0.911,1,719,Non-Hispanic,56.60215054,6.7,0.33,7,No,No,No,No,No,No,40,1,"Yes, due to other reason (specify)"
+1,0.937,1,868,Non-Hispanic,73.58870968,6.6,0.21,7,No,No,No,No,No,Yes,63,1,No
+1,0.879,1,225,Not Reported,76.10752688,32.0,0.69,8,No,Yes,No,No,No,No,62,2,No
+0,0.973,1,835,Non-Hispanic,69.09408602,5.1,0.08,6,No,No,No,No,No,Yes,63,1,No
+1,0.765,1,1112,Non-Hispanic,67.65053763,0.9,0.25,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+1,0.952,1,1064,Non-Hispanic,70.55645161,3.8,0.17,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.966,1,751,Non-Hispanic,76.70967742,16.6,0.38,7,No,No,No,No,No,No,70,3,"Yes, due to other reason (specify)"
+1,0.678,1,1094,Non-Hispanic,69.93548387,5.52,0.58,7,No,No,No,No,No,No,60,1,No
+1,0.788,1,98,Hispanic or Latino,63.39784946,8.4,0.83,7,No,Yes,No,No,No,No,63,4,No
+1,0.911,1,1498,Non-Hispanic,55.0672043,2.7,0.17,6,No,No,No,No,No,No,58,1,No
+1,0.901,1,1455,Hispanic or Latino,72.30107527,11.7,0.08,6,No,No,No,No,No,No,59,1,No
+1,0.713,1,735,Non-Hispanic,64.95430108,0.7,0.08,6,Yes (R1),No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.779,1,107,Non-Hispanic,65.42473118,8.6,1.0,8,No,Yes,No,No,No,No,41,2,No
+1,0.851,1,1145,Non-Hispanic,71.82258065,14.5,0.42,7,No,No,No,No,No,No,63,1,No
+1,0.867,1,355,Non-Hispanic,65.33602151,12.1,0.83,7,No,Yes,No,No,No,No,37,1,"Yes, due to other reason (specify)"
+1,0.68,1,225,Non-Hispanic,61.25537634,14.0,0.42,7,No,Yes,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+0,0.677,1,491,Non-Hispanic,65.60483871,5.52,0.42,7,No,No,No,No,No,No,62,2,No
+1,0.805,1,1096,Non-Hispanic,55.08602151,16.23,0.13,6,No,Yes,No,No,No,No,42,1,"Yes, due to other reason (specify)"
+1,0.751,1,972,Non-Hispanic,84.0,7.5,0.43,8,No,Yes,Yes,No,No,Yes,63,1,No
+1,0.751,1,1464,Non-Hispanic,74.64784946,11.58,0.92,8,No,No,No,No,No,No,63,2,No
+0,0.921,1,106,Not Reported,68.68817204,382.0,0.75,9,No,Yes,No,No,Yes,Yes,62,2,No
+1,0.875,1,387,Non-Hispanic,78.46774194,8.53,0.58,7,No,Yes,No,No,No,Yes,62,2,"Yes, due to other reason (specify)"
+1,0.763,1,1211,Non-Hispanic,72.47580645,3.58,0.67,7,No,No,No,No,No,No,58,1,No
+0,0.848,1,268,Non-Hispanic,63.03763441,19.1,0.17,7,No,No,No,No,No,No,62,2,No
+0,0.849,1,762,Non-Hispanic,58.62365591,3.37,0.33,6,No,No,No,No,No,No,9,1,No
+1,0.686,1,1071,Non-Hispanic,68.29569892,4.09,0.08,6,No,No,No,No,No,Yes,64,1,No
+0,0.295,0,204,Non-Hispanic,74.82795699,5.17,0.17,7,No,No,No,No,No,No,40,2,"Yes, due to other reason (specify)"
+0,0.586,0,520,Non-Hispanic,74.36827957,3.79,0.17,7,No,No,No,No,Yes,Yes,62,2,No
+0,0.194,0,367,Non-Hispanic,51.66666667,5.4,0.0,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.946,1,1720,Non-Hispanic,57.78225806,6.34,0.42,7,No,No,No,No,No,No,59,1,No
+0,0.881,1,687,Non-Hispanic,58.49193548,6.2,0.25,7,No,No,No,No,No,No,67,2,"Yes, due to other reason (specify)"
+1,0.898,1,730,Non-Hispanic,75.72311828,2.33,0.21,7,No,No,No,No,No,No,44,2,"Yes, due to other reason (specify)"
+1,0.172,0,367,Non-Hispanic,68.68010753,35.01,1.0,9,No,Yes,No,No,No,Yes,51,3,"Yes, due to other reason (specify)"
+1,0.82,1,943,Non-Hispanic,62.86290323,2.75,0.17,7,No,No,No,No,No,No,59,1,No
+0,0.714,1,806,Non-Hispanic,56.6344086,13.4,0.08,7,No,No,No,No,No,No,62,1,No
+1,0.758,1,942,Non-Hispanic,81.26612903,4.9,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.565,0,494,Non-Hispanic,76.0,7.05,0.08,7,No,No,No,No,No,Yes,60,4,No
+1,0.817,1,1758,Non-Hispanic,59.92741935,4.66,0.5,6,No,No,No,No,No,No,69,1,No
+1,0.862,1,1826,Non-Hispanic,62.7311828,5.2,0.17,7,No,No,No,No,No,No,60,1,No
+0,0.88,1,335,Non-Hispanic,53.93010753,4.1,0.05,6,No,No,No,No,No,Yes,64,2,No
+1,0.542,0,515,Non-Hispanic,60.6827957,10.64,0.83,7,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.8,1,596,Non-Hispanic,54.75268817,4.1,0.4,7,No,Yes,No,No,No,Yes,64,4,"Yes, due to toxicity"
+0,0.974,1,686,Non-Hispanic,69.7688172,1.5,0.5,6,No,No,No,No,No,No,61,1,No
+1,0.665,1,1816,Non-Hispanic,62.91397849,4.83,0.17,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.96,1,470,Non-Hispanic,44.02419355,11.17,0.33,6,No,No,No,No,No,No,71,2,"Yes, due to other reason (specify)"
+1,0.844,1,72,Non-Hispanic,66.51612903,9.3,0.57,7,No,Yes,No,No,No,No,63,4,No
+1,0.95,1,1485,Non-Hispanic,69.09946237,9.51,0.5,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.673,1,1808,Non-Hispanic,64.37903226,5.55,0.38,6,No,No,No,Yes,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.461,0,201,Non-Hispanic,61.84139785,16.1,0.4,7,No,No,No,No,No,No,60,1,No
+1,0.778,1,1877,Non-Hispanic,65.83333333,5.9,0.5,6,No,No,No,No,No,No,58,1,No
+0,0.089,0,95,Non-Hispanic,52.60215054,4.92,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.527,0,783,Non-Hispanic,52.12365591,4.3,0.08,6,No,No,No,No,No,No,62,1,No
+1,0.181,0,600,Non-Hispanic,81.68548387,0.29,1.0,7,No,Yes,No,No,No,Yes,65,2,No
+0,0.13,0,761,Non-Hispanic,58.25,7.71,0.08,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.378,0,1167,Non-Hispanic,59.57258065,4.6,0.17,6,No,No,No,No,No,No,60,1,No
+0,0.375,0,772,Non-Hispanic,66.37096774,6.7,0.13,6,No,No,No,No,No,Yes,9,1,No
+0,0.809,1,356,Not Reported,70.83870968,5.4,0.33,7,No,No,No,No,No,No,58,2,No
+0,0.034,0,525,Non-Hispanic,68.09677419,7.1,0.31,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.756,1,1820,Non-Hispanic,66.30913978,4.1,0.42,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.186,0,562,Non-Hispanic,62.66397849,16.9,0.36,7,No,No,No,No,No,No,63,1,No
+1,0.663,1,1288,Non-Hispanic,74.41397849,6.4,0.17,7,No,No,No,No,No,Yes,66,2,"Yes, due to other reason (specify)"
+0,0.677,1,206,Non-Hispanic,75.12096774,4.66,0.58,7,No,No,No,No,No,No,63,2,No
+1,0.563,0,1479,Non-Hispanic,59.8844086,4.34,0.58,8,No,Yes,No,No,No,No,62,1,No
+0,0.884,1,529,Non-Hispanic,63.90053763,2.7,0.82,6,No,No,No,No,No,No,65,2,No
+1,0.311,0,1731,Non-Hispanic,80.2983871,5.0,0.42,7,No,No,No,No,No,No,64,1,No
+1,0.759,1,729,Unknown,58.14784946,3.5,0.67,6,No,No,No,Yes,No,No,62,1,"Yes, due to other reason (specify)"
+0,0.657,0,280,Non-Hispanic,58.09677419,4.6,0.33,6,No,No,No,No,No,No,70,2,"Yes, due to other reason (specify)"
+0,0.577,0,785,Non-Hispanic,49.18817204,4.38,0.14,6,No,No,No,No,No,No,70,2,No
+1,0.944,1,557,Hispanic or Latino,72.06182796,4.37,0.33,7,No,No,No,No,No,No,63,4,No
+0,0.963,1,350,Non-Hispanic,74.0672043,4.5,0.5,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.595,0,386,Non-Hispanic,62.87365591,6.5,0.46,7,No,No,No,Yes,No,No,60,4,No
+0,0.812,1,706,Non-Hispanic,61.35215054,6.27,0.08,6,No,No,No,No,No,No,60,1,No
+0,0.916,1,884,Non-Hispanic,66.19354839,6.78,0.17,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.386,0,1100,Not Reported,55.60215054,4.6,0.17,6,No,No,No,No,No,Yes,59,3,No
+1,0.775,1,1091,Non-Hispanic,53.0,10.0,0.83,7,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.974,1,792,Non-Hispanic,60.30107527,4.92,0.75,7,No,Yes,No,No,No,No,62,1,No
+1,0.666,1,1473,Non-Hispanic,83.64247312,60.6,1.0,9,No,Yes,No,No,No,No,61,1,No
+1,0.887,1,1049,Non-Hispanic,72.69086022,1.2,0.67,8,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.911,1,895,Non-Hispanic,75.26344086,7.1,0.08,6,No,No,No,No,No,No,58,1,No
+1,0.961,1,1571,Non-Hispanic,78.79569892,6.2,0.42,7,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.9,1,1820,Non-Hispanic,74.06451613,7.05,0.5,6,No,No,No,No,No,No,59,1,No
+1,0.977,1,1458,Non-Hispanic,69.65053763,7.49,0.08,6,No,No,No,No,No,No,6,1,No
+0,0.878,1,574,Non-Hispanic,66.80376344,5.51,0.42,7,No,No,No,No,No,No,65,1,No
+1,0.78,1,877,Non-Hispanic,60.28763441,19.19,0.42,7,No,No,No,No,No,No,65,2,"Yes, due to other reason (specify)"
+0,0.918,1,71,Non-Hispanic,77.67204301,6.57,0.25,7,No,No,No,No,No,No,67,3,No
+1,0.809,1,1389,Non-Hispanic,70.91666667,5.08,0.33,6,No,No,No,No,No,Yes,62,1,No
+1,0.69,1,1479,Hispanic or Latino,70.34677419,1.79,0.17,6,No,Yes,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.871,1,452,Non-Hispanic,54.41666667,1.6,0.17,6,No,No,No,No,No,Yes,64,1,"Yes, due to other reason (specify)"
+1,0.972,1,1485,Non-Hispanic,63.88172043,7.35,0.5,7,No,No,No,No,Yes,Yes,61,1,No
+1,0.766,1,615,Non-Hispanic,74.95430108,4.3,0.5,8,No,Yes,No,No,No,Yes,62,2,No
+0,0.874,1,301,Non-Hispanic,73.48655914,5.17,0.5,6,No,No,No,No,No,Yes,57,1,"Yes, due to other reason (specify)"
+1,0.786,1,1894,Non-Hispanic,63.68817204,5.92,0.6,6,No,No,No,No,No,Yes,66,1,"Yes, due to other reason (specify)"
+0,0.187,0,686,Not Reported,69.20698925,4.02,0.17,6,No,No,No,No,No,No,63,1,No
+0,0.282,0,97,Non-Hispanic,77.29032258,5.75,0.08,7,No,No,No,No,No,No,60,1,No
+0,0.275,0,210,Non-Hispanic,62.90322581,8.0,0.17,7,No,No,No,No,No,No,59,4,No
+0,0.337,0,140,Non-Hispanic,75.00537634,9.1,0.58,7,No,No,No,No,No,No,59,1,No
+0,0.76,1,372,Non-Hispanic,65.96236559,4.38,0.25,7,No,No,No,No,No,Yes,64,1,No
+0,0.322,0,614,Non-Hispanic,61.75268817,52.99,0.33,8,No,No,No,No,No,No,77,2,No
+1,0.807,1,842,Non-Hispanic,80.72580645,7.05,0.1,6,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+1,0.807,1,1465,Non-Hispanic,50.50537634,5.1,0.42,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,1,1,99,Non-Hispanic,73.88172043,6.02,0.58,7,No,No,No,No,Yes,Yes,64,2,No
+0,0.075,0,207,Non-Hispanic,65.00537634,4.5,0.5,7,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.134,0,479,Non-Hispanic,64.2688172,6.1,0.08,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+1,0.859,1,737,Not Reported,65.15591398,36.9,0.5,9,No,No,No,No,No,No,64,2,No
+0,0.729,1,298,Non-Hispanic,59.42741935,11.65,0.5,7,No,No,No,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.698,1,181,Non-Hispanic,62.25537634,7.24,0.33,7,No,No,No,No,No,No,64,4,"Yes, due to other reason (specify)"
+1,0.909,1,1102,Non-Hispanic,51.54301075,6.06,0.31,7,No,No,No,No,No,No,63,1,No
+1,0.679,1,336,Non-Hispanic,62.93010753,0.5,1.0,7,Yes (R0),No,No,No,No,No,51,1,No
+1,0.532,0,644,Non-Hispanic,59.30107527,4.6,0.5,6,No,Yes,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.355,0,351,Not Reported,67.36290323,7.94,0.25,7,No,No,No,No,No,Yes,61,2,No
+1,0.845,1,1844,Non-Hispanic,58.4327957,3.99,0.42,7,No,No,No,No,No,No,63,1,No
+0,0.711,1,355,Non-Hispanic,68.46774194,4.6,0.33,6,No,No,No,No,No,No,60,2,No
+1,0.954,1,876,Non-Hispanic,59.63978495,9.2,0.33,7,No,Yes,No,Yes,No,No,61,2,No
+0,0.777,1,198,Non-Hispanic,67.81451613,11.96,0.42,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.699,1,1188,Non-Hispanic,66.91666667,4.65,0.25,6,No,No,No,No,No,No,65,2,"Yes, due to toxicity"
+1,0.928,1,903,Non-Hispanic,71.70430108,10.57,0.14,6,No,Yes,No,No,No,No,59,1,No
+0,0.649,0,357,Non-Hispanic,66.33064516,6.62,0.25,7,No,No,No,No,No,No,64,1,No
+0,0.402,0,136,Non-Hispanic,61.36827957,5.6,0.08,6,No,No,No,No,No,No,29,1,"Yes, due to other reason (specify)"
+1,0,0,966,Non-Hispanic,74.71236559,6.46,0.42,7,No,No,No,No,Yes,No,64,2,"Yes, due to other reason (specify)"
+0,0.523,0,97,Non-Hispanic,59.40860215,3.9,0.25,7,No,No,No,No,No,No,60,2,No
+0,0.418,0,79,Non-Hispanic,72.62903226,6.19,0.33,7,No,No,No,No,No,Yes,62,4,No
+1,0.837,1,1453,Non-Hispanic,63.60752688,6.3,0.67,6,No,No,No,No,No,No,64,2,No
+1,0.942,1,1258,Non-Hispanic,71.53763441,4.69,0.08,7,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+0,0.856,1,726,Non-Hispanic,49.48924731,3.13,0.42,6,No,No,No,Yes,No,No,59,1,No
+1,0.528,0,732,Non-Hispanic,68.25806452,11.44,0.25,7,No,No,Yes,No,No,No,59,4,No
+0,0.859,1,171,Non-Hispanic,66.13172043,14.18,0.33,7,No,No,No,No,No,No,63,4,No
+1,0.994,1,1150,Non-Hispanic,76.65860215,5.7,0.5,9,No,Yes,No,No,No,Yes,26,1,No
+0,0.312,0,337,Non-Hispanic,66.27956989,9.9,0.5,7,No,No,No,No,No,No,74,2,"Yes, due to other reason (specify)"
+0,0.836,1,368,Non-Hispanic,65.25806452,6.84,0.5,6,No,No,No,No,No,Yes,67,1,"Yes, due to other reason (specify)"
+1,0.979,1,182,Not Reported,72.14784946,0.17,1.0,7,Yes (R1),No,No,No,No,No,51,1,"Yes, due to other reason (specify)"
+0,0.356,0,482,Not Reported,54.36827957,6.54,0.04,6,No,No,No,No,No,No,60,1,No
+0,0.762,1,811,Non-Hispanic,50.30376344,10.7,0.0,7,No,No,No,No,No,No,65,1,No
+1,0.491,0,1516,Non-Hispanic,70.75,20.02,0.08,6,No,No,Yes,No,No,No,68,1,"Yes, due to other reason (specify)"
+0,0.649,0,294,Non-Hispanic,71.32526882,7.7,0.08,7,No,No,No,Yes,No,No,63,1,No
+1,0.67,1,1484,Non-Hispanic,73.42204301,7.5,0.17,6,No,No,No,No,No,No,65,1,No
+1,0.715,1,918,Non-Hispanic,70.1344086,5.2,0.07,7,No,No,No,No,No,Yes,63,2,"Yes, due to other reason (specify)"
+1,0.792,1,741,Non-Hispanic,68.30376344,5.5,0.5,7,No,No,No,No,No,Yes,38,1,"Yes, due to other reason (specify)"
+1,0.985,1,708,Not Reported,71.52956989,4.99,0.5,7,No,No,No,No,No,No,59,1,No
+0,0.265,0,792,Non-Hispanic,57.84408602,4.0,0.2,6,No,No,No,No,No,No,65,1,"Yes, due to other reason (specify)"
+1,0.549,0,816,Non-Hispanic,71.61290323,7.61,0.07,7,No,No,No,No,No,No,39,1,No
+1,0.734,1,1319,Non-Hispanic,53.5672043,9.94,0.83,6,No,No,No,No,No,No,65,2,No
+1,0.863,1,698,Not Reported,71.95698925,5.3,0.67,7,No,No,No,No,No,No,63,2,No
+1,0.914,1,1126,Non-Hispanic,61.45698925,11.2,0.33,7,No,No,No,No,No,No,64,1,No
+1,0.796,1,864,Non-Hispanic,60.27956989,11.7,0.33,7,No,Yes,No,No,No,No,60,1,No
+1,0.971,1,1050,Non-Hispanic,66.00806452,7.2,0.08,7,No,No,No,No,No,No,71,2,"Yes, due to other reason (specify)"
+1,0.804,1,1170,Non-Hispanic,80.34946237,8.88,0.17,8,No,Yes,No,No,No,No,58,1,No
+1,0.906,1,1348,Non-Hispanic,77.47580645,4.61,0.08,6,No,No,No,No,No,No,62,1,No
+1,0.896,1,1476,Hispanic or Latino,58.90322581,6.97,0.58,7,No,No,No,No,No,No,60,1,No
+0,0.917,1,737,Non-Hispanic,65.38172043,7.9,0.17,7,No,No,No,No,No,No,70,2,"Yes, due to other reason (specify)"
+1,0.704,1,683,Non-Hispanic,71.94892473,6.0,0.75,9,No,No,No,No,No,No,60,1,No
+1,0.806,1,1297,Non-Hispanic,73.32258065,0.59,0.67,7,No,Yes,No,No,No,No,61,1,No
+1,0.678,1,1436,Non-Hispanic,70.5188172,5.0,0.08,6,No,No,No,No,No,No,63,1,No
+1,0.919,1,633,Non-Hispanic,81.51344086,9.0,0.67,8,No,Yes,No,No,Yes,No,62,1,No
+1,0.822,1,753,Non-Hispanic,64.99731183,8.8,0.5,6,No,No,Yes,No,Yes,No,60,1,"Yes, due to other reason (specify)"
+1,0.949,1,1099,Non-Hispanic,69.04569892,4.9,0.25,8,No,No,No,No,No,No,59,1,"Yes, due to other reason (specify)"
+0,0.503,0,382,Non-Hispanic,65.22043011,45.2,0.17,6,No,No,No,No,No,Yes,59,1,No
+1,0.795,1,106,Non-Hispanic,66.07526882,6.31,0.58,7,No,Yes,No,No,No,Yes,63,4,"Yes, due to other reason (specify)"
+0,0.176,0,382,Not Reported,70.79569892,5.9,0.27,6,No,No,No,No,No,No,65,2,No
+0,0.934,1,559,Non-Hispanic,68.32526882,5.6,0.33,7,No,No,No,No,No,No,59,1,No
+1,0.929,1,1468,Non-Hispanic,61.80913978,4.4,0.67,6,No,No,No,No,No,No,72,2,"Yes, due to other reason (specify)"
+1,0.849,1,1267,Hispanic or Latino,57.46505376,3.9,0.5,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.927,1,822,Non-Hispanic,79.82526882,3.0,0.33,7,No,No,No,No,No,No,64,4,"Yes, due to toxicity"
+1,0.745,1,1057,Non-Hispanic,77.53494624,4.6,0.33,6,No,No,No,No,No,Yes,58,1,"Yes, due to other reason (specify)"
+0,0.773,1,453,Non-Hispanic,63.64784946,6.97,0.33,7,No,No,No,Yes,No,No,29,1,No
+0,0.923,1,529,Hispanic or Latino,67.94892473,5.4,0.17,6,No,No,No,No,No,No,63,1,No
+1,0.687,1,1826,Non-Hispanic,60.13978495,4.68,0.5,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.005,0,300,Non-Hispanic,63.71505376,5.8,0.17,7,No,No,No,No,No,No,67,2,"Yes, due to other reason (specify)"
+0,0.26,0,123,Non-Hispanic,65.09139785,5.0,0.17,7,No,No,No,No,No,No,60,2,No
+1,0.807,1,1320,Non-Hispanic,58.88978495,9.9,0.5,7,No,No,No,No,No,No,62,1,No
+1,0.963,1,810,Non-Hispanic,75.0672043,4.82,0.08,6,No,No,No,No,No,No,64,1,No
+0,0.367,0,210,Non-Hispanic,56.95430108,6.01,1.0,7,No,No,No,No,No,No,71,2,"Yes, due to other reason (specify)"
+0,0.17,0,168,Non-Hispanic,64.58870968,3.89,0.04,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.623,0,1493,Non-Hispanic,61.82795699,7.02,0.1,6,No,No,No,No,No,No,62,1,No
+1,0.092,0,425,Non-Hispanic,76.80107527,10.5,0.1,6,No,No,No,No,No,No,58,1,"Yes, due to toxicity"
+0,0.73,1,299,Non-Hispanic,77.80913978,5.8,0.33,6,No,No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+1,0.681,1,516,Non-Hispanic,70.37634409,4.3,0.19,10,No,Yes,No,No,No,Yes,62,2,"Yes, due to other reason (specify)"
+0,0.688,1,179,Non-Hispanic,72.98387097,11.99,0.33,7,No,No,No,No,No,No,62,4,No
+1,0.349,0,1104,Non-Hispanic,73.26612903,1.9,0.17,7,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+0,0.492,0,100,Not Reported,60.42473118,6.1,0.17,6,No,No,No,No,No,No,64,2,No
+1,0.717,1,984,Non-Hispanic,68.66397849,5.6,0.25,7,No,Yes,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.908,1,85,Non-Hispanic,75.10752688,6.3,0.13,6,No,No,No,No,No,Yes,61,1,"Yes, due to other reason (specify)"
+1,0.91,1,798,Non-Hispanic,73.25806452,0.21,1.0,6,Yes (R0),No,No,No,No,No,50,1,"Yes, due to other reason (specify)"
+1,0.839,1,552,Non-Hispanic,74.21236559,5.43,0.67,7,No,Yes,No,No,No,No,48,1,"Yes, due to other reason (specify)"
+1,0.876,1,536,Non-Hispanic,76.22849462,4.08,0.33,8,No,Yes,No,No,No,Yes,63,4,"Yes, due to other reason (specify)"
+0,0.755,1,365,Non-Hispanic,67.47580645,5.2,0.25,6,No,No,No,No,No,Yes,64,2,"Yes, due to other reason (specify)"
+1,0.741,1,764,Non-Hispanic,68.09408602,11.49,0.5,6,No,No,No,No,No,Yes,64,4,No
+0,0.712,1,216,Non-Hispanic,66.08064516,5.2,1.0,6,No,No,No,No,No,No,59,1,No
+0,0.914,1,215,Non-Hispanic,66.12634409,5.9,0.08,6,No,No,No,No,No,No,58,2,No
+1,0.859,1,1077,Non-Hispanic,66.67741935,4.5,0.08,7,No,No,No,Yes,No,No,59,1,No
+0,0.926,1,364,Non-Hispanic,63.93548387,4.95,0.25,7,No,No,No,Yes,No,No,63,2,No
+0,0.009,0,1092,Non-Hispanic,56.73387097,8.02,0.08,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+0,0.893,1,206,Non-Hispanic,56.27419355,6.9,0.42,6,No,No,No,No,No,No,60,1,No
+0,0.057,0,196,Non-Hispanic,68.92473118,1.1,0.08,6,No,No,No,No,No,No,60,1,No
+1,0.942,1,867,Non-Hispanic,67.58602151,2.94,0.33,7,No,No,No,No,No,No,60,1,No
+1,0.681,1,1296,Non-Hispanic,67.27956989,5.1,0.17,8,No,No,No,No,No,No,59,1,No
+1,0.918,1,1104,Non-Hispanic,63.6827957,11.47,0.08,6,No,No,No,No,No,No,60,2,No
+0,0.943,1,548,Non-Hispanic,59.11021505,3.45,0.33,6,No,No,No,No,No,No,62,1,No
+1,0.883,1,1823,Non-Hispanic,70.97849462,7.2,0.5,7,No,No,No,No,No,No,61,1,No
+1,0.738,1,584,Non-Hispanic,76.43548387,0.22,0.25,8,No,Yes,No,No,No,No,137,6,"Yes, due to other reason (specify)"
+1,0.746,1,956,Not Reported,58.2983871,6.5,0.42,8,No,No,No,No,No,No,66,2,"Yes, due to other reason (specify)"
+1,0.993,1,1567,Non-Hispanic,61.04301075,8.1,0.2,7,No,No,No,No,No,No,66,1,"Yes, due to other reason (specify)"
+1,0.912,1,1091,Non-Hispanic,79.27150538,8.73,0.67,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.827,1,1840,Non-Hispanic,56.84408602,7.37,0.17,6,Yes (R0),No,No,No,No,No,21,1,No
+1,0.852,1,91,Not Reported,75.78494624,4.39,0.42,7,No,Yes,No,No,No,No,58,4,No
+1,0.864,1,908,Non-Hispanic,67.58870968,8.0,0.43,7,No,No,No,No,No,No,64,1,No
+1,0.867,1,97,Not Reported,80.27956989,8.8,0.58,9,No,No,No,No,No,No,63,2,No
+1,0.773,1,1086,Non-Hispanic,83.97311828,4.56,0.5,6,No,No,No,No,No,No,59,1,No
+1,0.841,1,920,Non-Hispanic,67.20698925,14.8,0.79,7,No,Yes,No,No,No,No,39,1,No
+0,0.969,1,589,Non-Hispanic,70.74193548,5.75,0.25,6,No,No,No,No,No,Yes,61,1,No
+0,0.941,1,508,Not Reported,67.80645161,15.44,0.33,7,No,No,No,No,No,Yes,42,2,"Yes, due to other reason (specify)"
+1,0.914,1,70,Non-Hispanic,78.98387097,21.9,0.54,8,No,Yes,No,No,No,No,62,3,"Yes, due to other reason (specify)"
+1,0.781,1,566,Non-Hispanic,71.95430108,9.06,0.25,8,No,Yes,No,No,No,No,60,2,No
+0,0.841,1,616,Not Reported,50.60215054,18.95,0.83,7,No,No,No,No,No,No,37,1,No
+0,0.773,1,698,Non-Hispanic,60.06451613,4.9,0.79,6,No,No,No,No,No,No,60,2,No
+1,0.822,1,1878,Non-Hispanic,64.31989247,42.1,0.33,7,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+0,0.69,1,441,Non-Hispanic,74.68010753,5.2,0.25,7,No,No,No,No,No,No,62,1,No
+1,0.985,1,1825,Non-Hispanic,60.17741935,6.5,0.67,7,No,No,No,No,No,No,66,1,No
+1,0.818,1,1815,Non-Hispanic,61.06182796,4.11,0.17,6,No,No,No,No,No,No,63,2,No
+1,0.715,1,1461,Non-Hispanic,65.34946237,1.5,0.08,7,No,Yes,No,No,No,No,60,2,No
+1,0.89,1,182,Non-Hispanic,58.50806452,4.85,0.44,7,No,Yes,No,No,No,Yes,59,4,No
+0,0.217,0,659,Non-Hispanic,73.6344086,22.0,0.2,7,No,No,No,No,No,No,63,2,"Yes, due to other reason (specify)"
+0,0.851,1,204,Non-Hispanic,71.81451613,13.096,1.0,7,No,No,No,No,No,No,62,1,No
+0,0.241,0,292,Non-Hispanic,65.65860215,7.31,0.25,6,No,No,No,No,No,No,64,1,No
+1,0.84,1,385,Hispanic or Latino,61.83602151,4.3,1.0,9,Yes (R1),No,No,No,No,No,61,1,"Yes, due to other reason (specify)"
+0,0.217,0,504,Non-Hispanic,58.72580645,4.5,0.6,7,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.008,0,521,Non-Hispanic,68.6155914,3.77,0.43,8,No,No,No,No,No,No,60,1,No
+1,0.7,1,1087,Non-Hispanic,74.71236559,6.0,0.33,6,No,No,No,No,No,Yes,63,1,"Yes, due to other reason (specify)"
+1,0.789,1,1080,Unknown,72.57795699,7.1,0.25,7,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+1,0.894,1,1112,Non-Hispanic,73.27688172,28.3,0.25,6,No,Yes,No,No,No,No,62,2,No
+1,0.962,1,855,Not Reported,72.06451613,10.9,0.75,7,No,No,No,No,No,No,64,2,No
+0,0.885,1,183,Non-Hispanic,56.85752688,6.1,0.0,8,No,No,No,No,No,No,64,2,"Yes, due to other reason (specify)"
+0,0.975,1,381,Non-Hispanic,65.5188172,5.9,0.42,6,No,No,No,No,No,No,60,1,"Yes, due to other reason (specify)"
+1,0.859,1,1117,Non-Hispanic,69.71774194,4.61,0.08,7,No,Yes,No,No,No,Yes,48,1,"Yes, due to other reason (specify)"
+0,0.916,1,1139,Non-Hispanic,53.96505376,3.47,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+0,0.756,1,700,Non-Hispanic,62.00537634,5.41,0.08,6,No,No,No,Yes,No,No,65,1,No
+0,0.735,1,583,Non-Hispanic,69.55913978,10.8,0.17,7,No,No,No,No,No,No,64,2,No
+0,0.739,1,372,Non-Hispanic,71.47580645,5.34,0.5,6,No,No,No,No,No,No,63,1,"Yes, due to other reason (specify)"
+1,0.777,1,773,Non-Hispanic,50.57795699,3.09,1.0,8,No,No,No,No,No,No,63,2,No
+1,0.763,1,1602,Non-Hispanic,62.54032258,12.6,0.08,6,No,No,No,No,No,No,64,1,"Yes, due to other reason (specify)"
+1,0.666,1,1466,Non-Hispanic,60.52688172,10.4,0.2,7,No,No,No,No,No,No,59,1,No
+1,0.987,1,797,Non-Hispanic,66.36827957,7.24,0.42,6,No,No,No,No,No,No,63,4,No
+1,0.748,1,723,Non-Hispanic,70.15053763,7.32,0.31,8,No,Yes,No,No,No,No,61,1,No
+1,0.957,1,1472,Non-Hispanic,71.5672043,4.5,0.17,6,No,No,No,No,No,No,62,1,"Yes, due to other reason (specify)"
+1,0.943,1,1394,Non-Hispanic,74.55107527,31.03,0.08,8,No,Yes,No,No,No,No,63,1,No
+1,0.751,1,313,Unknown,60.84677419,2.12,0.83,8,No,Yes,No,No,No,No,60,2,No
+0,0.724,1,545,Not Reported,63.02956989,26.42,0.17,8,No,No,No,No,No,No,65,3,No
+1,0.792,1,800,Non-Hispanic,61.10215054,95.5,0.67,7,No,Yes,No,No,No,No,70,2,"Yes, due to other reason (specify)"
+1,0.851,1,527,Not Reported,71.17204301,13.5,0.33,8,No,Yes,No,No,No,No,61,2,No
+1,0.776,1,350,Non-Hispanic,66.95967742,9.85,0.42,7,No,Yes,Yes,No,No,No,59,2,No

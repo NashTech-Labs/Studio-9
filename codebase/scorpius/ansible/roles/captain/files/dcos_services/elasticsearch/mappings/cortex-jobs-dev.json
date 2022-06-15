@@ -1,0 +1,168 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 3,
+      "number_of_replicas": 1,
+      "routing.allocation.total_shards_per_node": 10
+    }
+  },
+  "mappings" : {
+    "job" : {
+      "properties" : {
+        "cortex_error_details" : {
+          "properties" : {
+            "error_code" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "error_details" : {
+              "properties" : {
+                "errorMessage" : {
+                  "type" : "text",
+                  "fields" : {
+                    "keyword" : {
+                      "type" : "keyword",
+                      "ignore_above" : 256
+                    }
+                  }
+                },
+                "stackTrace" : {
+                  "type" : "text",
+                  "fields" : {
+                    "keyword" : {
+                      "type" : "keyword",
+                      "ignore_above" : 256
+                    }
+                  }
+                }
+              }
+            },
+            "error_messages" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            }
+          }
+        },
+        "id" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "input_path" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "job_type" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "output_path" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "owner" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "status" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "tasks_queued_time" : {
+          "properties" : {
+            "length" : {
+              "type" : "long"
+            },
+            "unit" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            }
+          }
+        },
+        "tasks_time_info" : {
+          "properties" : {
+            "task_name" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "time_info" : {
+              "properties" : {
+                "completed_at" : {
+                  "type" : "date"
+                },
+                "started_at" : {
+                  "type" : "date"
+                },
+                "submitted_at" : {
+                  "type" : "date"
+                }
+              }
+            }
+          }
+        },
+        "time_info" : {
+          "properties" : {
+            "completed_at" : {
+              "type" : "date"
+            },
+            "started_at" : {
+              "type" : "date"
+            },
+            "submitted_at" : {
+              "type" : "date"
+            }
+          }
+        }
+      }
+    }
+  }
+}

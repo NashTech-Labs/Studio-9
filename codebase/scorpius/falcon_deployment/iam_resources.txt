@@ -1,0 +1,345 @@
+The following is a list of IAM resources that must be created if you plan to import existing resources.
+
+variables used in describing the resources
+
+${OWNER}: the value specified in the environments config file for "tag_owner"
+${ENVIRONMENT}: the value specified in the environments config file for "environments"
+${APPS_S3_BUCKET_ARN}: the arn value for the S3 bucket specified in the environments config file for "dcos_apps_bucket"
+${STACK_S3_BUCKET_ARN}: the arn value for the S3 bucket specified in the environments config file for "dcos_stack_bucket"
+${ARTIFACTS_S3_BUCKET_ARN}: the arn value for the S3 bucket specified in the environments config file for "artifacts_s3_bucket"
+
+1) IAM user ${OWNER}-${ENVIRONMENT}-app (optional, only needed if using IAM user for app access instead of roles)
+   a) This user should have an access key created and these values will passed as the environment varaibles:
+      APPS_AWS_ACCESS_KEY_ID
+      APPS_AWS_SECRET_ACCESS_KEY
+   b) This user should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*"
+            ]
+          }
+        ]
+      }
+
+Singular IAM Roles
+
+1) IAM role ${OWNER}-${ENVIRONMENT}-deepcortex_main_role
+   a) This role should assume the following role policy:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service":[
+                "ec2.amazonaws.com",
+                "ssm.amazonaws.com"
+              ]
+            },
+            "Effect": "Allow"
+          }
+        ]
+      }
+
+    b) This role should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*",
+              "${STACK_S3_BUCKET_ARN}",
+              "${STACK_S3_BUCKET_ARN}/*",
+              "${ARTIFACTS_S3_BUCKET_ARN}/",
+              "${ARTIFACTS_S3_BUCKET_ARN}/*"
+            ]
+          },
+          {
+            "Action": [
+              "ec2:DescribeInstances"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+          },
+          {
+            "Action": [
+              "ec2:*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Condition": {
+              "StringEquals": {
+                  "ec2:ResourceTag/owner": "${OWNER}"
+              }
+            }
+          }
+        ]
+      }
+
+
+Multi IAM Roles
+
+1) IAM role ${OWNER}-${ENVIRONMENT}-bastion_role
+   a) This role should assume the following role policy:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service":[
+                "ec2.amazonaws.com",
+                "ssm.amazonaws.com"
+              ]
+            },
+            "Effect": "Allow"
+          }
+        ]
+      }
+
+    b) This role should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*",
+              "${STACK_S3_BUCKET_ARN}",
+              "${STACK_S3_BUCKET_ARN}/*",
+              "${ARTIFACTS_S3_BUCKET_ARN}/",
+              "${ARTIFACTS_S3_BUCKET_ARN}/*"
+            ]
+          }
+        ]
+      }
+
+    c) This roles should also have the AWS policy "AmazonEC2RoleforSSM" attached.
+
+2) IAM role ${OWNER}-${ENVIRONMENT}-bootstrap_role
+   a) This role should assume the following role policy:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service":[
+                "ec2.amazonaws.com",
+                "ssm.amazonaws.com"
+              ]
+            },
+            "Effect": "Allow"
+          }
+        ]
+      }
+
+    b) This role should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*",
+              "${STACK_S3_BUCKET_ARN}",
+              "${STACK_S3_BUCKET_ARN}/*",
+              "${ARTIFACTS_S3_BUCKET_ARN}/",
+              "${ARTIFACTS_S3_BUCKET_ARN}/*"
+            ]
+          }
+        ]
+      }
+
+    c) This roles should also have the AWS policy "AmazonEC2RoleforSSM" attached.
+
+3) IAM role ${OWNER}-${ENVIRONMENT}-master_role
+   a) This role should assume the following role policy:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service":[
+                "ec2.amazonaws.com",
+                "ssm.amazonaws.com"
+              ]
+            },
+            "Effect": "Allow"
+          }
+        ]
+      }
+
+    b) This role should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*",
+              "${STACK_S3_BUCKET_ARN}",
+              "${STACK_S3_BUCKET_ARN}/*",
+              "${ARTIFACTS_S3_BUCKET_ARN}/",
+              "${ARTIFACTS_S3_BUCKET_ARN}/*"
+            ]
+          }
+        ]
+      }
+
+    c) This roles should also have the AWS policy "AmazonEC2RoleforSSM" attached.
+
+4) IAM role ${OWNER}-${ENVIRONMENT}-slave_role
+   a) This role should assume the following role policy:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service":[
+                "ec2.amazonaws.com",
+                "ssm.amazonaws.com"
+              ]
+            },
+            "Effect": "Allow"
+          }
+        ]
+      }
+
+    b) This role should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*",
+              "${STACK_S3_BUCKET_ARN}",
+              "${STACK_S3_BUCKET_ARN}/*",
+              "${ARTIFACTS_S3_BUCKET_ARN}/",
+              "${ARTIFACTS_S3_BUCKET_ARN}/*"
+            ]
+          }
+        ]
+      }
+
+    c) This roles should also have the AWS policy "AmazonEC2RoleforSSM" attached.
+
+5) IAM role ${OWNER}-${ENVIRONMENT}-captain_role
+   a) This role should assume the following role policy:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": "sts:AssumeRole",
+            "Principal": {
+              "Service":[
+                "ec2.amazonaws.com",
+                "ssm.amazonaws.com"
+              ]
+            },
+            "Effect": "Allow"
+          }
+        ]
+      }
+
+    b) This role should have the following policy attached:
+
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Action": [
+              "s3:*"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "${APPS_S3_BUCKET_ARN}",
+              "${APPS_S3_BUCKET_ARN}/*",
+              "${STACK_S3_BUCKET_ARN}",
+              "${STACK_S3_BUCKET_ARN}/*",
+              "${ARTIFACTS_S3_BUCKET_ARN}/",
+              "${ARTIFACTS_S3_BUCKET_ARN}/*"
+            ]
+          },
+          {
+            "Action": [
+              "ec2:DescribeInstances"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+          },
+          {
+            "Action": [
+              "ec2:*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Condition": {
+              "StringEquals": {
+                  "ec2:ResourceTag/owner": "${OWNER}"
+              }
+            }
+          }
+        ]
+      }
+
+    c) This roles should also have the AWS policy "AmazonEC2RoleforSSM" attached.
+
+6) IAM instance profile ${OWNER}-${ENVIRONMENT}-bastion_instance_profile
+   a) This profile should have the role ${OWNER}-${ENVIRONMENT}-bastion_role attached.
+
+7) IAM instance profile ${OWNER}-${ENVIRONMENT}-bootstrap_instance_profile
+   a) This profile should have the role ${OWNER}-${ENVIRONMENT}-bootstrap_role attached.
+
+8) IAM instance profile ${OWNER}-${ENVIRONMENT}-master_instance_profile
+   a) This profile should have the role ${OWNER}-${ENVIRONMENT}-master_role attached.
+
+9) IAM instance profile ${OWNER}-${ENVIRONMENT}-slave_instance_profile
+   a) This profile should have the role ${OWNER}-${ENVIRONMENT}-slave_role attached.
+
+10) IAM instance profile ${OWNER}-${ENVIRONMENT}-captain_instance_profile
+   a) This profile should have the role ${OWNER}-${ENVIRONMENT}-captain_role attached.

@@ -1,0 +1,17 @@
+---
+#
+# Requirements file
+#  ansible-galaxy install -r requirements.yml -p ./roles-galaxy/ -i -f
+#
+
+- src: torian.filebeat
+  name: filebeat
+  version: 3.0.2
+
+- src: geerlingguy.nodejs
+  name: nodejs
+  version: 4.1.2
+
+- src: geerlingguy.postgresql
+  name: postgresql
+  version: 1.3.1

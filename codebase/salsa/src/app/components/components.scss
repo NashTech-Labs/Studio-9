@@ -1,0 +1,28 @@
+nav.nav-header.navbar-default {
+  .navbar-nav li.active > a {
+    background-color: #e7e8ed;
+  }
+  &.navbar-conditional {
+    background-color: transparentize($brand-primary, 0.35);
+    margin-top: 2px;
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+  .navbar-conditional {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+  &.nav:after {
+    clear:left;
+  }
+  .navbar-collapse:after {
+    clear:left;
+  }
+  &.navbar:after {
+    clear:left
+  }
+}

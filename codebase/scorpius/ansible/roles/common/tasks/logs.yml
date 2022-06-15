@@ -1,0 +1,37 @@
+---
+
+  - name: Place journald.conf
+    copy:
+     dest: /etc/systemd/journald.conf
+     src: journald.conf
+     owner: root
+     group: root
+     mode: 0644
+
+  - name: Logrotate for syslog
+    copy:
+      dest: /etc/logrotate.d/syslog
+      src: syslog
+      owner: root
+      group: root
+      mode: 0644
+
+  - name: Clean old mesos logs on master nodes
+    cron:
+      name: "clean old mesos logs"
+      minute: 0
+      hour: 2
+      user: root
+      job: "ls -d1tr /var/lib/dcos/mesos/log/archive/* | head -n -5 | xargs -d '\n' rm -rf  --"
+      cron_file: mesos-cleaning-job
+    when: "'master' in group_names"
+
+  - name: Clean old mesos logs on slave nodes
+    cron:
+      name: "clean old mesos logs"
+      minute: 0
+      hour: 2
+      user: root
+      job: "ls -d1tr /var/log/mesos/archive/* | head -n -5 | xargs -d '\n' rm -rf  --"
+      cron_file: mesos-cleaning-job
+    when: "'slave' in group_names or 'public-slave' in group_names or 'gpu-slave' in group_names or 'gpu-jupyter' in group_names or 'slave-jupyter' in group_names"

@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 3,
+      "number_of_replicas": 1,
+      "routing.allocation.total_shards_per_node": 10
+    }
+  },
+  "mappings": {
+    "config_setting": {
+      "_all" : { "enabled" : false },
+      "dynamic": "strict",
+      "properties": {
+        "id": {"type": "keyword"},
+        "service_name": { "type": "keyword" },
+        "setting_name": { "type": "keyword" },
+        "setting_value": { "type": "keyword" },
+        "tags": { "type": "keyword" },
+        "created_at": { "type": "date" },
+        "updated_at": { "type": "date" }
+      }
+    }
+  }
+}

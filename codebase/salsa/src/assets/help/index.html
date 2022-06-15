@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta charset="utf-8" />
+    <title> </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
+    <script type="text/javascript" src="js/nethelp.connect.js" data-responsive="true"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            checkLogin();
+
+            $(window).on('hashchange', function (e) {
+                checkLogin();
+            });
+
+            function checkLogin() {
+                var isLoggedIn = true; //TODO
+                if (!isLoggedIn) {
+                    window.location.href = '../..'
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+    <p id="c1noscript">The content is not shown because JavaScript is disabled.</p>
+    <script type="text/javascript">nethelpRender();</script>
+</body>
+</html>

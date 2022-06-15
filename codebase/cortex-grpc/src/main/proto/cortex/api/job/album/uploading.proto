@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package cortex.api.job.album.uploading;
+
+import "cortex/api/job/album/common.proto";
+import "google/protobuf/wrappers.proto";
+import "cortex/api/job/common.proto";
+
+message InputImage {
+    cortex.api.job.album.common.Image base_image = 1;
+    int64 file_size = 2;
+}
+
+enum AlbumLabelMode {
+    CLASSIFICATION = 0;
+    LOCALIZATION = 1;
+}
+
+message S3ImagesImportRequest {
+    string bucket_name = 1;
+    string aws_region = 2;
+    string aws_access_key = 3;
+    string aws_secret_key = 4;
+    string aws_session_token = 5;
+    string images_path = 6;
+    string labels_csv_path = 7;
+    bytes labels_csv_file = 8;
+    string target_prefix = 9;
+    repeated InputImage images = 10;
+    AlbumLabelMode label_mode = 11;
+    bool apply_log_transformation = 12;
+}
+
+message S3VideoImportRequest {
+    string bucket_name = 1;
+    string aws_region = 2;
+    string aws_access_key = 3;
+    string aws_secret_key = 4;
+    string aws_session_token = 5;
+    string video_path = 6;
+    string target_prefix = 7;
+    int32 frame_capture_rate = 8;
+}
+
+message UploadedImage {
+    cortex.api.job.common.File file = 1;
+    repeated cortex.api.job.album.common.Tag tags = 2;
+    map<string, string> metadata = 3;
+    google.protobuf.StringValue reference_id = 4;
+}
+
+message S3ImagesImportResult {
+    repeated UploadedImage images = 1;
+    repeated cortex.api.job.common.FailedFile failed_files = 2;
+}
+
+message S3VideoImportResult {
+    repeated  cortex.api.job.common.File image_files = 1;
+    cortex.api.job.common.File video_file = 2;
+    int32 video_frame_rate = 3;
+    int32 video_height = 4;
+    int32 video_width = 5;
+}

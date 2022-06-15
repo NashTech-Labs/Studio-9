@@ -1,0 +1,149 @@
+---
+- hosts: all
+  become: yes
+  pre_tasks:
+    - name: gather ec2 facts
+      action: ec2_metadata_facts
+      tags:
+        - always
+  vars:
+    amazon_ssm_agent_url: "{% if private_deployment == 'true' %}https://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/rpm/amazon-ssm-agent.rpm{% else %}https://amazon-ssm-us-east-1.s3.amazonaws.com/latest/linux_amd64/amazon-ssm-agent.rpm{% endif %}"
+    filebeat_use_repo: "{% if private_deployment == 'true' %}{{ False | bool }}{% else %}{{ True | bool }}{% endif %}"
+    filebeat_package_baseurl: "{% if private_deployment == 'true' %}https://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/rpm{% endif %}"
+    filebeat_version: "{% if private_deployment == 'true' %}5.0.0{% else %}5.x{% endif %}"
+    filebeat_config_registry_file: /var/lib/filebeat/registry
+    filebeat_config_prospectors: |
+      filebeat:
+        prospectors:
+          -
+            input_type: log
+            paths:
+              - /var/lib/mesos/slave/slaves/*/frameworks/*/executors/*/runs/latest/stdout
+              - /var/lib/mesos/slave/slaves/*/frameworks/*/executors/*/runs/latest/stderr
+            document_type: "frameworks"
+            registry_file: "{{filebeat_config_registry_file}}_frameworks"
+            exclude_lines: ["DEBUG"]
+            tail_files: true
+          -
+            input_type: log
+            paths:
+              - /var/log/mesos/*.log
+            document_type: "mesos"
+            registry_file: "{{filebeat_config_registry_file}}_mesos"
+            exclude_lines: ["DEBUG"]
+            tail_files: true
+          -
+            input_type: log
+            paths:
+              - /var/log/dcos/dcos.log
+            document_type: "dcos"
+            registry_file: "{{filebeat_config_registry_file}}_dcos"
+            exclude_lines: ["DEBUG"]
+            tail_files: true
+    filebeat_config_output: |
+      output:
+        elasticsearch:
+          hosts: [ "coordinator.elastic.l4lb.thisdcos.directory:9200" ]
+    filebeat_config_shipper: |
+      shipper:
+    filebeat_config_logging: |
+      logging:
+        files:
+          rotateeverybytes: 10485760 # = 10MB
+    filebeat_config: |
+      {{filebeat_config_prospectors}}
+      {{filebeat_config_output}}
+      {{filebeat_config_shipper}}
+      {{filebeat_config_logging}}
+  roles:
+    - common
+    - docker
+    - filebeat
+
+- hosts: bootstrap
+  become: yes
+  vars:
+    security: disabled
+    registry: true
+    enterprise_dcos: false
+    resolvers:
+      - provider_dns_via_user_data
+      - 8.8.4.4
+      - 8.8.8.8
+  roles:
+    - bootstrap
+
+- hosts: master
+  become: yes
+  tasks:
+    - include_role:
+        name: dcos-universe
+      when: "private_deployment == 'true'"
+    - include_role:
+        name: populate-docker-registry
+  roles:
+    - services
+    - deployer
+
+- hosts: slave
+  become: yes
+  roles:
+    - services
+    - deployer
+
+- hosts: public-slave
+  become: yes
+  roles:
+    - services
+    - deployer
+
+- hosts: captain
+  become: yes
+  vars:
+    java_packages: java-1.8.0-openjdk
+    docker_registry_prefix: "cloud.canister.io:5000/"
+    force_pull_docker: "{% if private_deployment == 'true' %}'false'{% else %}'true'{% endif %}"
+    percona_mongo_download_url: "{% if private_deployment == 'true' %}https://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/rpm/Percona-Server-MongoDB-34-shell-3.4.14-2.12.el7.x86_64.rpm{% else %}https://www.percona.com/downloads/percona-server-mongodb-3.4/percona-server-mongodb-3.4.14-2.12/binary/redhat/7/x86_64/Percona-Server-MongoDB-34-shell-3.4.14-2.12.el7.x86_64.rpm{% endif %}"
+    percona_mongo_tools_download_url: "{% if private_deployment == 'true' %}https://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/rpm/Percona-Server-MongoDB-34-tools-3.4.14-2.12.el7.x86_64.rpm{% else %}https://www.percona.com/downloads/percona-server-mongodb-3.4/percona-server-mongodb-3.4.14-2.12/binary/redhat/7/x86_64/Percona-Server-MongoDB-34-tools-3.4.14-2.12.el7.x86_64.rpm{% endif %}"
+    dcos_cli_download_url: "{% if private_deployment == 'true' %}https://{{ s3_endpoint }}/{{ artifacts_s3_bucket }}/packages/dcos-latest/dcos{% else %}https://downloads.dcos.io/binaries/cli/linux/x86-64/dcos-1.10/dcos{% endif %}"
+    nodejs_install_npm_user: root
+    nodejs_npm_global_packages:
+      - name: mongodb
+        version: 2.2.33
+      - name: east
+        version: 0.5.7
+      - name: east-mongo
+        version: 0.3.3
+  tasks:
+    - include_role:
+        name: postgresql
+      when: "online_prediction == 'true'"
+    - include_role:
+        name: nodejs
+      when: "private_deployment != 'true'"
+    - include_role:
+        name: java
+      when: "private_deployment == 'true'"
+  roles:
+    - captain
+    - deployer
+
+- hosts: gpu-slave
+  become: yes
+  roles:
+    - services
+    - deployer
+    - gpu
+
+- hosts: gpu-jupyter
+  become: yes
+  roles:
+    - services
+    - deployer
+    - gpu
+
+- hosts: slave-jupyter
+  become: yes
+  roles:
+    - services
+    - deployer

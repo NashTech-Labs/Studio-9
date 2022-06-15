@@ -1,0 +1,65 @@
+{
+  "id": "um-service",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/um-service:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "network": "BRIDGE",
+      "portMappings": [
+        { "hostPort": 0,
+          "containerPort": 9000,
+          "servicePort": 10003,
+          "labels": {
+            "VIP_0": "/um-service:80"
+          }
+        }
+      ]
+    }
+  },
+  "env": {
+    "MONGODB_URI": "${MONGODB_URI}",
+    "EMAIL_ON": "${EMAIL_ON}",
+    "PLAINTEXT_PASSWORDS": "${PLAINTEXT_PASSWORDS}",
+    "MAIL_HOST": "${MAIL_HOST}",
+    "MAIL_USER": "${MAIL_USER}",
+    "MAIL_PASSWORD": "${MAIL_PASSWORD}"
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu-jupyter"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "cpu-jupyter"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/api/um-service/v0.1/healthCheck",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  }
+}

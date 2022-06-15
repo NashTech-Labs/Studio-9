@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <references>
+   <join>settings.xml</join>
+  </references>
+</settings>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <theme>
+    <layout>themes/Responsive/layout.html</layout>
+    <stylesheet>css/jquerymobile/light/jquery.mobile.css</stylesheet>
+  </theme>
+  <references>
+    <join>themes/Responsive/settings.theme.xml</join>
+    <join>themes/Responsive/settings.en-us.xml</join>
+    <css>LinksExt/D2H_HTML.css</css>
+  </references>
+  <strings>
+    <pageHeaderText>inSilico Help Documentation</pageHeaderText>
+    <emailAddress>support@mycompany.com</emailAddress>
+  </strings>
+  <windows>
+    <window>
+      <name>proc</name>
+      <features>left=680,top=10,height=500,width=315,resizable=1,scrollbars=1</features>
+    </window>
+  </windows>
+</settings>

@@ -1,0 +1,514 @@
+{
+    "variables": {
+      "aws_access_key":    "",
+      "aws_secret_key":    "",
+      "aws_region":        "{{env `REGION`}}",
+      "aws_build_regions": "{{env `REGION`}}",
+      "aws_source_ami":    "{{env `AMI`}}",
+      "owner":             "{{env `OWNER`}}",
+      "environment":       "{{env `ENVIRONMENT`}}",
+      "aws_instance_type": "t2.medium",
+      "aws_vpc_id":        "{{env `PACKER_VPC_ID`}}",
+      "aws_subnet_id":     "{{env `PACKER_SUBNET_ID`}}",
+      "image_name":        "",
+      "ssh_username":      "{{env `MAIN_USER`}}",
+      "main_user":         "{{env `MAIN_USER`}}",
+      "git_commit":        "",
+      "build_author":      "{{env `USER`}}",
+      "build_uuid":        "",
+      "dcos_download_url": "{{ env `DCOS_DOWNLOAD_URL`}}",
+      "online_prediction": "{{ env `ONLINE_PREDICTION`}}",
+      "requirements_file": "{{ env `REQUIREMENTS_FILE`}}",
+      "machine_os":        "{{ env `MACHINE_OS`}}",
+      "packer_log_file":   "{{ env `PACKER_LOG_FILE`}}",
+      "logs_s3_path":   "{{ env `LOGS_S3_PATH`}}",
+      "dcos_apps_bucket": "{{ env `DCOS_APPS_BUCKET` }}",
+
+
+      "master_xvde_size":  "{{ env `MASTER_XVDE_SIZE`}}",
+      "master_xvdf_size":  "{{ env `MASTER_XVDF_SIZE`}}",
+      "master_xvdh_size":  "{{ env `MASTER_XVDH_SIZE`}}",
+
+      "slave_xvde_size":   "{{ env `SLAVE_XVDE_SIZE`}}",
+      "slave_xvdf_size":   "{{ env `SLAVE_XVDF_SIZE`}}",
+      "slave_xvdg_size":   "{{ env `SLAVE_XVDG_SIZE`}}",
+      "slave_xvdh_size":   "{{ env `SLAVE_XVDH_SIZE`}}",
+
+      "slave_jupyter_xvde_size":   "{{ env `SLAVE_JUPYTER_XVDE_SIZE`}}",
+      "slave_jupyter_xvdf_size":   "{{ env `SLAVE_JUPYTER_XVDF_SIZE`}}",
+      "slave_jupyter_xvdg_size":   "{{ env `SLAVE_JUPYTER_XVDG_SIZE`}}",
+      "slave_jupyter_xvdh_size":   "{{ env `SLAVE_JUPYTER_XVDH_SIZE`}}",
+
+      "public_slave_xvde_size":   "{{ env `PUBLIC_SLAVE_XVDE_SIZE`}}",
+      "public_slave_xvdf_size":   "{{ env `PUBLIC_SLAVE_XVDF_SIZE`}}",
+      "public_slave_xvdh_size":   "{{ env `PUBLIC_SLAVE_XVDH_SIZE`}}",
+
+      "gpu_slave_xvde_size":   "{{ env `GPU_SLAVE_XVDE_SIZE`}}",
+      "gpu_slave_xvdf_size":   "{{ env `GPU_SLAVE_XVDF_SIZE`}}",
+      "gpu_slave_xvdh_size":   "{{ env `GPU_SLAVE_XVDH_SIZE`}}",
+
+      "gpu_jupyter_xvde_size":   "{{ env `GPU_JUPYTER_XVDE_SIZE`}}",
+      "gpu_jupyter_xvdf_size":   "{{ env `GPU_JUPYTER_XVDF_SIZE`}}",
+      "gpu_jupyter_xvdh_size":   "{{ env `GPU_JUPYTER_XVDH_SIZE`}}",
+
+      "s3_endpoint": "{{ env `S3_ENDPOINT`}}",
+      "artifacts_s3_bucket": "{{ env `ARTIFACTS_S3_BUCKET`}}",
+      "aws_security_group_id": "{{ env `PACKER_SECURITY_GROUP`}}",
+      "aws_iam_instance_profile": "{{ env `PACKER_IAM_INSTANCE_PROFILE`}}",
+      "private_deployment": "{{ env `PRIVATE_DEPLOYMENT`}}",
+      "install_amazon_ssm_agent": "{{ env `INSTALL_AMAZON_SSM_AGENT`}}",
+      "use_iam_roles": "{{ env `USE_IAM_ROLES`}}",
+      "packer_ssh_timeout": "{{ env `PACKER_SSH_TIMEOUT`}}",
+      "packer_ssh_private_ip": "{{ env `PACKER_SSH_PRIVATE_IP`}}",
+      "install_aws_cli": "{{ env `INSTALL_AWS_CLI`}}",
+      "aws_ca_bundle": "{{ env `AWS_CA_BUNDLE`}}"
+
+    },
+    "builders": [
+      {
+        "name": "bootstrap",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "bootstrap-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name":        "bootstrap-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role":        "bootstrap",
+          "BuildDate":   "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID":   "{{user `build_uuid`}}",
+          "GitCommit":   "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "master",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "master-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvde",
+            "volume_size": "{{ user `master_xvde_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdf",
+            "volume_size": "{{ user `master_xvdf_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdh",
+            "volume_size": "{{ user `master_xvdh_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name":        "master-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role":        "master",
+          "BuildDate":   "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID":   "{{user `build_uuid`}}",
+          "GitCommit":   "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "slave",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "slave-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvde",
+            "volume_size": "{{ user `slave_xvde_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdf",
+            "volume_size": "{{ user `slave_xvdf_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdg",
+            "volume_size": "{{ user `slave_xvdg_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdh",
+            "volume_size": "{{ user `slave_xvdh_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name": "slave-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role": "slave",
+          "BuildDate": "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID": "{{user `build_uuid`}}",
+          "GitCommit": "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "public-slave",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "public-slave-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvde",
+            "volume_size": "{{ user `public_slave_xvde_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdf",
+            "volume_size": "{{ user `public_slave_xvdf_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdh",
+            "volume_size": "{{ user `public_slave_xvdh_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name": "public-slave-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role": "public-slave",
+          "BuildDate": "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID": "{{user `build_uuid`}}",
+          "GitCommit": "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "gpu-slave",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "gpu-slave-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvde",
+            "volume_size": "{{ user `gpu_slave_xvde_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdf",
+            "volume_size": "{{ user `gpu_slave_xvdf_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdh",
+            "volume_size": "{{ user `gpu_slave_xvdh_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name": "gpu-slave-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role": "gpu-slave",
+          "BuildDate": "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID": "{{user `build_uuid`}}",
+          "GitCommit": "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "captain",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "captain-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name":        "captain-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role":        "captain",
+          "BuildDate":   "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID":   "{{user `build_uuid`}}",
+          "GitCommit":   "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "slave-jupyter",
+        "type": "amazon-ebs",
+        "access_key":    "{{user `aws_access_key`}}",
+        "secret_key":    "{{user `aws_secret_key`}}",
+        "region":        "{{user `aws_region`}}",
+        "source_ami":    "{{user `aws_source_ami`}}",
+        "vpc_id":        "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id":     "{{user `aws_subnet_id`}}",
+        "ssh_username":  "{{user `ssh_username`}}",
+        "ssh_timeout":   "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip":   "{{user `packer_ssh_private_ip`}}",
+        "ami_name":      "slave-jupyter-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions":   "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvde",
+            "volume_size": "{{ user `slave_jupyter_xvde_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdf",
+            "volume_size": "{{ user `slave_jupyter_xvdf_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdg",
+            "volume_size": "{{ user `slave_jupyter_xvdg_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdh",
+            "volume_size": "{{ user `slave_jupyter_xvdh_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name": "slave-jupyter-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role": "slave-jupyter",
+          "BuildDate": "{{isotime}}",
+          "BuildAuthor": "{{user `build_author`}}",
+          "BuildUUID": "{{user `build_uuid`}}",
+          "GitCommit": "{{user `git_commit`}}"
+        }
+      },
+      {
+        "name": "gpu-jupyter",
+        "type": "amazon-ebs",
+        "access_key": "{{user `aws_access_key`}}",
+        "secret_key": "{{user `aws_secret_key`}}",
+        "region": "{{user `aws_region`}}",
+        "source_ami": "{{user `aws_source_ami`}}",
+        "vpc_id": "{{user `aws_vpc_id`}}",
+        "instance_type": "{{user `aws_instance_type`}}",
+        "subnet_id": "{{user `aws_subnet_id`}}",
+        "ssh_username": "{{user `ssh_username`}}",
+        "ssh_timeout": "{{user `packer_ssh_timeout`}}",
+        "ssh_private_ip": "{{user `packer_ssh_private_ip`}}",
+        "ami_name": "gpu-slave-jupyter-service-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+        "ami_regions": "{{user `aws_build_regions`}}",
+        "security_group_id": "{{user `aws_security_group_id`}}",
+        "iam_instance_profile": "{{user `aws_iam_instance_profile`}}",
+        "launch_block_device_mappings": [
+          {
+            "device_name": "/dev/sda1",
+            "volume_size": 30,
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvde",
+            "volume_size": "{{ user `gpu_jupyter_xvde_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdf",
+            "volume_size": "{{ user `gpu_jupyter_xvdf_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          },
+          {
+            "device_name": "/dev/xvdh",
+            "volume_size": "{{ user `gpu_jupyter_xvdh_size`}}",
+            "volume_type": "gp2",
+            "delete_on_termination": true
+          }
+        ],
+        "ssh_pty": "true",
+        "tags": {
+          "Name": "gpu-slave-jupyter-service-{{user `owner`}}-{{user `environment`}}-{{timestamp}}",
+          "Role": "gpu-slave-jupyter-service",
+          "BuildDate": "{{isotime}}",
+          "BuildUUID": "{{user `build_uuid`}}",
+          "GitCommit": "{{user `git_commit`}}"
+        }
+      }
+    ],
+    "provisioners": [
+      {
+        "type": "shell",
+        "script": "./packer/scripts/install.sh",
+        "environment_vars": [
+          "MACHINE_OS={{user `machine_os`}}",
+          "PACKER_LOG_FILE={{user `packer_log_file`}}",
+          "LOGS_S3_PATH={{user `logs_s3_path`}}",
+          "DCOS_APPS_BUCKET={{user `dcos_apps_bucket`}}",
+          "S3_ENDPOINT={{user `s3_endpoint`}}",
+          "ARTIFACTS_S3_BUCKET={{user `artifacts_s3_bucket`}}",
+          "AWS_ACCESS_KEY_ID={{user `aws_access_key`}}",
+          "AWS_SECRET_ACCESS_KEY={{user `aws_secret_key`}}",
+          "AWS_DEFAULT_REGION={{user `aws_region`}}",
+          "PRIVATE_DEPLOYMENT={{user `private_deployment`}}",
+          "USE_IAM_ROLES={{user `use_iam_roles`}}",
+          "INSTALL_AWS_CLI={{user `install_aws_cli`}}",
+          "AWS_CA_BUNDLE={{user `aws_ca_bundle`}}"
+        ]
+      },
+      {
+        "type": "ansible-local",
+        "playbook_file": "packer/playbook.yml",
+        "playbook_dir": "./ansible/",
+        "galaxy_file": "{{user `requirements_file`}}",
+        "extra_arguments": [
+          "-i /etc/ansible/hosts",
+          "--extra-vars \"dcos_download_url={{ user `dcos_download_url`}}\"",
+          "-e \"online_prediction={{ user `online_prediction`}}\"",
+          "-e \"artifacts_s3_bucket={{ user `artifacts_s3_bucket`}}\"",
+          "-e \"s3_endpoint={{ user `s3_endpoint`}}\"",
+          "-e \"main_user={{ user `main_user`}}\"",
+          "-e \"private_deployment={{ user `private_deployment`}}\"",
+          "-e \"install_amazon_ssm_agent={{ user `install_amazon_ssm_agent`}}\""
+        ]
+      },
+      {
+        "type": "ansible-local",
+        "playbook_file": "packer/cleanup.yml",
+        "playbook_dir": "./ansible/",
+        "extra_arguments": [
+          "-i /etc/ansible/hosts",
+          "--extra-vars \"main_user={{ user `main_user`}}\""
+        ]
+      }
+    ]
+}

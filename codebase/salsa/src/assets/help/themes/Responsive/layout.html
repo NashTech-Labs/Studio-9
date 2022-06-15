@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link id="c1jqmiconpack" rel="stylesheet" type="text/css" media="all" href="font-awesome/icons.css" />
+    <link id="c1themecss" rel="stylesheet" type="text/css" media="all" href="theme.css" />
+    <link id="c1topiccss" rel="stylesheet" type="text/css" media="all" href="topic.css" class="for-topic" />
+    <link id="c1customiconscss" rel="stylesheet" type="text/css" media="all" href="custom-icons.css" class="for-topic" />
+    <link id="c1usercss" rel="stylesheet" type="text/css" media="all" href="user.css" class="for-topic" />
+    <script id="c1themejs" type="text/javascript" src="theme.js" class="for-topic"></script>
+    <script id="c1searchaddonsjs" type="text/javascript" src="search-addons.js"></script>
+    <script id="c1userjs" type="text/javascript" src="user.js" class="for-topic"></script>
+</head>
+<body>
+<div id="c1page" data-role="page" data-theme="d" class="abs fill-h fill-v crop">
+    <div id="c1main" class="abs fill-h">
+        <div id="c1side" class="abs fill-v" data-role="content" data-c1-role="sidePanel"><div id="c1sideInner">
+	        <div id="c1sidePanelHeader" data-role="header" class="c1-header abs fill-h crop">
+		        <a id="c1tocBack" href="#" data-icon="arrow-l" data-corners="false" data-iconpos="notext" data-shadow="true" data-iconshadow="true">Back</a>
+                <h1 id="c1sidePanelHeaderTitle"></h1>
+                <img id="c1sidePanelLogo" alt="Doc-To-Help" src="" class="c1-header-logo" />
+	        </div>
+            <div id="c1sideSearch" data-role="header" class="abs fill-h" data-c1-role="search">
+                <input id="c1searchFilter" maxlength="255" type="search" placeholder="Search..." />
+            </div>
+            <div id="c1sideTabs" class="abs fill-h fill-v">
+                <div id="c1sideTabsPanel" class="abs">
+                    <div id="c1tabToc" class="abs fill-v fill-h scroll" data-c1-role="toc">
+                        <ul id="c1toc" data-role="listview"></ul>
+                    </div>
+                    <div id="c1tabIndex" class="abs fill-v fill-h" data-c1-role="index">
+                        <div data-role="header" id="c1indexFilterPanel" class="abs fill-h">
+                            <div id="c1indexFilterBlock">
+                                <input id="c1indexFilter" type="search" title="Filter" placeholder="Filter..." />
+                            </div>
+                        </div>
+                        <ul id="c1index" data-role="listview" class="abs fill-h scroll" data-input="#c1indexFilter"></ul>
+                    </div>
+                    <div id="c1tabSearch" class="abs fill-v fill-h">
+                        <ul id="c1search" data-role="listview" class="abs fill-h scroll" data-input="#c1searchFilter"></ul>
+                    </div>
+                    <div id="c1tabFavorites" class="abs fill-v fill-h" data-c1-role="favorites">
+                        <ul id="c1favorites" data-role="listview" data-filter="true" data-filter-placeholder="Filter favorites..." data-split-icon="delete" class="abs fill-h scroll"></ul>
+                    </div>
+                </div>
+		        <div id="c1sideBar" data-c1-role="navBar" data-role="footer" >
+                    <div data-role="navbar" data-iconpos="top">
+				        <ul id="c1sideTabsHeader">
+					        <li><a id="c1contentsButton" data-role="button" data-inline="true" href="#c1tabToc" data-icon="icon-book" class="ui-icon-nodisc" data-iconshadow="false"><span id="c1tabTocLabel">Contents</span></a></li>
+					        <li><a id="c1indexButton" data-role="button" data-inline="true" href="#c1tabIndex" data-icon="icon-list-ul" class="ui-icon-nodisc" data-iconshadow="false"><span id="c1tabIndexLabel">Index</span></a></li>
+					        <!--<li><a id="c1searchButton" href="#c1tabSearch" data-role="button" data-mini="true" data-icon="search" data-iconpos="left">Search</a></li>-->
+					        <li><a id="c1favoritesButton" href="#c1tabFavorites" data-role="button" data-mini="true" data-icon="icon-star" class="ui-icon-nodisc" data-iconshadow="false"><span id="c1tabFavoriesLabel">Favorites</span></a></li>
+				        </ul>
+			        </div>
+                </div>
+            </div>
+        </div></div>
+        <div id="c1content" class="content abs fill-v">
+            <div id="c1header" class="c1-header abs fill-h crop" data-role="header" data-c1-role="pageHeader">
+                <div id="c1topLeftBar" data-c1-role="toolbars.left">
+                </div>
+                <h1 id="c1headerText" class="c1-header-text"></h1>
+			    <div id="c1topBar" data-c1-role="toolbars.right">
+                </div>
+            </div>
+            <div id="c1contentInner">
+            <div id="c1topicPanel" data-role="content" class="content-topic abs fill-h topiconly-container" style="display:none;" data-c1-role="topic">
+                <div id="c1topicPanelInner" class="abs fill-h fill-v scroll">
+                    <div id="c1topicBar">
+                        <div id="c1breadcrumbs" style="display:none;"></div>
+                        <div id="c1collapsiblePanel" style="display:none;" data-role="controlgroup" data-type="horizontal" data-mini="true" data-corners="false">
+                            <a id="c1expandAll" data-role="button">Expand All</a>
+                            <a id="c1collapseAll" data-role="button">Collapse All</a>
+                        </div>
+                    </div>
+                    <div id="c1topic"></div>
+                </div>
+            </div>
+            <div id="c1topicSpinner" data-c1-role="topic.spinner"></div>
+            <div id="c1popupButtons" data-role="popup">
+                <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
+            </div>
+        </div>
+        </div>
+    </div>                
+</div>
+</body>
+</html>

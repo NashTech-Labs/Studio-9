@@ -1,0 +1,113 @@
+{
+  "id": "orion-api-rest",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/orion-api-rest:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "containerPort": 9000,
+          "labels": {
+            "VIP_0": "/orion-api-rest:9000"
+          }
+        },
+        {
+          "hostPort": 0,
+          "containerPort": 2552
+        }
+      ]
+    }
+  },
+  "env": {
+    "HTTP_SEARCH_USER_NAME": "${HTTP_SEARCH_USER_NAME}",
+    "ZOOKEEPER_URL": "${ZOOKEEPER_URL}",
+    "RABBIT_HOSTS": "${RABBIT_HOSTS}",
+    "RABBIT_USERNAME": "${RABBIT_USERNAME}",
+    "MARATHON_CLIENT_MARATHON_ENDPOINT": "${MARATHON_CLIENT_MARATHON_ENDPOINT}",
+    "JOB_MASTER_START_TIMEOUT": "${JOB_MASTER_START_TIMEOUT}",
+    "JOB_MASTER_HEARTBEAT_TIMEOUT": "${JOB_MASTER_HEARTBEAT_TIMEOUT}",
+    "JOB_MASTER_DOCKER_IMAGE": "${JOB_MASTER_DOCKER_IMAGE}",
+    "JOB_MASTER_MESOS_MASTER_ADDRESS": "${JOB_MASTER_MESOS_MASTER_ADDRESS}",
+    "JOB_MASTER_CPUS": "${JOB_MASTER_CPUS}",
+    "JOB_MASTER_MEMORY": "${JOB_MASTER_MEMORY}",
+    "JOB_MASTER_INSTANCES": "${JOB_MASTER_INSTANCES}",
+    "JOB_MASTER_S3_REGION": "${JOB_MASTER_S3_REGION}",
+    "JOB_MASTER_S3_BUCKET": "${JOB_MASTER_S3_BUCKET}",
+    "JOB_MASTER_S3_ACCESS_KEY": "${JOB_MASTER_S3_ACCESS_KEY}",
+    "JOB_MASTER_S3_SECRET_KEY": "${JOB_MASTER_S3_SECRET_KEY}",
+    "JOB_MASTER_S3_TABLES_DIR": "${JOB_MASTER_S3_TABLES_DIR}",
+    "JOB_MASTER_CORTEX_TASK_VERSION": "${JOB_MASTER_CORTEX_TASK_VERSION}",
+    "JOB_MASTER_CORTEX_TASK_REGISTRY_PREFIX": "${JOB_MASTER_CORTEX_TASK_REGISTRY_PREFIX}",
+    "AKKA_LOGLEVEL": "${AKKA_LOGLEVEL}",
+    "JOB_SUPERVISOR_MESSAGE_PUBLISHING_TIMEOUT": "${JOB_SUPERVISOR_MESSAGE_PUBLISHING_TIMEOUT}",
+    "JOB_MASTER_REDSHIFT_USERNAME": "${JOB_MASTER_REDSHIFT_USERNAME}",
+    "JOB_MASTER_REDSHIFT_S3_IAM_ROLE": "${JOB_MASTER_REDSHIFT_S3_IAM_ROLE}",
+    "JOB_MASTER_REDSHIFT_HOST": "${JOB_MASTER_REDSHIFT_HOST}",
+    "JOB_MASTER_REDSHIFT_DATABASE": "${JOB_MASTER_REDSHIFT_DATABASE}",
+    "JOB_MASTER_REDSHIFT_PORT": "${JOB_MASTER_REDSHIFT_PORT}",
+    "AKKA_PERSISTENCE_MONGODB_URI": "${AKKA_PERSISTENCE_MONGODB_URI}",
+    "AKKA_PERSISTENCE_MONGODB_WRITE_CONCERN": "${AKKA_PERSISTENCE_MONGODB_WRITE_CONCERN}",
+    "JOB_MASTER_BAILE_URL": "${JOB_MASTER_BAILE_URL}",
+    "JOB_MASTER_SQL_SERVER_URL": "${JOB_MASTER_SQL_SERVER_URL}",
+    "JOB_MASTER_REDSHIFT_PASSWORD": {
+      "secret": "redshift_password"
+    },
+    "HTTP_SEARCH_USER_PASSWORD": {
+      "secret": "orion_http_search_user_password"
+    },
+    "RABBIT_PASSWORD": {
+      "secret": "rabbitmq_password"
+    }
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu-jupyter"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "cpu-jupyter"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/v1/health",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  },
+  "secrets": {
+    "orion_http_search_user_password": {
+      "source": "orion_http_search_user_password"
+    },
+    "rabbitmq_password": {
+      "source": "rabbitmq_password"
+    },
+    "redshift_password": {
+      "source": "redshift_password"
+    }
+  }
+}

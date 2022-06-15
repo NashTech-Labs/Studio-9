@@ -1,0 +1,32 @@
+table.diaa-air-table {
+  td .glyphicon {
+    margin-right: 5px;
+  }
+
+  td.locked,
+  th.locked {
+    opacity: 0.5;
+  }
+
+  td.di-warning {
+    color: red;
+  }
+}
+
+table.diaa-goal-table {
+  @extend table.diaa-air-table;
+
+  td.locked,
+  th.locked {
+    cursor: not-allowed;
+  }
+
+  td:not(.locked) {
+    cursor: pointer;
+
+    &:hover {
+      background-color: $brand-primary;
+      color: white;
+    }
+  }
+}

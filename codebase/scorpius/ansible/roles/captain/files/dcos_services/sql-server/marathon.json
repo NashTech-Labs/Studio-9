@@ -1,0 +1,102 @@
+{
+  "id": "/sql-server",
+  "backoffFactor": 1.15,
+  "backoffSeconds": 1,
+  "constraints": [
+    [
+      "hostname",
+      "UNIQUE"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "gpu"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "gpu-jupyter"
+    ],
+    [
+      "cluster",
+      "UNLIKE",
+      "cpu-jupyter"
+    ]
+  ],
+  "container": {
+    "portMappings": [
+      {
+        "containerPort": 8000,
+        "hostPort": 0,
+        "labels": {
+          "VIP_0": "/sql-server:8000"
+        }
+      },
+      {
+        "containerPort": 2552,
+        "hostPort": 0
+      }
+    ],
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_REGISTRY_PREFIX}knoldususa/sql-server:${DOCKER_IMAGE_VERSION}",
+      "forcePullImage": ${FORCE_PULL_DOCKER},
+      "privileged": false,
+      "parameters": []
+    }
+  },
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "instances": ${SRV_INSTANCES},
+  "env": {
+    "SRV_MEM": "${SRV_MEM}",
+    "BAILE_URL": "${BAILE_URL}",
+    "UM_SERVICE_URL": "${UM_SERVICE_URL}",
+    "SRV_INSTANCES": "${SRV_INSTANCES}",
+    "SRV_CPUS": "${SRV_CPUS}",
+    "BAILE_USERNAME": "${BAILE_USERNAME}",
+    "HTTP_SERVER_PREFIX": "${HTTP_SERVER_PREFIX}",
+    "DB_PROTOCOL": "${DB_PROTOCOL}",
+    "DB_NAME": "${DB_NAME}",
+    "DB_HOST": "${DB_HOST}",
+    "DB_USERNAME": "${DB_USERNAME}",
+    "DB_PORT": "${DB_PORT}",
+    "DB_PASSWORD": {
+      "secret": "redshift_password"
+     },
+    "BAILE_PASSWORD": {
+      "secret": "baile_http_auth_user_password"
+     }
+  },
+  "healthChecks": [
+    {
+      "gracePeriodSeconds": 60,
+      "ignoreHttp1xx": false,
+      "intervalSeconds": 2,
+      "maxConsecutiveFailures": 10,
+      "portIndex": 0,
+      "timeoutSeconds": 10,
+      "delaySeconds": 15,
+      "protocol": "HTTP",
+      "path": "/${HTTP_SERVER_PREFIX}/health"
+    }
+  ],
+  "networks": [
+    {
+      "mode": "container/bridge"
+    }
+  ],
+  "requirePorts": false,
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  },
+  "secrets": {
+     "baile_http_auth_user_password": {
+        "source": "baile_http_auth_user_password"
+     },
+     "redshift_password": {
+       "source": "redshift_password"
+    }
+  }
+}

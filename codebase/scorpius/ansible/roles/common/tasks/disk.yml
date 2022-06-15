@@ -1,0 +1,51 @@
+---
+#
+# Tasks to partition and mount a disk
+#
+
+- name: Partition disk
+  parted:
+    device: "/dev/{{item.key}}"
+    number: 1
+    state:  present
+  when: ansible_devices[item.key] is defined
+  with_dict: "{{common_disk}}"
+
+- name: Create filesystem
+  filesystem:
+    dev:    "/dev/{{item.key}}1"
+    fstype: "{{item.value.filesystem|default('ext4')}}"
+    opts:   "{{item.value.fs_opts|default('')}}"
+  when: ansible_devices[item.key] is defined
+  with_dict: "{{common_disk}}"
+
+- name: Filesystem mountpoint
+  file:
+    state: directory
+    path:  "{{item.value.mount_point}}"
+  when: ansible_devices[item.key] is defined
+  with_dict: "{{common_disk}}"
+
+- name: Ensure partition is mounted
+  mount:
+    state:  mounted
+    name:   "{{item.value.mount_point}}"
+    src:    "/dev/{{item.key}}1"
+    fstype: "auto"
+    opts:   "{{item.value.mount_opts|default('defaults,comment=cloudconfig')}}"
+    dump:   "{{item.value.mount_dump|default(0)}}"
+    passno: "{{item.value.mount_passno|default(2)}}"
+  when: ansible_devices[item.key] is defined
+  with_dict: "{{common_disk}}"
+
+- name: Permissions on mountpoint
+  file:
+    state: directory
+    path:  "{{item.value.mount_point}}"
+    owner: "{{item.value.owner|default('root')}}"
+    group: "{{item.value.group|default('root')}}"
+    mode:  "{{item.value.group|default('0755')}}"
+  when: ansible_devices[item.key] is defined
+  with_dict: "{{common_disk}}"
+
+# vi:ts=2:sw=2:et:ft=yaml

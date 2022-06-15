@@ -1,0 +1,335 @@
+$train-primary-color: lighten($brand-primary, 15); /* #115fd4; */
+$train-text-color: #aaa;
+$train-active-color: lighten($brand-primary, 40);
+$train-possible-color: lighten($brand-warning, 30);
+$train-not-possible-color: lighten($brand-danger, 30);
+
+.model-pipeline-summary-embed {
+  color: $train-text-color;
+}
+
+.model-pipeline-summary-container {
+  margin-right: 10px;
+}
+
+dl.train-dl-summary {
+  margin-bottom: 0;
+  > dt {
+    white-space: inherit;
+  }
+  > dd:not(:last-child) {
+    padding-bottom: 10px;
+  }
+  > dd > table.table {
+    margin-bottom: 5px;
+  }
+
+  &:not(:last-child) {
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid $train-text-color;
+  }
+}
+
+.train-toggle-btn {
+  cursor: pointer;
+  width: 6.5em;
+  float: left;
+  margin-right: 5px;
+  text-align: left;
+}
+// Labels with path
+train-label {
+  svg {
+    width:100%;
+    height: 30px;
+    text.text-label {
+      font-size: $font-size-large;
+      font-weight: bold;
+      fill: $train-text-color;
+    }
+    line {
+      &.delimiter {
+        stroke-width: 2px;
+        stroke: $train-text-color;
+      }
+    }
+    path {
+      &.delimiter {
+        fill: $train-text-color;
+        stroke: $train-text-color;
+        stroke-width: 2px;
+      }
+    }
+  }
+}
+//inverted colors here
+model-train-summary {
+  span {
+    color: $train-active-color;
+  }
+  div.resources-number {
+    color: $train-active-color;
+    margin-top: 0;
+    font-size: ceil($font-size-base * 1.7);
+  }
+  svg {
+    path,
+    line {
+      stroke: $train-text-color;
+      stroke-width: 1px;
+    }
+  }
+  progress-bar,
+  chart-gauge,
+  box-chart,
+  chart-bar,
+  chart-one-d-scatter,
+  chart-two-d-scatter {
+    svg {
+      text {
+        fill: $train-text-color;
+      }
+    }
+  }
+  chart-bar {
+    rect {
+      fill: $train-primary-color;
+    }
+  }
+  chart-gauge {
+    line {
+      &.delimiter {
+        stroke: $train-text-color;
+      }
+    }
+    path {
+      &.delimiter,
+      &.left-delimiter,
+      &.right-delimiter {
+        fill: $train-text-color;
+        stroke: $train-text-color;
+      }
+    }
+    text {
+      &.donutText {
+        fill: $train-text-color;
+      }
+      &.donutText.active {
+        fill: $train-active-color;
+      }
+      &.global-progress-text {
+        fill: $train-active-color;
+      }
+      &.progress-text {
+        fill: $train-text-color;
+      }
+    }
+    path.arc-tick {
+      fill: $train-text-color;
+      &.active {
+        fill: $train-active-color;
+      }
+    }
+    path.background {
+      fill: $train-text-color;
+    }
+    path.foreground {
+      fill: $train-active-color;
+    }
+  }
+
+  chart-two-d-scatter {
+    svg {
+      g.series rect {
+        fill: $train-primary-color;
+        &.active {
+          fill: $train-active-color;
+          stroke: none;
+        }
+
+        &.possible {
+          fill: $train-possible-color;
+          stroke: none;
+        }
+
+        &.not_possible {
+          fill: $train-not-possible-color;
+          stroke: none;
+        }
+      }
+    }
+  }
+  //iteration chart
+  .train-container {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    background: rgb(0, 0, 0);
+    .btn.btn-secondary {
+      color: dimgray;
+    }
+    svg.iterations {
+      g.iteration {
+        cursor: pointer;
+        &:hover {
+          text {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    //progressbar
+    progress-bar {
+      svg {
+        width: 100%;
+        height: 30px;
+        text {
+          fill: $train-text-color;
+        }
+        line {
+          &.background {
+            stroke: $train-text-color;
+          }
+          &.foreground {
+            stroke: $train-primary-color;
+          }
+        }
+      }
+    }
+    //techniques chart
+    train-techniques-chart {
+      line {
+        &.delimiter {
+          stroke: $train-text-color;
+          stroke-width: 2px;
+        }
+      }
+      path {
+        &.delimiter {
+          fill: $train-text-color;
+          stroke: $train-text-color;
+          stroke-width: 2px;
+        }
+      }
+      div.toolTip {
+        display: inline-block;
+      }
+      svg {
+        width: 100%;
+        g.stage {
+          g {
+            &.right-button,
+            &.left-button {
+              cursor: pointer;
+              path {
+                fill: $train-text-color;
+                stroke: transparent;
+                stroke-width: 10px;
+              }
+            }
+          }
+          text.stage-label {
+            fill: $train-text-color;
+            font-size: ceil($font-size-base * 1.05);
+            font-weight: bold;
+          }
+          text.technique {
+            fill: white;
+            font-size: $font-size-small;
+          }
+          text.technique-label {
+            fill: white;
+            font-size: $font-size-small;
+          }
+          rect {
+            &.technique {
+              fill: $train-primary-color;
+            }
+            &.active-technique {
+              fill: $train-active-color;
+            }
+          }
+          g.chart {
+            rect {
+              &.parameter {
+                fill: $train-primary-color;
+              }
+              &.active-parameter {
+                fill: $train-active-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .row.train-resource-group {
+      > div {
+        height: 100px;
+      }
+    }
+  }
+
+  .scrollbar {
+    &.scrollbar-style::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: $train-text-color;
+      border-radius: 0;
+    }
+
+    &.scrollbar-style::-webkit-scrollbar {
+      width: 5px;
+      background-color: $train-text-color;
+    }
+
+    &.scrollbar-style::-webkit-scrollbar-thumb {
+      border-radius: 0;
+      background-color: $train-active-color;
+    }
+    margin-bottom: 15px;
+    overflow-y: auto;
+    svg {
+      width: 100%;
+      text {
+        fill: $train-text-color;
+        &.active {
+          fill: $train-active-color;
+        }
+      }
+      line {
+        &.background {
+          stroke: $train-text-color;
+          stroke-width: 1px;
+        }
+        &.foreground {
+          stroke: $train-text-color;
+          stroke-width: 4px;
+        }
+        &.foreground.active {
+          stroke: $train-active-color;
+          stroke-width: 4px;
+        }
+      }
+    }
+  }
+
+  .scrollbar > svg {
+    width: 100%
+  }
+}
+
+app-augmentation-summary {
+  .step-title-row:not(:first-child),
+  .step-footer-row {
+    border-top: 1px solid black;
+  }
+}
+
+cv-model-view {
+  dl {
+    margin-bottom: 0;
+  }
+}

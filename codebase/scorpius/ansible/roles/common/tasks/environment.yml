@@ -1,0 +1,22 @@
+---
+
+- name: Install etc-environment service
+  copy:
+    src: etc-environment.service
+    dest: /etc/systemd/system/etc-environment.service
+
+- name: Install etc-environment target
+  copy:
+    src: etc-environment.target
+    dest: /etc/systemd/system/etc-environment.target
+
+- name: Install etc-environment script
+  copy:
+    src: etc-environment.py
+    dest: /usr/local/bin/etc-environment.py
+    mode: 0755
+
+- name: Enable etc-environment service
+  service:
+    name: etc-environment
+    enabled: yes

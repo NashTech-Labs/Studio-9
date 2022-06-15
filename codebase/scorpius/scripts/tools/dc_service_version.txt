@@ -1,0 +1,12 @@
+baile:2.1.6-1126-g18cd8d7
+baile-haproxy:cccb524
+cortex-api-rest:2.1.0-22-g33b555e
+gemini:0.0.0-b8b80b28c7ec3a6c2bc2af9ba02d8b3a76c5bd43
+cortex-tasks-jupyterlab:62c7bbb
+orion-api-rest:2.1.0-68-gb3d6589
+cortex-tasks-gpu:0dc5752
+cortex-tasks-sklearn:0dc5752
+cortex-job-master:2.1.6-363-g9190cd3
+sql-server:0.1
+um-service:2.0.0-8-gf60dc04
+scorpius-mongobackup:1.2
