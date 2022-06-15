@@ -1,0 +1,1058 @@
+[0m[[0m[0minfo[0m] [0m[0mUpdating ProjectRef(uri("file:/home/abhid/baile/project/"), "baile-build")...[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#baile-build;0.1.0-SNAPSHOT[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#baile-build;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.frugalmechanic/fm-sbt-s3-resolver/scala_2.12/sbt_1.0/0.14.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.frugalmechanic/fm-sbt-s3-resolver/scala_2.12/sbt_1.0/0.14.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.frugalmechanic#fm-sbt-s3-resolver;0.14.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.frugalmechanic/fm-sbt-s3-resolver/scala_2.12/sbt_1.0/0.14.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.frugalmechanic/fm-sbt-s3-resolver/scala_2.12/sbt_1.0/0.14.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.frugalmechanic#fm-sbt-s3-resolver;0.14.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.frugalmechanic/fm-sbt-s3-resolver/scala_2.12/sbt_1.0/0.14.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.frugalmechanic#fm-sbt-s3-resolver;0.14.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver_2.12_1.0/0.14.0/fm-sbt-s3-resolver-0.14.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.frugalmechanic#fm-sbt-s3-resolver;0.14.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver_2.12_1.0/0.14.0/fm-sbt-s3-resolver-0.14.0.pom (0.14.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver_2.12_1.0/0.14.0/fm-sbt-s3-resolver-0.14.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver_2.12_1.0/0.14.0/fm-sbt-s3-resolver-0.14.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver_2.12_1.0/0.14.0/fm-sbt-s3-resolver-0.14.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver_2.12_1.0/0.14.0/fm-sbt-s3-resolver-0.14.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.frugalmechanic#fm-sbt-s3-resolver;0.14.0!fm-sbt-s3-resolver.pom(pom.original) (1143ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.frugalmechanic/fm-sbt-s3-resolver/0.14.0/jars/fm-sbt-s3-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.frugalmechanic/fm-sbt-s3-resolver/0.14.0/jars/fm-sbt-s3-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.frugalmechanic/fm-sbt-s3-resolver/0.14.0/jars/fm-sbt-s3-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.frugalmechanic/fm-sbt-s3-resolver/0.14.0/jars/fm-sbt-s3-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.frugalmechanic/fm-sbt-s3-resolver/0.14.0/jars/fm-sbt-s3-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver/0.14.0/fm-sbt-s3-resolver-0.14.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/com/frugalmechanic/fm-sbt-s3-resolver/0.14.0/fm-sbt-s3-resolver-0.14.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-s3;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-s3;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.amazonaws#aws-java-sdk-s3;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.amazonaws#aws-java-sdk-s3;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.amazonaws#aws-java-sdk-s3;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-s3/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.amazonaws#aws-java-sdk-s3;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.amazonaws#aws-java-sdk-s3;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.pom (1.11.236)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-s3;1.11.236!aws-java-sdk-s3.pom(pom.original) (965ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-pom;1.11.236 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.amazonaws#aws-java-sdk-pom;1.11.236 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-pom/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.pom (1.11.236)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-pom;1.11.236!aws-java-sdk-pom.pom(pom.original) (964ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/jars/aws-java-sdk-pom.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/jars/aws-java-sdk-pom.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/jars/aws-java-sdk-pom.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-pom/1.11.236/jars/aws-java-sdk-pom.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-pom/1.11.236/jars/aws-java-sdk-pom.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.236/aws-java-sdk-pom-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/jars/aws-java-sdk-s3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/jars/aws-java-sdk-s3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/jars/aws-java-sdk-s3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-s3/1.11.236/jars/aws-java-sdk-s3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-s3/1.11.236/jars/aws-java-sdk-s3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.236/aws-java-sdk-s3-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.amazonaws#aws-java-sdk-s3;1.11.236 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-s3;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-kms;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-kms;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.amazonaws#aws-java-sdk-kms;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.amazonaws#aws-java-sdk-kms;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.amazonaws#aws-java-sdk-kms;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-kms/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.amazonaws#aws-java-sdk-kms;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.amazonaws#aws-java-sdk-kms;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.pom (1.11.236)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-kms;1.11.236!aws-java-sdk-kms.pom(pom.original) (1018ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-pom;1.11.236 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/jars/aws-java-sdk-kms.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/jars/aws-java-sdk-kms.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/jars/aws-java-sdk-kms.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-kms/1.11.236/jars/aws-java-sdk-kms.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-kms/1.11.236/jars/aws-java-sdk-kms.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.236/aws-java-sdk-kms-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.amazonaws#aws-java-sdk-kms;1.11.236 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-kms;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-core;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.amazonaws#aws-java-sdk-core;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-core/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-core/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.amazonaws#aws-java-sdk-core;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-core/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-core/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.amazonaws#aws-java-sdk-core;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-core/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.amazonaws#aws-java-sdk-core;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.amazonaws#aws-java-sdk-core;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.pom (1.11.236)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-core;1.11.236!aws-java-sdk-core.pom(pom.original) (878ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-pom;1.11.236 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-core/1.11.236/jars/aws-java-sdk-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-core/1.11.236/jars/aws-java-sdk-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-core/1.11.236/jars/aws-java-sdk-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-core/1.11.236/jars/aws-java-sdk-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-core/1.11.236/jars/aws-java-sdk-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.236/aws-java-sdk-core-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.amazonaws#aws-java-sdk-core;1.11.236 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->commons-logging#commons-logging;1.1.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: commons-logging#commons-logging;1.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.1.3/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.1.3/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for commons-logging#commons-logging;1.1.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.1.3/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.1.3/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for commons-logging#commons-logging;1.1.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/commons-logging/commons-logging/1.1.3/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for commons-logging#commons-logging;1.1.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for commons-logging#commons-logging;1.1.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom (1.1.3)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] commons-logging#commons-logging;1.1.3!commons-logging.pom(pom.original) (885ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;28[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;28[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/28/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.commons#commons-parent;28[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.commons#commons-parent;28[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom (28)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.commons#commons-parent;28!commons-parent.pom(pom.original) (1061ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;13 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;13 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache#apache;13[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache#apache;13[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache/apache/13/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache#apache;13[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache#apache;13[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom (13)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache#apache;13!apache.pom(pom.original) (950ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache/apache/13/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/28/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.1.3/jars/commons-logging.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.1.3/jars/commons-logging.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.1.3/jars/commons-logging.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.1.3/jars/commons-logging.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/commons-logging/commons-logging/1.1.3/jars/commons-logging.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found commons-logging#commons-logging;1.1.3 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->commons-logging#commons-logging;1.1.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->org.apache.httpcomponents#httpclient;4.5.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpclient;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.httpcomponents#httpclient;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.httpcomponents#httpclient;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom (4.5.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.5.2!httpclient.pom(pom.original) (869ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.5.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.5.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.httpcomponents#httpcomponents-client;4.5.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom (4.5.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.5.2!httpcomponents-client.pom(pom.original) (998ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;7 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.httpcomponents#project;7 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#project;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#project;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/project/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.httpcomponents#project;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.httpcomponents#project;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom (7)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.httpcomponents#project;7!project.pom(pom.original) (891ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;13 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache#apache;13[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/7/jars/project.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/project/7/jars/project.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/7/jars/project.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/project/7/jars/project.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/project/7/jars/project.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/jars/httpcomponents-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/jars/httpcomponents-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/jars/httpcomponents-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-client/4.5.2/jars/httpcomponents-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.5.2/jars/httpcomponents-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.5.2/jars/httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.5.2/jars/httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.5.2/jars/httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.5.2/jars/httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.5.2/jars/httpclient.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpclient;4.5.2 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcore;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcore;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.httpcomponents#httpcore;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.httpcomponents#httpcore;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (4.4.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.4.4!httpcore.pom(pom.original) (964ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-core;4.4.4 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-core;4.4.4 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.4.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.httpcomponents#httpcomponents-core;4.4.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom (4.4.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.4.4!httpcomponents-core.pom(pom.original) (970ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;7 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.httpcomponents#project;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/jars/httpcomponents-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/jars/httpcomponents-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/jars/httpcomponents-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcomponents-core/4.4.4/jars/httpcomponents-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.4.4/jars/httpcomponents-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.4.4/jars/httpcore.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.4.4/jars/httpcore.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.4.4/jars/httpcore.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.4.4/jars/httpcore.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.4.4/jars/httpcore.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpcore;4.4.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.1.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.1.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.9/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.9/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for commons-codec#commons-codec;1.9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.9/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.9/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for commons-codec#commons-codec;1.9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/commons-codec/commons-codec/1.9/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for commons-codec#commons-codec;1.9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for commons-codec#commons-codec;1.9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom (1.9)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] commons-codec#commons-codec;1.9!commons-codec.pom(pom.original) (1078ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;32 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;32 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/32/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/32/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;32[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/32/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/32/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;32[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/32/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.commons#commons-parent;32[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.commons#commons-parent;32[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom (32)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.commons#commons-parent;32!commons-parent.pom(pom.original) (1055ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;13 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache#apache;13[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/32/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/32/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/32/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/32/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/32/jars/commons-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.9/jars/commons-codec.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.9/jars/commons-codec.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.9/jars/commons-codec.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.9/jars/commons-codec.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/commons-codec/commons-codec/1.9/jars/commons-codec.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found commons-codec#commons-codec;1.9 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->software.amazon.ion#ion-java;1.0.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: software.amazon.ion#ion-java;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: software.amazon.ion#ion-java;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/software.amazon.ion/ion-java/1.0.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/software.amazon.ion/ion-java/1.0.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for software.amazon.ion#ion-java;1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/software.amazon.ion/ion-java/1.0.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/software.amazon.ion/ion-java/1.0.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for software.amazon.ion#ion-java;1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/software.amazon.ion/ion-java/1.0.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for software.amazon.ion#ion-java;1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for software.amazon.ion#ion-java;1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom (1.0.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] software.amazon.ion#ion-java;1.0.2!ion-java.pom(pom.original) (850ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/software.amazon.ion/ion-java/1.0.2/bundles/ion-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/software.amazon.ion/ion-java/1.0.2/bundles/ion-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/software.amazon.ion/ion-java/1.0.2/bundles/ion-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/software.amazon.ion/ion-java/1.0.2/bundles/ion-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/software.amazon.ion/ion-java/1.0.2/bundles/ion-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found software.amazon.ion#ion-java;1.0.2 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->software.amazon.ion#ion-java;1.0.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.7.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.7.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml.jackson.core#jackson-databind;2.6.7.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml.jackson.core#jackson-databind;2.6.7.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml.jackson.core#jackson-databind;2.6.7.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml.jackson.core#jackson-databind;2.6.7.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom (2.6.7.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.6.7.1!jackson-databind.pom(pom.original) (918ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml.jackson#jackson-parent;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml.jackson#jackson-parent;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.6.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml.jackson#jackson-parent;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml.jackson#jackson-parent;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom (2.6.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.6.2!jackson-parent.pom(pom.original) (845ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;24 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml#oss-parent;24 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/24/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/24/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml#oss-parent;24[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/24/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/24/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml#oss-parent;24[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml/oss-parent/24/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml#oss-parent;24[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml#oss-parent;24[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom (24)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml#oss-parent;24!oss-parent.pom(pom.original) (1008ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/24/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/24/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/24/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/24/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml/oss-parent/24/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.2/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.2/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.2/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.2/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.6.2/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/bundles/jackson-databind.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/bundles/jackson-databind.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/bundles/jackson-databind.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/bundles/jackson-databind.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.6.7.1/bundles/jackson-databind.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.fasterxml.jackson.core#jackson-databind;2.6.7.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml.jackson.core#jackson-annotations;2.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml.jackson.core#jackson-annotations;2.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.6.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml.jackson.core#jackson-annotations;2.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml.jackson.core#jackson-annotations;2.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom (2.6.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.6.0!jackson-annotations.pom(pom.original) (839ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.6.1 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.6.1 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml.jackson#jackson-parent;2.6.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml.jackson#jackson-parent;2.6.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.6.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml.jackson#jackson-parent;2.6.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml.jackson#jackson-parent;2.6.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom (2.6.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.6.1!jackson-parent.pom(pom.original) (1139ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;23 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml#oss-parent;23 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/23/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/23/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml#oss-parent;23[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/23/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/23/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml#oss-parent;23[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml/oss-parent/23/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml#oss-parent;23[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml#oss-parent;23[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom (23)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml#oss-parent;23!oss-parent.pom(pom.original) (1038ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/23/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/23/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/23/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/23/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml/oss-parent/23/jars/oss-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.1/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson/jackson-parent/2.6.1/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.1/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson/jackson-parent/2.6.1/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.6.1/jars/jackson-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/bundles/jackson-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/bundles/jackson-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/bundles/jackson-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-annotations/2.6.0/bundles/jackson-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.6.0/bundles/jackson-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.fasterxml.jackson.core#jackson-annotations;2.6.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-core;2.6.7 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.6.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.6.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml.jackson.core#jackson-core;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml.jackson.core#jackson-core;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml.jackson.core#jackson-core;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml.jackson.core#jackson-core;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.pom (2.6.7)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.6.7!jackson-core.pom(pom.original) (934ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/bundles/jackson-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/bundles/jackson-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/bundles/jackson-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.core/jackson-core/2.6.7/bundles/jackson-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.6.7/bundles/jackson-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.fasterxml.jackson.core#jackson-core;2.6.7 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-core;2.6.7 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom (2.6.7)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7!jackson-dataformat-cbor.pom(pom.original) (873ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.6.2 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.6.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/bundles/jackson-dataformat-cbor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/bundles/jackson-dataformat-cbor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/bundles/jackson-dataformat-cbor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/bundles/jackson-dataformat-cbor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.7/bundles/jackson-dataformat-cbor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7->com.fasterxml.jackson.core#jackson-core;2.6.7 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7->com.fasterxml.jackson.core#jackson-core;2.6.7 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->joda-time#joda-time;2.8.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: joda-time#joda-time;2.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/joda-time/joda-time/2.8.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/joda-time/joda-time/2.8.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for joda-time#joda-time;2.8.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/joda-time/joda-time/2.8.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/joda-time/joda-time/2.8.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for joda-time#joda-time;2.8.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/joda-time/joda-time/2.8.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for joda-time#joda-time;2.8.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for joda-time#joda-time;2.8.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom (2.8.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.pom(pom.original) (929ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/joda-time/joda-time/2.8.1/jars/joda-time.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found joda-time#joda-time;2.8.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->joda-time#joda-time;2.8.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#jmespath-java;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#jmespath-java;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.amazonaws#jmespath-java;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/jmespath-java/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/jmespath-java/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.amazonaws#jmespath-java;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/jmespath-java/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/jmespath-java/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.amazonaws#jmespath-java;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/jmespath-java/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.amazonaws#jmespath-java;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.amazonaws#jmespath-java;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.pom (1.11.236)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.amazonaws#jmespath-java;1.11.236!jmespath-java.pom(pom.original) (1267ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-pom;1.11.236 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/jmespath-java/1.11.236/jars/jmespath-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/jmespath-java/1.11.236/jars/jmespath-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/jmespath-java/1.11.236/jars/jmespath-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/jmespath-java/1.11.236/jars/jmespath-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/jmespath-java/1.11.236/jars/jmespath-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.236/jmespath-java-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.amazonaws#jmespath-java;1.11.236 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#jmespath-java;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#jmespath-java;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#jmespath-java;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#jmespath-java;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#jmespath-java;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-s3;1.11.236 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-s3;1.11.236 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-kms;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-kms;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->commons-logging#commons-logging;1.1.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->commons-logging#commons-logging;1.1.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->org.apache.httpcomponents#httpclient;4.5.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->org.apache.httpcomponents#httpclient;4.5.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->org.apache.httpcomponents#httpcore;4.4.4 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.1.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-logging#commons-logging;1.1.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.2->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->software.amazon.ion#ion-java;1.0.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->software.amazon.ion#ion-java;1.0.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-core;2.6.7 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.7.1->com.fasterxml.jackson.core#jackson-core;2.6.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7->com.fasterxml.jackson.core#jackson-core;2.6.7 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.7->com.fasterxml.jackson.core#jackson-core;2.6.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->joda-time#joda-time;2.8.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-core;1.11.236->joda-time#joda-time;2.8.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#jmespath-java;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-kms;1.11.236->com.amazonaws#jmespath-java;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#jmespath-java;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#jmespath-java;1.11.236->com.fasterxml.jackson.core#jackson-databind;2.6.7.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#jmespath-java;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-s3;1.11.236->com.amazonaws#jmespath-java;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-sts;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-sts;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.amazonaws#aws-java-sdk-sts;1.11.236 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for com.amazonaws#aws-java-sdk-sts;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for com.amazonaws#aws-java-sdk-sts;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-sts/1.11.236/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.amazonaws#aws-java-sdk-sts;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.amazonaws#aws-java-sdk-sts;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.pom (1.11.236)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-sts;1.11.236!aws-java-sdk-sts.pom(pom.original) (841ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk-pom;1.11.236 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-pom;1.11.236[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/jars/aws-java-sdk-sts.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/jars/aws-java-sdk-sts.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/jars/aws-java-sdk-sts.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.amazonaws/aws-java-sdk-sts/1.11.236/jars/aws-java-sdk-sts.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/com.amazonaws/aws-java-sdk-sts/1.11.236/jars/aws-java-sdk-sts.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.236/aws-java-sdk-sts-1.11.236.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.amazonaws#aws-java-sdk-sts;1.11.236 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-sts;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#jmespath-java;1.11.236 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#jmespath-java;1.11.236 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-sts;1.11.236 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-sts;1.11.236 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#aws-java-sdk-core;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#jmespath-java;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.amazonaws#aws-java-sdk-sts;1.11.236->com.amazonaws#jmespath-java;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->org.apache.ivy#ivy;2.4.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.ivy#ivy;2.4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.ivy#ivy;2.4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ivy/ivy/2.4.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ivy/ivy/2.4.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache.ivy#ivy;2.4.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ivy/ivy/2.4.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ivy/ivy/2.4.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache.ivy#ivy;2.4.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.ivy/ivy/2.4.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.ivy#ivy;2.4.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.ivy#ivy;2.4.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom (2.4.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.ivy#ivy;2.4.0!ivy.pom(pom.original) (890ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;7 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;7 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.apache#apache;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.apache#apache;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache/apache/7/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache#apache;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache#apache;7[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom (7)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache#apache;7!apache.pom(pom.original) (1104ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/7/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/7/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/7/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/7/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache/apache/7/jars/apache.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/apache/apache/7/apache-7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ivy/ivy/2.4.0/jars/ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ivy/ivy/2.4.0/jars/ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ivy/ivy/2.4.0/jars/ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ivy/ivy/2.4.0/jars/ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.apache.ivy/ivy/2.4.0/jars/ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.ivy#ivy;2.4.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->org.apache.ivy#ivy;2.4.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->org.apache.ivy#ivy;2.4.0 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->org.apache.ivy#ivy;2.4.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-s3;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-s3;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-sts;1.11.236 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->com.amazonaws#aws-java-sdk-sts;1.11.236 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->org.apache.ivy#ivy;2.4.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.frugalmechanic#fm-sbt-s3-resolver;0.14.0->org.apache.ivy#ivy;2.4.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->com.frugalmechanic#fm-sbt-s3-resolver;0.14.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;1.0.0 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;1.0.0 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.scalastyle/scalastyle-sbt-plugin/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/1.0.0/scalastyle-sbt-plugin-1.0.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scalastyle#scalastyle-sbt-plugin;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/1.0.0/scalastyle-sbt-plugin-1.0.0.pom (1.0.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/1.0.0/scalastyle-sbt-plugin-1.0.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/1.0.0/scalastyle-sbt-plugin-1.0.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/1.0.0/scalastyle-sbt-plugin-1.0.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin_2.12_1.0/1.0.0/scalastyle-sbt-plugin-1.0.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalastyle#scalastyle-sbt-plugin;1.0.0!scalastyle-sbt-plugin.pom(pom.original) (1239ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.scalastyle/scalastyle-sbt-plugin/1.0.0/jars/scalastyle-sbt-plugin.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/scalastyle/scalastyle-sbt-plugin/1.0.0/scalastyle-sbt-plugin-1.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalastyle#scalastyle-sbt-plugin;1.0.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#baile-build;0.1.0-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;1.0.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.12;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle_2.12;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.12/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.12/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.12;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.12/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.12/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.12;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.scalastyle/scalastyle_2.12/1.0.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scalastyle#scalastyle_2.12;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scalastyle#scalastyle_2.12;1.0.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.pom (1.0.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalastyle#scalastyle_2.12;1.0.0!scalastyle_2.12.pom(pom.original) (1035ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.12/1.0.0/jars/scalastyle_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.12/1.0.0/jars/scalastyle_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.12/1.0.0/jars/scalastyle_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.12/1.0.0/jars/scalastyle_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /root/.ivy2/local/org.scalastyle/scalastyle_2.12/1.0.0/jars/scalastyle_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalastyle#scalastyle_2.12;1.0.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;1.0.0->org.scalastyle#scalastyle_2.12;1.0.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalastyle#scalastyle_2.12;1.0.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.12.4/ivys/ivy.xml[0m

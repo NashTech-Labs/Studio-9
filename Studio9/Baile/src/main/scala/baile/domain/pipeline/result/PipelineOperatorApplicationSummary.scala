@@ -1,0 +1,3 @@
+package baile.domain.pipeline.result
+
+trait PipelineOperatorApplicationSummary
