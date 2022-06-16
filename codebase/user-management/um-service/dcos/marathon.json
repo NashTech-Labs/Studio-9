@@ -1,0 +1,46 @@
+{
+  "id": "um-service",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "deepcortex/um-service:v1.0",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "hostPort": 0,
+          "containerPort": 9000,
+          "servicePort": 10000,
+          "labels": {
+            "VIP_0": "/um-service:9000"
+          }
+        }
+      ],
+      "parameters": [
+        { "key": "env", "value": "MONGODB_URI=mongodb://mongodb.mongodb-replicaset.l4lb.thisdcos.directory:27017/um-service?replicaSet=rs" },
+        { "key": "env", "value": "EMAIL_ON=false" }
+      ],
+      "forcePullImage": true
+    }
+  },
+  "instances": 1,
+  "cpus": 1,
+  "mem": 1024,
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/api/um-service/v0.1/healthCheck",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "labels":{
+    "HAPROXY_GROUP":"external",
+    "HAPROXY_0_VHOST":"um-service-1123241789.us-gov-west-1.elb.amazonaws.com"
+  }
+}

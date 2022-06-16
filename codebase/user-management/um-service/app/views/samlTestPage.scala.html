@@ -1,0 +1,21 @@
+@(orgId: String, targetAppName: String, starterLinks: Map[String, String])
+
+<html>
+    <body>
+        <h1>SAML starter test page</h1>
+
+        <form method="GET">
+            <label>orgId:</label>
+            <input type="text" name = "orgId" size="40" value="@orgId"/><br/>
+            <label>targetUrl:</label>
+            <input type="text" name = "targetAppName" size="40" value="@targetAppName"/><br/>
+
+            <input type="submit" value="Refresh starters"/>
+        </form>
+
+        <h2>Starter links:</h2>
+        @for(st <- starterLinks) {
+            <a href="@st._2">@st._1</a><br/>
+        }
+    </body>
+</html>

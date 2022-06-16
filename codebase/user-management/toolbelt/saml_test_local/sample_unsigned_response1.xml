@@ -1,0 +1,32 @@
+<samlp:Response ID="identifier_2" InResponseTo="identifier_1"
+                Version="2.0" IssueInstant="2015-12-05T09:22:05Z"
+                Destination="http://localhost:9000/api/um-server/v0.1/saml/sampleSamlProv1/handle" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+    <saml:Issuer>https://idp.example.org/SAML2</saml:Issuer>
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </samlp:Status>
+    <saml:Assertion ID="identifier_3" Version="2.0" IssueInstant="2015-12-05T09:22:05Z" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns="">
+        <saml:Issuer>https://idp.example.org/SAML2</saml:Issuer>
+
+        <saml:Subject>
+            <saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient">
+                sampleSamlUserId
+            </saml:NameID>
+            <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <saml:SubjectConfirmationData InResponseTo="identifier_1" Recipient="http://localhost:9000/api/um-server/v0.1/saml/sampleSamlProv1/handle" NotOnOrAfter="2020-12-05T09:27:05Z"/>
+            </saml:SubjectConfirmation>
+        </saml:Subject>
+        <saml:Conditions NotBefore="2015-12-05T09:17:05Z" NotOnOrAfter="2020-12-05T09:27:05Z">
+            <saml:AudienceRestriction>
+                <saml:Audience>https://sp.example.com/SAML2</saml:Audience>
+            </saml:AudienceRestriction>
+        </saml:Conditions>
+        <saml:AuthnStatement AuthnInstant="2015-12-05T09:22:00Z" SessionIndex="identifier_3">
+            <saml:AuthnContext>
+                <saml:AuthnContextClassRef>
+                    urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport
+                </saml:AuthnContextClassRef>
+            </saml:AuthnContext>
+        </saml:AuthnStatement>
+    </saml:Assertion>
+</samlp:Response>

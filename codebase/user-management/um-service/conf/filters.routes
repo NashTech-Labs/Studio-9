@@ -1,0 +1,97 @@
+#Data Filters management
+
+###
+#  summary: Create a new dataFilterInfo
+#  description: Create a new dataFilterInfo
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.CreateDataFilterInfoRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /filters                                    com.sentrana.umserver.controllers.DataFilterInfoController.create()
+
+
+###
+#  summary: Find dataFilterInfos by specific parameters
+#  description: Find dataFilterInfos by specific parameters
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: limit
+#      in: query
+#      format: int32
+#      required: false
+#    - name: offset
+#      in: query
+#      format: int32
+#      required: false
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: array
+#        data:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.DataFilterInfo'
+###
+GET           /filters                                    com.sentrana.umserver.controllers.DataFilterInfoController.find()
+
+
+###
+#  summary: Get dataFilterInfo by filterId
+#  description: Get dataFilterInfo by filterId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.DataFilterInfo'
+###
+GET           /filters/:filterId                          com.sentrana.umserver.controllers.DataFilterInfoController.get(filterId)
+
+
+###
+#  summary: Update dataFilterInfo
+#  description: Update dataFilterInfo
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UpdateDataFilterInfoRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+PUT           /filters/:filterId                          com.sentrana.umserver.controllers.DataFilterInfoController.update(filterId)
+
+
+###
+#  summary: Delete dataFilterInfo by filterId
+#  description: Delete dataFilterInfo by filterId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /filters/:filterId                          com.sentrana.umserver.controllers.DataFilterInfoController.delete(filterId)
+
+
+###
+#  summary: Get dataFilterInfos valid values by filterId
+#  description: Get dataFilterInfos valid values by filterId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: object
+#        data:
+#          type: string
+#          description: "flat string object with two fields e.g. {'exampleField1':'exampleValue1', 'exampleField2': 'exampleValue2'}"
+###
+GET           /filters/:filterId/values                   com.sentrana.umserver.controllers.DataFilterInfoController.getValidValues(filterId)

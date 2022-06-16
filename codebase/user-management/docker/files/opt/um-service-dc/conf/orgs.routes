@@ -1,0 +1,91 @@
+#Orgs management
+
+###
+#  summary: Create a new organization
+#  description: Create a new organization
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.CreateOrganizationRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /orgs                                       com.sentrana.umserver.controllers.OrganizationController.create()
+
+
+###
+#  summary: Find organizations by specific parameters
+#  description: Find organizations by specific parameters
+#  parameters:
+#    - name: limit
+#      in: query
+#      format: int32
+#      required: false
+#    - name: offset
+#      in: query
+#      format: int32
+#      required: false
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: array
+#        data:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.Organization'
+###
+GET           /orgs                                       com.sentrana.umserver.controllers.OrganizationController.find()
+
+
+###
+#  summary: Get root organization
+#  description: Get root organization
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.Organization'
+###
+GET           /orgs/root                                  com.sentrana.umserver.controllers.OrganizationController.getRootOrg()
+
+
+###
+#  summary: Get organization by orgId
+#  description: Get organization by orgId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.Organization'
+###
+GET           /orgs/:orgId                                com.sentrana.umserver.controllers.OrganizationController.get(orgId)
+
+
+###
+#  summary: Update organization
+#  description: Update organization
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UpdateOrganizationRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+PUT           /orgs/:orgId                                com.sentrana.umserver.controllers.OrganizationController.update(orgId)
+
+
+###
+#  summary: Delete organization by orgId
+#  description: Delete organization by orgId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /orgs/:orgId                                com.sentrana.umserver.controllers.OrganizationController.delete(orgId)

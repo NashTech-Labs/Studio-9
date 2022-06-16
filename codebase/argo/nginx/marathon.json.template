@@ -1,0 +1,41 @@
+{
+  "id": "argo-nginx",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "deepcortex/argo-nginx:1.0.${TRAVIS_BUILD_NUMBER}",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "hostPort": 0, "containerPort": 80, "servicePort": 10000 }
+      ],
+      "forcePullImage":true
+    }
+  },
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 65,
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "labels":{
+    "HAPROXY_GROUP":"external",
+    "HAPROXY_0_VHOST":"${API_PUBLIC_HOST}"
+  }
+}

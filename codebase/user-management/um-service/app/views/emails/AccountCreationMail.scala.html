@@ -1,0 +1,45 @@
+@(firstName: String, username: String, password: String, link: String)
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        @views.html.emails.EmailStyle()
+    </head>
+    <body>
+        <div class="body-container">
+
+            <p class="less-width">
+                Your account, <b>@username</b>, has been created and is pending activation.
+            </p>
+
+            <p class="less-width">
+                Your account details:<br/>
+                <strong>Username: </strong> @username
+                <strong>Password: </strong> @password
+            </p>
+
+            <p class="less-width">
+                Please active your account:
+            </p>
+
+            <p class="less-width">
+                <a href="@link">
+                    <button>ACTIVATE</button>
+                </a>
+            </p>
+
+            <p class="less-width">
+                Or paste this link into your browser:
+                <div class="page-link"><a href="@link">@link</a></div>
+            </p>
+
+            <p class="less-width">
+                If you have any questions regarding your account or account creation,
+                please contact our support team: <a href="mailto:sysadmin@@sentrana.com">sysadmin@@sentrana.com</a>.
+            </p>
+
+            <p class="less-width">
+                --DeepCortex team
+            </p>
+        </div>
+    </body>
+</html>

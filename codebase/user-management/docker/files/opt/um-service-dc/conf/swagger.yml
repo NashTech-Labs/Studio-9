@@ -1,0 +1,15 @@
+---
+  swagger: "2.0"
+  info:
+    title: "Sentrana um-service API"
+    description: "User management"
+    version: "0.1"
+  host: https://um-service-dev.sentrana.com
+  basePath: /api/um-service/v0.1
+  schemes:
+    - "https"
+  consumes:
+    - application/json
+    - application/x-www-form-urlencoded
+  produces:
+    - application/json

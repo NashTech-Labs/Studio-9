@@ -1,0 +1,18 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "dev.gov.deepcortex.ai",
+    "Key": "dockercfg"
+  },
+  "Image": {
+    "Name": "deepcortex/um-service:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "hostPort": "80",
+      "ContainerPort": "80"
+    }
+  ],
+  "Logging": "/var/log/eb_log"
+}

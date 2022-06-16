@@ -1,0 +1,222 @@
+#User management
+
+###
+#  summary: Create a new user
+#  description: Create a new user
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.CreateUserRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /orgs/:orgId/users                          com.sentrana.umserver.controllers.UserController.create(orgId)
+
+
+###
+#  summary: Find users by specific parameters
+#  description: Find users by specific parameters
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: limit
+#      in: query
+#      format: int32
+#      required: false
+#    - name: offset
+#      in: query
+#      format: int32
+#      required: false
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: array
+#        data:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.User'
+###
+GET           /orgs/:orgId/users                          com.sentrana.umserver.controllers.UserController.find(orgId)
+
+
+###
+#  summary: Get user by userId
+#  description: Get user by userId
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.User'
+###
+GET           /orgs/:orgId/users/:userId                  com.sentrana.umserver.controllers.UserController.get(orgId, userId)
+
+
+###
+#  summary: Get preprocessed DataFilterInstances for a specific user
+#  description: Get preprocessed DataFilterInstances for a specific user
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: object
+#        items:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.DataFilterInstance'
+###
+GET           /orgs/:orgId/users/:userId/filterinstances  com.sentrana.umserver.controllers.UserController.userFilterInstances(orgId, userId)
+
+
+###
+#  summary: Update user
+#  description: Update user
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.UpdateUserAdminRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+PUT           /orgs/:orgId/users/:userId                  com.sentrana.umserver.controllers.UserController.update(orgId, userId)
+
+
+###
+#  summary: Delete user by userId
+#  description: Delete user by userId
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  parameters:
+#    - name: userId
+#      in: path
+#      description: user ID
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /orgs/:orgId/users/:userId                  com.sentrana.umserver.controllers.UserController.delete(orgId, userId)
+
+
+###
+#  summary: Sign up user
+#  description: Sign up user
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.UserSignUpRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /orgs/:orgId/users/signup                   com.sentrana.umserver.controllers.UserController.signUp(orgId)
+
+###
+#  summary: Activate user after sign up
+#  description: Activate user after sign up
+#     If request contains Accepts: application/json headerthen returns response in JSON. Otherwise shows HTML page
+#     confirming the activation and containing links to applications
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: userId
+#      in: path
+#      description: userId
+#    - name: activationCode
+#      in: query
+#      description: userId
+#      required: true
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+GET          /orgs/:orgId/users/:userId/activate         com.sentrana.umserver.controllers.UserController.activateUser(orgId, userId, activationCode)
+POST         /orgs/:orgId/users/:userId/activate         com.sentrana.umserver.controllers.UserController.activateUser(orgId, userId, activationCode)
+
+###
+#  summary: Activate user
+#  description: Activate user
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: userId
+#      in: path
+#      description: userId
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UserActivationRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST         /orgs/:orgId/users/:userId/activateuser         com.sentrana.umserver.controllers.UserController.activate(orgId, userId)
+
+###
+#  summary: Deactivate user
+#  description: Deactivate user
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: userId
+#      in: path
+#      description: userId
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UserDeactivationRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST         /orgs/:orgId/users/:userId/deactivateuser       com.sentrana.umserver.controllers.UserController.deactivate(orgId, userId)
+
+
+###
+#  summary: Change password
+#  description: Change password
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.UpdatePasswordRequest'
+#  responses:
+#    200:
+#      description: success
+###
+POST          /me/password                                com.sentrana.umserver.controllers.UserController.updatePassword()
+
+POST          /anonymous/password/reset                   com.sentrana.umserver.controllers.UserController.resetPassword()
+POST          /anonymous/password                         com.sentrana.umserver.controllers.UserController.updateForgottenPassword()
+POST          /anonymous/email/activation                 com.sentrana.umserver.controllers.UserController.reSendActivationLink()

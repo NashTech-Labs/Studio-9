@@ -1,0 +1,96 @@
+->            /                                           users.Routes
+->            /                                           groups.Routes
+->            /                                           orgs.Routes
+->            /                                           apps.Routes
+->            /                                           filters.Routes
+
+->            /                                           samlProviders.Routes
+
+
+#Authentication
+
+###
+#  summary: Get user by auth token
+#  description: Get user by auth token
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.User'
+#    400:
+#      description: no such token
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.OAuthErrorResponse'
+###
+GET           /token/:token/user                          com.sentrana.umserver.controllers.AuthenticationController.userByToken(token: String)
+
+
+###
+#  summary: Issue auth token
+#  description: Issue auth token
+#  parameters:
+#    - name: grant_type
+#      in: query
+#      type: string
+#      required: true
+#    - name: set_cookie
+#      in: query
+#      type: boolean
+#      required: false
+#    - name: password
+#      in: query
+#      type: string
+#      required: false
+#    - name: username
+#      in: query
+#      type: string
+#      required: false
+#    - name: organization_id
+#      in: query
+#      type: string
+#      required: false
+#    - name: client_id
+#      in: query
+#      type: string
+#      required: false
+#    - name: client_secret
+#      in: query
+#      type: string
+#      required: false
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        data:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.User'
+#    400:
+#      description: invalid request
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.OAuthErrorResponse'
+###
+POST          /token                                      com.sentrana.umserver.controllers.AuthenticationController.issueToken()
+
+
+###
+#  summary: Invalidate auth token
+#  description: Invalidate by auth token
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /token/:token                               com.sentrana.umserver.controllers.AuthenticationController.invalidateToken(token: String)
+
+
+###
+# summary: swagger definition
+# description: for swagger UI to consume
+###
+GET           /docs/swagger.json                          com.sentrana.umserver.controllers.SwaggerApiController.specs
+
+
+# Static resources
+GET           /public/*file                               controllers.Assets.at(path="/public", file)
+
+

@@ -1,0 +1,93 @@
+#Group management
+
+###
+#  summary: Create a new userGroup
+#  description: Create a new userGroup
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.CreateUserGroupRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /orgs/:orgId/groups                         com.sentrana.umserver.controllers.UserGroupController.create(orgId)
+
+
+###
+#  summary: Find userGroups by specific parameters
+#  description: Find userGroups by specific parameters
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: limit
+#      in: query
+#      format: int32
+#      required: false
+#    - name: offset
+#      in: query
+#      format: int32
+#      required: false
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: array
+#        data:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.UserGroup'
+###
+GET           /orgs/:orgId/groups                         com.sentrana.umserver.controllers.UserGroupController.find(orgId)
+
+
+###
+#  summary: Get userGroup by groupId
+#  description: Get userGroup by groupId
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.UserGroup'
+###
+GET           /orgs/:orgId/groups/:groupId                com.sentrana.umserver.controllers.UserGroupController.get(orgId,groupId)
+
+
+###
+#  summary: Update userGroup
+#  description: Update userGroup
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UpdateUserGroupRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+PUT           /orgs/:orgId/groups/:groupId                com.sentrana.umserver.controllers.UserGroupController.update(orgId, groupId)
+
+
+###
+#  summary: Delete userGroup by groupId
+#  description: Delete userGroup by groupId
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /orgs/:orgId/groups/:groupId                com.sentrana.umserver.controllers.UserGroupController.delete(orgId, groupId)

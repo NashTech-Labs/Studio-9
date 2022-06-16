@@ -1,0 +1,4 @@
+{
+	"adapter": "east-mongo",
+	"url": "mongodb://localhost:27017/um-server"
+}

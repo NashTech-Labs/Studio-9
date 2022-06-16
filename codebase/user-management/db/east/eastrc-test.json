@@ -1,0 +1,4 @@
+{
+	"adapter": "east-mongo",
+	"url": "mongodb://um_service_t:wSLXegS.Ci%2Fn%7D31YQpr8asU!Ugm0AWPKVU%40z@10.10.20.128:27017/um-service-t?authSource=admin"
+}

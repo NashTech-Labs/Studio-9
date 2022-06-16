@@ -1,0 +1,90 @@
+#SAML providers
+
+###
+#  summary: Create a new SamlProvider
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.CreateSamlProviderRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /orgs/:orgId/saml/providers                         com.sentrana.umserver.controllers.SamlProviderController.create(orgId)
+
+###
+#  summary: Get SamlProvider by id
+#  parameters:
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.SamlProvider'
+###
+GET           /orgs/:orgId/saml/providers/:groupId                com.sentrana.umserver.controllers.SamlProviderController.get(orgId,groupId)
+
+###
+#  summary: Update existing SamlProvider
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UpdateSamlProviderRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+PUT           /orgs/:orgId/saml/providers/:groupId                com.sentrana.umserver.controllers.SamlProviderController.update(orgId, groupId)
+
+###
+#  summary: Delete SamlProvider by id
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /orgs/:orgId/saml/providers/:groupId                com.sentrana.umserver.controllers.SamlProviderController.delete(orgId, groupId)
+
+
+###
+#  summary: Get SAML starter links for specific organization and target URL
+#  parameters:
+#    - name: targetAppName
+#      in: query
+#      description: application name from which URL for redirect is taken after authenticating the user
+#    - name: orgId
+#      in: path
+#      description: organization scope
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.SamlStarter'
+###
+GET           /orgs/:orgId/saml/starters                          com.sentrana.umserver.controllers.SamlProviderController.getStarters(orgId: String, targetAppName: String)
+
+
+###
+#  summary: Handle SAML provider callback
+#  parameters:
+#    - name: provId
+#      in: path
+#      description: SAML provider ID
+#  responses:
+#    200:
+#      description: additional information required. Shows form with email and first name / last name
+#    302:
+#      description: redirect to target URL designated in RelayState
+###
+POST           /saml/:provName/handle                             com.sentrana.umserver.controllers.SamlProviderController.responseHandler(provName: String)
+
+
+GET            /saml/starterTest                                com.sentrana.umserver.controllers.SamlProviderController.starterTestPage()
+

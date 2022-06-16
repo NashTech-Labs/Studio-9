@@ -1,0 +1,13 @@
+GET           /publicAction                                              com.sentrana.um.acceptance.SampleController.publicAction()
+GET           /authenticatedAction                                       com.sentrana.um.acceptance.SampleController.authenticatedAction()
+GET           /customAuthorizationAction                                 com.sentrana.um.acceptance.SampleController.customAuthorizationAction()
+GET           /permissionAuthorizationAction                             com.sentrana.um.acceptance.SampleController.permissionAuthorizationAction()
+GET           /currentUserAction                                         com.sentrana.um.acceptance.SampleController.currentUserAction()
+
+GET           /orgs/:orgId/orgPathAction                                 com.sentrana.um.acceptance.MultiTenantSampleController.orgPathAction(orgId)
+GET           /customAuthorizationAction/:itemId                         com.sentrana.um.acceptance.MultiTenantSampleController.customAuthorizationAction(itemId)
+
+POST          /token                                                     com.sentrana.um.client.play.UmForwardingController.signIn
+DELETE        /token/:token                                              com.sentrana.um.client.play.UmForwardingController.signOut(token)
+
+GET           /custom_errors                                             com.sentrana.um.acceptance.CustomErrResponseController.permissionAuthorizationAction()
