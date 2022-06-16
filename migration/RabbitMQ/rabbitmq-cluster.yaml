@@ -1,0 +1,21 @@
+apiVersion: rabbitmq.com/v1beta1
+kind: RabbitmqCluster
+metadata:
+  name: rabbitmq-cluster
+spec:
+  replicas: 1
+  override:
+    statefulSet:
+      spec:
+        podManagementPolicy: OrderedReady
+  service:
+    type: ClusterIP
+  persistence:
+    storageClassName: gp2
+    storage: 20Gi
+  rabbitmq:
+    additionalPlugins:
+    - rabbitmq_federation
+    additionalConfig: |
+      disk_free_limit.absolute = 500MB
+      vm_memory_high_watermark.relative = 0.6

@@ -1,0 +1,15 @@
+replicas: 1
+minimumMasterNodes: 1
+
+ingress:
+  enabled: true
+  hosts:
+    - host: es-elk.s9.devopscloud.link
+      paths:
+        - path: /
+  
+volumeClaimTemplate:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 10Gi

@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: argo-rest
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: argo.s9.devopscloud.link
+    http:
+      paths:
+      - backend:
+          service:
+            name: argo-rest-api
+            port:
+              number: 9000
+        path: /
+        pathType: Prefix

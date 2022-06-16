@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cortex-api  
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: cortex-api.s9.devopscloud.link
+    http:
+      paths:
+      - backend:
+           service:
+             name: cortex-api-rest
+             port:
+               number: 9000
+        path: /
+        pathType: Prefix

@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sql-server
+spec:
+  selector:
+    matchLabels:
+      app: sql-server
+  template:
+    metadata:
+      labels:
+        app: sql-server
+    spec:
+      containers:
+      - name: sql-server
+        image: rishivantsingh9717/sql-server:1.0
+        imagePullPolicy: IfNotPresent
+        resources: {}
+          # limits:
+          #   memory: "128Mi"
+          #   cpu: "500m"
+        ports:
+        - name: sql-server
+          containerPort: 8000
+        - name: comm
+          containerPort: 2552
+        env:
+        - name: BAILE_URL
+          value: "http://baile.baile.svc.cluster.local:9001"
+        - name: UM_SERVICE_URL
+          value: "um-svc.um-service.svc.cluster.local/api/um-service/v0.1"
+        - name: BAILE_USERNAME
+          value: "studio9"
+        - name: HTTP_SERVER_PREFIX
+          value: "sql-server/v0.1"
+        - name: DB_PROTOCOL
+          value: "redshift"
+        - name: DB_NAME
+          value: "database_cluster"
+        - name: DB_HOST
+          value: "studio9-cluster.cxvldradn3zy.ap-south-1.redshift.amazonaws.com:5439/database_cluster"
+        - name: DB_USERNAME
+          value: "studio9"
+        - name: DB_PORT
+          value: "5439"
+        - name: DB_PASSWORD
+          value: "Admin123"
+        - name: BAILE_PASSWORD
+          value: "N2EefTyCxt2FZUwYH"
+        - name: AKKA_LOGLEVEL
+          value: "ERROR"
+        livenessProbe:
+          httpGet:
+            path: /sql-server/v0.1/health
+            port: 8000
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 60
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /sql-server/v0.1/health
+            port: 8000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 20
+          successThreshold: 1

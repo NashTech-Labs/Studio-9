@@ -1,0 +1,118 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orion-api-rest
+spec:
+  selector:
+    matchLabels:
+      app: orion-api-rest
+  template:
+    metadata:
+      labels:
+        app: orion-api-rest
+    spec:
+      
+      containers:
+      - name: orion
+        image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/orion-api-rest:1.0
+        securityContext:
+          privileged: true
+          runAsUser: 0
+        resources: {}
+          # limit:
+          #   cpu: 1
+          #   memory: 1024
+        ports:
+        - name: orion-api-rest
+          containerPort: 9000
+        - name: communication 
+          containerPort: 2552   #
+        env:
+        - name: HTTP_SEARCH_USER_NAME
+          value: "orion-search-user"
+        - name: ZOOKEEPER_URL
+          value: "zookeeper.zookeeper.svc.cluster.local:2181"
+        - name: RABBIT_HOSTS
+          value: "rabbitmq-cluster.rabbit.svc.cluster.local"  
+        - name: RABBIT_USERNAME
+          value: "default_user_0fqxmX2qjVi6Bljb-8K"
+        - name: MARATHON_CLIENT_MARATHON_ENDPOINT
+          value: "http://10.100.0.65:8080"
+        - name: JOB_MASTER_START_TIMEOUT
+          value: "5minutes"
+        - name: JOB_MASTER_HEARTBEAT_TIMEOUT
+          value: "5minutes"
+        - name: JOB_MASTER_DOCKER_IMAGE
+          value: "deepcortex/cortex-job-master:latest"
+          #${DOCKER_REGISTRY_PREFIX}deepcortex/cortex-job-master:${JOB_MASTER_DOCKER_IMAGE_VERSION}
+        - name: JOB_MASTER_MESOS_MASTER_ADDRESS
+          value: "10.100.0.65:5050"
+        - name: JOB_MASTER_CPUS
+          value: "1"
+        - name: JOB_MASTER_MEMORY
+          value: "4096"
+        - name: JOB_MASTER_INSTANCES
+          value: "1"
+        - name: JOB_MASTER_S3_REGION
+          value: "ap-south-1"
+        - name: JOB_MASTER_S3_BUCKET
+          value: "studio9-red-dcos-apps"
+        - name: JOB_MASTER_S3_ACCESS_KEY
+          value: "AKIARIGX26HNZNZLS76A"
+        - name: JOB_MASTER_S3_SECRET_KEY
+          value: "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"
+        - name: JOB_MASTER_S3_TABLES_DIR
+          value: "dataset"
+        - name: JOB_MASTER_CORTEX_TASK_VERSION
+          value: "1.0"
+        - name: JOB_MASTER_CORTEX_TASK_REGISTRY_PREFIX
+          value: "086351999451.dkr.ecr.ap-south-1.amazonaws.com"
+        - name: AKKA_LOGLEVEL
+          value: "ERROR"
+        - name: JOB_SUPERVISOR_MESSAGE_PUBLISHING_TIMEOUT
+          value: "30seconds"
+        - name: JOB_MASTER_REDSHIFT_USERNAME
+          value: "studio9"
+        - name: JOB_MASTER_REDSHIFT_S3_IAM_ROLE
+          value: "arn:aws:iam::086351999451:role/redshift-s3-full-access"
+        - name: JOB_MASTER_REDSHIFT_HOST
+          value: "studio9-cluster.cxvldradn3zy.ap-south-1.redshift.amazonaws.com:5439/database_cluster"
+        - name: JOB_MASTER_REDSHIFT_DATABASE
+          value: "database_cluster"
+        - name: JOB_MASTER_REDSHIFT_PORT
+          value: "5439"
+        - name: AKKA_PERSISTENCE_MONGODB_URI
+          value: "mongodb://root:studio9@mongo-mongodb.mongo.svc.cluster.local:27017/orion-akka-persistence?authSource=admin"
+          #"mongodb://${MONGODB_APP_USER}:${MONGODB_APP_PASSWORD}@${MONGODB_HOSTS}:27017/orion-akka-persistence?replicaSet=rs&authSource=admin"
+        - name: AKKA_PERSISTENCE_MONGODB_WRITE_CONCERN
+          value: "Journaled"
+        - name: JOB_MASTER_BAILE_URL
+          value: "http://baile.baile.svc.cluster.local:9000/baile/v2.0"
+          #${BAILE_REST_URL}/${BAILE_API_PATH}
+        - name: JOB_MASTER_SQL_SERVER_URL
+          value: "http://sql-server.sql-server.svc.cluster.local:8000/sql-server/v0.1"
+          #${SQL_SERVER_REST_URL}/${SQL_SERVER_API_PATH}
+        - name: JOB_MASTER_REDSHIFT_PASSWORD
+          value: "Admin123"
+        - name: HTTP_SEARCH_USER_PASSWORD
+          value: "H2Gdb8NIFHYuXICEy"
+        - name: RABBIT_PASSWORD
+          value: "CNAWBPm7-oOBX-FWunoNN4t8I6WJV29j"
+        livenessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1

@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: elastic
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: elastic.s9.devopscloud.link
+    http:
+      paths:
+      - backend:
+          service:
+            name: elasticsearch
+            port:
+              number: 9200
+        path: /
+        pathType: ImplementationSpecific

@@ -1,0 +1,17 @@
+global.storageClass: gp2
+
+architecture: standalone
+useStatefulSet: true
+auth:
+  rootPassword: studio9
+  username: admin
+  password: studio9
+  database: admin
+
+systemLogVerbosity: 1
+replicaCount: 1
+service:
+  type: LoadBalancer
+persistence:
+  storageClass: gp2
+  size: 30Gi
