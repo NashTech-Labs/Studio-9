@@ -1,4 +1,0 @@
----
-
-- src: https://${S3_ENDPOINT}/${ARTIFACTS_S3_BUCKET}/packages/ansible/geerlingguy.java.1.7.4.tar.gz
-  name: java

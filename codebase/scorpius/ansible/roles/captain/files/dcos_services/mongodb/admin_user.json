@@ -1,7 +1,0 @@
-{
-  "user": "admin",
-  "pwd": "${MONGODB_ROOTADMIN_PASSWORD}",
-  "roles": [
-    { "db": "admin", "role": "root" }
-  ]
-}

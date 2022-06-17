@@ -1,8 +1,0 @@
-FROM ${IMAGE}
-
-ARG AWS_CA_BUNDLE
-
-COPY files/endpoints.json /opt/conda/lib/python3.6/site-packages/botocore/data/endpoints.json
-COPY files/ca-bundle.crt $AWS_CA_BUNDLE
-
-ENV AWS_CA_BUNDLE=$AWS_CA_BUNDLE
