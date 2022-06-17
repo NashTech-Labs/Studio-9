@@ -1,0 +1,18 @@
+/* These are modules styles compiled */
+@import 'assets/scss/variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import 'app/core-ui/core-ui';
+@import 'app/core/core';
+@import 'app/components/components';
+@import 'app/charts/charts';
+@import 'app/tables/tables';
+@import 'app/albums/albums';
+@import 'app/compose/compose';
+@import 'app/train/train';
+@import 'app/diaa/diaa';
+@import 'app/users/users';
+@import 'app/visualize/visualize';
+@import 'app/processes/processes';
+@import 'app/develop/develop';
+@import 'app/develop/notebook-viewer';
+@import 'app/pipelines/styles';

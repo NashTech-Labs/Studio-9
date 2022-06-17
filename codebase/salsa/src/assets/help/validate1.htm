@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Validate</title>
+<meta charset="utf-8" /><link rel="stylesheet" type="text/css" href="LinksExt/insilico_1.4_user_manual_v0.6.css" />
+<script src="js/nethelp.redirector.js" type="text/javascript"></script>
+<link rel="prev" href="train.htm" /><link rel="next" href="reportfeedback.htm" />
+<meta name="Generator" content="Doc-To-Help v.4.0.0.1396" />
+</head>
+<body data-c1-topic-id="8b96ec9c-dd6e-4c1f-bc8c-bc4037eb7e80">
+<h1 style="MARGIN-LEFT: 36pt; TEXT-INDENT: -36pt; tab-stops: 36.0pt 46.8pt"><a name="_Toc464053972" id="_Toc464053972">Validate</a></h1>
+<p class="MsoNormal">This module enables you to test model performance against 
+either a subset of the training data (e.g. testing out of bag performance via an 
+80-20 split or testing model performance on a subset of data of interest) or the 
+entire dataset used for training as long as the new dataset has the exact same 
+data structure (same number of columns, with data types, relation, etc.).  
+This allows you to compare actual and predicted responses for the executed 
+dataset by mapping each source table and column to the corresponding new table 
+and column.  First, select the model you want to Validate via the 
+dropdown.  After defining the output table name, you must map a table to 
+each of the source tables used in the flow that generated the model. Navigate 
+through all input table tabs to select the appropriate mapping.  By 
+default, the system will try to map source to new column names based on the 
+column name (if validating a model using the training dataset, all columns 
+should be mapped automatically once the table has been mapped).  Clicking 
+“Predict” initiates the model Prediction and upon successful execution, the 
+output table saved (includes all source columns, including source response, and 
+predicted response).</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><img border="0" src="ImagesExt/image11_26.png" alt="" /></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"> </p><span id="related-topics"></span></body></html>

@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/spec",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "target": "es5",
+    "types": [
+      "jquery",
+      "jqueryui",
+      "bootstrap",
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "test.ts"
+  ],
+  "include": [
+    "app/app.module.ts",
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ]
+}

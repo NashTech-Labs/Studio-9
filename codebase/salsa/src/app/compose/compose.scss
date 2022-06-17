@@ -1,0 +1,213 @@
+.btnssettings {
+  .btn {
+    border: solid 1px #c5c5c5 !important;
+    padding: 3px;
+    height: 56px;
+    width: 56px;
+
+    &:focus,
+    &:hover {
+      border: solid 1px $brand-primary !important;
+      color: $brand-primary;
+    }
+  }
+
+  .iconapp,
+  .glyphicon {
+    font-size: 27px;
+    color: $brand-primary;
+  }
+
+  > button > div {
+    /*text-transform: uppercase;*/
+    font-size: 10px;
+    margin: 3px -3px -5px;
+  }
+}
+
+/** groupsteps **/
+.groupsteps-container {
+  position: fixed;
+  padding: 5px 16px 15px !important;
+  bottom: 0;
+  margin: 0 -15px;
+  z-index: 10;
+
+  .groupsteps {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: none;
+
+    li {
+      position: relative;
+
+      > a {
+        border-top: none !important;
+
+        line-height: 26px;
+        font-size: 12px;
+        font-family: "Montserrat";
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(105, 105, 105);
+        padding: 5px 30px 5px 5px;
+        background: #d6d9e2;
+        white-space: nowrap;
+
+        border-radius: 0px;
+
+        .stepicon {
+          font-size: 24px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 15px;
+
+          &.glyphicon {
+            top: -1px;
+          }
+        }
+      }
+    }
+
+    li > a:focus,
+    li:hover > a,
+    li.active > a {
+      color: rgb(91, 111, 154);
+      border-bottom-color: #97c0ff;
+      background: #ffffff
+    }
+
+    &.tabs-small li > a {
+      line-height: 16px;
+      padding-right: 25px;
+    }
+
+    &.text-center li > a {
+      text-align: center;
+    }
+
+    a.icon-el {
+      position: absolute;
+      /*color: rgb(251, 77, 61);*/
+      text-transform: uppercase;
+      font-size: 12px;
+      top: 3px;
+      right: 10px;
+      z-index: 160;
+      display: block;
+      background: none;
+      width: auto;
+      padding: 0px;
+      margin: 0;
+      border: none !important;
+
+      &:focus,
+      &:hover {
+        color: rgb(201, 77, 61) !important;
+        background: none;
+        border: none;
+        cursor: pointer !important;
+      }
+    }
+  }
+
+  .groupsteps.with-scroll {
+    margin-left: 64px;
+  }
+
+  .groupsteps-scroll {
+    position: absolute;
+    background: #d6d9e2;
+    top: 5px;
+    left: 16px;
+    bottom: 15px;
+
+    > button {
+      line-height: 26px;
+      font-size: 12px;
+      padding: 5px;
+      color: rgb(105, 105, 105);
+
+      &:first-child {
+        padding-left: 10px;
+      }
+
+      &:last-child {
+        padding-right: 10px;
+      }
+
+      &:hover {
+        color: rgb(91, 111, 154);
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    .groupsteps {
+      overflow-x: auto;
+    }
+
+    .groupsteps.with-scroll {
+      margin-left: 0;
+    }
+
+    .groupsteps-scroll {
+      display: none;
+    }
+  }
+}
+/** /groupsteps **/
+
+/* ----- Flow-Graph Directive ----- */
+.graph-info {
+  text-transform: none;
+}
+svg[flow-graph] {
+  display: none;
+
+  &.rendered {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .node {
+    rect {
+      fill: #fff;
+      stroke: #333;
+    }
+
+    polygon {
+      fill: #fff;
+      stroke: #333;
+    }
+
+    /* We don't specify whether there is a rect or polygon element, just selecting first child */
+    &.input-template > :first-child {
+      fill: #e7e8ed;
+      stroke: #d3d5de;
+    }
+
+    &.output-template > :first-child {
+      fill: #ffe299;
+      stroke: #ffd466;
+    }
+
+    &.operation-template > :first-child {
+      fill: #0f55bd;
+      stroke: #0a3576;
+    }
+
+    &.operation-template > .label {
+      fill: #fff;
+    }
+  }
+
+  .edgePath path {
+    stroke: #333;
+    fill: #333;
+    stroke-width: 1px;
+  }
+}
+/* ----- END Flow-Graph Directive ----- */

@@ -1,0 +1,64 @@
+table.table.table-dataset {
+  > thead > tr > th,
+  > thead > tr > td,
+  > tbody > tr > th,
+  > tbody > tr > td {
+    border-bottom: 1px solid #b3b3b3;
+    border-right: 1px solid #b3b3b3;
+  }
+
+  > thead {
+    border-bottom: 2px gray solid;
+  }
+
+  > tbody > tr > th:last-of-type {
+    border-right: 2px gray solid;
+  }
+
+  > thead > tr > th,
+  > tbody > tr > th {
+    font-size: 13px;
+    padding: 2px 10px;
+    white-space: nowrap;
+    vertical-align: middle;
+    .sort-control {
+      font-size: 16px;
+    }
+
+    &.tables-select-control {
+      background: rgba(255, 255, 255, 0.5);
+      padding: 0;
+      select.form-control {
+        padding: 2px 6px;
+        border: 0;
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        background: transparent;
+        font-size: 100%;
+        font-size: inherit;
+      }
+      span {
+        padding: 2px 10px;
+        font-size: 100%;
+        font-size: inherit;
+      }
+    }
+  }
+
+  > tbody > tr > td {
+    font-size: 13px;
+    padding: 0 2px;
+  }
+
+  > colgroup > col.response,
+  > tbody > tr.response {
+    background-color: #ffe299;
+  }
+
+  > colgroup > col.predictor,
+  > tbody > tr.predictor {
+    background-color: #e7f0fd;
+  }
+
+}

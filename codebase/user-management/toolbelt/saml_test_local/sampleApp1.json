@@ -1,0 +1,9 @@
+{
+  "id": "sampleApp1Id",
+  "name": "sampleApp1",
+  "desc": "Sample Application 1",
+  "url": "http://sample_app1_url",
+  "clientSecret": "app1Secret",
+  "created": "2016-06-03T12:00:00Z",
+  "updated": "2016-06-03T12:00:00Z"
+}

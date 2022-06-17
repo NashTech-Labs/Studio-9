@@ -1,0 +1,5 @@
+persistence:
+  storageClass: gp2
+  size: 5Gi
+  dataLogDir:
+    size: 5Gi

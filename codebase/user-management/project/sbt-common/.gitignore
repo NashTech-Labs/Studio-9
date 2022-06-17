@@ -1,0 +1,17 @@
+# SBT build output
+target
+
+# IntelliJ project files
+.idea*
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+.cache
+.target/
+
+# Scala worksheet files
+.worksheet/
+*.sc
+*.worksheet

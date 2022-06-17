@@ -1,0 +1,96 @@
+openapi: "3.0.0"
+info:
+  title: Sql Server Service
+  version: '0.1'
+paths:
+  /query:
+    post:
+      description: SQL execution endpoint
+      operationId: queryExecution
+      requestBody:
+        description: SQL execution endpoint
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryRequest'
+      responses:
+        '200':
+          description: Null response
+          headers:
+            X-SQL-Columns:
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        type:
+                          type: string
+                          enum: 
+                            - STRING
+                            - LONG
+                            - INTEGER
+                            - BOOLEAN
+                            - DOUBLE
+                            - TIMESTAMP
+              description: JSON array of columns definitions in the same order as columns go in CSV. Each definition should have a name and data type.
+            X-SQL-Rows-Count:
+              schema:
+                type: integer
+              description: The number of rows returned as the result
+          content:
+            text/csv:
+              schema:
+                type: string
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    QueryRequest:
+      allOf:
+        - required:
+            - query
+            - token
+          properties:
+            query:
+              type: string
+            token:
+              type: string
+            tables:
+              type: object
+              additionalProperties:
+                type: string
+              example:
+                myTable: 5cdceb41c04f8c2694042405
+                table2: 5cdceb41c04f8c2694042406
+            bindings:
+              type: object
+              additionalProperties: 
+                oneOf:
+                  - type: string
+                  - type: integer
+                  - type: boolean
+                  - type: number
+              example:
+                param1: foo
+                param2: 42
+                param3: false
+                param4: 0.3
+    Error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string

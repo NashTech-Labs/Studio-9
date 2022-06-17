@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: rabbitmq
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: rabbit.s9.devopscloud.link
+      http:
+        paths:
+          - backend:
+              service:
+                name: rabbitmq-cluster
+                port:
+                  number: 15672
+            path: /
+            pathType: ImplementationSpecific

@@ -1,0 +1,134 @@
+syntax = "proto3";
+
+package cortex.api.job.table;
+
+import "google/protobuf/wrappers.proto";
+
+message TableUploadRequest {
+    DataSource data_source = 1;
+    string source_file_path = 2;
+    string delimeter = 3;
+    string null_value = 4;
+    FileType file_type = 5;
+    repeated ColumnInfo columns = 6;
+}
+
+enum FileType {
+    CSV = 0;
+    JSON = 1;
+}
+
+message TabularColumnStatisticsRequest {
+    DataSource data_source = 1;
+    repeated Column columns = 2;
+    int32 histogram_length = 3;
+}
+
+message TabularColumnStatisticsResponse {
+    repeated ColumnStatistics column_statistics = 1;
+    int64 row_count = 2;
+}
+
+message TableUploadResponse {
+    repeated Column columns = 1;
+}
+
+message NumericalStatistics {
+    double min = 1;
+    double max = 2;
+    double avg = 3;
+    double std = 4;
+    double std_population = 5;
+    double mean = 6;
+    NumericalHistogram histogram = 7;
+}
+
+message CategoricalStatistics {
+    int64 unique_values_count = 1;
+    CategoricalHistogram histogram = 2;
+}
+
+message Column {
+    string name = 1;
+    string display_name = 2;
+    DataType datatype = 3;
+    VariableType variable_type = 4;
+}
+
+message ColumnInfo {
+    string name = 1;
+    google.protobuf.StringValue display_name = 2;
+    DataType datatype = 3;
+    VariableTypeInfo variable_type = 4;
+}
+
+message VariableTypeInfo {
+   VariableType variable_type = 1;
+}
+
+message ColumnStatistics {
+    string column_name = 1;
+    oneof statistics {
+        NumericalStatistics numerical_statistics = 2;
+        CategoricalStatistics categorical_statistics = 3;
+    }
+}
+
+message NumericalHistogramRow {
+    double min = 1;
+    double max = 2;
+    int64 count = 3;
+}
+
+message NumericalHistogram {
+    repeated NumericalHistogramRow value_ranges = 1;
+}
+
+message CategoricalHistogram {
+    repeated CategoricalHistogramRow value_frequencies = 1;
+}
+
+message CategoricalHistogramRow {
+    string value = 1;
+    int64 count = 2;
+}
+
+message Table {
+    TableMeta meta = 1;
+    repeated TableColumn columns = 2;
+}
+
+//TODO different datasources (csv, hdfs file)
+message DataSource {
+    Table table = 2;
+}
+
+enum DataType {
+    STRING = 0;
+    INTEGER = 1;
+    DOUBLE = 2;
+    BOOLEAN = 3;
+    TIMESTAMP = 4;
+    LONG = 5;
+}
+
+enum VariableType {
+    CONTINUOUS = 0;
+    CATEGORICAL = 1;
+}
+
+message TableColumn {
+    string name = 1;
+    DataType data_type = 2;
+    VariableType variable_type = 3;
+}
+
+message TableMeta {
+    string schema = 1;
+    string name = 2;
+}
+
+message ProbabilityClassColumn {
+    string class_name = 1;
+    string column_name = 2;
+}

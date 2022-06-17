@@ -1,0 +1,149 @@
+syntax = "proto3";
+
+package cortex.api.job.tabular;
+
+import "cortex/api/job/table.proto";
+import "google/protobuf/wrappers.proto";
+import "cortex/api/job/common.proto";
+
+message ColumnMapping {
+    string train_name = 1;
+    string current_name = 2;
+}
+
+enum ModelType {
+    REGRESSION = 0;
+    BINARY = 1;
+    MULTICLASS = 2;
+}
+
+message TrainRequest {
+    cortex.api.job.table.DataSource input = 1;
+    repeated cortex.api.job.table.TableColumn predictors = 2;
+    cortex.api.job.table.TableColumn response = 3;
+    cortex.api.job.table.TableColumn weight = 4;
+    cortex.api.job.table.DataSource output = 5;
+    bool drop_previous_result_table = 6;
+    string prediction_result_column_name = 7;
+    google.protobuf.StringValue probability_columns_prefix = 8;
+}
+
+message ClassConfusion {
+    string class_name = 1;
+    int32 true_positive = 2;
+    int32 true_negative = 3;
+    int32 false_positive = 4;
+    int32 false_negative = 5;
+}
+
+message ParametricModelPredictorSummary {
+    double coefficient = 1;
+    double std_err = 2;
+    double t_value = 3;
+    double p_value = 4;
+}
+
+message TreeModelPredictorSummary {
+    double importance = 1;
+}
+
+message PredictorSummary {
+    string name = 1;
+    oneof summary {
+        ParametricModelPredictorSummary parametric_model_predictor_summary = 2;
+        TreeModelPredictorSummary tree_model_predictor_summary = 3;
+    }
+}
+
+message RegressionSummary {
+    double rmse = 1;
+    double r2 = 2;
+    double mape = 3;
+}
+
+message RocValue {
+    double false_positive = 1;
+    double true_positive = 2;
+}
+
+message ClassificationSummary {
+    repeated ClassConfusion confusion_matrix = 1;
+}
+
+message BinaryClassificationEvalSummary {
+    ClassificationSummary general_classification_summary = 1;
+    double ks = 3;
+}
+
+message BinaryClassificationTrainSummary {
+    double area_under_roc = 1;
+    repeated RocValue roc_values = 2;
+    double f1_score = 3;
+    double precision = 4;
+    double recall = 5;
+    double threshold = 6;
+    BinaryClassificationEvalSummary binary_classification_eval_summary = 7;
+}
+
+message TrainResult {
+    string model_id = 1;
+    ModelType model_type = 2;
+    string formula = 3;
+    oneof summary {
+        ClassificationSummary classification_summary = 4;
+        BinaryClassificationTrainSummary binary_classification_train_summary = 5;
+        RegressionSummary regression_summary = 6;
+    }
+    repeated PredictorSummary predictors_summary = 7;
+    repeated cortex.api.job.table.ProbabilityClassColumn probability_columns = 8;
+    cortex.api.job.table.DataSource output = 9;
+    string model_primitive = 10;
+    string model_file_path = 11;
+}
+
+message PredictRequest {
+    string model_id = 1;
+    cortex.api.job.table.DataSource input = 2;
+    cortex.api.job.table.DataSource output = 3;
+    repeated ColumnMapping predictors = 4;
+    bool drop_previous_result_table = 5;
+    string prediction_result_column_name = 6;
+    repeated cortex.api.job.table.ProbabilityClassColumn probability_columns = 7;
+    cortex.api.job.common.ClassReference model_reference = 8;
+}
+
+message PredictionResult {
+    repeated string class_probability_column_names = 1;
+    cortex.api.job.table.DataSource output = 2;
+}
+
+message EvaluateRequest {
+    string model_id = 1;
+    cortex.api.job.table.DataSource input = 2;
+    repeated ColumnMapping predictors = 3;
+    ColumnMapping response = 4;
+    ColumnMapping weight = 5;
+    cortex.api.job.table.DataSource output = 6;
+    bool drop_previous_result_table = 7;
+    string prediction_result_column_name = 8;
+    repeated cortex.api.job.table.ProbabilityClassColumn probability_columns = 9;
+    cortex.api.job.common.ClassReference model_reference = 10;
+}
+
+message EvaluationResult {
+    oneof summary {
+        ClassificationSummary classification_summary = 1;
+        BinaryClassificationEvalSummary binary_classification_eval_summary = 2;
+        RegressionSummary regression_summary = 3;
+    }
+    cortex.api.job.table.DataSource output = 4;
+}
+
+message TabularModelImportRequest {
+    string path = 1;
+    cortex.api.job.common.ClassReference model_class_reference = 2;
+}
+
+message TabularModelImportResult {
+    cortex.api.job.common.ModelReference tabular_model_reference = 1;
+}

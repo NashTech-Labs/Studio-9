@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tauraus-api
+spec:
+  selector:
+    app: tauraus-api
+  ports:
+  - port: 9000
+    name: tauraus
+  - name: communicate
+    port: 2552

@@ -1,0 +1,19 @@
+@(message: String, appLinks: Map[String, String])
+
+<html>
+    <head>
+        <title>Sentrana account activation - success</title>
+    </head>
+    <body>
+
+        <h1>Sentrana account activated successfully</h1>
+
+        <p>@message</p>
+
+        <h2>Available applications:</h2>
+        @for(al <- appLinks) {
+            <a href="@Html(al._2)">@al._1</a><br/>
+        }
+    </body>
+</html>
+

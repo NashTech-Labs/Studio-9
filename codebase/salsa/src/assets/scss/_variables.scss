@@ -1,0 +1,21 @@
+// custom BS and APP variables
+// run "gulp sass" to compile
+// (bootstrap supposed to be installed in ../vendor/bower_components/boostrap first)
+
+$brand-primary:              #0d47a1 !default; // rgb(9, 173, 249)
+$brand-secondary:            #2a579a !default; // rgb(42, 87, 154)
+$brand-success:              #48C248 !default; // ...
+$brand-info:                 #5bc0de !default; // non-changed
+$brand-warning:              #f0ad4e !default; // non-changed
+$brand-danger:               #ff002d !default; // rgb(255, 0, 45)
+
+$link-hover-decoration:      none;
+$font-family-sans-serif:     Roboto, sans-serif;
+$font-size-base:             13px;
+$line-height:                1.7 !default;
+
+$headings-font-weight:       400;
+$headings-line-height:       1.5;
+
+$base-padding:               4px;
+$table-cell-padding:         $base-padding;

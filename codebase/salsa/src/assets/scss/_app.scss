@@ -1,0 +1,102 @@
+/* TEMP TEMP TEMP*/
+
+html, body {
+  letter-spacing: .01em;
+  -webkit-font-smoothing: antialiased; }
+
+/* OBSOLETED
+.text-thin,
+.font-weight-thin {
+  font-weight: 100; }
+*/
+.text-light,
+.font-weight-light {
+  font-weight: 300; }
+.text-normal,
+.font-weight-normal {
+  font-weight: 400; }
+.text-bold,
+.font-weight-bold {
+  font-weight: 700; }
+
+.b-dashed {
+  border-style: dashed !important; }
+.b-dotted {
+  border-style: dotted !important; }
+.b-a-0 {
+  border-width: 0 !important; }
+.b-l-0 {
+  border-left-width: 0 !important; }
+.b-r-0 {
+  border-right-width: 0 !important; }
+.b-t-0 {
+  border-top-width: 0 !important; }
+.b-b-0 {
+  border-bottom-width: 0 !important; }
+.b-a-1 {
+  border-width: 1px;
+  border-left-color: $table-border-color; }
+.b-l-1 {
+  border-width: 0;
+  border-left-width: 1px !important;
+  border-left-color: $table-border-color;
+  border-left-style: solid; }
+.b-r-1 {
+  border-width: 0;
+  border-right-width: 1px !important;
+  border-right-color: $table-border-color;
+  border-right-style: solid; }
+.b-t-1 {
+  border-width: 0;
+  border-top-width: 1px !important;
+  border-top-color: $table-border-color;
+  border-top-style: solid; }
+.b-b-1 {
+  border-width: 0;
+  border-bottom-width: 1px !important;
+  border-bottom-color: $table-border-color;
+  border-bottom-style: solid; }
+
+.link {
+  cursor: pointer; }
+.link-colorless,
+.link-colorless a {
+  color: inherit; }
+.link-decorless:hover,
+.link-decorless:hover a {
+  text-decoration: none;
+}
+.link-dashed,
+.link-dashed:hover {
+  border-bottom: 1px dotted;
+  text-decoration: none; }
+.link:hover > a {
+  color: $link-hover-color;
+}
+
+
+.bg-inverse .btn-secondary,
+.bg-primary .btn-secondary,
+.bg-success .btn-secondary,
+.bg-info .btn-secondary,
+.bg-warning .btn-secondary,
+.bg-danger .btn-secondary {
+  border: none; }
+
+
+.table .tr-middle > th,
+.table .tr-middle > td {
+  vertical-align: middle; }
+.tr-clickable, .td-clickable {
+  cursor: pointer; }
+.tr-non-clickable, .td-non-clickable {
+  cursor: inherit; }
+
+.form-table table,
+table.form-table {
+  td:first-child {
+    width: 30%;
+    min-width: 250px;
+    overflow: hidden;
+  }
+}

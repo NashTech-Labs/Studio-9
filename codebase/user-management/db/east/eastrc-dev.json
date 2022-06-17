@@ -1,0 +1,4 @@
+{
+	"adapter": "east-mongo",
+	"url": "mongodb://10.15.50.230:3333/um-service?replicaSet=rs"
+}

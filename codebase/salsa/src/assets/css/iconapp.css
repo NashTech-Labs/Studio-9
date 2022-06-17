@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'iconapp';
+  src:  url('../fonts/iconapp.eot?6cezec');
+  src:  url('../fonts/iconapp.eot?6cezec#iefix') format('embedded-opentype'),
+    url('../fonts/iconapp.ttf?6cezec') format('truetype'),
+    url('../fonts/iconapp.woff?6cezec') format('woff'),
+    url('../fonts/iconapp.svg?6cezec#iconapp') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.iconapp {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconapp' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconapp-link:before {
+  content: "\e90f";
+}
+.iconapp-round:before {
+  content: "\e90e";
+}
+.iconapp-graphic:before {
+  content: "\e910";
+}
+.iconapp-arrows:before {
+  content: "\e900";
+}
+.iconapp-bell:before {
+  content: "\e901";
+}
+.iconapp-clock:before {
+  content: "\e902";
+}
+.iconapp-dashboard:before {
+  content: "\e903";
+}
+.iconapp-dot:before {
+  content: "\e904";
+}
+.iconapp-flows:before {
+  content: "\e905";
+}
+.iconapp-formula:before {
+  content: "\e906";
+}
+.iconapp-map:before {
+  content: "\e907";
+}
+.iconapp-models:before {
+  content: "\e908";
+}
+.iconapp-projects:before {
+  content: "\e909";
+}
+.iconapp-robots:before {
+  content: "\e90a";
+}
+.iconapp-rotate:before {
+  content: "\e90b";
+}
+.iconapp-tables:before {
+  content: "\e90c";
+}
+.iconapp-visuals:before {
+  content: "\e90d";
+}
+.iconapp-question:before {
+  content: "\e90d";
+}

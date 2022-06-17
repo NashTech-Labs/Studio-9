@@ -1,0 +1,49 @@
+{
+  "id": "${APP_NAME}",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "${DOCKER_IMAGE_VERSION}",
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "containerPort": 9000,
+          "labels": {
+            "VIP_0": "/${APP_NAME}:9000"
+          }
+        }
+      ],
+      "forcePullImage": true
+    }
+  },
+  "env": {REPLACE_WITH_ENV_VARS
+  },
+  "instances": ${SRV_INSTANCES},
+  "cpus": ${SRV_CPUS},
+  "mem": ${SRV_MEM},
+  "constraints": [
+      [
+        "hostname",
+        "UNIQUE"
+      ],
+      [
+        "cluster",
+        "UNLIKE",
+        "gpu"
+      ]
+    ],
+  "healthChecks": [{
+    "protocol": "HTTP",
+    "path": "/v1/health",
+    "portIndex": 0,
+    "timeoutSeconds": 10,
+    "gracePeriodSeconds": 10,
+    "intervalSeconds": 2,
+    "maxConsecutiveFailures": 10
+  }],
+  "upgradeStrategy": {
+    "maximumOverCapacity": 1,
+    "minimumHealthCapacity": 0.5
+  }
+}

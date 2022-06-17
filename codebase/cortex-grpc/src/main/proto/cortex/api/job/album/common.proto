@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package cortex.api.job.album.common;
+
+import "google/protobuf/wrappers.proto";
+
+message Image {
+    string file_path = 1;
+    google.protobuf.StringValue reference_id = 2;
+    google.protobuf.Int64Value file_size = 3;
+    google.protobuf.StringValue display_name = 4;
+}
+
+message TagArea {
+    int32 top = 1;
+    int32 left = 2;
+    int32 height = 3;
+    int32 width = 4;
+}
+
+message Tag {
+    string label = 1;
+    TagArea area = 2;
+}
+
+message TaggedImage {
+    Image image = 1;
+    repeated Tag tags = 2;
+}

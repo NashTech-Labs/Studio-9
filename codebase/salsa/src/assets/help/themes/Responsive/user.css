@@ -1,0 +1,22 @@
+/* Global styles */
+body {
+    /*font-family: Georgia, Times, "Times New Roman";*/
+    /*font-size: 10pt;*/
+}
+
+/* Page header styles */
+#c1headerText {
+/*    font-family: Georgia, Times, "Times New Roman";
+    font-style: italic;*/
+    font-size: 1.6em;
+}
+
+/* Breadcrumbs styles */
+#c1breadcrumbs {
+    /*font-size: .8em;*/
+}
+
+/* Side tabs block styles */
+#c1sideTabs {
+    /*font-size: .9em;*/
+}

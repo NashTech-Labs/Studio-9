@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aries-rest-config
+data:
+  ELASTIC_HOST: "elasticsearch.elastic.svc.cluster.local"
+  ELASTIC_PORT: "9200"
+  ELASTIC_SSL: "false"
+  ELASTIC_JOB_INDEX: "cortex_jobs_dev"
+  ELASTIC_HEARTBEAT_INDEX: "cortex_job_heartbeats_dev"

@@ -1,0 +1,167 @@
+$trans: transparent;
+$gridLine: #cbd3d6;
+$gridSize: 80px;
+$subdivisions: 4;
+$lineAlpha: 1;
+$sublineAlpha: .5;
+
+.pipeline-canvas-wrapper {
+  border: 1px solid silver;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.pipeline-canvas-wrapper:focus {
+  border-color: $brand-primary;
+  outline: none;
+}
+canvas-edit-context {
+  .menu ul.nav-stacked {
+    .submenu {
+      &.with-icons > li > a {
+        margin-right: 25px;
+      }
+      .info-sign {
+        position: absolute;
+        right: 15px;
+        top: ceil($base-padding * 1.8);
+        cursor: pointer;
+      }
+    }
+  }
+  .ml-icon {
+    width: 21px;
+    height: 21px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}
+.pipeline-canvas {
+  user-select: none;
+  background-color: rgba(243, 244, 249, 0.67);
+
+  .pipeline-operator {
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid silver;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    overflow: visible;
+    text-align: center;
+    z-index: 20;
+
+    .operator-name {
+      position: absolute;
+      bottom: -20px;
+    }
+    .operator-icon {
+      display: inline-block;
+      padding-top: 16px;
+    }
+    i {
+      margin: 0 auto;
+      z-index: 999;
+    }
+    .controls-panel {
+      position: absolute !important;
+      top: 0;
+      right: 0;
+      width: 100%;
+      padding: 3px;
+      text-align: right;
+      i.control {
+        font-size: 10px;
+        padding: 5px 5px 5px 5px;
+        position: relative;
+
+        &:hover {
+          border: 1px solid grey;
+          margin: -1px;
+        }
+      }
+    }
+  }
+
+  .pipeline-operator-size-1 {
+    min-height: 60px;
+    min-width: 60px;
+  }
+
+  .pipeline-operator-size-2 {
+    min-height: 80px;
+    min-width: 80px;
+  }
+
+  .pipeline-operator-size-3 {
+    min-height: 100px;
+    min-width: 100px;
+  }
+
+  .pipeline-operator-size-4 {
+    min-height: 120px;
+    min-width: 120px;
+  }
+
+  .pipeline-operator-size-5 {
+    min-height: 140px;
+    min-width: 140px;
+  }
+
+  .pipeline-operator-size-6 {
+    min-height: 160px;
+    min-width: 160px;
+  }
+
+  .pipeline-operator-size-7 {
+    min-height: 180px;
+    min-width: 180px;
+  }
+
+  .pipeline-operator-size-max {
+    min-height: 200px;
+    min-width: 200px;
+  }
+
+  .jtk-endpoint.required {
+    &:not(.jtk-endpoint-connected) * {
+      fill: $brand-danger;
+    }
+  }
+
+  .jtk-endpoint.disabled {
+    opacity: .3;
+  }
+
+  .jtk-overlay {
+    z-index: 25;
+  }
+
+  .jtk-drag {
+    z-index: 30;
+    cursor: move;
+  }
+
+  .jtk-connected {
+    border: 1px solid $brand-primary;
+  }
+}
+
+.canvas-grid {
+  background-image:
+    linear-gradient(0deg, rgba($gridLine, $lineAlpha) 1px, $trans 1px), /* main horizontal */
+    linear-gradient(-90deg, rgba($gridLine, $lineAlpha) 1px, $trans 1px), /* main vertical*/
+    linear-gradient(0deg, rgba($gridLine, $sublineAlpha) 1px, $trans 1px), /* sub horizontal */
+    linear-gradient(-90deg, rgba($gridLine, $sublineAlpha) 1px, $trans 1px); /* sub vertical */
+  background-size:
+    $gridSize $gridSize,
+    $gridSize $gridSize,
+    $gridSize / $subdivisions $gridSize / $subdivisions,
+    $gridSize / $subdivisions $gridSize / $subdivisions;
+  border: 1px solid $gridLine;
+}
+

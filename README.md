@@ -42,12 +42,70 @@ Below are described the major components of Studio-9.
 >You now have the power to deploy and run your Data Processing pipelines, Models, and AI anywhere – from infinitely scalable Cloud computing infrastructure to your own laptop to ultra-low power edge computing devices – with no additional programming or engineering effort required. We designed Studio9 for deployment flexibility so you can build, train, share, and execute your AI anywhere you want.
 
 
-# How to deploy Studio9 on Local?
+
+# Flow of Studio-9
 ![Studio-9_flow](https://user-images.githubusercontent.com/86958663/171150086-22fb8783-bc07-45a0-a989-d100a3f50de8.png)
 
 
-We'll be deploying Studio9 on local using a docker-compose file.
+# How to deploy Studio9 on Local?
+So for deploying the Studio-9 on local without docker-compose, we have to understand the sequence of the services to be deployed.
+In the first phase, we will deploy the below services:
 
+## Elastic Search
+[Deploying Elastic Search on local](https://phoenixnap.com/kb/install-elasticsearch-ubuntu)
+
+## MongoDB
+[Deploying MongoDB on local](https://hevodata.com/blog/install-mongodb-on-ubuntu/)
+
+## RabbutMQ
+[Deploying RabbitMQ on local](https://www.hackerxone.com/2021/08/24/steps-to-install-rabbitmq-on-ubuntu-20-04/)
+
+## Postgress
+[Deploying Postgres on local](https://phoenixnap.com/kb/how-to-install-postgresql-on-ubuntu)
+
+## Mesos
+[Deploying Mesos on local](https://mesos.apache.org/documentation/latest/building/)
+
+## Marathon
+[Deploying Marathon on local](https://mesosphere.github.io/marathon/docs/)
+
+## Zookeeper
+[Deploying Zookeeper on local](https://phoenixnap.com/kb/install-apache-zookeeper)
+
+
+After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
+
+## Aries
+[Deploying Aries Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/aries/README.md)
+
+## Argo
+[Deploying Argo Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/argo/README.md)
+
+## Orion
+[Deploying Orion Service on loal](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion/README.md)
+
+## Cortex
+[Deploying Cortex Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/cortexREADME.md)
+
+## Pegasus
+[Deploying Pegasus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/pegasus/README.md)
+
+## Taurus
+[Deploying Taurus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/taurus/README.md)
+
+## UM-Service
+[Deploying UM-Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/user-management/README.md)
+
+## Baile
+[Deploying Baile Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/Baile/README.md)
+
+## Salsa
+[Deploying Salsa Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/salsa/README.md)
+
+
+
+# How to deploy Studio9 using Docker-Compose?
+We'll be deploying Studio9 on local using a docker-compose file.
 
 ## Prerequisites
 - Docker should be installed on your local system.
@@ -93,6 +151,3 @@ For running the Studio-9 on local, we are using docker-compose.
 - SQL-Server depends on UM Service and will be accessible at 9000.
 - Salsa service is responsible for the UI of Studio-9 and it depends on Baile with port 80.
 - Postgres service depends on postgres-db and will be accessible at 8080.
-
-
-# How to deploy Studio-9 on local without Docker-compose?

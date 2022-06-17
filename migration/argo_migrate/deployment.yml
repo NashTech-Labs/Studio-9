@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argo-rest-api
+spec:
+  selector:
+    matchLabels:
+      app: argo-rest-api
+  template:
+    metadata:
+      labels:
+        app: argo-rest-api
+    spec:
+      containers:
+      - name: argo
+        image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/argo-api-rest:1.0
+        resources: {}
+        ports:
+        - containerPort: 9000
+        env:
+        - name: HTTP_AUTH_USER_NAME
+          value: "argo-auth-user"
+
+        - name: ELASTIC_HOST 
+          value: "elasticsearch.elastic.svc.cluster.local"
+
+        - name: ELASTIC_PORT 
+          value: "9200"
+
+        - name: ELASTIC_CONFIG_SETTING_INDEX 
+          value: "cortex_config_settings_dev"
+
+        - name: ELASTIC_SSL 
+          value: "false"
+
+        - name: HTTP_AUTH_USER_PASSWORD 
+          value: "saMJiIYKEsCpjha5h"
+
+        - name: AKKA_LOGLEVEL
+          value: "INFO"
+
+        
+        livenessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 10
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1

@@ -1,0 +1,150 @@
+.process-circle {
+  background: #ffffff;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 50px auto;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  &.process-complete {
+    color: #515e4d;
+  }
+
+  > * {
+    margin-bottom: 7px;
+  }
+
+  > .glyphicon {
+    margin-top: 5px;
+    font-size: 250%;
+  }
+
+  > div div.message {
+    font-weight: bold;
+  }
+
+  > .percentage {
+    //margin-bottom: 20px;
+  }
+
+  > .process-cancel .btn {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}
+
+.operations-toolbar {
+  .visible-dropdown {
+    overflow: visible !important;
+  }
+}
+
+core-project-context {
+  .project-context-wrapper {
+    border: 1px solid #c0c0c0;
+    padding: 0 5px;
+    overflow: hidden;
+    position: relative;
+
+    > .btn-link {
+      padding: 2px;
+    }
+  }
+
+  .wrapped-breadcrumb {
+    display: flex;
+    flex-flow: row;
+    margin: 0 -5px;
+    padding: 5px;
+    white-space: nowrap;
+    background-color: unset;
+    justify-content: flex-end;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .breadcrumb-folders {
+    &:before {
+      content: '\02026';
+      margin-left: 5px;
+      position: absolute;
+      left: 0;
+      margin-top: 3px;
+    }
+    margin-left: 1em;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+
+    &.from-left {
+      &:before {
+        content: unset;
+      }
+      justify-content: flex-start;
+      margin-left: 0;
+    }
+  }
+
+  .wrapped-breadcrumb > li {
+    cursor: pointer;
+    font-size: 13px;
+    min-width: 6px;
+    > a.dropdown-toggle {
+      padding: 0 5px 0 3px;
+    }
+  }
+
+  .wrapped-breadcrumb.breadcrumb > li + li:before {
+    content: '';
+    padding: 0;
+  }
+
+  .chevron::before {
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+  }
+
+  .chevron.right:before {
+    top: 5px;
+    left: 0;
+    transform: rotate(45deg);
+  }
+
+  .chevron.bottom:before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  .chevron.left:before {
+    left: 0.25em;
+    transform: rotate(-135deg);
+  }
+}
+
+side-asset-list, .like-side-asset-list {
+  .form-group {
+    .input-group-addon {
+      border-left-width: 0;
+      border-right-width: 0;
+    }
+    margin: 0;
+  }
+}

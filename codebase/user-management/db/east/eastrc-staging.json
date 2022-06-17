@@ -1,0 +1,4 @@
+{
+	"adapter": "east-mongo",
+	"url": "mongodb://um_service_s:EHnJoVq9ZfslqvQ6@deepcortex-prod-shard-00-00-nxeq0.mongodb.net:27017,deepcortex-prod-shard-00-01-nxeq0.mongodb.net:27017,deepcortex-prod-shard-00-02-nxeq0.mongodb.net:27017/um-service-s?replicaSet=deepcortex-prod-shard-0&authSource=admin&ssl=true"
+}

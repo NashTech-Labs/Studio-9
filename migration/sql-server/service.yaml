@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sql-server
+spec:
+  selector:
+    app: sql-server
+  ports:
+  - name: traffic
+    port: 8000
+    targetPort: 8000
+    protocol: TCP
+  - name: comms
+    port: 2552
+    protocol: TCP
+  type: ClusterIP

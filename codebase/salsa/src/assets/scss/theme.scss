@@ -1,0 +1,9 @@
+// load variables
+@import "variables";
+
+// load boostrap and fixing styles
+$icon-font-path: '../../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// load app styles
+@import "app";

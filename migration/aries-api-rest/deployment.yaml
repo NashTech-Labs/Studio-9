@@ -1,0 +1,85 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aries-rest-api
+spec:
+  selector:
+    matchLabels:
+      app: aries-rest-api
+  template:
+    metadata:
+      labels:
+        app: aries-rest-api
+    spec:
+      containers:
+      - name: aries
+        image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/aries-api-rest:1.0
+        resources: {}
+        ports:
+        - containerPort: 9000
+        env:
+        - name: HTTP_SEARCH_USER_NAME 
+          valueFrom:
+            secretKeyRef:
+              name: aries-rest-secret
+              key: HTTP_SEARCH_USER_NAME
+        - name: HTTP_COMMAND_USER_NAME 
+          valueFrom:
+            secretKeyRef:
+              name: aries-rest-secret
+              key: HTTP_COMMAND_USER_NAME
+        - name: ELASTIC_HOST 
+          valueFrom:
+            configMapKeyRef:
+              key: ELASTIC_HOST
+              name: aries-rest-config
+        - name: ELASTIC_PORT 
+          valueFrom:
+            configMapKeyRef:
+              key: ELASTIC_PORT
+              name: aries-rest-config
+        - name: ELASTIC_SSL 
+          valueFrom:
+            configMapKeyRef:
+              key: ELASTIC_SSL
+              name: aries-rest-config
+        - name: ELASTIC_JOB_INDEX 
+          valueFrom:
+            configMapKeyRef:
+              key: ELASTIC_JOB_INDEX
+              name: aries-rest-config
+        - name: ELASTIC_HEARTBEAT_INDEX 
+          valueFrom:
+            configMapKeyRef:
+              key: ELASTIC_HEARTBEAT_INDEX
+              name: aries-rest-config
+        - name: HTTP_SEARCH_USER_PASSWORD 
+          valueFrom:
+            secretKeyRef:
+              name: aries-rest-secret
+              key: HTTP_SEARCH_USER_PASSWORD
+        - name: HTTP_COMMAND_USER_PASSWORD 
+          valueFrom:
+            secretKeyRef:
+              name: aries-rest-secret
+              key: HTTP_COMMAND_USER_PASSWORD
+        - name: AKKA_LOGLEVEL
+          value: "INFO"
+        livenessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1

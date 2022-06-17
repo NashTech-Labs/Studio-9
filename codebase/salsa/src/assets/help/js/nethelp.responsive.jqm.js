@@ -1,0 +1,1 @@
+$(document).on("mobileinit",function(){$.mobile.hashListeningEnabled=!1,$.mobile.autoInitializePage=!1})

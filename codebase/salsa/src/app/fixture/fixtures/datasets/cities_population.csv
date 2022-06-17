@@ -1,0 +1,5001 @@
+"city", "state", "population"
+"New York ","NY",8363710
+"Los Angeles ","CA",3833995
+"Chicago ","IL",2853114
+"Houston ","TX",2242193
+"Phoenix ","AZ",1567924
+"Philadelphia ","PA",1447395
+"San Antonio ","TX",1351305
+"Dallas ","TX",1279910
+"San Diego ","CA",1279329
+"San Jose ","CA",948279
+"Detroit ","MI",912062
+"San Francisco ","CA",808976
+"Jacksonville ","FL",807815
+"Indianapolis","IN",798382
+"Austin ","TX",757688
+"Columbus ","OH",754885
+"Fort Worth ","TX",703073
+"Charlotte ","NC",687456
+"Memphis ","TN",669651
+"Baltimore ","MD",636919
+"El Paso ","TX",61319
+"Boston ","MA",609023
+"Milwaukee ","WI",604477
+"Denver ","CO",598707
+"Seattle ","WA",598541
+"Nashville","TN",596462
+"Washington ","DC",591833
+"Las Vegas ","NV",558383
+"Portland ","OR",557706
+"Louisville","KY",557224
+"Oklahoma City ","OK",551789
+"Tucson ","AZ",541811
+"Atlanta ","GA",537958
+"Albuquerque ","NM",521999
+"Fresno ","CA",47605
+"Sacramento ","CA",463794
+"Long Beach ","CA",463789
+"Mesa ","AZ",463552
+"Kansas City ","MO",451572
+"Omaha ","NE",438646
+"Cleveland ","OH",433748
+"Virginia Beach ","VA",433746
+"Miami ","FL",413201
+"Oakland ","CA",404155
+"Raleigh ","NC",392552
+"Tulsa ","OK",385635
+"Minneapolis ","MN",382605
+"Colorado Springs ","CO",380307
+"Honolulu","HI",374676
+"Arlington ","TX",374417
+"Wichita ","KS",366046
+"St. Louis ","MO",354361
+"Tampa ","FL",340882
+"Santa Ana ","CA",33913
+"Anaheim ","CA",335288
+"Cincinnati ","OH",333336
+"Bakersfield ","CA",321078
+"Aurora ","CO",319057
+"New Orleans ","LA",311853
+"Pittsburgh ","PA",310037
+"Riverside ","CA",295357
+"Toledo ","OH",293201
+"Stockton ","CA",287037
+"Corpus Christi ","TX",286462
+"Lexington","KY",282114
+"St. Paul ","MN",27959
+"Anchorage","AK",279243
+"Newark ","NJ",27898
+"Buffalo ","NY",270919
+"Plano ","TX",26748
+"Henderson ","NV",252064
+"Lincoln ","NE",251624
+"Fort Wayne ","IN",251591
+"Glendale ","AZ",251522
+"Greensboro ","NC",250642
+"Chandler ","AZ",24714
+"St. Petersburg ","FL",245314
+"Jersey City ","NJ",241114
+"Scottsdale ","AZ",235371
+"Norfolk ","VA",23422
+"Madison ","WI",231916
+"Orlando ","FL",230519
+"Birmingham ","AL",228798
+"Baton Rouge ","LA",223689
+"Durham ","NC",223284
+"Laredo ","TX",221659
+"Lubbock ","TX",220483
+"Chesapeake ","VA",220111
+"Chula Vista ","CA",219318
+"Garland ","TX",218577
+"Winston-Salem ","NC",2176
+"North Las Vegas ","NV",217253
+"Reno ","NV",217016
+"Gilbert","AZ",216449
+"Hialeah ","FL",210542
+"Arlington","VA",209969
+"Akron ","OH",20751
+"Irvine ","CA",2075
+"Rochester ","NY",206886
+"Boise City ","ID",205314
+"Modesto ","CA",202967
+"Fremont ","CA",202867
+"Montgomery ","AL",202696
+"Spokane ","WA",202319
+"Richmond ","VA",202002
+"Yonkers ","NY",201588
+"Irving ","TX",201358
+"Shreveport ","LA",199729
+"San Bernardino ","CA",19858
+"Tacoma ","WA",197181
+"Glendale ","CA",197176
+"Des Moines ","IA",197052
+"Augusta","GA",194149
+"Grand Rapids ","MI",193396
+"Huntington Beach ","CA",19262
+"Mobile ","AL",191022
+"Moreno Valley ","CA",190871
+"Little Rock ","AR",189515
+"Amarillo ","TX",187236
+"Columbus ","GA",186984
+"Oxnard ","CA",185717
+"Fontana ","CA",184984
+"Knoxville ","TN",184802
+"Fort Lauderdale ","FL",183126
+"Salt Lake City ","UT",181698
+"Newport News ","VA",179614
+"Huntsville ","AL",176645
+"Tempe ","AZ",175523
+"Brownsville ","TX",175494
+"Worcester ","MA",175011
+"Fayetteville ","NC",174091
+"Jackson ","MS",173861
+"Tallahassee ","FL",171922
+"Aurora ","IL",171782
+"Ontario ","CA",171691
+"Providence ","RI",171557
+"Overland Park ","KS",171231
+"Rancho Cucamonga ","CA",171176
+"Chattanooga ","TN",17088
+"Oceanside ","CA",169684
+"Santa Clarita ","CA",1695
+"Garden Grove ","CA",165796
+"Vancouver ","WA",163186
+"Grand Prairie ","TX",160641
+"Peoria ","AZ",15796
+"Rockford ","IL",157272
+"Cape Coral ","FL",156835
+"Springfield ","MO",156206
+"Santa Rosa ","CA",155796
+"Sioux Falls ","SD",154997
+"Port St. Lucie ","FL",154353
+"Dayton ","OH",1542
+"Salem ","OR",153435
+"Pomona ","CA",152699
+"Springfield ","MA",15064
+"Eugene ","OR",150104
+"Corona ","CA",149923
+"Pasadena ","TX",146439
+"Joliet ","IL",146125
+"Pembroke Pines ","FL",145661
+"Paterson ","NJ",145643
+"Hampton ","VA",145494
+"Lancaster ","CA",145469
+"Alexandria ","VA",143885
+"Salinas ","CA",14364
+"Palmdale ","CA",143197
+"Naperville ","IL",143117
+"Pasadena ","CA",14308
+"Kansas City ","KS",142562
+"Hayward ","CA",142061
+"Hollywood ","FL",14174
+"Lakewood ","CO",140989
+"Torrance ","CA",14082
+"Syracuse ","NY",138068
+"Escondido ","CA",137103
+"Fort Collins ","CO",136509
+"Bridgeport ","CT",136405
+"Orange ","CA",136392
+"Warren ","MI",133939
+"Elk Grove ","CA",133003
+"Savannah ","GA",13241
+"Mesquite ","TX",132123
+"Sunnyvale ","CA",132109
+"Fullerton ","CA",131868
+"McAllen ","TX",129776
+"Cary","NC",129545
+"Cedar Rapids ","IA",128056
+"Sterling Heights ","MI",12716
+"Columbia ","SC",127029
+"Coral Springs ","FL",125783
+"Carrollton ","TX",125595
+"Elizabeth ","NJ",124755
+"Hartford ","CT",124062
+"Waco ","TX",124009
+"Bellevue ","WA",123771
+"New Haven ","CT",123669
+"West Valley City ","UT",123447
+"Topeka ","KS",123446
+"Thousand Oaks ","CA",123091
+"El Monte ","CA",121791
+"McKinney ","TX",121211
+"Concord ","CA",12116
+"Visalia ","CA",12104
+"Simi Valley ","CA",120543
+"Olathe ","KS",119993
+"Clarksville ","TN",119735
+"Denton ","TX",119454
+"Stamford ","CT",119303
+"Provo ","UT",118581
+"Springfield ","IL",117352
+"Killeen ","TX",116934
+"Abilene ","TX",116484
+"Evansville ","IN",116309
+"Gainesville ","FL",114916
+"Vallejo ","CA",114729
+"Ann Arbor ","MI",114386
+"Peoria ","IL",114114
+"Lansing ","MI",113968
+"Lafayette ","LA",113656
+"Thornton ","CO",113429
+"Athens","GA",113398
+"Flint ","MI",1129
+"Inglewood ","CA",112714
+"Roseville ","CA",11266
+"Charleston ","SC",111978
+"Beaumont ","TX",110553
+"Independence ","MO",11044
+"Victorville ","CA",110318
+"Santa Clara ","CA",1102
+"Costa Mesa ","CA",11008
+"Miami Gardens ","FL",109346
+"Manchester ","NH",108586
+"Miramar ","FL",108484
+"Downey ","CA",107587
+"Arvada ","CO",107361
+"Allentown ","PA",10725
+"Westminster ","CO",107056
+"Waterbury ","CT",107037
+"Norman ","OK",106957
+"Midland ","TX",106561
+"Elgin ","IL",10633
+"West Covina ","CA",10579
+"Clearwater ","FL",105774
+"Cambridge ","MA",105596
+"Pueblo ","CO",104951
+"West Jordan ","UT",104447
+"Round Rock ","TX",104446
+"Billings ","MT",103994
+"Erie ","PA",103817
+"South Bend ","IN",103807
+"Ventura","CA",103706
+"Fairfield ","CA",103683
+"Lowell ","MA",103615
+"Norwalk ","CA",102982
+"Burbank ","CA",102968
+"Richmond ","CA",102285
+"Pompano Beach ","FL",101943
+"High Point ","NC",101835
+"Murfreesboro ","TN",101753
+"Lewisville ","TX",101624
+"Richardson ","TX",101589
+"Daly City ","CA",101514
+"Berkeley ","CA",101371
+"Gresham ","OR",101221
+"Wichita Falls ","TX",101202
+"Green Bay ","WI",101025
+"Davenport ","IA",100827
+"Palm Bay ","FL",100786
+"Columbia ","MO",100733
+"Portsmouth ","VA",100577
+"Rochester ","MN",100413
+"Antioch ","CA",100219
+"Wilmington ","NC",100192
+"Centennial ","CO",9968
+"Odessa ","TX",98801
+"West Palm Beach ","FL",98779
+"Rialto ","CA",987
+"Everett ","WA",98212
+"Murrieta ","CA",97918
+"Tyler ","TX",97705
+"Temecula ","CA",971
+"Kenosha ","WI",9695
+"Frisco ","TX",96676
+"Sandy ","UT",9666
+"South Gate ","CA",9664
+"Carlsbad ","CA",96374
+"Gary ","IN",9592
+"Mission Viejo ","CA",94461
+"North Charleston ","SC",94407
+"Boulder ","CO",94171
+"Compton ","CA",93851
+"Hillsboro ","OR",93638
+"Albany ","NY",93539
+"Fargo ","ND",93531
+"Lakeland ","FL",93333
+"Orem ","UT",9325
+"Brockton ","MA",93007
+"Roanoke ","VA",92967
+"Broken Arrow ","OK",92931
+"Surprise ","AZ",92897
+"Macon ","GA",92775
+"El Cajon ","CA",92718
+"Carson ","CA",92366
+"Quincy ","MA",92339
+"Clovis ","CA",92318
+"San Mateo ","CA",92256
+"Vacaville ","CA",92219
+"San Angelo ","TX",9188
+"Las Cruces ","NM",91865
+"Beaverton ","OR",91757
+"Greeley ","CO",91492
+"New Bedford ","MA",91365
+"Livonia ","MI",9122
+"Vista ","CA",91144
+"Fall River ","MA",90931
+"Waukegan ","IL",90788
+"Lawrence ","KS",9052
+"Davie","FL",90238
+"Tuscaloosa ","AL",90221
+"Redding ","CA",90201
+"Lawton ","OK",90091
+"Yuma ","AZ",90041
+"Sunrise ","FL",89026
+"Westminster ","CA",88975
+"Sparks ","NV",88602
+"Santa Monica ","CA",87664
+"Roswell ","GA",87657
+"Lynn ","MA",86957
+"Nashua ","NH",86576
+"Dearborn ","MI",86477
+"Santa Maria ","CA",86356
+"Spokane Valley ","WA",86144
+"Santa Barbara ","CA",86093
+"Alhambra ","CA",85953
+"Longmont ","CO",85928
+"Hesperia ","CA",85883
+"Boca Raton ","FL",8567
+"Fort Smith ","AR",84716
+"Miami Beach ","FL",84633
+"Warwick ","RI",84483
+"Indio ","CA",84443
+"Citrus Heights ","CA",84432
+"Deltona ","FL",84408
+"Federal Way ","WA",84309
+"Hawthorne ","CA",84305
+"Duluth ","MN",84284
+"Lee's Summit ","MO",84208
+"College Station ","TX",84128
+"Yakima ","WA",84074
+"Kent ","WA",83978
+"Chico ","CA",83791
+"Plantation ","FL",83628
+"Norwalk ","CT",83185
+"Chino ","CA",83031
+"Pearland ","TX",82903
+"Trenton ","NJ",82883
+"Ogden ","UT",82865
+"Sioux City ","IA",82807
+"Sandy Springs ","GA",82674
+"Suffolk ","VA",82302
+"Whittier ","CA",82267
+"Racine ","WI",82196
+"Newton ","MA",82139
+"Avondale ","AZ",81299
+"Bloomington ","MN",8128
+"Allen ","TX",81268
+"Sugar Land ","TX",80704
+"Reading ","PA",80506
+"Cicero","IL",80414
+"Nampa ","ID",80362
+"Troy ","MI",80264
+"Livermore ","CA",80188
+"Cranston ","RI",7998
+"Newport Beach ","CA",79661
+"Rio Rancho ","NM",79655
+"Greenville ","NC",79629
+"Edmond ","OK",79559
+"Champaign ","IL",79389
+"Camden ","NJ",79383
+"Buena Park ","CA",79379
+"Danbury ","CT",79256
+"Tracy ","CA",79196
+"San Marcos ","CA",79114
+"Westland ","MI",78961
+"Bellingham ","WA",78905
+"Farmington Hills ","MI",78522
+"Lakewood ","CA",78444
+"Canton ","OH",78362
+"Clifton ","NJ",78219
+"Parma ","OH",77947
+"San Leandro ","CA",7788
+"Evanston ","IL",77693
+"Baldwin Park ","CA",7738
+"Melbourne ","FL",77351
+"Longview ","TX",77211
+"Bend ","OR",77181
+"Merced ","CA",7716
+"O'Fallon ","MO",76819
+"Hammond ","IN",76732
+"Decatur ","IL",76256
+"Jacksonville ","NC",76233
+"St. Joseph ","MO",76197
+"Albany ","GA",75831
+"Somerville ","MA",75662
+"Lake Forest ","CA",75566
+"Southfield ","MI",75392
+"Missouri City ","TX",74723
+"Deerfield Beach ","FL",74584
+"Napa ","CA",74547
+"Asheville ","NC",74543
+"New Rochelle ","NY",74115
+"Redwood City ","CA",7406
+"Chino Hills ","CA",73879
+"Arlington Heights","IL",73399
+"Fayetteville ","AR",73372
+"Medford ","OR",73212
+"Bellflower ","CA",73033
+"Bloomington ","IL",73026
+"Youngstown ","OH",72925
+"Largo ","FL",72732
+"St. George ","UT",72718
+"Lynchburg ","VA",72596
+"Wilmington ","DE",72592
+"Gastonia ","NC",72505
+"Bryan ","TX",72357
+"Palm Coast ","FL",72316
+"Bethlehem ","PA",72241
+"Scranton ","PA",72233
+"Kalamazoo ","MI",72179
+"Union City ","CA",72123
+"Upland ","CA",72091
+"Santa Fe ","NM",71831
+"Bloomington ","IN",71819
+"Tustin ","CA",71814
+"Pawtucket ","RI",71765
+"Schaumburg","IL",71716
+"Edinburg ","TX",7152
+"Plymouth ","MN",71486
+"Mountain View ","CA",71348
+"Brooklyn Park ","MN",71308
+"League City ","TX",71222
+"Lake Charles ","LA",71061
+"Hoover ","AL",7102
+"Hemet ","CA",70991
+"Bolingbrook","IL",70823
+"Alameda ","CA",7058
+"New Britain ","CT",70486
+"Wyoming ","MI",70462
+"Baytown ","TX",7033
+"Appleton ","WI",70305
+"Lorain ","OH",70239
+"Apple Valley","CA",702
+"Gulfport ","MS",70055
+"Lynwood ","CA",70025
+"Lawrence ","MA",70014
+"Redlands ","CA",69689
+"Flower Mound","TX",69307
+"Rochester Hills ","MI",69014
+"Fishers","IN",69011
+"Mount Vernon ","NY",68653
+"Turlock ","CA",68404
+"Boynton Beach ","FL",68291
+"Missoula ","MT",68202
+"Springdale ","AR",6818
+"Waukesha ","WI",68008
+"Iowa City ","IA",67831
+"Folsom ","CA",67788
+"Marietta ","GA",67562
+"Milpitas ","CA",67503
+"Rock Hill ","SC",67339
+"Mission ","TX",67119
+"Palatine","IL",6708
+"Lauderhill ","FL",67073
+"St. Cloud ","MN",66948
+"Kenner ","LA",66942
+"Meridian ","ID",66916
+"Passaic ","NJ",66884
+"Redondo Beach ","CA",66882
+"Pleasanton ","CA",66828
+"Carmel ","IN",66769
+"Waterloo ","IA",66662
+"Skokie","IL",6662
+"Dothan ","AL",66505
+"Concord ","NC",66311
+"Pontiac ","MI",66095
+"Yorba Linda ","CA",65717
+"Loveland ","CO",65587
+"Layton ","UT",65514
+"Rapid City ","SD",65491
+"Mount Pleasant","SC",65472
+"Eau Claire ","WI",65426
+"Fort Myers ","FL",65394
+"East Orange ","NJ",6539
+"Pharr ","TX",65258
+"North Richland Hills ","TX",65078
+"Manteca ","CA",65028
+"Muncie ","IN",64975
+"Harlingen ","TX",64843
+"Laguna Niguel ","CA",64469
+"St. Charles ","MO",64386
+"Daytona Beach ","FL",64211
+"Pittsburg ","CA",64148
+"Delray Beach ","FL",64092
+"Lafayette ","IN",64049
+"Eagan ","MN",63985
+"Jonesboro ","AR",6396
+"Oshkosh ","WI",63679
+"Weston ","FL",63628
+"Walnut Creek ","CA",63486
+"Camarillo ","CA",63324
+"Kennewick ","WA",63216
+"Jackson ","TN",63158
+"Pico Rivera ","CA",63138
+"Davis ","CA",62593
+"Portland ","ME",62561
+"Victoria ","TX",62558
+"Janesville ","WI",62516
+"South San Francisco ","CA",62502
+"Hamilton ","OH",62477
+"Bossier City ","LA",62384
+"Cedar Park ","TX",62308
+"Kissimmee ","FL",62291
+"Springfield ","OH",62269
+"Renton ","WA",62266
+"Rancho Cordova ","CA",62265
+"Union City ","NJ",62183
+"Johnson City ","TN",6199
+"Montebello ","CA",61906
+"Coon Rapids ","MN",61832
+"Maple Grove ","MN",61542
+"San Clemente ","CA",61465
+"Warner Robins ","GA",61336
+"Lodi ","CA",61301
+"Haverhill ","MA",61275
+"Monterey Park ","CA",61234
+"Yuba City ","CA",61226
+"Eden Prairie ","MN",61191
+"Schenectady ","NY",61152
+"Shawnee ","KS",60954
+"Bristol ","CT",60927
+"Huntington Park ","CA",60898
+"Rockville ","MD",60734
+"Taylor ","MI",60619
+"Bismarck ","ND",60389
+"Encinitas ","CA",60372
+"St. Clair Shores ","MI",60364
+"Waltham ","MA",60236
+"Flagstaff ","AZ",60222
+"Revere ","MA",60204
+"Terre Haute ","IN",60007
+"Greenville ","SC",59988
+"Temple ","TX",59654
+"Council Bluffs ","IA",59536
+"Goodyear ","AZ",59508
+"Johns Creek ","GA",59431
+"North Little Rock ","AR",5943
+"West Allis ","WI",59416
+"Palo Alto ","CA",59395
+"Tamarac ","FL",5934
+"Great Falls ","MT",59251
+"Frederick ","MD",59213
+"Tinley Park","IL",59198
+"Meriden ","CT",59186
+"La Habra ","CA",59155
+"Burnsville ","MN",59139
+"Taylorsville ","UT",58785
+"Vineland ","NJ",5878
+"Gaithersburg ","MD",58744
+"National City ","CA",5868
+"Gardena ","CA",58554
+"Franklin ","TN",58481
+"Utica ","NY",58082
+"Homestead ","FL",57936
+"Conway ","AR",57544
+"Bayonne ","NJ",57448
+"White Plains ","NY",57342
+"Anderson ","IN",57282
+"Dubuque ","IA",5725
+"Diamond Bar ","CA",57235
+"Springfield ","OR",57224
+"Royal Oak ","MI",5711
+"Galveston ","TX",57086
+"Des Plaines ","IL",57062
+"Rocky Mount ","NC",5701
+"Lakewood ","WA",56983
+"Cheyenne ","WY",56915
+"Rogers ","AR",56726
+"Madera ","CA",567
+"Tulare ","CA",56654
+"Lake Havasu City ","AZ",56553
+"Ames ","IA",5651
+"Midwest City ","OK",56394
+"Arcadia ","CA",56248
+"Woodbury ","MN",56128
+"Santa Cruz ","CA",56124
+"Auburn ","AL",56088
+"Decatur ","AL",56068
+"Port Arthur ","TX",5591
+"North Miami ","FL",55908
+"Rowlett ","TX",5578
+"Taunton ","MA",55702
+"Blue Springs ","MO",55698
+"Perris ","CA",55643
+"Saginaw ","MI",5562
+"San Rafael ","CA",55602
+"Malden ","MA",55597
+"Medford ","MA",55573
+"Fountain Valley ","CA",55516
+"Owensboro ","KY",55516
+"Orland Park","IL",55514
+"St. Peters ","MO",555
+"Conroe ","TX",55429
+"Auburn ","WA",55426
+"West Des Moines ","IA",55426
+"Pasco ","WA",55246
+"Paramount ","CA",55236
+"Bowling Green ","KY",55097
+"Blaine ","MN",55042
+"Elyria ","OH",54979
+"Chicopee ","MA",54941
+"North Port ","FL",54907
+"Pocatello ","ID",54901
+"Carson City","NV",54867
+"Broomfield ","CO",54858
+"Ocala ","FL",54801
+"La Mesa ","CA",54673
+"Petaluma ","CA",54666
+"Lancaster ","PA",54626
+"Port Orange ","FL",54616
+"Woodland ","CA",54567
+"Lakeville ","MN",54542
+"Wellington","FL",5453
+"Wheaton ","IL",54465
+"Rosemead ","CA",54412
+"Idaho Falls ","ID",54334
+"Milford ","CT",54136
+"Margate ","FL",54086
+"Novi ","MI",54054
+"Casper ","WY",54047
+"Hempstead","NY",53915
+"Santee ","CA",5386
+"Pensacola ","FL",5382
+"Kettering ","OH",53708
+"Hoffman Estates","IL",53641
+"Cupertino ","CA",53637
+"New Braunfels ","TX",53547
+"Bradenton ","FL",53513
+"Mount Prospect","IL",53338
+"Oak Lawn","IL",53244
+"Delano ","CA",53051
+"San Marcos ","TX",52927
+"Rocklin ","CA",52811
+"Novato ","CA",52785
+"Elkhart ","IN",52653
+"Moore ","OK",52615
+"Euless ","TX",52579
+"Bowie ","MD",52544
+"Chapel Hill","NC",52542
+"West Haven ","CT",5242
+"Sarasota ","FL",5234
+"Manhattan ","KS",52284
+"Cathedral City ","CA",52095
+"Normal","IL",52056
+"Battle Creek ","MI",52053
+"Shoreline ","WA",52005
+"Hattiesburg ","MS",51993
+"Dearborn Heights ","MI",51972
+"Porterville ","CA",5183
+"Mentor ","OH",51825
+"Middletown ","OH",51422
+"Niagara Falls ","NY",51345
+"Peabody ","MA",51331
+"Cerritos ","CA",51326
+"Grand Forks ","ND",51313
+"Monroe ","LA",51215
+"New Brunswick ","NJ",51149
+"South Jordan ","UT",51131
+"Corvallis ","OR",5111
+"Highland ","CA",51096
+"Cuyahoga Falls ","OH",5109
+"Lake Elsinore ","CA",50952
+"La Crosse ","WI",50902
+"Palm Desert ","CA",50876
+"Burlington ","NC",50857
+"Lakewood ","OH",50704
+"Sanford ","FL",50634
+"Florissant ","MO",50561
+"Colton ","CA",50517
+"Grapevine ","TX",50471
+"Watsonville ","CA",50442
+"Coconut Creek ","FL",50436
+"Pine Bluff ","AR",50408
+"Charleston ","WV",50302
+"Hanford ","CA",50103
+"Minnetonka ","MN",50081
+"Mishawaka ","IN",50026
+"Apple Valley ","MN",50004
+"Gilroy ","CA",49934
+"Berwyn ","IL",49919
+"Alpharetta ","GA",49903
+"Smyrna ","GA",49854
+"La Mirada ","CA",49809
+"Joplin ","MO",49775
+"Yucaipa ","CA",4975
+"Bellevue ","NE",49699
+"Placentia ","CA",49692
+"Grand Junction ","CO",49688
+"Georgetown ","TX",49618
+"Rancho Santa Margarita ","CA",49591
+"Mansfield ","OH",49579
+"Oak Park","IL",49557
+"Redmond ","WA",49548
+"Brentwood ","CA",4948
+"Glendora ","CA",4941
+"Downers Grove","IL",4925
+"Palm Beach Gardens ","FL",49227
+"Huntington ","WV",49185
+"San Ramon ","CA",49161
+"Bedford ","TX",49155
+"Jupiter","FL",48879
+"Poway ","CA",48858
+"Perth Amboy ","NJ",48742
+"Tigard ","OR",48713
+"Logan ","UT",48657
+"Alexandria ","LA",48639
+"Valdosta ","GA",48547
+"East Providence ","RI",4848
+"Wilson ","NC",48433
+"Albany ","OR",48081
+"Middletown ","CT",4803
+"Palm Springs ","CA",47952
+"Sheboygan ","WI",47895
+"Hendersonville ","TN",47725
+"Greenwood ","IN",4772
+"Stillwater ","OK",47653
+"DeSoto ","TX",47568
+"West Sacramento ","CA",47511
+"Bartlett ","TN",47501
+"Troy ","NY",47459
+"Kentwood ","MI",47419
+"Euclid ","OH",47415
+"Enid ","OK",47396
+"Kirkland ","WA",47303
+"Buckeye","AZ",47261
+"Newark ","OH",47236
+"Pinellas Park ","FL",47173
+"Harrisburg ","PA",47148
+"Cypress ","CA",47123
+"Covina ","CA",46944
+"Azusa ","CA",46847
+"Lenexa ","KS",46822
+"Lehi ","UT",46802
+"Roseville ","MI",46782
+"Salina ","KS",46483
+"West New York","NJ",46472
+"Murray ","UT",46201
+"Roswell ","NM",46198
+"Barnstable Town ","MA",46184
+"Glenview","IL",4618
+"Richland ","WA",46155
+"Altoona ","PA",46144
+"Mansfield ","TX",46142
+"Portage ","MI",46133
+"Plainfield ","NJ",46126
+"Chesterfield ","MO",46064
+"Elmhurst ","IL",46013
+"East Lansing ","MI",45857
+"Cleveland Heights ","OH",45827
+"Grand Island ","NE",45801
+"Kokomo ","IN",45694
+"Biloxi ","MS",4567
+"Edina ","MN",45608
+"Maricopa ","AZ",45571
+"DeKalb ","IL",45497
+"St. Louis Park ","MN",45465
+"Olympia ","WA",45322
+"Summerville","SC",45193
+"Wauwatosa ","WI",45004
+"Cedar Hill ","TX",44786
+"Titusville ","FL",44756
+"Binghamton ","NY",44729
+"Bell Gardens ","CA",44692
+"Danville ","VA",4466
+"Texas City ","TX",44491
+"Bountiful ","UT",44473
+"Kingsport ","TN",44473
+"Castle Rock","CO",44369
+"Dublin ","CA",44297
+"Southaven ","MS",44076
+"Methuen ","MA",44055
+"Huntersville","NC",44054
+"Harrisonburg ","VA",44015
+"Freeport","NY",43881
+"La Quinta ","CA",43865
+"Warren ","OH",43789
+"Parker","CO",43767
+"San Luis Obispo ","CA",43636
+"Lincoln ","CA",43602
+"Oro Valley","AZ",43465
+"East Point ","GA",43418
+"Coeur d'Alene ","ID",4336
+"Sierra Vista ","AZ",4332
+"Woonsocket ","RI",43268
+"Lawrence ","IN",43247
+"Covington ","KY",43235
+"Moline ","IL",43088
+"Buffalo Grove","IL",42972
+"Lombard","IL",4289
+"Attleboro ","MA",42833
+"Hackensack ","NJ",42804
+"Coral Gables ","FL",42781
+"Bonita Springs ","FL",4273
+"Prescott ","AZ",42697
+"Ceres ","CA",4269
+"Pittsfield ","MA",42652
+"Farmington ","NM",42637
+"Strongsville ","OH",42617
+"Kannapolis ","NC",42521
+"Commerce City ","CO",42473
+"Fairfield ","OH",42384
+"Caldwell ","ID",42331
+"Draper ","UT",42317
+"Oakland Park ","FL",42293
+"Ankeny ","IA",42287
+"The Colony ","TX",42281
+"Concord ","NH",42255
+"Bartlett","IL",42209
+"Sayreville","NJ",42208
+"Twin Falls ","ID",42197
+"Noblesville ","IN",42155
+"Fond du Lac ","WI",42025
+"Crystal Lake ","IL",41797
+"Blacksburg","VA",41796
+"Newark ","CA",41781
+"North Lauderdale ","FL",41772
+"Chelsea ","MA",41577
+"Aliso Viejo ","CA",41572
+"Charlottesville ","VA",41487
+"Hickory ","NC",41305
+"Salem ","MA",41256
+"Danville","CA",41182
+"Casa Grande ","AZ",41152
+"Rancho Palos Verdes ","CA",41106
+"Lompoc ","CA",41099
+"Belleville ","IL",41097
+"Leominster ","MA",41055
+"Wilkes-Barre ","PA",40932
+"Midland ","MI",40917
+"Hutchinson ","KS",40889
+"Fort Pierce ","FL",40885
+"Bullhead City ","AZ",40868
+"Littleton ","CO",40777
+"Jefferson City ","MO",40771
+"Lacey ","WA",40702
+"La Puente ","CA",40642
+"Westfield ","MA",40608
+"Hoboken ","NJ",40577
+"Rohnert Park ","CA",40496
+"San Gabriel ","CA",40445
+"San Bruno ","CA",40315
+"Fitchburg ","MA",40239
+"Haltom City ","TX",40181
+"Sammamish ","WA",40179
+"Edmonds ","WA",40158
+"Muskogee ","OK",40099
+"York ","PA",40097
+"El Centro ","CA",40083
+"Carol Stream","IL",40004
+"Columbus ","IN",40001
+"Shelton ","CT",39991
+"Quincy ","IL",39983
+"Altamonte Springs ","FL",39947
+"Holyoke ","MA",39947
+"Beavercreek ","OH",39909
+"Cleveland ","TN",39753
+"Riverton ","UT",39751
+"Hagerstown ","MD",39728
+"Pflugerville ","TX",39653
+"Urbana ","IL",39641
+"Leesburg","VA",39641
+"Spartanburg ","SC",39584
+"Hot Springs ","AR",39467
+"Bozeman ","MT",39442
+"State College","PA",39419
+"Atlantic City ","NJ",39408
+"Muskegon ","MI",39401
+"Coachella ","CA",39391
+"Beverly ","MA",39343
+"Collierville","TN",39211
+"Linden ","NJ",39162
+"Coppell ","TX",39154
+"Brookfield ","WI",3902
+"Keller ","TX",38951
+"Burlington ","VT",38897
+"Madison ","AL",38714
+"Hallandale Beach ","FL",38683
+"New Berlin ","WI",38649
+"Sumter ","SC",38625
+"Campbell ","CA",38617
+"Culver City ","CA",3858
+"Hurst ","TX",3855
+"Dublin ","OH",38536
+"Prescott Valley","AZ",38535
+"Huntsville ","TX",3848
+"Urbandale ","IA",38369
+"Calexico ","CA",38344
+"Temple City ","CA",38341
+"Brea ","CA",38314
+"Meridian ","MS",38232
+"Rock Island ","IL",38139
+"Morgan Hill ","CA",38096
+"Sherman ","TX",38077
+"Cedar Falls ","IA",38059
+"Romeoville","IL",38028
+"North Miami Beach ","FL",37997
+"Ormond Beach ","FL",37984
+"Apopka ","FL",37935
+"Marlborough ","MA",37932
+"Goose Creek ","SC",379
+"Florence ","AL",37877
+"Smyrna","TN",37867
+"Wylie ","TX",37861
+"San Jacinto ","CA",37842
+"Lima ","OH",37829
+"Carpentersville","IL",37741
+"Pacifica ","CA",37739
+"Monrovia ","CA",37651
+"Goldsboro ","NC",37597
+"Stanton ","CA",37589
+"Wausau ","WI",37576
+"Cape Girardeau ","MO",3737
+"Everett ","MA",37353
+"New Albany ","IN",37296
+"Germantown ","TN",37251
+"Huber Heights ","OH",37148
+"Streamwood","IL",37119
+"Findlay ","OH",36987
+"Portage ","IN",36976
+"Lancaster ","OH",36976
+"Park Ridge ","IL",36927
+"Lake Oswego ","OR",36926
+"Addison","IL",36917
+"Woburn ","MA",36871
+"Gadsden ","AL",36816
+"Calumet City ","IL",368
+"Hanover Park","IL",36777
+"Kearny","NJ",36746
+"Richmond ","IN",36733
+"Del Rio ","TX",36682
+"Bell ","CA",36657
+"Panama City ","FL",36644
+"Texarkana ","TX",36611
+"Manhattan Beach ","CA",36605
+"Chester ","PA",36564
+"Longview ","WA",36562
+"Montclair ","CA",3653
+"Annapolis ","MD",36524
+"Plainfield","IL",36507
+"Riviera Beach ","FL",3643
+"Norwich ","CT",36388
+"Moorpark ","CA",36372
+"Puyallup ","WA",3633
+"University City ","MO",36289
+"Fort Lee","NJ",36275
+"Mankato ","MN",36245
+"Tupelo ","MS",36233
+"Westerville ","OH",36231
+"Brentwood ","TN",36176
+"Beloit ","WI",3616
+"Duncanville ","TX",36109
+"Dover ","DE",36107
+"Maplewood ","MN",36087
+"Greenfield ","WI",36075
+"Wheeling","IL",36063
+"Rome ","GA",36041
+"Moorhead ","MN",36012
+"Valley Stream","NY",36007
+"Bremerton ","WA",36006
+"West Hollywood ","CA",36005
+"Dunedin ","FL",35988
+"Bartlesville ","OK",35914
+"Keizer ","OR",35864
+"Marion ","OH",35841
+"Greenville ","MS",35764
+"Lancaster ","TX",35761
+"Alamogordo ","NM",35757
+"Dana Point ","CA",357
+"Long Beach ","NY",35698
+"Roy ","UT",35672
+"Gainesville ","GA",35668
+"Bentonville ","AR",35526
+"Lake Worth ","FL",35513
+"Franklin ","WI",355
+"Claremont ","CA",3547
+"Minot ","ND",35419
+"Cottonwood Heights ","UT",35418
+"Lincoln Park ","MI",35317
+"Torrington ","CT",35312
+"Rockwall ","TX",35247
+"Manassas ","VA",35205
+"Martinez ","CA",35145
+"Fairbanks ","AK",35132
+"Lewiston ","ME",35131
+"San Dimas ","CA",35043
+"Los Banos ","CA",34968
+"Burleson ","TX",34908
+"Hollister ","CA",34877
+"San Juan Capistrano ","CA",34793
+"Peachtree City ","GA",34788
+"Leavenworth ","KS",34729
+"Brunswick ","OH",34711
+"Menomonee Falls","WI",34607
+"Lufkin ","TX",3453
+"Marysville ","WA",34482
+"Marana","AZ",34466
+"Beverly Hills ","CA",34445
+"Columbia ","TN",34402
+"La Porte ","TX",34274
+"Wildwood ","MO",34195
+"Woodridge","IL",3413
+"Holland ","MI",34076
+"Friendswood ","TX",33979
+"San Juan ","TX",3397
+"Northbrook","IL",33936
+"Hilton Head Island","SC",33913
+"Stow ","OH",33899
+"Gahanna ","OH",33892
+"Bay City ","MI",33874
+"Grove City ","OH",33829
+"Pleasant Grove ","UT",33798
+"Seaside ","CA",33797
+"Delaware ","OH",33719
+"Mundelein","IL",33717
+"Northglenn ","CO",33697
+"Rome ","NY",33673
+"Reynoldsburg ","OH",33657
+"Dalton ","GA",33648
+"La Verne ","CA",33623
+"Cottage Grove ","MN",33623
+"Rosenberg ","TX",33595
+"East Palo Alto ","CA",33575
+"Lynnwood ","WA",33572
+"Jackson ","MI",33518
+"Oak Creek ","WI",33482
+"Twentynine Palms ","CA",3348
+"Shakopee ","MN",33455
+"Pekin ","IL",3343
+"Inver Grove Heights ","MN",33383
+"Weslaco ","TX",33354
+"Winter Haven ","FL",33353
+"Elk Grove Village","IL",3332
+"Grants Pass ","OR",33217
+"Manitowoc ","WI",33169
+"Apex","NC",33075
+"Merrillville","IN",33057
+"New Iberia ","LA",32959
+"Petersburg ","VA",32916
+"Richmond ","KY",32895
+"Pleasant Hill ","CA",32862
+"St. Charles ","IL",32829
+"Marion ","IA",32821
+"Roseville ","MN",32815
+"Apache Junction ","AZ",32776
+"Plant City ","FL",32761
+"Richfield ","MN",32728
+"Englewood ","CO",32669
+"Winter Springs ","FL",32667
+"Beaumont ","CA",32663
+"Goshen ","IN",3263
+"Long Branch ","NJ",32622
+"Massillon ","OH",32613
+"North Chicago ","IL",32608
+"Oviedo ","FL",32606
+"Bettendorf ","IA",32584
+"Monroe ","NC",32543
+"Houma ","LA",32512
+"Eastpointe ","MI",32497
+"Prattville ","AL",3248
+"Michigan City ","IN",32405
+"Fairborn ","OH",32366
+"Watertown ","MA",32365
+"Clovis ","NM",32352
+"Bothell ","WA",32307
+"Ocoee ","FL",3229
+"Danville ","IL",32248
+"Nacogdoches ","TX",32205
+"Greenacres ","FL",32174
+"Franklin ","MA",32148
+"Butte-Silver Bow","MT",32119
+"Hopkinsville ","KY",32076
+"Oakley ","CA",32035
+"Socorro ","TX",32007
+"Naugatuck","CT",31931
+"Upper Arlington ","OH",31878
+"Glendale Heights","IL",31847
+"Norristown","PA",31843
+"Laguna Hills ","CA",31838
+"Olive Branch ","MS",3183
+"Lewiston ","ID",31764
+"Bangor ","ME",31756
+"Kennesaw ","GA",31628
+"Parkersburg ","WV",31611
+"Florence ","SC",3157
+"Bethel Park","PA",31562
+"Spanish Fork ","UT",31538
+"Mount Vernon ","WA",31513
+"Oswego","IL",31504
+"Highland Park ","IL",31449
+"Oregon City ","OR",31404
+"Brighton ","CO",3138
+"Jacksonville ","AR",31351
+"Lawndale ","CA",31346
+"Leawood ","KS",31342
+"North Olmsted ","OH",31319
+"Burien ","WA",31316
+"North Tonawanda ","NY",31222
+"McMinnville ","OR",31185
+"Galesburg ","IL",31181
+"Phenix City ","AL",31125
+"Douglasville ","GA",31035
+"Lauderdale Lakes ","FL",31004
+"Juneau","AK",30988
+"Wheat Ridge ","CO",30894
+"Vestavia Hills ","AL",30892
+"Deer Park ","TX",3089
+"Port Huron ","MI",30869
+"West Lafayette ","IN",30847
+"Walnut ","CA",30744
+"San Pablo ","CA",30729
+"Copperas Cove ","TX",3071
+"Granite City ","IL",30703
+"Schertz ","TX",30669
+"Rochester ","NH",30654
+"Walla Walla ","WA",30643
+"Gurnee","IL",30608
+"Myrtle Beach ","SC",30596
+"Chicago Heights ","IL",30586
+"Liberty ","MO",30568
+"Shawnee ","OK",30562
+"Oak Park ","MI",30547
+"Westlake ","OH",30546
+"Fair Lawn","NJ",30521
+"Jeffersonville ","IN",30479
+"Hobbs ","NM",30476
+"Newnan ","GA",30474
+"Saratoga ","CA",30445
+"Andover ","MN",30442
+"Valparaiso ","IN",30429
+"Kearney ","NE",30417
+"Algonquin","IL",30352
+"University Place ","WA",30345
+"Royal Palm Beach","FL",30312
+"Gloucester ","MA",30243
+"Marion ","IN",30212
+"Hinesville ","GA",30152
+"Tooele ","UT",3012
+"Menlo Park ","CA",30087
+"Texarkana ","AR",30087
+"La Vergne ","TN",30034
+"Ballwin ","MO",30033
+"East Chicago ","IN",29978
+"Wenatchee ","WA",29898
+"West Bend ","WI",29894
+"Cleburne ","TX",29889
+"Newark ","DE",29886
+"Burton ","MI",29845
+"Ithaca ","NY",29763
+"Lake in the Hills","IL",29698
+"Mason ","OH",29682
+"Poughkeepsie ","NY",29654
+"Morgantown ","WV",29642
+"Bowling Green ","OH",29542
+"Madison Heights ","MI",29531
+"Jamestown ","NY",29463
+"Williamsport ","PA",29456
+"Benton ","AR",29452
+"Westfield","NJ",2945
+"Aiken ","SC",29434
+"Cooper City ","FL",29422
+"Goleta ","CA",29404
+"Alton ","IL",29393
+"Winter Garden ","FL",29385
+"Alabaster ","AL",29352
+"Helena ","MT",29351
+"Gallatin ","TN",29343
+"North Royalton ","OH",29331
+"Los Gatos","CA",2932
+"Sanford ","NC",29284
+"Elmira ","NY",29271
+"Lawrenceville ","GA",29258
+"Aventura ","FL",29254
+"Cookeville ","TN",29234
+"Englewood ","NJ",29112
+"Foster City ","CA",29089
+"Cutler Bay","FL",2907
+"Salisbury ","NC",28972
+"Garfield ","NJ",28971
+"Millville ","NJ",2893
+"Banning ","CA",28917
+"Wheeling ","WV",28913
+"Schererville","IN",28886
+"Saratoga Springs ","NY",28844
+"East St. Louis ","IL",28773
+"Des Moines ","WA",28755
+"St. Cloud ","FL",28745
+"Paso Robles","CA",28715
+"Waxahachie ","TX",28668
+"Cedar City ","UT",28667
+"Niles","IL",28666
+"Rahway ","NJ",28624
+"Lindenhurst","NY",2862
+"Santa Paula ","CA",28618
+"Dover ","NH",28609
+"New Bern ","NC",28586
+"Garden City ","KS",28557
+"Adelanto ","CA",28553
+"Bessemer ","AL",28542
+"Springville ","UT",2852
+"Atascadero ","CA",28452
+"LaGrange ","GA",28401
+"Northampton ","MA",28379
+"Los Altos ","CA",28349
+"Sun Prairie ","WI",28322
+"Gladstone ","MO",28243
+"Maywood ","CA",28224
+"Salisbury ","MD",282
+"Raytown ","MO",28194
+"Port Chester","NY",28171
+"North Ridgeville ","OH",28153
+"Midvale ","UT",28129
+"Soledad ","CA",28124
+"Newburgh ","NY",28101
+"Dania Beach ","FL",28093
+"Agawam ","MA",28091
+"Harvey ","IL",28056
+"Rexburg ","ID",28028
+"Kent ","OH",27983
+"Henderson ","KY",27933
+"Winter Park ","FL",27909
+"Hilliard ","OH",27901
+"Hobart ","IN",27891
+"Round Lake Beach","IL",27855
+"Clearfield ","UT",27851
+"Plainfield","IN",27832
+"Kingman ","AZ",27817
+"Monterey ","CA",27763
+"Florence ","KY",27745
+"Oak Forest ","IL",2774
+"Southgate ","MI",27739
+"Garfield Heights ","OH",27734
+"Burlingame ","CA",27706
+"Savage ","MN",27692
+"Oak Ridge ","TN",27677
+"Laramie ","WY",27664
+"Prichard ","AL",27662
+"Monroeville","PA",27639
+"Morristown ","TN",27636
+"Russellville ","AR",27602
+"Burbank ","IL",27567
+"O'Fallon ","IL",2754
+"Batavia ","IL",27502
+"Owasso ","OK",27467
+"West Springfield ","MA",27459
+"Lake Jackson ","TX",27417
+"Brooklyn Center ","MN",27402
+"Xenia ","OH",27357
+"Mason City ","IA",27337
+"Frankfort ","KY",27322
+"Watertown ","NY",2731
+"De Land ","FL",27243
+"San Carlos ","CA",27238
+"Slidell ","LA",27183
+"Statesboro ","GA",27158
+"Maryville ","TN",27156
+"Glen Ellyn","IL",27142
+"Garner","NC",27138
+"Auburn ","NY",27138
+"West Memphis ","AR",2707
+"Wake Forest","NC",27068
+"American Fork ","UT",27064
+"Oakdale ","MN",27034
+"Anderson ","SC",27027
+"Suisun City ","CA",26977
+"College Park ","MD",26925
+"Pullman ","WA",2692
+"Matthews","NC",26901
+"Glen Cove ","NY",26895
+"Gillette ","WY",26871
+"McHenry ","IL",26862
+"Opelika ","AL",26808
+"Winona ","MN",26785
+"Kirkwood ","MO",2676
+"Garden City ","MI",26743
+"Kankakee ","IL",2671
+"Melrose ","MA",26708
+"Weatherford ","TX",26686
+"Mount Pleasant ","MI",26675
+"Lansing","IL",26672
+"Eagle Pass ","TX",26668
+"Harrison","NY",26665
+"Norco ","CA",26659
+"Inkster ","MI",26621
+"Southlake ","TX",26595
+"Barberton ","OH",26581
+"Mount Pleasant","WI",26572
+"Atwater ","CA",26565
+"Imperial Beach ","CA",26543
+"Thomasville ","NC",26526
+"Tualatin ","OR",26476
+"Paradise","CA",26469
+"Belvidere ","IL",26461
+"Post Falls ","ID",2646
+"Shaker Heights ","OH",2646
+"Corsicana ","TX",26459
+"Farmers Branch ","TX",26455
+"West Chicago ","IL",26454
+"Nicholasville ","KY",26444
+"Wilmette","IL",26418
+"Statesville ","NC",26414
+"Clinton ","IA",26407
+"Seguin ","TX",26394
+"Emporia ","KS",2638
+"Clinton ","MS",26313
+"Spring Valley","NY",26291
+"Carbondale ","IL",26231
+"Spring Hill ","TN",2623
+"Jeffersontown ","KY",26226
+"Superior ","WI",26223
+"Wooster ","OH",26212
+"Plum","PA",26198
+"Benicia ","CA",26174
+"Paramus","NJ",26128
+"Duluth ","GA",26125
+"Homer Glen","IL",26111
+"Kyle ","TX",26103
+"Easton ","PA",2608
+"Paris ","TX",2605
+"Trotwood ","OH",26039
+"Allen Park ","MI",26014
+"Medina ","OH",26011
+"Collinsville ","IL",2596
+"Maryland Heights ","MO",25949
+"Winchester ","VA",25897
+"New London ","CT",25891
+"Fridley ","MN",25868
+"Middletown ","NY",25865
+"Marshalltown ","IA",2585
+"SeaTac ","WA",2584
+"Kaysville ","UT",2582
+"Bristol ","TN",25817
+"Dodge City ","KS",25689
+"Sandusky ","OH",25688
+"Holladay ","UT",25676
+"Greenville ","TX",25676
+"Ridgecrest ","CA",25638
+"Carlsbad ","NM",25629
+"Bergenfield","NJ",25611
+"Paducah ","KY",25521
+"Salem ","VA",25449
+"Sanger ","CA",25447
+"Leander ","TX",25424
+"Harker Heights ","TX",25417
+"Hastings ","NE",25394
+"Windsor","CA",25362
+"Enterprise ","AL",25351
+"Hazelwood ","MO",25345
+"Stevens Point ","WI",25327
+"Riverside ","OH",25327
+"Burlington ","IA",25327
+"Eureka ","CA",253
+"West Linn ","OR",25236
+"Fountain Hills","AZ",25227
+"Fremont ","NE",25224
+"Fort Dodge ","IA",2518
+"Zion ","IL",25161
+"Corcoran ","CA",25139
+"Zanesville ","OH",25129
+"Shoreview ","MN",25111
+"San Benito ","TX",25072
+"Lafayette ","CO",25065
+"Neenah ","WI",2506
+"Maywood","IL",25035
+"Lafayette ","CA",25011
+"Westmont","IL",24979
+"Vicksburg ","MS",24974
+"Little Elm ","TX",24947
+"San Luis ","AZ",24909
+"Owatonna ","MN",24855
+"University Park ","TX",24853
+"Lockport ","IL",2481
+"Ardmore ","OK",2481
+"Paragould ","AR",248
+"De Pere ","WI",24779
+"Belmont ","CA",24776
+"Casselberry ","FL",24759
+"El Mirage ","AZ",24751
+"Rockledge ","FL",24747
+"Bridgeton ","NJ",24742
+"Wyandotte ","MI",24739
+"Kingsville ","TX",24702
+"Horn Lake ","MS",24669
+"Lebanon ","TN",24648
+"Wasco ","CA",24628
+"Freeport ","IL",24615
+"Asheboro ","NC",24609
+"Barstow ","CA",24596
+"Belton ","MO",24591
+"Edwardsville ","IL",24557
+"Greer ","SC",24557
+"Redmond ","OR",24551
+"Sherwood ","AR",24542
+"Ponca City ","OK",24507
+"East Cleveland ","OH",24507
+"Desert Hot Springs ","CA",24489
+"Cornelius","NC",24487
+"Hercules ","CA",24484
+"Peekskill ","NY",24484
+"Vernon Hills","IL",24462
+"Aberdeen ","SD",2446
+"Loves Park ","IL",24457
+"South Pasadena ","CA",24446
+"Colleyville ","TX",24428
+"Rockville Centre","NY",24414
+"Pearl ","MS",244
+"Crown Point ","IN",24376
+"Queen Creek","AZ",24361
+"Ottumwa ","IA",24342
+"Cudahy ","CA",24334
+"Geneva ","IL",24302
+"Big Spring ","TX",2427
+"Caledonia","WI",2422
+"New Castle ","PA",24212
+"Starkville ","MS",24187
+"Mercer Island ","WA",24163
+"Ridgewood","NJ",24163
+"Elizabethtown ","KY",24144
+"New Lenox","IL",24137
+"Seal Beach ","CA",24127
+"Chaska ","MN",24116
+"North Platte ","NE",24107
+"Lebanon ","PA",24097
+"White Bear Lake ","MN",24095
+"Lemon Grove ","CA",24089
+"Issaquah ","WA",24057
+"Elmwood Park","IL",24052
+"Grandview ","MO",24033
+"Galt ","CA",24026
+"Parkland ","FL",24017
+"Watauga ","TX",24005
+"Denison ","TX",24001
+"Avon Lake ","OH",23996
+"Laguna Beach ","CA",23995
+"Doral ","FL",23974
+"Staunton ","VA",23967
+"Woodstock ","IL",2393
+"Dolton","IL",23889
+"Lemoore ","CA",23873
+"Fairfax ","VA",23844
+"Homewood ","AL",2384
+"Prior Lake ","MN",23836
+"San Fernando ","CA",23833
+"South Portland ","ME",23803
+"Marshall ","TX",23798
+"Ossining","NY",23798
+"Columbus ","MS",23798
+"Lodi","NJ",23776
+"Wentzville ","MO",23768
+"Papillion ","NE",23739
+"Ramsey ","MN",23734
+"Walker ","MI",23722
+"Griffin ","GA",23719
+"Athens ","AL",23715
+"West Fargo ","ND",23708
+"Maple Heights ","OH",23667
+"Anniston ","AL",23662
+"Cabot ","AR",23614
+"Pascagoula ","MS",23609
+"Mequon ","WI",23584
+"Newport ","RI",23523
+"Champlin ","MN",23503
+"Chanhassen ","MN",2348
+"Rolling Meadows ","IL",23463
+"Reedley ","CA",23439
+"Green ","OH",23404
+"Tarpon Springs ","FL",23369
+"Carteret","NJ",23367
+"Fitchburg ","WI",23344
+"South Lake Tahoe ","CA",23333
+"New Smyrna Beach ","FL",23325
+"Norton Shores ","MI",23307
+"Carrollton ","GA",23291
+"Franklin ","IN",23258
+"Muskego ","WI",23234
+"Opelousas ","LA",2322
+"Roselle","IL",23209
+"Elk River ","MN",23194
+"Auburn ","ME",23177
+"Hopewell ","VA",23142
+"Woodstock ","GA",23141
+"Lisle","IL",23135
+"Northport ","AL",23118
+"Hudson ","OH",23037
+"Romulus ","MI",22963
+"Benbrook ","TX",22957
+"Newberg ","OR",22953
+"Norfolk ","NE",2294
+"Watertown ","WI",2293
+"Huntley","IL",22923
+"Sahuarita","AZ",22913
+"Centerville ","OH",22904
+"Oxford ","OH",22887
+"Cliffside Park","NJ",22863
+"Alvin ","TX",22853
+"Yukon ","OK",22849
+"Kerrville ","TX",22821
+"Fredericksburg ","VA",22818
+"Machesney Park","IL",22815
+"Selma ","CA",22807
+"Austin ","MN",228
+"Moscow ","ID",22798
+"East Peoria ","IL",2276
+"Oak Harbor ","WA",22744
+"Woodburn ","OR",22728
+"Brawley ","CA",22725
+"Canton ","GA",22724
+"Palmetto Bay","FL",22666
+"Highland","IN",22641
+"Coronado ","CA",22633
+"South Plainfield","NJ",22623
+"Temple Terrace ","FL",22619
+"Duncan ","OK",22617
+"Park Forest","IL",22583
+"Willoughby ","OH",22561
+"Van Buren ","AR",22543
+"Greenwood ","SC",22533
+"Derby ","KS",22517
+"Muscatine ","IA",22504
+"Morton Grove","IL",22478
+"Alliance ","OH",22476
+"Kingston ","NY",22441
+"Keene ","NH",22407
+"Kernersville","NC",22392
+"Darien ","IL",2237
+"Key West ","FL",22364
+"Kinston ","NC",2236
+"Webster Groves ","MO",22335
+"Laurel ","MD",22329
+"Blue Island ","IL",22325
+"Eagle Mountain ","UT",22309
+"Searcy ","AR",22299
+"Chillicothe ","OH",22296
+"Agoura Hills ","CA",22283
+"Garden City","NY",22275
+"El Cerrito ","CA",22222
+"Villa Park","IL",22198
+"Syracuse ","UT",22195
+"Calabasas ","CA",22185
+"Brandon ","MS",2216
+"McKeesport ","PA",2213
+"Hastings ","MN",22126
+"Leesburg ","FL",22113
+"Munster","IN",22105
+"Athens ","OH",22088
+"Del City ","OK",22067
+"Herndon","VA",22045
+"Radcliff ","KY",22013
+"Faribault ","MN",22009
+"Lumberton ","NC",22006
+"Troy ","OH",21975
+"Mooresville","NC",21954
+"Waynesboro ","VA",21953
+"Bainbridge Island ","WA",2189
+"Clarksville","IN",21873
+"Solon ","OH",21866
+"Melrose Park","IL",21853
+"Ashland ","OH",2185
+"Bloomingdale","IL",21848
+"Libertyville","IL",21843
+"Duarte ","CA",21839
+"Kiryas Joel","NY",21793
+"Mauldin ","SC",21784
+"Havelock ","NC",21764
+"Grayslake","IL",21735
+"Hazleton ","PA",21732
+"Miami Lakes","FL",21727
+"Blythe ","CA",21727
+"Forest Park ","GA",21726
+"Mount Juliet ","TN",21718
+"Charleston ","IL",21715
+"Crystal ","MN",21707
+"Independence ","KY",21694
+"Jacksonville Beach ","FL",21673
+"Johnstown ","PA",21641
+"South Salt Lake ","UT",21607
+"Loma Linda ","CA",21601
+"Columbus ","NE",21595
+"Georgetown ","KY",21589
+"New Brighton ","MN",21563
+"Naples ","FL",21532
+"Ridgeland ","MS",21509
+"Prairie Village ","KS",21479
+"Port Hueneme ","CA",21478
+"Ypsilanti ","MI",21464
+"Shelby ","NC",21449
+"Biddeford ","ME",21435
+"Edgewater ","FL",21415
+"South El Monte ","CA",21397
+"Adrian ","MI",21391
+"Ashland ","OR",2139
+"Monroe ","MI",21374
+"Ashland ","KY",21346
+"Plainview ","TX",21334
+"Pottstown","PA",21288
+"Pelham ","AL",21266
+"South Euclid ","OH",21209
+"Rosemount ","MN",21197
+"Kalispell ","MT",21182
+"La Porte ","IN",21174
+"Sapulpa ","OK",21173
+"Westfield","IN",21171
+"North Plainfield","NJ",21143
+"South Elgin","IL",21131
+"South Milwaukee ","WI",21129
+"Ruston ","LA",21123
+"Ferndale ","MI",21112
+"Greenbelt ","MD",21098
+"South Holland","IL",21083
+"Mountain Brook ","AL",21061
+"Lake Forest ","IL",2099
+"Sedalia ","MO",2099
+"Forest Grove ","OR",20985
+"Ferguson ","MO",20964
+"Venice ","FL",20946
+"Auburn Hills ","MI",20931
+"Marquette ","MI",20916
+"East Moline ","IL",20892
+"Holly Springs","NC",2087
+"Millbrae ","CA",208
+"Florence","AZ",20781
+"Corinth ","TX",20773
+"Mukilteo ","WA",20742
+"North Augusta ","SC",20712
+"Milwaukie ","OR",20707
+"Milledgeville ","GA",20703
+"Wadsworth ","OH",20696
+"Gardner ","MA",20682
+"Roseburg ","OR",20681
+"Bixby ","OK",20678
+"La Ca�ada Flintridge ","CA",20671
+"Junction City ","KS",20671
+"West Mifflin","PA",20669
+"Lockport ","NY",2063
+"Oxford ","AL",20622
+"Lake Zurich","IL",2061
+"Riverbank ","CA",20606
+"Arnold ","MO",20603
+"Roselle","NJ",20599
+"Piqua ","OH",20582
+"Summit ","NJ",20557
+"Lebanon ","OH",20535
+"Hamtramck ","MI",20512
+"Cumberland ","MD",20495
+"Watertown ","SD",20488
+"Crest Hill ","IL",20451
+"Portsmouth ","NH",20443
+"New Hope ","MN",20428
+"Lexington ","NC",20407
+"Yucca Valley","CA",20375
+"Kenmore ","WA",20374
+"Mint Hill","NC",20369
+"Hays ","KS",20368
+"Farragut","TN",2035
+"Golden Valley ","MN",20344
+"Norwood ","OH",20341
+"Dinuba ","CA",20335
+"Easley ","SC",20325
+"Oakdale ","CA",20299
+"Portsmouth ","OH",20297
+"Saginaw ","TX",20295
+"Klamath Falls ","OR",20276
+"Sebastian ","FL",20265
+"Rock Springs ","WY",202
+"Lino Lakes ","MN",20174
+"Lomita ","CA",20156
+"Point Pleasant","NJ",20139
+"Bensenville","IL",20138
+"Snellville ","GA",20112
+"Liberal ","KS",20074
+"Elizabeth City ","NC",20025
+"Balch Springs ","TX",20003
+"Brownsburg","IN",19994
+"Gallup ","NM",19979
+"College Park ","GA",19969
+"Sidney ","OH",19944
+"Maple Valley ","WA",19929
+"Mountlake Terrace ","WA",19912
+"El Dorado ","AR",19905
+"Brookings ","SD",19865
+"Clinton ","UT",19855
+"Lynbrook","NY",19852
+"Pleasant Prairie","WI",19847
+"Hammond ","LA",19803
+"Alice ","TX",19797
+"Albertville ","AL",19794
+"Miamisburg ","OH",19793
+"McDonough ","GA",19768
+"Parma Heights ","OH",19757
+"Glassboro","NJ",19751
+"Macomb ","IL",19736
+"Bethany ","OK",19729
+"Tinton Falls","NJ",19703
+"Ashtabula ","OH",19689
+"Fountain ","CO",19669
+"Shelbyville ","TN",19669
+"Deerfield","IL",19667
+"Pittsburg ","KS",19649
+"East Ridge ","TN",19642
+"Northfield ","MN",19633
+"Hialeah Gardens ","FL",19631
+"Germantown","WI",19594
+"Nogales ","AZ",19573
+"Cary","IL",19559
+"South St. Paul ","MN",19552
+"Stafford ","TX",19541
+"Terrell ","TX",19527
+"Eastlake ","OH",1952
+"Ennis ","TX",19506
+"Orange ","TX",19494
+"Murrysville","PA",19488
+"Christiansburg","VA",19477
+"Acworth ","GA",19476
+"Eagle ","ID",19471
+"Sulphur ","LA",1945
+"Crestview ","FL",19444
+"Ottawa ","IL",19419
+"Jacksonville ","IL",19415
+"Plattsburgh ","NY",19393
+"Palisades Park","NJ",19375
+"Evergreen Park","IL",19359
+"Hermosa Beach ","CA",1935
+"Thomasville ","GA",19286
+"Niles ","OH",19268
+"Morristown","NJ",19268
+"Mokena","IL",19236
+"Seymour ","IN",19223
+"Brook Park ","OH",19194
+"Chowchilla ","CA",19193
+"Sylvania ","OH",19185
+"Brownwood ","TX",1914
+"Louisville ","CO",19133
+"Eustis ","FL",19129
+"Mineola","NY",19108
+"Madisonville ","KY",19106
+"Daphne ","AL",19093
+"Farmington ","MN",19057
+"Haines City ","FL",19056
+"Wilsonville ","OR",19055
+"Patterson ","CA",19034
+"Warrensburg ","MO",19034
+"Bourbonnais","IL",19024
+"Fairmont ","WV",19024
+"Cartersville ","GA",1901
+"Seminole ","FL",19002
+"Decatur ","GA",18986
+"Trussville ","AL",18985
+"Port Angeles ","WA",18982
+"Indian Trail","NC",18976
+"Coalinga ","CA",18974
+"Bellwood","IL",18973
+"West St. Paul ","MN",18935
+"Birmingham ","MI",18932
+"Oregon ","OH",18921
+"Altus ","OK",18912
+"Rocky River ","OH",189
+"Fort Walton Beach ","FL",1888
+"Pleasantville ","NJ",18853
+"Selma ","AL",18847
+"Evans ","CO",18842
+"Nixa ","MO",18829
+"Steubenville ","OH",1882
+"Cudahy ","WI",18809
+"Pinole ","CA",18808
+"Moses Lake ","WA",188
+"Greenfield ","IN",18787
+"Weirton ","WV",18748
+"Brigham City ","UT",18709
+"St. Matthews ","KY",18709
+"Laurel ","MS",18693
+"Alsip","IL",18692
+"Sachse ","TX",18688
+"Central Falls ","RI",18683
+"Logansport ","IN",18663
+"Elmwood Park","NJ",18634
+"Pinecrest","FL",18614
+"Angleton ","TX",18613
+"Tullahoma ","TN",18579
+"Manchester ","MO",18569
+"Baldwin","PA",18562
+"Shelbyville ","IN",18516
+"Forest Park ","OH",18514
+"Ansonia ","CT",18503
+"Sand Springs ","OK",18489
+"Coralville ","IA",18478
+"Homewood","IL",18475
+"Painesville ","OH",18474
+"Orinda ","CA",18445
+"Hinsdale","IL",18439
+"Rolla ","MO",18438
+"Cortland ","NY",18434
+"Mamaroneck","NY",18413
+"Palestine ","TX",1839
+"McAlester ","OK",18388
+"Carlisle","PA",18379
+"Universal City ","TX",18376
+"New Castle ","IN",18339
+"West Chester","PA",18315
+"Chambersburg","PA",18302
+"Augusta ","ME",18282
+"Marshfield ","WI",18267
+"Natchitoches ","LA",18241
+"Marysville ","OH",18212
+"Columbia Heights ","MN",1821
+"Bellaire ","TX",18197
+"Whitehall ","OH",1818
+"Laguna Woods ","CA",1817
+"Carrboro","NC",18162
+"Newton ","KS",18133
+"Saco ","ME",18125
+"Covington ","WA",18115
+"Ozark ","MO",18095
+"Mandan ","ND",18091
+"Brookfield","IL",18077
+"Windsor","CO",18058
+"Clarksdale ","MS",18006
+"Hawthorne","NJ",17997
+"Montrose ","CO",17989
+"Berea ","OH",17987
+"Frankfort","IL",17981
+"Vincennes ","IN",17976
+"Franklin Park","IL",17965
+"Trenton ","MI",17965
+"Hazel Park ","MI",17955
+"Camas ","WA",1795
+"Marina ","CA",17943
+"Stillwater ","MN",17896
+"Bay City ","TX",17891
+"Lenoir ","NC",1789
+"Dickinson ","TX",17886
+"Belton ","TX",17876
+"Dover","NJ",1786
+"Willmar ","MN",17774
+"Colonial Heights ","VA",17768
+"Mayfield Heights ","OH",17737
+"Mustang ","OK",17727
+"Washington ","UT",17716
+"Raymore ","MO",17703
+"Takoma Park ","MD",17701
+"Scarsdale","NY",17695
+"Herriman ","UT",17689
+"Westminster ","MD",17689
+"North Ogden ","UT",17682
+"Madison ","MS",17681
+"Sycamore ","IL",17679
+"Lackawanna ","NY",17588
+"New Port Richey ","FL",17578
+"South Burlington ","VT",17574
+"Springboro ","OH",17551
+"Newburyport ","MA",17542
+"Amsterdam ","NY",17533
+"Pickerington ","OH",17531
+"Godfrey","IL",17524
+"Wilkinsburg","PA",17522
+"Douglas ","AZ",17515
+"Converse ","TX",1751
+"Dublin ","GA",17509
+"Lindenwold","NJ",17485
+"Gardner ","KS",17462
+"Claremore ","OK",17458
+"Rutherford","NJ",17454
+"Hannibal ","MO",17432
+"Payson ","UT",17429
+"Bristol ","VA",17424
+"Matteson","IL",1742
+"Dixon ","CA",17412
+"Twinsburg ","OH",17394
+"Albert Lea ","MN",17389
+"Marion ","IL",17388
+"Massapequa Park","NY",17385
+"Pampa ","TX",17382
+"Sherwood ","OR",17373
+"Forest Lake ","MN",17373
+"Kirksville ","MO",17368
+"Oswego ","NY",17351
+"Tiffin ","OH",17347
+"Susanville ","CA",17336
+"Golden ","CO",17321
+"New Philadelphia ","OH",17319
+"Tallmadge ","OH",17293
+"Anoka ","MN",17289
+"Tifton ","GA",17284
+"Broadview Heights ","OH",17274
+"Oxford ","MS",17265
+"Springfield ","TN",17261
+"Ashwaubenon","WI",17235
+"Clemmons","NC",17234
+"Farmington ","UT",17217
+"Sugar Hill ","GA",17204
+"Lathrop ","CA",17197
+"Sheridan ","WY",17197
+"Morganton ","NC",17194
+"Erlanger ","KY",17188
+"Wayne ","MI",17186
+"Arroyo Grande ","CA",1718
+"Mattoon ","IL",17177
+"Wisconsin Rapids ","WI",17164
+"Santa Fe Springs ","CA",17159
+"Elko ","NV",17156
+"Ocean Springs ","MS",17149
+"Avenal ","CA",17147
+"Fairhope ","AL",17147
+"Simpsonville ","SC",17144
+"Ellensburg ","WA",17141
+"Dyersburg ","TN",17126
+"Poplar Bluff ","MO",17096
+"Donna ","TX",17094
+"Tukwila ","WA",17092
+"Safety Harbor ","FL",17089
+"Avon ","OH",17086
+"Goodlettsville ","TN",17075
+"Laconia ","NH",17065
+"Chickasha ","OK",17062
+"Monroe ","WA",17059
+"Sikeston ","MO",17053
+"Moraga","CA",1705
+"Perrysburg ","OH",17049
+"Arcata ","CA",17044
+"Martinsburg ","WV",1702
+"Fuquay-Varina","NC",17002
+"Vero Beach ","FL",16982
+"Dumont","NJ",16968
+"Union City ","GA",16961
+"Hopkins ","MN",16961
+"Talladega ","AL",16943
+"North Canton ","OH",16925
+"Palos Hills ","IL",16924
+"Stephenville ","TX",16921
+"Bartow ","FL",16919
+"Mill Creek ","WA",16907
+"Mineral Wells ","TX",1688
+"Creve Coeur ","MO",16868
+"Sevierville ","TN",16846
+"Beckley ","WV",16832
+"Battle Ground ","WA",16812
+"Arlington ","WA",1681
+"Bonney Lake ","WA",16809
+"Anacortes ","WA",16798
+"Mount Clemens ","MI",16781
+"Onalaska ","WI",16778
+"St. Marys ","GA",16763
+"Howard","WI",16753
+"Round Lake","IL",16748
+"Rutland ","VT",16742
+"Highland Village ","TX",16737
+"Ada ","OK",16729
+"Country Club Hills ","IL",16723
+"Grandville ","MI",16718
+"Rancho Mirage ","CA",16714
+"Belle Glade ","FL",16681
+"Fremont ","OH",16655
+"Fairview Heights ","IL",16643
+"La Vista ","NE",16643
+"Shively ","KY",16641
+"Millbrook ","AL",1664
+"Norwalk ","OH",16637
+"Menasha ","WI",16627
+"Tahlequah ","OK",16623
+"Alamo ","TX",16608
+"Winchester ","KY",16598
+"Murray ","KY",16557
+"Asbury Park ","NJ",16546
+"El Reno ","OK",16545
+"Westbrook ","ME",16534
+"Americus ","GA",16524
+"Huntington ","IN",16521
+"Yorkville ","IL",16505
+"Central Point ","OR",16503
+"Portland ","TX",1649
+"Cocoa ","FL",16478
+"Midlothian ","TX",16478
+"Gainesville ","TX",16452
+"Durant ","OK",1645
+"Mesquite ","NV",16444
+"Palm Springs","FL",16442
+"Clarksburg ","WV",16441
+"Erie","CO",16432
+"Durango ","CO",16416
+"Natchez ","MS",16413
+"Roanoke Rapids ","NC",16403
+"Gretna ","LA",16399
+"Frankfort ","IN",16394
+"Bella Vista","AR",16388
+"Phoenixville","PA",16382
+"Pendleton ","OR",1638
+"South Houston ","TX",16351
+"Punta Gorda ","FL",16343
+"Hermitage ","PA",16327
+"Sunny Isles Beach ","FL",16317
+"American Canyon ","CA",16315
+"Griffith","IN",16311
+"Gautier ","MS",16306
+"DeBary ","FL",16303
+"White Settlement ","TX",16301
+"Mount Vernon ","IL",16298
+"Suwanee ","GA",16277
+"Brunswick ","GA",16269
+"Artesia ","CA",16244
+"Middleton ","WI",16244
+"El Segundo ","CA",16217
+"Hibbing ","MN",16209
+"Maumelle ","AR",16201
+"Easthampton ","MA",16195
+"Highland ","UT",16189
+"Truckee","CA",16185
+"Lemont","IL",16176
+"Uvalde ","TX",16142
+"Radford ","VA",16125
+"Blytheville ","AR",16105
+"Farmington ","MO",16097
+"Nederland ","TX",16096
+"Taylor ","TX",1609
+"Clayton ","MO",16088
+"Greenwood ","MS",16084
+"Hanahan ","SC",16065
+"Defiance ","OH",16063
+"Saratoga Springs ","UT",16053
+"Prospect Heights ","IL",16047
+"Aberdeen ","WA",16042
+"Morton","IL",16039
+"Mount Vernon ","OH",16037
+"Dickinson ","ND",16035
+"Waterville ","ME",16016
+"Madison","NJ",16009
+"Albany ","CA",16004
+"New Milford","NJ",15947
+"Dyer","IN",15913
+"Lexington","SC",15901
+"Conway ","SC",15894
+"Dallas ","OR",15892
+"South Ogden ","UT",15891
+"Ca�on City ","CO",15889
+"Stuart ","FL",15858
+"Henderson ","NC",1585
+"Floral Park","NY",15846
+"Clayton","NC",15841
+"North Myrtle Beach ","SC",15816
+"North Aurora","IL",15812
+"Shafter ","CA",158
+"Newport ","KY",15766
+"Fairview Park ","OH",15762
+"Hueytown ","AL",15751
+"Centerville ","UT",1572
+"Westchester","IL",1571
+"Centralia ","WA",1571
+"Johnston ","IA",15691
+"Red Wing ","MN",15687
+"South River","NJ",15682
+"Coos Bay ","OR",15665
+"Canby ","OR",15637
+"Marco Island ","FL",15634
+"Overland ","MO",15632
+"Powder Springs ","GA",15614
+"La Palma ","CA",15603
+"Jenks ","OK",1559
+"West University Place ","TX",15583
+"Menomonie ","WI",15581
+"Great Bend ","KS",15564
+"Laurinburg ","NC",15548
+"Lansdale","PA",15526
+"Danville ","KY",15524
+"Albemarle ","NC",15522
+"Shorewood","IL",15521
+"Hopatcong","NJ",15491
+"Payson","AZ",15486
+"Deming ","NM",1548
+"Sulphur Springs ","TX",15473
+"Eden ","NC",15469
+"Greeneville","TN",1544
+"Troutdale ","OR",15438
+"Kaukauna ","WI",15414
+"Moultrie ","GA",15409
+"Center Point ","AL",15408
+"Lebanon ","IN",154
+"Lebanon ","OR",15397
+"Hyattsville ","MD",15376
+"Secaucus","NJ",15372
+"West Melbourne ","FL",15328
+"Depew","NY",15307
+"Hermiston ","OR",15297
+"Cullman ","AL",15295
+"Opa-locka ","FL",15287
+"Riverdale ","GA",15279
+"St. Michael ","MN",15278
+"Brenham ","TX",1527
+"Lynn Haven ","FL",15254
+"Gatesville ","TX",15252
+"Greensburg ","PA",15249
+"La Grange","IL",15244
+"Clive ","IA",15234
+"Montgomery","IL",15229
+"Hawaiian Gardens ","CA",15229
+"Forest Park","IL",15224
+"Forney ","TX",15223
+"Greenfield ","CA",15222
+"Fort Thomas ","KY",15222
+"Batavia ","NY",15202
+"Harrison","NJ",15201
+"Milton ","GA",15156
+"Grosse Pointe Woods ","MI",15154
+"Troy ","AL",15148
+"Lake Mary ","FL",15143
+"Fayetteville ","GA",15136
+"Beaver Dam ","WI",15133
+"Mercedes ","TX",15131
+"Sterling ","IL",15124
+"Cahokia","IL",15103
+"Alexander City ","AL",1508
+"Arvin ","CA",1507
+"Westbury","NY",15065
+"Rye ","NY",1506
+"Fillmore ","CA",15053
+"Crawfordsville ","IN",15043
+"Newton ","IA",15042
+"Clearlake ","CA",1504
+"Bryant ","AR",1504
+"Dixon ","IL",15033
+"Bellevue","WI",15031
+"Bridgeton ","MO",15028
+"Hanover","PA",15025
+"Cohoes ","NY",15025
+"Ham Lake ","MN",1502
+"Mount Pleasant ","TX",15011
+"Kenmore","NY",15002
+"Scottsboro ","AL",14994
+"Bridgeview","IL",14991
+"Paradise Valley","AZ",1499
+"Gloversville ","NY",1499
+"Covington ","GA",1498
+"Bradley","IL",14964
+"Addison","TX",14964
+"Owosso ","MI",14963
+"Ukiah ","CA",14956
+"Sunnyside ","WA",14949
+"Lady Lake","FL",1494
+"New Franklin ","OH",14937
+"Maitland ","FL",14931
+"Middleburg Heights ","OH",14928
+"Vienna","VA",14903
+"Fraser ","MI",14902
+"Humble ","TX",14899
+"Pooler ","GA",14875
+"Reidsville ","NC",14871
+"Sharon ","PA",14869
+"Elkton","MD",14842
+"Siloam Springs ","AR",14825
+"Tonawanda ","NY",14819
+"Calhoun ","GA",14807
+"Berkley ","MI",14787
+"Scottsbluff ","NE",14785
+"Murphy ","TX",14779
+"Pineville ","LA",14776
+"Waycross ","GA",14774
+"Ocean City ","NJ",14756
+"Indiana","PA",14754
+"Washington ","PA",14754
+"Mitchell ","SD",14752
+"Johnson City","NY",14727
+"Boulder City ","NV",1472
+"Allouez","WI",14718
+"Ozark ","AL",14711
+"North Arlington","NJ",14701
+"Lindenhurst","IL",14695
+"Oroville ","CA",14684
+"Easton","MD",14677
+"Grenada ","MS",14664
+"Tenafly","NJ",14662
+"Panama City Beach ","FL",14642
+"Helena ","AL",14639
+"Jamestown ","ND",1463
+"Jennings ","MO",14625
+"Front Royal","VA",14616
+"Bay Village ","OH",14606
+"Canyon ","TX",14602
+"Pacific Grove ","CA",14601
+"Ramsey","NJ",14595
+"Beacon ","NY",14566
+"California City ","CA",14556
+"Cibolo ","TX",14555
+"Aurora ","OH",14548
+"Canton ","IL",14545
+"Martinsville ","VA",14543
+"Lincoln ","IL",14541
+"Graham ","NC",14533
+"Phillipsburg","NJ",14528
+"Eufaula ","AL",14502
+"Hereford ","TX",14499
+"Streetsboro ","OH",14488
+"Lake Wales ","FL",14474
+"Ripon ","CA",14473
+"Sunland Park ","NM",14453
+"West Park ","FL",14432
+"Berea ","KY",14431
+"Pottsville ","PA",14405
+"Traverse City ","MI",14398
+"Groves ","TX",14393
+"Washington ","MO",14392
+"Jacksonville ","TX",14367
+"Indianola ","IA",14361
+"Stockbridge ","GA",1436
+"Auburndale ","FL",14353
+"River Falls ","WI",14352
+"Lebanon ","MO",14336
+"Beech Grove ","IN",14316
+"Marietta ","OH",14307
+"Glasgow ","KY",14302
+"Whitewater ","WI",14291
+"Palmetto ","FL",14284
+"Athens ","TN",14275
+"Corinth ","MS",14253
+"Zachary ","LA",14252
+"Highland Park","NJ",14245
+"La Marque ","TX",14236
+"Greenwood Village ","CO",1423
+"Moberly ","MO",14227
+"Buffalo ","MN",14222
+"Eatontown","NJ",14195
+"Oconomowoc ","WI",14172
+"Riverdale","IL",14163
+"Lake St. Louis ","MO",1416
+"Los Lunas","NM",14153
+"Highland Park ","MI",14153
+"Olean ","NY",14149
+"Jasper ","AL",14131
+"Vandalia ","OH",14124
+"Jasper ","IN",14116
+"Tumwater ","WA",141
+"Sault Ste. Marie ","MI",14087
+"Hazel Crest","IL",14075
+"Winder ","GA",14064
+"Fort Payne ","AL",14061
+"Thibodaux ","LA",14052
+"Channahon","IL",1403
+"Red Bluff ","CA",14025
+"Aberdeen ","MD",13993
+"Greendale","WI",13978
+"Dunmore","PA",13978
+"Culpeper","VA",13977
+"Dickson ","TN",13972
+"Elizabethton ","TN",13955
+"Norridge","IL",13954
+"Moss Point ","MS",13951
+"Rio Grande City ","TX",1395
+"Boone","NC",13945
+"Washington ","IL",13942
+"Butler ","PA",13933
+"Connersville ","IN",13931
+"Crowley ","LA",13922
+"Dumas ","TX",13916
+"Carthage ","MO",13916
+"Sartell ","MN",13915
+"West Columbia ","SC",13914
+"Katy ","TX",13913
+"Hutchinson ","MN",13913
+"Callaway ","FL",13899
+"Pierre ","SD",13899
+"Antioch","IL",13892
+"Hartselle ","AL",13888
+"Glens Falls ","NY",13877
+"Otsego ","MN",13874
+"Forest Hill ","TX",13858
+"Maumee ","OH",13856
+"Wood Dale ","IL",13855
+"Altoona ","IA",13854
+"Hartford ","WI",13853
+"Lyndhurst ","OH",13848
+"Las Vegas ","NM",13818
+"Collingswood","NJ",13817
+"Morris ","IL",13812
+"Foley ","AL",13807
+"Yankton ","SD",13798
+"Streator ","IL",1378
+"Cusseta","GA",13754
+"Tavares ","FL",13746
+"Jackson ","MO",13744
+"Willowick ","OH",13727
+"Republic ","MO",13715
+"North Adams ","MA",13711
+"Morrisville","NC",13699
+"Brainerd ","MN",13691
+"New Haven ","IN",13685
+"McComb ","MS",13684
+"Circleville ","OH",13681
+"New Kensington ","PA",13667
+"Gardendale ","AL",13665
+"South Daytona ","FL",13662
+"Lockhart ","TX",13661
+"Kingsland ","GA",13659
+"Midlothian","IL",13657
+"Zionsville","IN",13655
+"Carpinteria ","CA",13655
+"Washington Court House ","OH",13654
+"Imperial ","CA",13648
+"Ammon ","ID",13646
+"Middlesex","NJ",13644
+"Fergus Falls ","MN",13636
+"Warsaw ","IN",13627
+"Warrensville Heights ","OH",13618
+"Lake Stevens ","WA",13599
+"Hutto ","TX",13599
+"Palos Verdes Estates ","CA",13585
+"Whitefish Bay","WI",13584
+"Centralia ","IL",13569
+"Hewitt ","TX",13561
+"Conyers ","GA",13545
+"Bemidji ","MN",13541
+"Fairview","NJ",1354
+"Robbinsdale ","MN",13518
+"Washougal ","WA",13509
+"Longwood ","FL",13493
+"Richmond ","TX",13493
+"Bedford ","IN",13486
+"Weston","WI",13447
+"North Salt Lake ","UT",13446
+"Commerce ","CA",13435
+"Wixom ","MI",13425
+"Hammonton","NJ",13424
+"St. Marys ","PA",13409
+"Oldsmar ","FL",13401
+"Livingston ","CA",134
+"Moody ","AL",134
+"Whitehall","PA",134
+"McPherson ","KS",13396
+"Princeton","NJ",13391
+"Monroe ","GA",13381
+"Sharonville ","OH",13377
+"Newton ","NC",13372
+"Chicago Ridge","IL",13366
+"Baker ","LA",1336
+"Kuna ","ID",13354
+"Hickory Hills ","IL",13326
+"Hurricane ","UT",13321
+"Worthington ","OH",13314
+"Oakland","NJ",13312
+"Brookhaven ","MS",13296
+"Forrest City ","AR",13281
+"Parlier ","CA",13273
+"McMinnville ","TN",1327
+"Mill Valley ","CA",13268
+"Hope Mills","NC",13262
+"Lake Station ","IN",13246
+"Meadville ","PA",13233
+"Shorewood","WI",13226
+"Orangeburg ","SC",13224
+"Auburn ","CA",13219
+"Geneva ","NY",13216
+"Oneonta ","NY",13208
+"Harrison ","AR",132
+"Gaffney ","SC",132
+"Holly Hill ","FL",13199
+"Zephyrhills ","FL",13152
+"Atlantic Beach ","FL",13147
+"Live Oak ","TX",13142
+"Hugo ","MN",13139
+"Grover Beach ","CA",13131
+"Beach Park","IL",13119
+"Clermont ","FL",131
+"Metuchen","NJ",13098
+"Havre de Grace ","MD",13085
+"Ephrata","PA",13074
+"Sweetwater ","FL",13072
+"New Ulm ","MN",13048
+"Horizon City ","TX",13043
+"Warrenville ","IL",13033
+"Muscle Shoals ","AL",13032
+"Miami ","OK",13027
+"Auburn ","IN",13026
+"Clemson ","SC",13012
+"Malibu ","CA",13009
+"Fostoria ","OH",13
+"St. John","IN",12999
+"Glendale ","WI",12992
+"Perry ","GA",1299
+"Greenville ","OH",12983
+"Wickliffe ","OH",12983
+"Claremont ","NH",12968
+"Stoughton ","WI",12966
+"Bedford ","OH",12965
+"Smithfield","NC",12965
+"Minden ","LA",12962
+"Saraland ","AL",12946
+"Kingston","PA",12943
+"Fernley ","NV",12942
+"Franklin ","OH",12941
+"Chippewa Falls ","WI",12929
+"Swansea","IL",12927
+"Clayton ","OH",12906
+"West Monroe ","LA",12899
+"Lewisville","NC",12878
+"Hayden ","ID",12873
+"Mount Dora ","FL",12869
+"Brecksville ","OH",12851
+"Ottawa ","KS",1285
+"Sylacauga ","AL",12843
+"Richton Park","IL",12842
+"Pell City ","AL",12841
+"Villa Rica ","GA",12838
+"Solana Beach ","CA",12825
+"Powell ","OH",12814
+"San Marino ","CA",12808
+"Lebanon ","NH",12806
+"Roselle Park","NJ",12802
+"Sterling ","CO",128
+"Blue Ash ","OH",12783
+"Bloomsburg","PA",12772
+"Beatrice ","NE",12769
+"St. Ann ","MO",12766
+"West Carrollton City ","OH",12761
+"Babylon","NY",1276
+"Eloy ","AZ",1275
+"Kerman ","CA",12737
+"Madison ","IN",12716
+"Fulton ","MO",12707
+"Chesterton","IN",12705
+"Western Springs","IL",1269
+"Englewood ","OH",12686
+"Pataskala ","OH",12683
+"Beeville ","TX",12682
+"La Grande ","OR",12682
+"Ringwood","NJ",12681
+"Borger ","TX",12677
+"Southern Pines","NC",12675
+"Bellefontaine ","OH",12665
+"Brigantine ","NJ",12647
+"Marshall ","MN",12647
+"Cayce ","SC",12646
+"Happy Valley ","OR",12643
+"Williston ","ND",12641
+"Somerville","NJ",12637
+"Okmulgee ","OK",12634
+"Woodhaven ","MI",12634
+"Wilton Manors ","FL",12616
+"Boone ","IA",12614
+"Glen Carbon","IL",12607
+"Bogalusa ","LA",12607
+"Port Neches ","TX",12604
+"Wilmington ","OH",12603
+"Speedway","IN",12594
+"Mountain Home ","AR",12592
+"El Dorado ","KS",12591
+"Ionia ","MI",12589
+"Harper Woods ","MI",12584
+"Destin ","FL",12563
+"Miami Springs ","FL",12534
+"North Mankato ","MN",1253
+"Canton ","MS",1252
+"University Heights ","OH",12519
+"Soddy-Daisy ","TN",12511
+"St. Helens ","OR",1251
+"Bexley ","OH",12507
+"Vadnais Heights ","MN",12506
+"Pewaukee ","WI",12494
+"Freeport ","TX",12494
+"Effingham ","IL",12489
+"Williamsburg ","VA",12481
+"Palos Heights ","IL",12469
+"Dover ","OH",12466
+"New Carrollton ","MD",1246
+"Justice","IL",12452
+"Levelland ","TX",1245
+"Half Moon Bay ","CA",12449
+"Somerset ","KY",12449
+"Lake Forest Park ","WA",12438
+"Lake City ","FL",12427
+"South Charleston ","WV",12427
+"Mandeville ","LA",12421
+"Endicott","NY",12411
+"La Grange Park","IL",12404
+"St. Augustine ","FL",12404
+"Derby ","CT",12393
+"Florham Park","NJ",12389
+"Mountain Home ","ID",12382
+"Winnetka","IL",12371
+"Ridgefield Park","NJ",1237
+"Crowley ","TX",12368
+"Waukee ","IA",12367
+"Conneaut ","OH",12355
+"Somerton ","AZ",12346
+"Herrin ","IL",12337
+"Bainbridge ","GA",12337
+"Pinehurst","NC",12331
+"Gulfport ","FL",12327
+"Show Low ","AZ",12324
+"Athens ","TX",1232
+"Hernando ","MS",12318
+"Niceville ","FL",12313
+"Kewanee ","IL",12302
+"Peru ","IN",12301
+"Woodward ","OK",12299
+"East Wenatchee ","WA",12286
+"Troy ","MO",1227
+"Bucyrus ","OH",12252
+"Markham ","IL",12248
+"Avon","IN",12238
+"Taylorville ","IL",12238
+"Long Beach ","MS",12234
+"Grass Valley ","CA",12232
+"Wauconda","IL",12219
+"Cleveland ","MS",12218
+"Marion ","AR",12217
+"Portales ","NM",12215
+"Escanaba ","MI",12214
+"Grand Terrace ","CA",12204
+"Hudson ","WI",12196
+"Wanaque","NJ",12195
+"Patchogue","NY",12194
+"Helena-West Helena ","AR",1219
+"Rantoul","IL",12189
+"Kelso ","WA",12188
+"Ventnor City ","NJ",12187
+"Robstown ","TX",12179
+"Monroe ","OH",12178
+"Franklin Park","PA",12172
+"Clawson ","MI",12157
+"Middletown","DE",12152
+"North Palm Beach","FL",12149
+"Green River ","WY",12149
+"Marshall ","MO",12118
+"Abbeville ","LA",12103
+"McFarland ","CA",12098
+"Lower Burrell ","PA",12087
+"Dunkirk ","NY",12085
+"Gladstone ","OR",12079
+"Elizabethtown","PA",12069
+"West Plains ","MO",12045
+"Sauk Rapids ","MN",12013
+"Kilgore ","TX",1201
+"Hendersonville ","NC",12005
+"Mounds View ","MN",12005
+"Excelsior Springs ","MO",12002
+"Seagoville ","TX",11998
+"East Liverpool ","OH",11996
+"San Anselmo","CA",11986
+"Hidalgo ","TX",11984
+"Mount Washington ","KY",1198
+"Somersworth ","NH",11967
+"South Sioux City ","NE",11936
+"Cocoa Beach ","FL",1192
+"West Paterson","NJ",11908
+"New Providence","NJ",11905
+"The Dalles ","OR",11897
+"Fort Atkinson ","WI",11895
+"East Bethel ","MN",11895
+"Plano ","IL",11886
+"Red Bank","NJ",11866
+"Poquoson ","VA",11829
+"Chubbuck ","ID",11828
+"Riverview ","MI",11817
+"Bastrop ","LA",11814
+"Lincolnwood","IL",1181
+"Two Rivers ","WI",11807
+"Martinsville ","IN",118
+"Picayune ","MS",11787
+"Evanston ","WY",11781
+"Salem ","OH",11781
+"Buford ","GA",1178
+"Monticello ","MN",1178
+"Mooresville","IN",11763
+"Satellite Beach ","FL",11762
+"Beaufort ","SC",11755
+"Cambridge ","MD",11752
+"Lynden ","WA",11737
+"Tehachapi ","CA",11736
+"Loveland ","OH",11734
+"Federal Heights ","CO",11732
+"Amherst ","OH",11724
+"Plover","WI",1172
+"Brown Deer","WI",11716
+"Garden City ","ID",11713
+"Marysville ","CA",117
+"Larkspur ","CA",11693
+"Irmo","SC",11684
+"Uniontown ","PA",11682
+"Fenton ","MI",11678
+"Los Alamitos ","CA",11656
+"Henderson ","TX",11631
+"King City ","CA",11627
+"Coatesville ","PA",11624
+"Muskegon Heights ","MI",11623
+"Franklin Lakes","NJ",11619
+"Seven Hills ","OH",11616
+"Grafton","WI",11613
+"Fernandina Beach ","FL",1161
+"Morgan City ","LA",11604
+"Lilburn ","GA",11599
+"Sedona ","AZ",11599
+"Crossville ","TN",11599
+"Mendota Heights ","MN",11594
+"Schiller Park","IL",11573
+"Red Bank ","TN",11573
+"North Liberty ","IA",11561
+"Webb City ","MO",11532
+"Seabrook ","TX",11525
+"Alton ","TX",11523
+"Cordele ","GA",11518
+"Camden ","AR",11512
+"Gloucester City ","NJ",11503
+"Eunice ","LA",115
+"Winfield ","KS",11497
+"Verona ","WI",11486
+"Norton ","OH",11472
+"Cornelius ","OR",11464
+"Northlake ","IL",11462
+"Urbana ","OH",11442
+"Haddonfield","NJ",11442
+"Port Lavaca ","TX",11432
+"Freehold","NJ",11425
+"Yazoo City ","MS",11425
+"Douglas ","GA",11413
+"Cottonwood ","AZ",11412
+"Hasbrouck Heights","NJ",1141
+"Crestwood ","MO",11408
+"Burr Ridge","IL",11398
+"Washington ","IN",11397
+"Cloquet ","MN",11387
+"Ravenna ","OH",11381
+"Yeadon","PA",11367
+"Ferndale ","WA",11359
+"Tuskegee ","AL",11357
+"Vidalia ","GA",11355
+"Choctaw ","OK",11354
+"Coshocton ","OH",11353
+"Emmaus","PA",11349
+"Azle ","TX",11347
+"New Baltimore ","MI",11346
+"Somers Point ","NJ",11343
+"Fortuna ","CA",11329
+"Manassas Park ","VA",11319
+"Neosho ","MO",11317
+"Fairfield ","AL",11316
+"Leeds ","AL",11312
+"Elk City ","OK",11311
+"Pine Hill","NJ",11308
+"Ironton ","OH",11307
+"Wallington","NJ",11296
+"Shelbyville ","KY",11294
+"West Point ","MS",11292
+"Waunakee","WI",1129
+"Clayton ","CA",11278
+"Pontiac ","IL",11258
+"Niles ","MI",11258
+"Roma ","TX",11257
+"North St. Paul ","MN",11247
+"Festus ","MO",11246
+"Baraboo ","WI",11244
+"Canyon Lake ","CA",11243
+"Bardstown ","KY",11242
+"Lyndon ","KY",11242
+"Woodinville ","WA",1124
+"Alexandria ","MN",11237
+"Fulton ","NY",11219
+"Chamblee ","GA",11202
+"Munhall","PA",11199
+"Lakeway ","TX",11193
+"Cambridge ","OH",11192
+"River Forest","IL",11176
+"Bellmawr","NJ",11176
+"Kings Mountain ","NC",11175
+"Port Washington ","WI",11174
+"Shiloh","IL",11173
+"Falls Church ","VA",11169
+"Canandaigua ","NY",11168
+"Portland ","TN",11154
+"Dobbs Ferry","NY",11134
+"Glen Rock","NJ",11131
+"Arkadelphia ","AR",1113
+"Scotts Valley ","CA",11128
+"Little Chute","WI",11121
+"Ogdensburg ","NY",11119
+"Lighthouse Point ","FL",11118
+"Beachwood ","OH",11108
+"Lancaster","NY",11108
+"Cedarburg ","WI",11101
+"Fredericksburg ","TX",11098
+"Bluefield ","WV",11093
+"Suffern","NY",11088
+"Fox Lake","IL",11087
+"Magnolia ","AR",11081
+"Chino Valley","AZ",11078
+"Glenn Heights ","TX",11078
+"Mexico ","MO",11074
+"Arkansas City ","KS",1107
+"Oskaloosa ","IA",11069
+"Parsons ","KS",11065
+"Kingsburg ","CA",11064
+"Port Royal","SC",11064
+"Fredonia","NY",11064
+"Vidor ","TX",11063
+"Crestwood","IL",11051
+"Guthrie ","OK",11043
+"Plymouth ","IN",11038
+"Worthington ","MN",11036
+"Huron ","SD",11033
+"Campton Hills","IL",11031
+"Tarrytown","NY",11031
+"Pompton Lakes","NJ",11031
+"Haverstraw","NY",11029
+"Fairburn ","GA",11024
+"Bolivar ","MO",11013
+"Blackfoot ","ID",11012
+"Campbellsville ","KY",1101
+"Lewisburg ","TN",11003
+"Rochester ","MI",11002
+"St. Albans ","WV",10996
+"Artesia ","NM",10994
+"Ontario ","OR",10991
+"Spencer ","IA",10986
+"Cedar Lake","IN",10981
+"Wood River ","IL",10973
+"Healdsburg ","CA",10971
+"St. Peter ","MN",10971
+"South Lyon ","MI",10959
+"Grosse Pointe Park ","MI",10956
+"Lake Grove","NY",10948
+"Burlington ","WI",1093
+"Vernon ","TX",10924
+"Sturgis ","MI",10916
+"Newberry ","SC",10907
+"Fort Madison ","IA",10897
+"Signal Hill ","CA",10882
+"Suamico","WI",10881
+"Sedro-Woolley ","WA",10871
+"Trenton ","OH",10866
+"Lincolnton ","NC",10859
+"West Richland ","WA",10857
+"Ridgefield","NJ",10851
+"Camp Verde","AZ",10849
+"Hillsborough","CA",10844
+"Beachwood","NJ",10835
+"Sierra Madre ","CA",10834
+"Wabash ","IN",10815
+"Benton Harbor ","MI",10814
+"Merriam ","KS",10814
+"Palatka ","FL",10813
+"Indianola ","MS",10805
+"Marinette ","WI",108
+"Manville","NJ",108
+"Maryville ","MO",108
+"Lawrenceburg ","TN",10778
+"El Campo ","TX",10773
+"Clute ","TX",10765
+"Vermilion ","OH",10754
+"Calera ","AL",10742
+"Norcross ","GA",10737
+"Galion ","OH",10737
+"Struthers ","OH",10734
+"Greensburg ","IN",1073
+"Oneida ","NY",10723
+"Sebring ","FL",10714
+"Town and Country ","MO",1071
+"South Miami ","FL",10707
+"Kennett ","MO",10707
+"Guymon ","OK",10702
+"Westwood","NJ",10699
+"Lansing ","KS",10691
+"Enumclaw ","WA",10684
+"Chatham","IL",10676
+"River Edge","NJ",10674
+"Webster ","TX",10665
+"Bonham ","TX",1066
+"Sweetwater ","TX",10657
+"Orange Cove ","CA",10641
+"Lansdowne","PA",10638
+"Lincoln Park","NJ",10635
+"Aliquippa ","PA",10631
+"Mebane ","NC",10624
+"Totowa","NJ",10621
+"Grand Haven ","MI",10608
+"Oil City ","PA",10598
+"Dallas ","GA",10584
+"Petal ","MS",10575
+"Richmond Hill ","GA",10571
+"Lindsay ","CA",10571
+"Union City ","TN",10569
+"Loganville ","GA",10562
+"Keansburg","NJ",1055
+"Superior","CO",10549
+"Fort Morgan ","CO",10539
+"Massena","NY",10539
+"Anderson ","CA",10538
+"Vienna ","WV",10536
+"Jennings ","LA",10529
+"Guttenberg","NJ",10528
+"Reading ","OH",10523
+"Minooka","IL",10514
+"Coldwater ","MI",10514
+"Vermillion ","SD",10495
+"Bedford Heights ","OH",10485
+"Piedmont ","CA",10481
+"Monroe ","WI",10481
+"Santa Fe ","TX",10479
+"Little Ferry","NJ",10477
+"Waupun ","WI",10469
+"East Grand Rapids ","MI",10467
+"Lindon ","UT",10466
+"Alpena ","MI",10465
+"Jesup ","GA",10459
+"Montgomery ","OH",10458
+"Kendallville ","IN",10452
+"Woodbury ","NJ",1045
+"East Rockaway","NY",10438
+"Macedonia ","OH",10435
+"Worth","IL",10426
+"Steger","IL",10421
+"Burkburnett ","TX",10418
+"North Branch ","MN",10417
+"Brooklyn ","OH",1041
+"Snyder ","TX",10406
+"Atchison ","KS",10402
+"Wyomissing","PA",10399
+"Mount Kisco","NY",10393
+"East Stroudsburg","PA",1039
+"Keokuk ","IA",10387
+"Cheney ","WA",10385
+"Springdale ","OH",10384
+"Hope ","AR",10378
+"Barrington","IL",10374
+"Bound Brook","NJ",10365
+"Haysville ","KS",10364
+"Lumberton ","TX",10354
+"Grain Valley ","MO",10352
+"Andover ","KS",10351
+"Mendota ","CA",10339
+"Morro Bay ","CA",10333
+"Silver City","NM",10329
+"Robinson ","TX",10327
+"Brownsville ","TN",10316
+"Coffeyville ","KS",10312
+"Denham Springs ","LA",10308
+"Davidson","NC",10305
+"Platteville ","WI",10297
+"Boerne ","TX",10283
+"Corning ","NY",10281
+"Leon Valley ","TX",10269
+"Doraville ","GA",10268
+"Coolidge ","AZ",10261
+"Tarboro","NC",10257
+"Big Rapids ","MI",10257
+"Wasilla ","AK",10256
+"Celina ","OH",10255
+"Sauk Village","IL",10254
+"Pleasant Grove ","AL",10254
+"West Haverstraw","NY",10252
+"Lyons","IL",1025
+"Gulf Shores ","AL",10248
+"Cadillac ","MI",10245
+"Bellefontaine Neighbors ","MO",10241
+"Tomball ","TX",10234
+"Newman ","CA",10226
+"Summit","IL",10223
+"Fairmont ","MN",10221
+"Berwick","PA",10216
+"Sleepy Hollow","NY",10212
+"Van Wert ","OH",10211
+"Martin ","TN",10208
+"Pella ","IA",10208
+"Galena Park ","TX",10207
+"Nanticoke ","PA",10199
+"Shasta Lake ","CA",10192
+"Mayfield ","KY",10186
+"Weatherford ","OK",10185
+"Richmond Heights ","OH",10174
+"Millington ","TN",10165
+"Cape Canaveral ","FL",10147
+"Greencastle ","IN",10145
+"Andrews ","TX",10142
+"Lexington ","NE",10126
+"Cedartown ","GA",10123
+"Washington ","NC",10112
+"Westwego ","LA",10098
+"Prineville ","OR",10085
+"Mount Holly ","NC",10081
+"Jacksonville ","AL",10077
+"East Rutherford","NJ",10074
+"Lantana","FL",10071
+"Girard ","OH",10069
+"Farmersville ","CA",10056
+"Sussex","WI",10048
+"White House ","TN",10048
+"Columbia","PA",10033
+"Riverton ","WY",10032
+"Fort Mill","SC",10032
+"Dunn ","NC",10029
+"Manchester ","TN",10012
+"Spearfish ","SD",1001
+"DeRidder ","LA",10008
+"Placerville ","CA",9994
+"River Grove","IL",9992
+"Carroll ","IA",9985
+"Winfield","IL",9984
+"Lancaster ","SC",9981
+"Lawrenceburg ","KY",9978
+"Lovington ","NM",9975
+"Paris ","TN",9966
+"Exeter ","CA",9963
+"Valley ","AL",9962
+"Waynesboro","PA",9947
+"Newport ","OR",9943
+"Marysville ","MI",9943
+"Florida City ","FL",9935
+"Waconia ","MN",9934
+"Bethalto","IL",9933
+"Middlesborough ","KY",9929
+"St. Pete Beach ","FL",9927
+"Forest Acres ","SC",9925
+"Jacinto City ","TX",9923
+"Great Neck","NY",9923
+"Amityville","NY",992
+"Portage ","WI",9919
+"Glenpool ","OK",9914
+"Elgin ","TX",9909
+"Darby","PA",9903
+"Sonoma ","CA",9893
+"Newcastle ","WA",9885
+"Alpine ","UT",9885
+"Weddington","NC",9882
+"Waynesville","NC",9877
+"Winslow ","AZ",9867
+"Beverly Hills","MI",9865
+"Jeannette ","PA",9859
+"Ecorse ","MI",9858
+"Harvard ","IL",9855
+"Astoria ","OR",9851
+"Hillsdale","NJ",9848
+"Rochelle ","IL",9847
+"Northampton","PA",9841
+"Potsdam","NY",9841
+"Troy ","IL",984
+"Farmington ","MI",9839
+"Heber ","UT",983
+"Bel Air","MD",9826
+"Safford ","AZ",9823
+"Sunbury ","PA",9819
+"Waterloo ","IL",9813
+"Melvindale ","MI",9812
+"Peru ","IL",981
+"Rockport ","TX",981
+"Cairo ","GA",9809
+"Jackson","WY",9806
+"Fairview ","OR",9805
+"Orange City ","FL",9799
+"Big Lake ","MN",9795
+"The Village ","OK",9769
+"Watervliet ","NY",9765
+"Mission ","KS",9765
+"Harrisonville ","MO",9749
+"Highland ","IL",9748
+"Key Biscayne","FL",9735
+"St. Francis ","WI",9733
+"Edgewood ","WA",9711
+"Sumner ","WA",9704
+"Howell ","MI",9694
+"Espanola ","NM",9691
+"Union ","MO",9684
+"Pleasanton ","TX",9681
+"Irondale ","AL",9677
+"Merrill ","WI",967
+"Fort Oglethorpe ","GA",9663
+"Jefferson Hills","PA",966
+"Silverton ","OR",9649
+"Sugar Grove","IL",9645
+"North Bend ","OR",9636
+"Bristol","PA",9635
+"Edgewater","NJ",9635
+"Clinton ","TN",9625
+"Capitola ","CA",9612
+"Arden Hills ","MN",9608
+"Monmouth ","OR",9607
+"Laurens ","SC",9599
+"New Hyde Park","NY",9596
+"Morrisville","PA",9594
+"Steamboat Springs ","CO",9592
+"Storm Lake ","IA",9591
+"London ","OH",9587
+"Emeryville ","CA",9583
+"Harrisburg ","IL",9582
+"Kinnelon","NJ",9582
+"Bellmead ","TX",9579
+"Havre ","MT",9575
+"Decatur ","IN",9574
+"Little Canada ","MN",957
+"Perry ","IA",9569
+"Rye Brook","NY",9568
+"Berlin ","NH",9556
+"Miami Shores","FL",9551
+"Cedar Hills ","UT",9551
+"North College Hill ","OH",9549
+"Mound ","MN",9546
+"Palm Beach","FL",9535
+"Smithfield ","UT",9535
+"Marathon ","FL",9526
+"Raymondville ","TX",9522
+"Brentwood","PA",9522
+"Waldwick","NJ",9522
+"LaSalle ","IL",952
+"Morehead City","NC",9513
+"Batesville ","AR",9511
+"Hackettstown","NJ",9511
+"Mount Airy ","NC",9501
+"Louisville ","OH",9459
+"Wapakoneta ","OH",9438
+"Waseca ","MN",9438
+"Warr Acres ","OK",9427
+"Garden City ","GA",9414
+"Baker City ","OR",9413
+"Warren ","PA",9403
+"Hamburg","NY",94
+"Burlington ","NJ",9396
+"Grandview ","WA",9392
+"Gonzales ","LA",939
+"Harrison ","OH",9387
+"Berkeley ","MO",9387
+"Clinton ","MO",9381
+"Independence ","OR",9375
+"Belmont ","NC",9374
+"Oregon","WI",9369
+"Hermantown ","MN",9361
+"Lone Tree ","CO",9348
+"Columbia ","IL",9342
+"Archdale ","NC",9332
+"Rainbow City ","AL",9324
+"Monmouth ","IL",9321
+"Bluffton ","IN",932
+"Groton ","CT",9316
+"Eureka ","MO",9316
+"Shelby ","OH",9311
+"Flossmoor","IL",9309
+"Johnstown","CO",9309
+"Cody ","WY",9309
+"Rock Falls ","IL",9307
+"Alachua ","FL",9306
+"Harahan ","LA",9306
+"Waverly ","IA",9298
+"Pryor Creek ","OK",9293
+"Paris ","KY",9286
+"Cameron ","MO",9279
+"Shelton ","WA",9276
+"Monticello ","AR",927
+"Red Oak ","TX",9255
+"Tipp City ","OH",9254
+"Covington ","TN",9253
+"Maysville ","KY",9246
+"Corte Madera","CA",9245
+"Independence ","KS",9245
+"Elkhorn ","WI",9244
+"Craig ","CO",9241
+"Commerce ","TX",9238
+"Bernalillo","NM",9237
+"Damascus ","OR",9236
+"Grovetown ","GA",9224
+"Alma ","MI",9223
+"Fairfield ","IA",9218
+"Ellisville ","MO",9212
+"Carbondale ","PA",9208
+"Pitman","NJ",9206
+"Oak Grove ","KY",9205
+"Shepherdsville ","KY",9203
+"Rifle ","CO",9202
+"Thomaston ","GA",9191
+"Fitzgerald ","GA",9185
+"Highland Park","TX",9184
+"Grinnell ","IA",9167
+"Toppenish ","WA",9166
+"Humboldt ","TN",9159
+"Jerome ","ID",9157
+"Covington ","LA",9155
+"Toccoa ","GA",915
+"Wharton ","TX",915
+"Taft ","CA",9147
+"Maywood","NJ",9145
+"Economy","PA",9136
+"Port Townsend ","WA",9133
+"Sheffield ","AL",9127
+"Le Mars ","IA",9127
+"Trinidad ","CO",9125
+"Cottage Grove ","OR",9124
+"Port Jervis ","NY",9111
+"Moundsville ","WV",9109
+"Burley ","ID",9105
+"Albion ","MI",9103
+"Royse City ","TX",9101
+"Coweta ","OK",9096
+"Newark","NY",9096
+"Ruidoso","NM",9096
+"Richmond Heights ","MO",9093
+"Essex Junction","VT",9056
+"Beaver Falls ","PA",9055
+"Glenwood Springs ","CO",9053
+"Grantsville ","UT",9049
+"Presque Isle ","ME",9045
+"Orange Park","FL",9043
+"Crete","IL",9041
+"Ingleside ","TX",9039
+"Glencoe","IL",9038
+"Brewer ","ME",9035
+"Lititz","PA",9034
+"Avon Park ","FL",9033
+"Elwood ","IN",9027
+"Delta ","CO",902
+"Lapeer ","MI",9018
+"Bennettsville ","SC",9012
+"Scott ","LA",901
+"Minneola ","FL",9006
+"West Point ","UT",9001
+"Hondo ","TX",8992
+"Socorro ","NM",8989
+"Charlotte ","MI",8984
+"Pulaski","VA",8983
+"Andalusia ","AL",8978
+"College Place ","WA",8978
+"Stuttgart ","AR",8971
+"Stallings","NC",897
+"Malvern ","AR",8958
+"Warrenton","VA",8947
+"Brownfield ","TX",8947
+"Hillsboro ","TX",8941
+"Monett ","MO",8939
+"Sweet Home ","OR",893
+"Russellville ","AL",8918
+"Park Ridge","NJ",8917
+"Edgewood ","KY",891
+"Sheffield Lake ","OH",8905
+"Woodbury","NY",8904
+"North Haledon","NJ",8904
+"Heath ","OH",8903
+"Clinton ","SC",8892
+"Sitka  and","AK",8889
+"Bath ","ME",8885
+"Audubon","NJ",8883
+"Saline ","MI",8882
+"Lamesa ","TX",888
+"Rockingham ","NC",888
+"Malverne","NY",888
+"La Plata","MD",8879
+"Franklin ","VA",8877
+"Waterford ","CA",8875
+"Grants ","NM",8871
+"Clinton ","NC",8868
+"Farmingdale","NY",8865
+"Park Hills ","MO",8851
+"Hoquiam ","WA",8848
+"Anaconda","MT",8843
+"Chanute ","KS",8843
+"Middletown","PA",8841
+"Barre ","VT",8837
+"Clanton ","AL",8836
+"DeForest","WI",8835
+"Sparta ","WI",8823
+"Sandy ","OR",8823
+"Norwalk ","IA",8821
+"Holly Springs ","GA",8818
+"Napoleon ","OH",8817
+"Woodway ","TX",8814
+"Aransas Pass ","TX",881
+"Roscoe","IL",8807
+"Oak Brook","IL",8803
+"Springfield ","FL",8803
+"Pewaukee","WI",8801
+"Snohomish ","WA",8801
+"Kaufman ","TX",8794
+"Sturgeon Bay ","WI",8792
+"Mount Pleasant ","IA",8775
+"Flat Rock ","MI",8771
+"Boonville ","MO",877
+"Clinton ","OK",8768
+"Cushing ","OK",8767
+"Swissvale","PA",8765
+"Mount Airy","MD",8761
+"Brandon ","SD",8757
+"Matawan","NJ",8754
+"Booneville ","MS",8749
+"Alamosa ","CO",8745
+"Grand Rapids ","MN",8743
+"Sallisaw ","OK",8742
+"Rawlins ","WY",874
+"Willowbrook","IL",8739
+"Mechanicsburg","PA",8721
+"Canonsburg","PA",8717
+"Franklin ","NH",8713
+"Lake Villa","IL",8709
+"Chillicothe ","MO",8706
+"Woods Cross ","UT",8705
+"Paris ","IL",8699
+"Burlington ","WA",8697
+"Vernal ","UT",8696
+"Florence ","OR",8694
+"Augusta ","KS",8693
+"Hartland","WI",8692
+"Tiburon","CA",8676
+"Lake Park","FL",8668
+"Roxboro ","NC",8667
+"Reedsburg ","WI",8666
+"Shawano ","WI",8666
+"Tomah ","WI",8664
+"Closter","NJ",8659
+"Milton ","FL",8656
+"Quakertown","PA",8643
+"Oxford ","NC",8641
+"Perkasie","PA",8636
+"Greenwood ","AR",8635
+"Maplewood ","MO",8626
+"Granbury ","TX",862
+"Alexandria ","KY",862
+"Itasca","IL",8617
+"Cresskill","NJ",8615
+"Grosse Pointe Farms ","MI",8614
+"Tecumseh ","MI",861
+"Cortez ","CO",8609
+"Kirby ","TX",8606
+"Alcoa ","TN",8606
+"Smyrna","DE",8603
+"Des Peres ","MO",8603
+"Rayne ","LA",8601
+"Kearney ","MO",8599
+"Leonia","NJ",8597
+"Centerton ","AR",8593
+"Bridge City ","TX",8593
+"Los Altos Hills","CA",8592
+"Colonie","NY",8591
+"Island Lake","IL",8588
+"Clarendon Hills","IL",8582
+"Clarksville ","AR",8579
+"Pismo Beach ","CA",8573
+"Siler City","NC",8564
+"Manteno","IL",8562
+"Madeira ","OH",8558
+"Lock Haven ","PA",8541
+"Willoughby Hills ","OH",854
+"Gonzales ","CA",8537
+"Highland Heights ","OH",8533
+"Lewistown","PA",8528
+"Fallon ","NV",8525
+"Old Forge","PA",8524
+"Yorktown","IN",8523
+"Lynwood","IL",8519
+"Haledon","NJ",8517
+"Washington Terrace ","UT",8515
+"Milford ","DE",8511
+"Hornell ","NY",8508
+"Delavan ","WI",8505
+"Georgetown ","SC",8501
+"Margate City ","NJ",8501
+"Glenwood","IL",8489
+"Holmen","WI",8487
+"Plymouth ","MI",8487
+"Virginia ","MN",848
+"Graham ","TX",8479
+"Thief River Falls ","MN",8472
+"Westlake Village ","CA",8469
+"Boonton","NJ",8469
+"Connellsville ","PA",8468
+"North Logan ","UT",8466
+"St. Joseph ","MI",8458
+"Upper Saddle River","NJ",8454
+"River Rouge ","MI",8449
+"Princeton ","IN",8447
+"Oakwood ","OH",8439
+"Johnstown ","NY",8438
+"Wynne ","AR",8437
+"Campbell ","OH",8436
+"Guntersville ","AL",8422
+"Dormont","PA",842
+"Grimes ","IA",8419
+"Pleasant Hill ","IA",8414
+"Runnemede","NJ",841
+"Conshohocken","PA",8409
+"Olney ","IL",8407
+"Southside ","AL",8407
+"Lowell","IN",8405
+"Santaquin ","UT",84
+"Bradford ","PA",8391
+"Absecon ","NJ",8389
+"Orrville ","OH",8387
+"Cheviot ","OH",8385
+"Oberlin ","OH",8381
+"Bastrop ","TX",8378
+"Jerseyville ","IL",8373
+"Lake Geneva ","WI",8371
+"Collingdale","PA",8365
+"West Haven ","UT",8357
+"Wyoming ","OH",8355
+"Boaz ","AL",8349
+"Liberty ","TX",8347
+"Latrobe ","PA",8347
+"Brockport","NY",8342
+"Hillside","IL",8341
+"St. Anthony ","MN",8341
+"Airmont","NY",8339
+"West Long Branch","NJ",8339
+"Sandpoint ","ID",8337
+"Nevada ","MO",8327
+"Ludington ","MI",8324
+"Menominee ","MI",8324
+"Corbin ","KY",8324
+"Mount Rainier ","MD",8322
+"Bryan ","OH",8314
+"Indian Harbour Beach ","FL",8311
+"Clay ","AL",8308
+"Tuscumbia ","AL",8308
+"Perryton ","TX",8304
+"Eagle Point ","OR",8302
+"Brooksville ","FL",8292
+"Mentor-on-the-Lake ","OH",8288
+"Columbia City ","IN",8283
+"Wytheville","VA",8282
+"Whitefish ","MT",8281
+"Brazil ","IN",8272
+"Riverside","IL",8272
+"Baxter ","MN",8271
+"New Richmond ","WI",8259
+"Poteau ","OK",8258
+"Rice Lake ","WI",8257
+"Live Oak ","CA",8245
+"Oak Grove ","MN",8245
+"Plymouth ","WI",8241
+"Chatham","NJ",8212
+"Palmer ","AK",8201
+"Fort Valley ","GA",82
+"Dardenne Prairie ","MO",8197
+"La Follette ","TN",8194
+"Ladue ","MO",8193
+"Harrodsburg ","KY",8192
+"West Frankfort ","IL",819
+"Sunset Hills ","MO",819
+"Ville Platte ","LA",819
+"Belgrade ","MT",8185
+"Murphysboro ","IL",8184
+"Oak Island","NC",818
+"New Albany ","MS",8178
+"Knightdale","NC",8174
+"Perryville ","MO",8172
+"University Park","IL",8171
+"Olmsted Falls ","OH",8168
+"Monroe","NY",8168
+"Snoqualmie ","WA",8161
+"Jefferson City ","TN",8156
+"Greenville ","MI",8154
+"Cloverdale ","CA",8153
+"Poulsbo ","WA",8149
+"Spotswood","NJ",8145
+"Detroit Lakes ","MN",8141
+"Oakdale ","LA",814
+"St. Marys ","OH",8138
+"Center Line ","MI",8135
+"Spring Lake","NC",8133
+"Frederick","CO",8127
+"Riverdale ","UT",8126
+"Danville","IN",8124
+"Little Falls ","MN",8121
+"Ashland ","WI",8118
+"Butler","NJ",8118
+"Firestone","CO",8117
+"Fife ","WA",8114
+"Doylestown","PA",8113
+"Alliance ","NE",8109
+"Miles City ","MT",8102
+"Long Grove","IL",8101
+"Mason ","MI",8099
+"Newton","NJ",8096
+"Richland Hills ","TX",8094
+"Fairview","TX",8093
+"Lakeland ","TN",8093
+"Caribou ","ME",8093
+"Winnemucca ","NV",8085
+"Wagoner ","OK",8081
+"Smithville ","MO",8079
+"Trophy Club","TX",8069
+"Hawthorn Woods","IL",8067
+"Lincoln City ","OR",8066
+"Harwood Heights","IL",8058
+"Kenton ","OH",8052
+"Bay St. Louis ","MS",8052
+"Breaux Bridge ","LA",8047
+"Bay Minette ","AL",8043
+"Gettysburg","PA",804
+"Price ","UT",8039
+"Union ","SC",8039
+"Seneca ","SC",8038
+"Scotia","NY",8033
+"Castle Shannon","PA",8028
+"Mahtomedi ","MN",8025
+"Monessen ","PA",8024
+"Bluffdale ","UT",8016
+"Ilion","NY",8015
+"Port Jefferson","NY",8012
+"Lenoir City ","TN",801
+"Abingdon","VA",8009
+"Eaton ","OH",8005
+"White Oak","PA",8003
+"Franklin ","KY",7997
+"Holly Springs ","MS",7994
+"Briarcliff Manor","NY",7986
+"Calumet Park","IL",798
+"Park City ","UT",798
+"Bellevue","PA",798
+"Philadelphia ","MS",7977
+"West Dundee","IL",7975
+"Lampasas ","TX",7975
+"York ","SC",7967
+"Ellwood City","PA",7966
+"London ","KY",7962
+"Lincolnshire","IL",796
+"Cleveland ","TX",796
+"Mapleton ","UT",7954
+"Lamar ","CO",7953
+"Port Orchard ","WA",7953
+"Collegedale ","TN",7947
+"Croton-on-Hudson","NY",7943
+"Fort Scott ","KS",7941
+"Downingtown","PA",7937
+"Milan ","TN",7934
+"Elsmere ","KY",7932
+"Bridgeport ","WV",7928
+"D'Iberville ","MS",7928
+"Arab ","AL",7924
+"Berlin","NJ",7922
+"Carnegie","PA",792
+"Hastings-on-Hudson","NY",7919
+"Antigo ","WI",7917
+"Bogota","NJ",7917
+"Osceola ","AR",7914
+"Jefferson ","GA",7911
+"Rensselaer ","NY",7907
+"Decorah ","IA",7906
+"Rincon","GA",7905
+"Unionville","NC",7899
+"Sheboygan Falls ","WI",7895
+"Angola ","IN",7894
+"Brookhaven","PA",7886
+"Northfield ","NJ",7885
+"South Boston","VA",7884
+"Hailey ","ID",7883
+"Batesville ","MS",788
+"North Bay Village ","FL",7878
+"Black Mountain","NC",7877
+"Chestnut Ridge","NY",7871
+"Ivins ","UT",787
+"Fairview ","TN",787
+"York ","NE",787
+"Vinton","VA",7868
+"Winchester ","TN",7862
+"Rolling Hills Estates ","CA",786
+"Lexington ","TN",786
+"Crescent City ","CA",7852
+"Pulaski ","TN",7847
+"Monona ","WI",7837
+"Clarkston ","GA",7836
+"Chester ","IL",7835
+"Clairton ","PA",7832
+"Helotes ","TX",7831
+"Bellevue ","OH",7831
+"Versailles ","KY",7828
+"Jefferson ","WI",7822
+"Hartsville","TN",7822
+"Clear Lake ","IA",782
+"Flushing ","MI",7815
+"East Grand Forks ","MN",7812
+"Lake Dallas ","TX",7811
+"Rio Vista ","CA",7804
+"Pecos ","TX",7804
+"Heath ","TX",7793
+"Crookston ","MN",779
+"Blair ","NE",7789
+"Corrales","NM",7787
+"Park City ","KS",7787
+"Oradell","NJ",778
+"South Amboy ","NJ",7777
+"Ojai ","CA",7775
+"Silvis ","IL",777
+"McFarland","WI",7767
+"Broussard ","LA",7767
+"Sanger ","TX",7766
+"Iron Mountain ","MI",7763
+"Hillsdale ","MI",7762
+"Montpelier ","VT",776
+"Fountain Inn ","SC",776
+"Pleasant Hills","PA",7751
+"Bernardsville","NJ",775
+"Kenai ","AK",7742
+"Wellington ","KS",7735
+"Orono ","MN",7732
+"Villa Hills ","KY",7727
+"Whitehouse ","TX",7724
+"Webster City ","IA",772
+"Wetumpka ","AL",7719
+"Frostburg ","MD",7719
+"Grove City","PA",7715
+"Old Town ","ME",7709
+"Morehead ","KY",7707
+"Geneseo","NY",7702
+"Summerfield","NC",7693
+"Cambridge ","MN",7692
+"Hubbard ","OH",7688
+"Franklin ","LA",768
+"Gering ","NE",7679
+"Northport","NY",7676
+"Inverness","IL",7673
+"Grand Ledge ","MI",7669
+"Swainsboro ","GA",7667
+"Dunbar ","WV",7664
+"Pearsall ","TX",7663
+"Dexter ","MO",7661
+"Tallulah ","LA",7658
+"Flatwoods ","KY",7655
+"Branson ","MO",7651
+"Stone Mountain ","GA",765
+"Rhinelander ","WI",7649
+"DuBois ","PA",7648
+"Groveland ","FL",7647
+"Floresville ","TX",7639
+"Payette ","ID",7637
+"Hyrum ","UT",7636
+"Ripley ","TN",7636
+"Broadview","IL",7625
+"Wilson","PA",7625
+"Fort Lupton ","CO",762
+"Kenilworth","NJ",7619
+"Huron ","CA",7606
+"Calipatria ","CA",7594
+"Creston ","IA",7594
+"Haddon Heights","NJ",7589
+"Wahpeton ","ND",7585
+"Hales Corners","WI",7574
+"Hillview ","KY",7572
+"Bladensburg","MD",7568
+"Montvale","NJ",7566
+"Fort Mitchell ","KY",7562
+"Navasota ","TX",7558
+"Clayton","NJ",7553
+"Grand Blanc ","MI",7551
+"Pittston ","PA",7547
+"LaFayette ","GA",7536
+"Rogers ","MN",7536
+"Donaldsonville ","LA",7527
+"Tell City ","IN",7526
+"Fort Stockton ","TX",7526
+"Marengo ","IL",752
+"Sebastopol ","CA",7518
+"Newport ","TN",7515
+"Livingston ","MT",75
+"Princeton ","IL",7496
+"Auburn ","GA",7496
+"Lake Elmo ","MN",7484
+"Ione ","CA",748
+"Aurora ","MO",7478
+"Keyport","NJ",7476
+"Charles City ","IA",747
+"Hartsville ","SC",7465
+"Treasure Island ","FL",7455
+"Calimesa ","CA",7454
+"Bloomingdale","NJ",7454
+"Wood-Ridge","NJ",7453
+"Marble Falls ","TX",7451
+"Olivette ","MO",7449
+"Salem ","IL",7446
+"Logan ","OH",7436
+"McCook ","NE",7436
+"Rockland ","ME",7436
+"Atmore ","AL",7428
+"Shorewood ","MN",7426
+"Fruita ","CO",7418
+"Woodlake ","CA",7418
+"Atherton","CA",7406
+"Mount Carmel ","IL",7404
+"Newport ","AR",7404
+"Mammoth Lakes","CA",7402
+"Hempstead ","TX",7401
+"Warrenton ","MO",7398
+"Senatobia ","MS",7398
+"Maryville","IL",7397
+"Ripon ","WI",7396
+"Farmville","VA",7396
+"Greenville ","IL",7379
+"Camp Hill","PA",7378
+"Dayton ","TX",7371
+"Kosciusko ","MS",7371
+"Yreka ","CA",7368
+"Shamokin ","PA",7367
+"Kirtland ","OH",7362
+"Chehalis ","WA",7361
+"Alamo Heights ","TX",7353
+"Jasper ","TX",7353
+"Emerson","NJ",7353
+"Demopolis ","AL",735
+"Palmyra","NJ",735
+"Huron ","OH",7348
+"Ephrata ","WA",7344
+"Millersville","PA",7341
+"Sandwich ","IL",7337
+"Atoka","TN",7334
+"Carl Junction ","MO",7327
+"Belen ","NM",7325
+"Charlestown ","IN",7324
+"Savannah ","TN",732
+"Stayton ","OR",7319
+"Longboat Key","FL",7309
+"Gonzales ","TX",7298
+"Raritan","NJ",7289
+"Conover ","NC",7286
+"Ketchikan ","AK",728
+"Jersey Village ","TX",7279
+"St. Johns ","MI",7278
+"Inverness ","FL",7276
+"Marshfield ","MO",7274
+"Escalon ","CA",7271
+"Pacific ","MO",7268
+"Russellville ","KY",7268
+"Lander ","WY",7264
+"Rumson","NJ",7264
+"Molalla ","OR",7263
+"Amory ","MS",7262
+"St. Francis ","MN",7261
+"Seaford ","DE",726
+"Richland ","MS",7258
+"Knoxville ","IA",7254
+"Washington ","IA",7254
+"St. Albans ","VT",725
+"Newcastle ","OK",725
+"Mount Joy","PA",7249
+"Baldwinsville","NY",7247
+"Wauseon ","OH",7246
+"Centerville ","GA",724
+"Bloomfield ","NM",7234
+"Mukwonago","WI",7232
+"Southwest Ranches","FL",7229
+"Dade City ","FL",7223
+"Richfield ","UT",7217
+"Linwood ","NJ",7216
+"Live Oak ","FL",7215
+"Oak Hill ","WV",7211
+"Winthrop Harbor","IL",721
+"Corning ","CA",7207
+"Clarkston ","WA",7207
+"Brighton ","MI",7204
+"Heber Springs ","AR",7203
+"Glenolden","PA",7203
+"Bayville","NY",7202
+"Hitchcock ","TX",7201
+"Tolleson ","AZ",7199
+"Globe ","AZ",7197
+"Orland Hills","IL",7195
+"Denison ","IA",7184
+"Brentwood ","MO",7182
+"Three Rivers ","MI",7179
+"Pleasant Hill ","MO",7178
+"Orland ","CA",7174
+"Lowell ","AR",7173
+"Forest City","NC",7172
+"Cotati ","CA",7169
+"Clewiston ","FL",7167
+"Manhattan","IL",7166
+"Fayetteville ","TN",7166
+"Williston Park","NY",7162
+"Crystal City ","TX",7161
+"Bonner Springs ","KS",7161
+"Sausalito ","CA",7158
+"Clinton ","IL",7154
+"Nappanee ","IN",7153
+"Middletown ","KY",7147
+"Pleasantville","NY",7146
+"Blackwell ","OK",7144
+"Caldwell","NJ",7133
+"Selah ","WA",7126
+"Hatboro","PA",7125
+"Lanett ","AL",7121
+"Marshall ","MI",7121
+"Kennedale ","TX",7115
+"Signal Mountain","TN",7109
+"Sutherlin ","OR",7108
+"Ellsworth ","ME",7103
+"Ashland","VA",71
+"New Albany","OH",7088
+"Fanwood","NJ",7088
+"Fairfax","CA",7066
+"Austell ","GA",7062
+"Elon","NC",706
+"Prosper","TX",7053
+"Pleasant View ","UT",7052
+"North Caldwell","NJ",7051
+"Stratford","NJ",7049
+"New Cumberland","PA",7048
+"La Junta ","CO",7046
+"Moncks Corner","SC",7044
+"Ocean City","MD",7042
+"Oneonta ","AL",704
+"Smithfield","VA",7034
+"Camden ","SC",7033
+"Dalhart ","TX",7032
+"Nebraska City ","NE",7032
+"Fairlawn ","OH",703
+"Ambridge","PA",7024
+"St. Martinville ","LA",7024
+"La Feria ","TX",7023
+"Greenville ","AL",7022
+"Liberty Lake ","WA",7018
+"Flowood ","MS",7016
+"Gig Harbor ","WA",7008
+"Lexington ","VA",7003
+"Great Neck Plaza","NY",7001
+"Bellbrook ","OH",7
+"Palmyra","PA",6997
+"Hudsonville ","MI",6997
+"Mendota ","IL",6995
+"Dunellen","NJ",6993
+"Norwich ","NY",6992
+"Mount Vernon ","IN",698
+"Youngsville ","LA",698
+"Ridley Park","PA",6979
+"Winters ","CA",6977
+"Trinity ","NC",6977
+"Walden","NY",6977
+"Elkins ","WV",6976
+"Firebaugh ","CA",6972
+"St. Louis ","MI",6971
+"Herkimer","NY",697
+"River Oaks ","TX",6965
+"Milltown","NJ",6965
+"Roeland Park ","KS",696
+"Benton ","IL",6957
+"Selma","NC",6948
+"DuPont ","WA",6944
+"Barrington","NJ",6939
+"Page ","AZ",6928
+"Kronenwetter","WI",6927
+"Aztec ","NM",6927
+"Hudson ","NY",6925
+"Beebe ","AR",6921
+"Mount Sterling ","KY",6921
+"Fultondale ","AL",6918
+"Sturtevant","WI",6913
+"King ","NC",6906
+"Plattsmouth ","NE",6902
+"Houghton ","MI",6878
+"Hood River ","OR",6877
+"Walled Lake ","MI",6876
+"Silsbee ","TX",687
+"Santa Clara ","UT",6866
+"Canfield ","OH",6862
+"Quincy ","FL",6858
+"Hastings ","MI",6858
+"Bonne Terre ","MO",6854
+"Oak Grove ","MO",6852
+"Idabel ","OK",6851
+"Thomson ","GA",6848
+"Seward ","NE",6841
+"Nyack","NY",6833
+"Folcroft","PA",6823
+"Rathdrum ","ID",6821
+"Skiatook","OK",682
+"Black Jack ","MO",6818
+"Fox Point","WI",6816
+"Crockett ","TX",6815
+"Pinson ","AL",6813
+"East Hills","NY",6809
+"Galax ","VA",6808
+"Seminole ","OK",6804
+"Marion ","SC",6801
+"Bel Aire ","KS",6797
+"Waite Park ","MN",6796
+"Loomis","CA",6795
+"Trumann ","AR",6794
+"Pineville","NC",6791
+"Tremonton ","UT",6789
+"Buda ","TX",6788
+"Delafield ","WI",6787
+"Milton ","WA",6786
+"Perry ","FL",6785
+"Nitro ","WV",6784
+"Truth or Consequences ","NM",6784
+"Neptune Beach ","FL",6781
+"Atlantic ","IA",6777
+"Arcadia ","FL",6771
+"Dayton ","TN",6771
+"Independence ","OH",677
+"Church Hill ","TN",6765
+"Midland Park","NJ",6763
+"Huntingdon","PA",6759
+"Jackson","WI",6755
+"Altoona ","WI",6753
+"Plaquemine ","LA",6751
+"Blakely","PA",6747
+"Boonville ","IN",6746
+"Taylor Mill ","KY",6746
+"New London ","WI",6745
+"Johnsburg","IL",6734
+"Delphos ","OH",673
+"Sullivan ","MO",6726
+"Warwick","NY",6724
+"Belfast ","ME",6721
+"Grafton","OH",6716
+"Brevard ","NC",6716
+"Pocahontas ","AR",6713
+"New Prague ","MN",6712
+"Devils Lake ","ND",6708
+"Mount Horeb","WI",6703
+"Mascoutah ","IL",6701
+"Washington","NJ",6693
+"Roanoke ","AL",6688
+"Hiawatha ","IA",6688
+"Nevada ","IA",6688
+"Duquesne ","PA",6682
+"West View","PA",6677
+"Tecumseh ","OK",6667
+"Darlington ","SC",6666
+"Lake City ","SC",6666
+"Irvington","NY",6666
+"Braidwood ","IL",6664
+"Franklin ","PA",6664
+"Willard ","OH",6664
+"Glen Ridge","NJ",6662
+"Hillsboro ","OH",6661
+"Harriman ","TN",6658
+"Edinboro","PA",6655
+"Martins Ferry ","OH",6654
+"Carencro ","LA",6653
+"Belle Plaine ","MN",6648
+"Litchfield ","IL",6647
+"Sweetwater ","TN",6645
+"Hudson Falls","NY",6644
+"Victoria ","MN",6643
+"Kill Devil Hills","NC",6642
+"Munford ","TN",6634
+"Carthage ","TX",6633
+"Seneca Falls","NY",6629
+"Elsa ","TX",6624
+"Wickenburg","AZ",662
+"Union Beach","NJ",662
+"Park City ","IL",6609
+"Catoosa ","OK",6607
+"Laurel ","MT",6605
+"Fort Bragg ","CA",6604
+"Louisville ","MS",6604
+"Blanchard ","OK",6599
+"Allendale","NJ",6599
+"Pahokee ","FL",6598
+"Guadalupe ","CA",6593
+"Opp ","AL",6582
+"Morrilton ","AR",6581
+"Tamaqua","PA",6581
+"Sioux Center ","IA",6581
+"Gulf Breeze ","FL",658
+"Avon","CO",6578
+"Othello ","WA",6577
+"Lawrence","NY",6573
+"Gretna ","NE",6572
+"North Syracuse","NY",657
+"Larchmont","NY",6567
+"Columbia ","MS",6567
+"East Alton","IL",6563
+"Litchfield ","MN",656
+"Catasauqua","PA",6558
+"Greenbrier","TN",6553
+"Souderton","PA",6553
+"New Paltz","NY",6553
+"Mexia ","TX",6552
+"Green Cove Springs ","FL",6551
+"Mountainside","NJ",6551
+"Clifton Heights","PA",6541
+"Metropolis ","IL",654
+"Attalla ","AL",654
+"Providence ","UT",6538
+"Leitchfield ","KY",6537
+"Belpre ","OH",6528
+"Valley Center ","KS",6521
+"Monahans ","TX",6516
+"Bronxville","NY",6516
+"Childress ","TX",6513
+"Salem ","IN",6502
+"Watchung","NJ",6502
+"Woodland Park ","CO",6501
+"Tarrant ","AL",6499
+"Sidney ","NE",6499
+"Belle Isle ","FL",6497
+"Tyrone","GA",6492
+"Monticello","NY",649
+"Archbald","PA",6488
+"Madison ","SD",6482
+"Milford","MI",6482
+"Ishpeming ","MI",648
+"Gridley ","CA",6478
+"Manorhaven","NY",6478
+"De Soto ","MO",6477
+"Buena Vista ","VA",6471
+"Bethel ","AK",6468
+"Moraine ","OH",6467
+"Raton ","NM",6465
+"New Square","NY",6461
+"Spring Lake Park ","MN",6458
+"Rochester ","IN",6457
+"Geneseo ","IL",6437
+"Salem ","UT",6435
+"Pelham","NY",6435
+"Batesville ","IN",6434
+"Estes Park","CO",6432
+"Decatur ","TX",6432
+"Winooski ","VT",6429
+"Meadows Place ","TX",6427
+"Oakmont","PA",6423
+"Mahomet","IL",6422
+"Milton-Freewater ","OR",6421
+"Henderson ","TN",6418
+"Riverdale Park","MD",6418
+"Cuero ","TX",6417
+"Solvay","NY",6417
+"Pikeville ","KY",6413
+"Fort Myers Beach","FL",641
+"Rossford ","OH",6404
+"Abilene ","KS",64
+"Princeton ","KY",6398
+"Pratt ","KS",6397
+"Commerce ","GA",6394
+"Hamilton ","AL",6393
+"St. John ","MO",6381
+"Scappoose ","OR",6377
+"Prospect Park","PA",6374
+"Eatonton ","GA",6373
+"Monroeville ","AL",6372
+"Cheverly","MD",6372
+"Robinson ","IL",6369
+"Fair Oaks Ranch ","TX",6367
+"Jamesburg","NJ",6367
+"Cortland ","OH",6364
+"Upper Sandusky ","OH",6364
+"Albertville ","MN",636
+"Milton","PA",6359
+"Somerset","PA",6359
+"Emmett ","ID",6357
+"Cherry Hills Village ","CO",6355
+"Dillon ","SC",6353
+"Keene ","TX",635
+"Sellersburg","IN",6346
+"Brier ","WA",6344
+"Grove ","OK",6338
+"Hurricane ","WV",6335
+"Milford ","OH",6332
+"Robbins","IL",6331
+"Du Quoin ","IL",6326
+"Islamorada Village of Islands","FL",6323
+"Anadarko ","OK",6323
+"Vandalia ","IL",6321
+"Ponchatoula ","LA",632
+"Hilton","NY",6319
+"Hughson ","CA",6312
+"Bedford ","VA",6312
+"Corry ","PA",6307
+"Grandview Heights ","OH",6306
+"Glenarden ","MD",6306
+"Hartford City ","IN",6302
+"White Oak ","TX",6298
+"North Vernon ","IN",6296
+"Stroudsburg","PA",6294
+"Lago Vista ","TX",6293
+"Union ","OH",6293
+"Geneva ","OH",6291
+"Estherville ","IA",6291
+"La Grange ","KY",6286
+"Marianna ","FL",6284
+"Cynthiana ","KY",6283
+"Alpine ","TX",628
+"Umatilla ","OR",628
+"Millersville ","TN",6279
+"Iowa Park ","TX",6276
+"Gladewater ","TX",6275
+"Sealy ","TX",6275
+"Rittman ","OH",6274
+"Valley Park ","MO",6274
+"Holly","MI",6273
+"Rensselaer ","IN",6271
+"East Rochester","NY",6269
+"Carbondale","CO",6266
+"Willows ","CA",6266
+"Mills River","NC",6266
+"Rockaway","NJ",6263
+"Princeton ","WV",6261
+"Seaside ","OR",6258
+"Horseheads","NY",6254
+"California","PA",6252
+"Manasquan","NJ",6251
+"Walker","LA",6249
+"Canal Winchester","OH",6248
+"Kimberly","WI",6244
+"Tuckahoe","NY",6244
+"East Aurora","NY",6242
+"Crete ","NE",6241
+"North Riverside","IL",624
+"Normandy Park ","WA",624
+"Forest Hills","PA",624
+"Shrewsbury ","MO",6235
+"Orange Beach ","AL",6231
+"Peoria Heights","IL",623
+"Valley City ","ND",623
+"Kodiak ","AK",6228
+"Eudora ","KS",6226
+"Lake Bluff","IL",6222
+"Sandersville ","GA",6219
+"St. Augustine Beach ","FL",6218
+"Talent ","OR",6215
+"Fircrest ","WA",6213
+"Brookings ","OR",6213
+"Norwood","NJ",6211
+"Pigeon Forge ","TN",6204
+"Livingston","TX",6203
+"Ambler","PA",6196
+"Lynchburg","TN",6195
+"Orting ","WA",6188
+"Round Lake Park","IL",6181
+"Clearfield","PA",6173
+"Butner","NC",6169
+"South Weber ","UT",6167
+"Cottage Grove","WI",6166
+"Hillsboro ","IL",6164
+"Monticello ","KY",6162
+"Bartonville","IL",616
+"Milliken","CO",6159
+"Portland ","IN",6158
+"Bellefonte","PA",6151
+"Taylor","PA",6151
+"Caruthersville ","MO",6145
+"Cedarhurst","NY",6142
+"Washingtonville","NY",6139
+"Jackson ","OH",6138
+"Port Clinton ","OH",6135
+"Elm Grove","WI",6133
+"Big Bear Lake ","CA",6131
+"Purcell ","OK",6129
+"Isanti ","MN",6123
+"Wilmington ","IL",6122
+"Seminole ","TX",6122
+"Pauls Valley ","OK",6121
+"Clyde ","OH",6121
+"Covington ","VA",612
+"Little Silver","NJ",6119
+"Independence ","IA",6119
+"Warren ","AR",6118
+"Princeton ","TX",6117
+"St. Joseph ","MN",6114
+"Huntingburg ","IN",6112
+"Manistee ","MI",611
+"Crafton","PA",6109
+"Greenville","PA",6103
+"Gardiner ","ME",61
+"Bridgeport ","TX",6099
+"Ralston ","NE",6095
+"Hobart","WI",6094
+"Swarthmore","PA",609
+"Stanwood ","WA",6089
+"Aberdeen ","MS",6089
+"Wharton","NJ",6083
+"Oelwein ","IA",6082
+"Pontoon Beach","IL",6081
+"Canton","NY",6077
+"Paulsboro","NJ",6075
+"Mount Healthy ","OH",607
+"Rushville ","IN",6068
+"New Brighton","PA",6068
+"Montevallo ","AL",6061
+"Steilacoom","WA",6061
+"Harrisville ","UT",606
+"Vinita ","OK",6059
+"Gypsum","CO",6052
+"Ada","OH",6052
+"Manvel ","TX",6051
+"Carlisle ","OH",6051
+"Trenton ","MO",6047
+"Medina","NY",6046
+"Chester ","SC",6045
+"Plymouth","PA",6041
+"Red Lion","PA",6041
+"Pacific ","WA",604
+"Thurmont","MD",6037
+"Tuttle ","OK",6036
+"District Heights ","MD",6034
+"Macclenny ","FL",6032
+"Henryetta ","OK",6031
+"Valparaiso ","FL",603
+"The Village of Indian Hill ","OH",603
+"Old Tappan","NJ",6029
+"Petoskey ","MI",6028
+"Nazareth","PA",602
+"Carlstadt","NJ",6019
+"Forest Hills ","TN",6018
+"McKees Rocks","PA",6018
+"Ellettsville","IN",6017
+"South Williamsport","PA",6017
+"South Tucson ","AZ",6013
+"Madras ","OR",6011
+"Satsuma ","AL",6008
+"Morris Plains","NJ",6005
+"Wilmore ","KY",6004
+"Douglass Hills ","KY",6002
+"Marion","VA",6001
+"Barnesville ","GA",5998
+"Gilberts","IL",5996
+"Northville ","MI",5996
+"Bisbee ","AZ",5991
+"Okeechobee ","FL",5987
+"Duvall ","WA",5982
+"Columbiana ","OH",5981
+"Hapeville ","GA",5978
+"Gun Barrel City ","TX",5975
+"Burnet ","TX",5974
+"Lebanon ","KY",5973
+"Starke ","FL",5972
+"Forest ","MS",5972
+"Douglas ","WY",5971
+"Villa Park ","CA",5967
+"Rockdale ","TX",5966
+"Carlinville ","IL",5962
+"Minnetrista ","MN",596
+"Lewistown ","MT",5954
+"Sturgis ","SD",595
+"Crystal Springs ","MS",595
+"De Queen ","AR",5948
+"Guadalupe","AZ",5948
+"Chickasaw ","AL",5948
+"Punxsutawney","PA",5944
+"Woodcliff Lake","NJ",5941
+"Wellston ","OH",5936
+"Littlefield ","TX",5929
+"Pontotoc ","MS",5924
+"Scottsburg ","IN",5912
+"Fair Haven","NJ",591
+"Belmar","NJ",5908
+"Maquoketa ","IA",5908
+"International Falls ","MN",5906
+"Exeter","PA",5905
+"Dickson City","PA",5903
+"Aspen ","CO",5902
+"Chillicothe ","IL",5901
+"Willow Springs","IL",5898
+"Eagle","CO",5897
+"La Habra Heights ","CA",5893
+"Colusa ","CA",5892
+"Orange City ","IA",5891
+"Richmond ","MO",589
+"Jeanerette ","LA",5889
+"Mount Carmel","PA",5888
+"Lacy-Lakeview ","TX",5883
+"Quincy ","WA",5882
+"Waynesboro ","GA",5874
+"Mulvane ","KS",5866
+"Carolina Beach","NC",5864
+"Beardstown ","IL",5859
+"Flagler Beach ","FL",5859
+"Alexandria ","IN",5854
+"Bellevue ","KY",5852
+"Lincoln ","AL",5846
+"Prairie du Chien ","WI",5839
+"Sylvester ","GA",5833
+"Lauderdale-by-the-Sea","FL",5831
+"North Manchester","IN",5829
+"Mount Arlington","NJ",5827
+"Waupaca ","WI",5826
+"North Braddock","PA",5821
+"Harrisburg","NC",5819
+"St. Helena ","CA",5817
+"Marlin ","TX",5817
+"Joshua ","TX",5812
+"Noble ","OK",5812
+"Huntington Woods ","MI",5811
+"New Whiteland","IN",5809
+"Sequim ","WA",5809
+"Cold Spring ","KY",5809
+"Pevely ","MO",5808
+"Edna ","TX",5807
+"Hamlet ","NC",5807
+"Englewood Cliffs","NJ",5804
+"Slaton ","TX",5803
+"Homer ","AK",5802
+"Erwin","TN",5802
+"Prospect ","KY",5802
+"Yelm ","WA",58
+"Countryside ","IL",5795
+"Malone","NY",5793
+"Iola ","KS",5782
+"Spanish Fort ","AL",578
+"Walterboro ","SC",578
+"Stickney","IL",5774
+"Norwood","PA",5774
+"Titusville ","PA",5774
+"Everman ","TX",5771
+"Spring Grove","IL",5769
+"St. Clair ","MI",5763
+"Moosic","PA",5758
+"Twin Lakes","WI",5752
+"Farrell ","PA",5751
+"Deer Park ","OH",5751
+"Monaca","PA",5749
+"Lakemoor","IL",5748
+"Sheridan ","OR",5747
+"Center ","TX",5746
+"North Kansas City ","MO",5746
+"Cameron ","TX",574
+"Anamosa ","IA",5736
+"Oceanport","NJ",5733
+"Woodfin","NC",5731
+"Coal City","IL",5729
+"Fort Meade ","FL",5723
+"Highland Heights ","KY",572
+"Cumming ","GA",5719
+"Pana ","IL",5718
+"Pepper Pike ","OH",5715
+"Bremen ","GA",5709
+"Tequesta","FL",5708
+"Leesville ","LA",5704
+"Dowagiac ","MI",5703
+"Union Gap ","WA",5699
+"Central City ","KY",5698
+"Linton ","IN",5696
+"Belding ","MI",5691
+"Elsmere","DE",5688
+"Marksville ","LA",5684
+"Gas City ","IN",5683
+"Red Oak ","IA",5683
+"Garrett ","IN",5681
+"Fate ","TX",5679
+"Eastman ","GA",5675
+"Poolesville","MD",5674
+"Snowflake","AZ",5673
+"Big Stone Gap","VA",5662
+"Salem ","NJ",5661
+"Camilla ","GA",566
+"Hellertown","PA",5659
+"Wappingers Falls","NY",5659
+"Watonga ","OK",5657
+"Milan ","MI",5657
+"Hoopeston ","IL",5656
+"Hooper ","UT",5655
+"Hillsborough","NC",5653
+"Bolivar ","TN",5647
+"Waynesboro ","MS",5647
+"Ripley ","MS",5646
+"Glenwood ","IA",5646
+"Sanibel ","FL",5645
+"Emporia ","VA",5643
+"Falcon Heights ","MN",5643
+"Centreville ","IL",5635
+"Breckenridge ","TX",5632
+"Mena ","AR",563
+"Corcoran ","MN",563
+"Wake Village ","TX",5628
+"Aberdeen","NC",5627
+"Cherryville ","NC",5627
+"Los Ranchos de Albuquerque","NM",5622
+"Junction City ","OR",5618
+"Fairview","NC",561
+"Kingston ","TN",5607
+"Coraopolis","PA",5606
+"Richmond ","MI",5606
+"Walkersville","MD",5606
+"Steelton","PA",5598
+"Middleton ","ID",5594
+"Prospect Park","NJ",5594
+"Salamanca ","NY",5592
+"Mascotte ","FL",5591
+"Rio Bravo ","TX",5591
+"Goshen","NY",5585
+"Cumberland","IN",558
+"Bowie ","TX",558
+"Batesburg-Leesville","SC",558
+"Savoy","IL",5579
+"Woodside","CA",5579
+"Milton ","WI",5579
+"Shippensburg","PA",5578
+"Hampshire","IL",5569
+"Braselton","GA",5565
+"New Martinsville ","WV",5564
+"Kasson ","MN",5564
+"Fowler ","CA",5563
+"Bessemer City ","NC",5562
+"St. Gabriel ","LA",556
+"Washington Park","IL",5558
+"Lake Mills ","WI",5557
+"Celina ","TX",5557
+"Ulysses ","KS",5557
+"Gatlinburg ","TN",5555
+"Stewartville ","MN",5553
+"Taos","NM",5551
+"Glencoe ","MN",555
+"South Pasadena ","FL",5548
+"Albion","NY",5548
+"Abbeville ","SC",5547
+"Turtle Creek","PA",5547
+"New Carlisle ","OH",5543
+"South Beloit ","IL",5541
+"Rockwood ","TN",5541
+"Morrow ","GA",5539
+"Los Fresnos ","TX",5538
+"Diboll ","TX",5537
+"West Miami ","FL",5533
+"Winston ","OR",5528
+"Powell ","WY",5524
+"Northwood ","OH",552
+"Crossett ","AR",5518
+"Uhrichsville ","OH",5516
+"Torrington ","WY",5514
+"Rockton","IL",5512
+"Progreso ","TX",5511
+"Buckhannon ","WV",5505
+"Piedmont ","OK",5504
+"Palmview ","TX",5502
+"Clarinda ","IA",5493
+"Glendale ","MO",549
+"Macon ","MO",5489
+"Watseka ","IL",5481
+"Atlanta ","TX",5475
+"Fairport","NY",5472
+"Yoakum ","TX",5469
+"Hampstead","MD",5467
+"Hollidaysburg","PA",5466
+"Ballston Spa","NY",5464
+"Mount Carmel","TN",5462
+"Gunnison ","CO",5461
+"Luling ","TX",5458
+"Lewisburg","PA",5454
+"Dayton ","KY",5453
+"Pelham Manor","NY",5451
+"Spring Valley ","IL",545
+"Fort Wright ","KY",545
+"Zeeland ","MI",5448
+"Jordan ","MN",5445
+"Centerville ","IA",5442
+"Carterville ","IL",5441
+"Sayre","PA",544
+"Bath","NY",5432
+"Bridgewater","VA",543
+"Northfield","IL",5429
+"Berthoud","CO",5429
+"Chadron ","NE",5429
+"Cave Creek","AZ",5428
+"Lehighton","PA",5428
+"Cheraw","SC",5427
+"Giddings ","TX",5423
+"Brookville ","OH",5423
+"Taneytown ","MD",5422
+"De Soto ","KS",542
+"Point Pleasant Beach","NJ",5418
+"Holdenville ","OK",5417
+"Sheridan ","CO",5412
+"Holtville ","CA",5412
+"Dunlap ","TN",5412
+"Rockford ","MI",5411
+"Nephi ","UT",5408
+"Mansfield ","LA",5402
+"Glennville ","GA",5397
+"Adel ","GA",5396
+"Salida ","CO",5396
+"Media","PA",5396
+"Circle Pines ","MN",5395
+"Kings Point","NY",5394
+"Hugo ","OK",539
+"Oak Hill ","TN",5389
+"Highwood ","IL",5388
+"Pinckneyville ","IL",5384
+"Granville","OH",5382
+"Williamston","NC",5382
+"Porter","IN",5379
+"Glencoe ","AL",5377
+"Nelsonville ","OH",5375
+"Eureka ","IL",5368
+"Ironwood ","MI",5368
+"Windcrest ","TX",5357
+"McKenzie ","TN",5357
+"Sinton ","TX",5354
+"Roseland","NJ",5352
+"Paola ","KS",5351
+"Monticello ","IL",535
+"Selinsgrove","PA",5344
+"West Bountiful ","UT",5337
+"Farr West ","UT",5335
+"Brush ","CO",5332
+"Carrizo Springs ","TX",5332
+"Edgerton ","WI",5329
+"Algona ","IA",5328
+"Brady ","TX",5324
+"Grafton ","WV",5315
+"Zimmerman ","MN",5313
+"Fruit Heights ","UT",5312
+"Rusk ","TX",5312
+"Delano ","MN",5309
+"Sharon Hill","PA",5308
+"Wendell","NC",53
+"Kingsford ","MI",5297
+"Wayne ","NE",5296
+"Hampton ","GA",5295
+"Mathis ","TX",5295
+"Hightstown","NJ",5295
+"Weldon Spring ","MO",5295
+"Monticello ","IN",5293
+"Weiser ","ID",529
+"Port Isabel ","TX",529
+"Airway Heights ","WA",5289
+"Plain City ","UT",5288
+"Bowling Green ","MO",5285
+"Lake City ","MN",5285
+"Ephraim ","UT",5284
+"Old Westbury","NY",5283
+"Brewton ","AL",5279
+"Parkville ","MO",5279
+"Elburn","IL",5276
+"Lone Grove ","OK",5276
+"Highlands","NJ",5272
+"Patterson ","LA",5271
+"Kennett Square","PA",527
+"Tucumcari ","NM",5268
+"Donora","PA",5261
+"Columbia Falls ","MT",5261
+"De Witt ","IA",526
+"Wildwood ","NJ",5259
+"Clarion","PA",5258
+"Blakely ","GA",5257
+"Bangor","PA",5256
+"Gilmer ","TX",5249
+"Waveland ","MS",5249
+"Berryville ","AR",5247
+"Needles ","CA",5246
+"Eaton Rapids ","MI",5246
+"Terrell Hills ","TX",5241
+"Groveport","OH",524
+"St. Paul Park ","MN",5239
+"Georgetown","DE",5233
+"Whiteville ","NC",5233
+"Montevideo ","MN",5233
+"Colona ","IL",5232
+"Kermit ","TX",5231
+"Keyser ","WV",523
+"Waterville","OH",523
+"Pleasant Garden","NC",5229
+"Polson ","MT",5228
+"Brunswick ","MD",5228
+"Spring Hill ","KS",5227
+"Swartz Creek ","MI",5223
+"Jonesborough","TN",5221
+"Toronto ","OH",5221
+"Arnold ","PA",5212
+"Cochran ","GA",5211
+"Chardon ","OH",521
+"Palmerton","PA",5209
+"Harrah ","OK",5208
+"Concordia ","KS",5208
+"Creve Coeur","IL",5206
+"Ontario ","OH",5204
+"Williamsburg ","KY",5204
+"Carmi ","IL",5203
+"North Fond du Lac","WI",5198
+"Tyrone","PA",5197
+"Desloge ","MO",519
+"Milan","IL",5186
+"Midfield ","AL",5185
+"Webster","NY",5185
+"Calistoga ","CA",5179
+"Mineola ","TX",5179
+"Westville","IN",5177
+"Indian Wells ","CA",5177
+"Fox River Grove","IL",5172
+"Tallassee ","AL",5172
+"Holdrege ","NE",5172
+"Birdsboro","PA",5168
+"Fairfield ","IL",5165
+"Munroe Falls ","OH",5165
+"Schuyler ","NE",5163
+"Penn Yan","NY",5162
+"Manitou Springs ","CO",5161
+"Schuylkill Haven","PA",5161
+"Mount Zion","IL",5159
+"Shenandoah","PA",5155
+"Silverton ","OH",5155
+"New Holland","PA",5152
+"Solvang ","CA",5148
+"Newport ","VT",5148
+"Marion ","NC",5144
+"Indian Rocks Beach ","FL",5143
+"Bluefield","VA",5143
+"Lakeport ","CA",5142
+"Staunton ","IL",5139
+"Fox Chapel","PA",5138
+"South Haven ","MI",5138
+"Purcellville","VA",5137
+"Edgewater ","CO",5136
+"Davison ","MI",5136
+"Daytona Beach Shores ","FL",5134
+"Spring Lake Heights","NJ",5134
+"New Haven","MI",5132
+"Demarest","NJ",513
+"Williamsville","NY",5129
+"Litchfield Park ","AZ",5126
+"Prosser ","WA",5124
+"White Hall ","AR",5121
+"Moab ","UT",5121
+"Cedar Grove","FL",5116
+"Springhill ","LA",5115
+"Neptune City","NJ",5114
+"Charleston ","MO",5111
+"South Bound Brook","NJ",511
+"Alma ","AR",5104
+"Genoa ","IL",5101
+"Jackson ","AL",5101
+"Winnfield ","LA",5095
+"Gustine ","CA",5094
+"Leland","NC",5094
+"Columbus ","WI",5093
+"Mayville ","WI",509
+"Enoch ","UT",5085
+"Somerdale","NJ",5085
+"Rupert ","ID",5082
+"Holbrook ","AZ",5081
+"Vinton ","IA",508
+"Franklin","NJ",5077
+"Redwood Falls ","MN",5077
+"Medina ","MN",5076
+"Savannah ","MO",5075
+"Kutztown","PA",5074
+"Palacios ","TX",5069
+"Gladstone ","MI",5067
+"Wadesboro","NC",5066
+"Star ","ID",5065
+"Greenfield ","OH",5063
+"Perry ","OK",506
+"Preston ","ID",5059
+"Collegeville","PA",5058
+"Creswell ","OR",5058
+"Evansdale ","IA",5056
+"Palmetto ","GA",5053
+"St. Clairsville ","OH",5053
+"Mendham","NJ",5053
+"Kaplan ","LA",5053
+"Wellington","CO",5052
+"Richland Center ","WI",505
+"Wesley Hills","NY",5043
+"Rothschild","WI",5042
+"Collinsville ","OK",5039
+"Oakland","TN",5038
+"Springfield ","MI",5037
+"Westmont","PA",5033
+"Sea Cliff","NY",5033
+"Ocean Shores ","WA",5029
+"Anna ","IL",5025
+"Roosevelt ","UT",5025
+"Canal Fulton ","OH",5023
+"Forsyth ","GA",5022
+"Germantown","OH",5018
+"Holmes Beach ","FL",5017
+"Tega Cay ","SC",5014
+"De Funiak Springs ","FL",5012
+"Summerville ","GA",501
+"Tipton ","IN",5006
+"Ayden","NC",5005
+"Chelsea ","MI",5005
+"Thatcher","AZ",5002
+"Berlin ","WI",4997
+"Shillington","PA",4997
+"Vandergrift","PA",4997
+"West Wendover ","NV",4997
+"Childersburg ","AL",4996
+"Morris ","MN",4996
+"Grosse Pointe ","MI",4996
+"Waterloo","NY",4994
+"Monee","IL",4993
+"Rainsville ","AL",499
+"Palmhurst ","TX",4988
+"Eldon ","MO",4986
+"Harlan ","IA",4986
+"Port Allen ","LA",4984
+"Belle Fourche ","SD",4979
+"New Castle ","DE",4977
+"Lake Barrington","IL",4975
+"Dodgeville ","WI",4975
+"Blaine ","WA",4975
+"Waterford","WI",4973
+"Willits ","CA",4972
+"Sugarcreek","PA",4969
+"Edenton","NC",4966
+"Iowa Falls ","IA",4965
+"Piedmont ","AL",4964
+"Robertsdale ","AL",4964
+"Clarks Summit","PA",4964
+"Worland ","WY",4958
+"Evansville ","WI",4957
+"Olyphant","PA",4956
+"Dos Palos ","CA",4948
+"Dahlonega ","GA",4947
+"Sunset ","UT",4945
+"Long View","NC",4944
+"Shenandoah ","IA",4944
+"Cheboygan ","MI",4942
+"Falfurrias ","TX",4941
+"Sparta ","TN",4938
+"Bay Harbor Islands","FL",4934
+"Sawmills","NC",4931
+"Colville ","WA",4929
+"Marseilles ","IL",4924
+"Utica ","MI",4924
+"Loudon","TN",4921
+"Fellsmere ","FL",492
+"Clover","SC",4916
+"West Pittston","PA",4916
+"Lucas ","TX",4914
+"Berkeley","IL",4913
+"La Crescent ","MN",4912
+"Posen","IL",4907
+"Normandy ","MO",4902
+"Dellwood ","MO",4901
+"Wiggins ","MS",4901
+"Chestertown","MD",4899
+"Youngtown","AZ",4896
+"Wellsville","NY",4896
+"McGregor ","TX",4891
+"Clementon","NJ",4886
+"Crestline ","OH",4882
+"Chittenango","NY",4882
+"Brielle","NJ",4882
+"Eldridge ","IA",488
+"Palos Park","IL",4877
+"Bridgeville","PA",4876
+"Manchester ","IA",4876
+"Salem ","MO",487
+"Harrington Park","NJ",4869
+"Little Falls ","NY",4867
+"Nashville ","GA",4865
+"Jim Thorpe","PA",4863
+"Stone Park","IL",486
+"Mechanicville ","NY",4857
+"Winnsboro ","LA",4854
+"Alva ","OK",4848
+"Bradley Beach","NJ",4845
+"Woodland ","WA",4843
+"Luray","VA",4843
+"Alfred","NY",4843
+"Ardsley","NY",484
+"Sulphur ","OK",4838
+"New Hempstead","NY",4838
+"Swoyersville","PA",4836
+"Benson ","AZ",4833
+"Buffalo ","WY",4832
+"Erwin","NC",4829
+"Seat Pleasant ","MD",4829
+"Gibraltar ","MI",4826
+"West Salem","WI",4823
+"Winterset ","IA",482
+"Hamilton ","MT",4817
+"Allegan ","MI",4816
+"Nashville ","AR",4815
+"Carthage ","MS",4815
+"Winterville","NC",4813
+"Avalon","PA",4812
+"Locust Grove ","GA",4811
+"Lake Worth ","TX",481
+"Saranac Lake","NY",4809
+"Ludlow ","KY",4808
+"LaBelle ","FL",4806
+"Island Park","NY",4806
+"Platte City ","MO",4806
+"Dumfries","VA",4805
+"Colby ","KS",4803
+"Lochbuie","CO",48
+"North Wildwood ","NJ",48
+"Clinton ","IN",4799
+"Glendale ","CO",4798
+"Hazard ","KY",4796
+"La Joya ","TX",4795
+"Lawrenceburg ","IN",4791
+"Leland ","MS",479
+"Barnwell ","SC",4783
+"Surfside Beach","SC",4783
+"Sidney ","MT",4782
+"Cherokee Village ","AR",4778
+"Fayette ","AL",4778
+"Flora ","IL",4772
+"Vail","CO",4768
+"Social Circle ","GA",4767
+"Charles Town ","WV",4765
+"Princeton ","MN",4763
+"Williams ","CA",476
+"Elmsford","NY",4757
+"Sheldon ","IA",4757
+"Whiting ","IN",4751
+"Colorado City","AZ",475
+"Teague ","TX",4749
+"New Roads ","LA",4746
+"Pembroke Park","FL",4744
+"Montgomery","NY",4741
+"Adamsville ","AL",4739
+"Gibsonville","NC",4738
+"Odessa ","MO",4737
+"Olympia Fields","IL",4735
+"Fruitland ","ID",4732
+"Zebulon","NC",4732
+"Honesdale","PA",472
+"Osage Beach ","MO",472
+"Northvale","NJ",4719
+"Mullins ","SC",4716
+"Madisonville ","TN",4714
+"Fletcher","NC",4714
+"Osceola ","IA",4714
+"Medical Lake ","WA",471
+"La Grange ","TX",4709
+"Omak ","WA",4706
+"Union Springs ","AL",4702
+"Wellington","OH",4699
+"Selmer","TN",4697
+"Cherokee ","IA",4697
+"Presidio ","TX",4695
+"Ranson corporation","WV",4692
+"Spirit Lake ","IA",4692
+"Coleman ","TX",4691
+"East Palestine ","OH",469
+"North Oaks ","MN",4689
+"Penns Grove","NJ",4688
+"Lindale","TX",4687
+"Boiling Spring Lakes ","NC",4686
+"Oak Park Heights ","MN",468
+"Smiths Station ","AL",4679
+"Mountain Grove ","MO",4679
+"Isle of Palms ","SC",4678
+"Edinburgh","IN",4677
+"Farmington ","AR",4677
+"Belton ","SC",467
+"Pittsburg ","TX",4667
+"Walnut Ridge ","AR",4664
+"Dacula ","GA",4662
+"Union Grove","WI",4662
+"Church Point","LA",4661
+"Edwardsville","PA",4658
+"Oxford","PA",4658
+"Slinger","WI",4657
+"Frankenmuth ","MI",4652
+"Bulverde ","TX",4651
+"New Boston ","TX",465
+"Greenwood ","MO",4649
+"Peculiar ","MO",4649
+"Bremen","IN",4646
+"Manheim","PA",4646
+"Dayton ","MN",4643
+"Windsor Heights ","IA",4643
+"Newton Falls ","OH",4641
+"Mocksville","NC",4641
+"North Bend ","WA",4635
+"Selma ","TX",4632
+"High Springs ","FL",4629
+"Orange","VA",4629
+"St. Bernard ","OH",4626
+"Dumas ","AR",4622
+"Quitman ","GA",4621
+"Winfield ","AL",4618
+"Farmville","NC",4615
+"Edcouch ","TX",4613
+"West Milton","OH",4613
+"Granite Falls","NC",461
+"Shelbyville ","IL",4605
+"Pea Ridge ","AR",4604
+"Austin","IN",4603
+"Atlantic Highlands","NJ",4602
+"Winchester ","IN",4601
+"Dawson ","GA",46
+"Lonoke ","AR",46
+"Mount Vernon ","MO",46
+"Telford","PA",4599
+"Marlow ","OK",4599
+"Flower Hill","NY",4595
+"Ottawa Hills","OH",4594
+"Chisholm ","MN",4594
+"Cobleskill","NY",4593
+"Tulia ","TX",4589
+"North Hills","NY",4589
+"Oak Ridge","NC",4587
+"Glendive ","MT",4585
+"Ashland City","TN",4582
+"Scottsville ","KY",4581
+"Rock Hill ","MO",458
+"Manlius","NY",4579
+"Hearne ","TX",4578
+"Hunters Creek Village ","TX",4577
+"Westlake ","LA",4577
+"New Lexington","OH",4576
+"Fountain Hill","PA",4575
+"Sheridan ","AR",4572
+"Higginsville ","MO",4571
+"Mitchell ","IN",4567
+"Port Wentworth ","GA",456
+"Sonora ","CA",4559
+"Montoursville","PA",4558
+"Bellaire","OH",4557
+"Valdese","NC",4557
+"South Hill","VA",4556
+"Madison ","IL",4554
+"Baxley ","GA",4552
+"Lexington ","MO",4551
+"Jessup","PA",455
+"Byron ","MN",455
+"Charleroi","PA",4549
+"Glassport","PA",4548
+"Walkertown","NC",4547
+"Elberton ","GA",4546
+"Daleville ","AL",4546
+"Devine ","TX",4545
+"Rockmart ","GA",4544
+"Wapato ","WA",4543
+"Algonac ","MI",454
+"Nashville","NC",4538
+"Crystal City ","MO",4538
+"Scott City ","MO",4538
+"Parker ","FL",4537
+"Pinetop-Lakeside","AZ",4536
+"Rocky Mount","VA",4535
+"Tarentum","PA",4534
+"Sebring","OH",4534
+"Midway","NC",4534
+"Hephzibah ","GA",4533
+"Portola Valley","CA",4532
+"Ligonier ","IN",453
+"Winona ","MS",4524
+"Willow Park ","TX",4523
+"Travelers Rest ","SC",4523
+"Paxton ","IL",4521
+"Surfside","FL",452
+"Sunnyvale","TX",4518
+"Trenton ","TN",4518
+"Grambling ","LA",4516
+"Lyons ","GA",4515
+"Tuscola ","IL",4514
+"Philomath ","OR",4512
+"Wauchula ","FL",4511
+"Lake Alfred ","FL",4508
+"South Bay ","FL",4503
+"Jackson ","GA",4496
+"Jacksboro ","TX",4493
+"Prairie View ","TX",4492
+"Temple ","GA",449
+"Eagar","AZ",4488
+"Osawatomie ","KS",4488
+"La Verkin ","UT",4487
+"Winfield","IN",4484
+"Dansville","NY",4484
+"East Troy","WI",4483
+"Sullivan ","IN",4482
+"Freeburg","IL",4481
+"Malden ","MO",4481
+"Breckenridge Hills ","MO",4479
+"Thomasville ","AL",4478
+"Lebanon ","IL",4477
+"Sellersville","PA",4476
+"Lamar ","MO",4474
+"St. Clair ","MO",4472
+"Barling ","AR",4471
+"Belleview ","FL",4467
+"Lake Hallie","WI",4467
+"Westville","NJ",4467
+"Bunkie ","LA",4465
+"Whiteland","IN",4464
+"Whiteville","TN",4464
+"Pocola","OK",4464
+"Buckley ","WA",4462
+"Edwardsville ","KS",4462
+"South Barrington","IL",4461
+"Smithville ","TX",4458
+"West Peoria ","IL",4456
+"Negaunee ","MI",4456
+"Pittsfield ","IL",4453
+"Greenbrier ","AR",4452
+"Cicero","IN",4451
+"Point Pleasant ","WV",4451
+"Hokes Bluff ","AL",445
+"Danville","PA",445
+"Warrenton ","OR",4448
+"Del Mar ","CA",4447
+"Geneva ","AL",4445
+"Mount Pleasant ","TN",4443
+"Clay Center ","KS",4442
+"Ashdown ","AR",444
+"Archbold","OH",4438
+"Waverly City ","OH",4437
+"Dardanelle ","AR",4435
+"Viroqua ","WI",4435
+"Sullivan City ","TX",4435
+"Larksville","PA",4435
+"San Diego ","TX",4433
+"Fruitland ","MD",4431
+"Tillamook ","OR",443
+"Ogallala ","NE",4429
+"DeWitt ","MI",4428
+"Adel ","IA",4428
+"Lafayette ","TN",4426
+"Luverne ","MN",4425
+"Hummelstown","PA",4424
+"Hurstbourne ","KY",4423
+"Monongahela ","PA",4422
+"Sykesville","MD",4419
+"Chariton ","IA",4419
+"Edgefield","SC",4418
+"Ste. Genevieve ","MO",4418
+"Bellville ","TX",4415
+"Morgan's Point Resort ","TX",4414
+"Mauston ","WI",4413
+"Nibley ","UT",441
+"Pilot Point ","TX",4409
+"Scottdale","PA",4409
+"Garwood","NJ",4408
+"Slatington","PA",4404
+"Ottawa","OH",4403
+"Lancaster ","KY",4403
+"Phoenix ","OR",4402
+"Hollywood","SC",4398
+"Marianna ","AR",4396
+"Coldwater","OH",4396
+"Eldorado ","IL",4392
+"Oakwood ","GA",4392
+"Mount Ephraim","NJ",4392
+"Ellisville ","MS",4392
+"Smithville ","TN",4389
+"Mount Olive","NC",4389
+"Goodland ","KS",4388
+"Hazlehurst ","MS",4387
+"Soldotna ","AK",4386
+"Sullivan ","IL",4383
+"Bristow ","OK",4383
+"Lawrenceville ","IL",4382
+"Berne ","IN",4381
+"Mount Pleasant","PA",438
+"Egg Harbor City ","NJ",4379
+"McRae ","GA",4378
+"Marine City ","MI",4377
+"Mahanoy City","PA",4375
+"Strasburg","VA",4373
+"Madisonville ","TX",4372
+"Beaver","PA",4371
+"Fort Gibson","OK",4368
+"Benton ","KY",4367
+"Greendale ","IN",4364
+"Auburn ","IL",4362
+"Vine Grove ","KY",4362
+"Breese ","IL",4357
+"Kittanning","PA",4356
+"Royersford","PA",4356
+"Barrington Hills","IL",4354
+"Buchanan ","MI",4354
+"Prescott ","AR",4353
+"De Motte","IN",4352
+"Bridgeport","PA",435
+"East Petersburg","PA",4347
+"McLoud","OK",4347
+"Rogersville","TN",4346
+"Metter ","GA",4345
+"Anthony","TX",4344
+"Angier","NC",4344
+"Kingfisher ","OK",4343
+"Vandalia ","MO",4342
+"Madeira Beach ","FL",4339
+"Sayre ","OK",4336
+"Duryea","PA",4335
+"Green Tree","PA",4335
+"Magee ","MS",4332
+"Magnolia","NJ",4328
+"Byron ","GA",4324
+"Southampton","NY",4323
+"Brookfield ","MO",4321
+"Jackson ","CA",432
+"Oconto ","WI",432
+"Amite City","LA",4318
+"Jourdanton ","TX",4315
+"Kaser","NY",4315
+"Sparta ","IL",4314
+"Ridgefield ","WA",4314
+"Bluffton","SC",4312
+"Wamego ","KS",4312
+"Northwoods ","MO",4311
+"Danielson","CT",431
+"Hudson ","TX",431
+"Krum ","TX",4309
+"Canastota","NY",4308
+"Baldwin City ","KS",4308
+"Butler ","MO",4306
+"Tonganoxie ","KS",4305
+"Morrison ","IL",4303
+"Chelsea ","AL",4303
+"Blanchester","OH",4303
+"Waverly","NY",4303
+"Wolverine Lake","MI",4303
+"Jersey Shore","PA",4302
+"Kenneth City","FL",43
+"Jenkintown","PA",4299
+"Hartwell ","GA",4298
+"Newport","NC",4298

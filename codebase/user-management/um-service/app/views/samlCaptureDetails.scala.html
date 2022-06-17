@@ -1,0 +1,24 @@
+@(nameId: String,
+        samlResponse: String,
+        relayState: String,
+        signUpForm: Form[com.sentrana.umserver.controllers.SamlProviderController.SamlSignUp])(implicit messages: Messages)
+
+<html>
+    <body>
+        <h1>Hello, @nameId</h1>
+         We need few more details to create Sentrana account for you:<br/>
+
+        <form method="POST">
+            @helper.inputText(signUpForm("userName"), '_label -> "Username", '_showConstraints -> false)
+            @helper.inputText(signUpForm("firstName"), '_label -> "First Name", '_showConstraints -> false)
+            @helper.inputText(signUpForm("lastName"), '_label -> "Last Name", '_showConstraints -> false)
+            @helper.inputText(signUpForm("email"), '_label -> "email", '_showConstraints -> false)
+            @helper.inputPassword(signUpForm("password"), '_label -> "password", '_showConstraints -> false)
+
+            <br/>
+            <input type="hidden" name="SAMLResponse" value="@samlResponse"/>
+            <input type="hidden" name="RelayState" value="@relayState"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>

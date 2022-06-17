@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package cortex.api.job.dataset;
+
+import "google/protobuf/wrappers.proto";
+import "cortex/api/job/common.proto";
+
+message S3DatasetImportRequest {
+    string bucket_name = 1;
+    string aws_region = 2;
+    google.protobuf.StringValue aws_access_key = 3;
+    google.protobuf.StringValue aws_secret_key = 4;
+    google.protobuf.StringValue aws_session_token = 5;
+    string dataset_path = 6;
+    string target_prefix = 7;
+}
+
+message S3DatasetExportRequest {
+    string bucket_name = 1;
+    string aws_region = 2;
+    google.protobuf.StringValue aws_access_key = 3;
+    google.protobuf.StringValue aws_secret_key = 4;
+    google.protobuf.StringValue aws_session_token = 5;
+    string dataset_path = 6;
+    string target_prefix = 7;
+}
+
+message UploadedDatasetFile {
+    cortex.api.job.common.File file = 1;
+    map<string, string> metadata = 2;
+}
+
+message S3DatasetImportResponse {
+    repeated UploadedDatasetFile datasets = 1;
+    repeated cortex.api.job.common.FailedFile failed_files = 2;
+}
+
+message S3DatasetExportResponse {
+    repeated UploadedDatasetFile datasets = 1;
+    repeated cortex.api.job.common.FailedFile failed_files = 2;
+}

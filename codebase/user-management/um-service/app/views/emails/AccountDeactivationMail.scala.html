@@ -1,0 +1,27 @@
+@(firstName: String, username: String)
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    @views.html.emails.EmailStyle()
+</head>
+<body>
+<div class="body-container">
+    <p>Hi @firstName,</p>
+
+    <p class="less-width">
+        An admin has deactivated your account. Please contact our support team for activation.
+    </p>
+
+
+    <p class="less-width">
+        If you have not signed up for DeepCortex, please ignore this mail.
+        If you have any questions regarding your account or account creation,
+        please contact our support team: <a href="mailto:sysadmin@@sentrana.com">sysadmin@@sentrana.com</a>.
+    </p>
+
+    <p class="less-width">
+        --DeepCortex team
+    </p>
+</div>
+</body>
+</html>

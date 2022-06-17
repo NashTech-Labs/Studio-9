@@ -1,0 +1,333 @@
+/*svg {
+  width: 100%;
+  height: 100%;
+  position: center;
+}
+
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+
+.toolTip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+text {
+  font: 10px sans-serif;
+  color: white;
+}
+text.value {
+  font-size: 120%;
+  fill: white;
+}
+
+.axisHorizontal path{
+  fill: none;
+}
+
+.axisHorizontal .tick line {
+  stroke-width: 1;
+  stroke: rgba(0, 0, 0, 0.2);
+}*/
+.p-Widget svg {
+  width: 100%;
+  height: 100%;
+
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .legend {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60%;
+  }
+
+  rect {
+    stroke-width: 2;
+  }
+
+  text {
+    font: 10px sans-serif;
+  }
+
+  .axis text {
+    font: 10px sans-serif;
+  }
+
+  .axis path {
+    fill: none;
+    stroke: #000;
+  }
+
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+  .axis .tick line {
+    stroke-width: 1;
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/*.axisHorizontal path{
+  fill: none;
+}
+
+.axisHorizontal line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axisHorizontal .tick line {
+  stroke-width: 1;
+  stroke: rgba(0, 0, 0, 0.2);
+}*/
+
+/*
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+*/
+
+/*.x.axis path {
+  display: none;
+}*/
+
+.bordered {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px 15px 15px;
+  margin: 0 -15px;
+  border-color: #e5e5e5 #eee #eee;
+  border-style: solid;
+  border-width: 1px 0;
+  -webkit-box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+}
+
+.hover-bar {
+  max-height: 300px;
+  min-width: 250px;
+  min-height: 80px;
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
+}
+
+.inner-chart-row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hover-chart-area {
+  position: absolute;
+  top: 0;
+}
+
+.bar--negative {
+  opacity: 0.8;
+}
+
+.p-DockPanel > .p-DockPanel-widget {
+  min-width: 500px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+/*path {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}*/
+
+.pointer {
+  cursor: pointer;
+}
+
+.custom-handle {
+  width: 3em;
+  height: 1.6em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+.glued-nav > .glued {
+  float: left;
+  width: 50%;
+}
+
+.clear {
+  clear: both;
+}
+
+.glued-nav {
+  width: 200%;
+  left: 0;
+  transition: left 0.5s;
+  position: relative;
+}
+
+.shifted {
+  left: -100%;
+}
+
+a.brand-background, a.brand-background > i, a.brand-background > span {
+  background: $brand-primary !important;
+  color: white !important;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+g.chartArea {
+  > g.chartGroup {
+    path {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+      &.divider1,
+      &.divider2 {
+        stroke: lightgrey;
+        stroke-opacity: 0.7;
+      }
+    }
+  }
+
+  > g.chartGroup > rect.overlay {
+    fill: transparent;
+    fill-opacity: 0.2;
+  }
+}
+
+.p-SplitDockTab-tab:not(.p-mod-closable) {
+  .p-SplitDockTab-tabEditIcon,
+  .p-SplitDockTab-tabCloseIcon {
+    display: none;
+  }
+}
+
+geo-heat-chart svg {
+  g.legend-circle {
+    rect {
+      fill: #FFF;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  >.chartArea {
+    path {
+      stroke: #fff;
+      stroke-width: 0.5px;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+    }
+
+    path.country-shape {
+      fill: #ccc;
+      stroke-width: 2px;
+      stroke: #fff;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+
+    path.counties-mesh,
+    path.states-mesh {
+      fill: none;
+      stroke-width: 2px;
+      stroke: #fff;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  }
+}
+
+chart-edit-filters {
+  td .radio,
+  td .checkbox,
+  td > app-check > .checkbox,
+  td > app-check > .radio {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  table {
+    &, &.table {
+      margin-bottom: 0;
+    }
+
+    thead, tbody, tr, td, th {
+      display: block;
+    }
+
+    tr:after {
+      content: ' ';
+      display: block;
+      visibility: hidden;
+      clear: both;
+    }
+
+    thead th {
+      height: 30px;
+    }
+    tbody {
+      height: 305px;
+      overflow-y: auto;
+    }
+
+    tbody td,
+    thead th {
+      float: left;
+      &:not(:first-child) {
+        width: 20%;
+      }
+      &:first-child {
+        width: 40%;
+      }
+    }
+  }
+}

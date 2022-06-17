@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cortex-api-rest
+spec:
+  selector:
+    matchLabels:
+      app: cortex-api-rest
+  template:
+    metadata:
+      labels:
+        app: cortex-api-rest
+    spec:
+      containers:
+      - name: cortex-api
+        image: rishivantsingh9717/cortex-api-rest:1.0
+        resources: {}
+          # limits:
+          #   cpu: 1000m
+          #   memory: 1024Mi  
+
+        ports:
+        - containerPort: 9000
+        env:
+        - name: AKKA_LOGLEVEL
+          value: "INFO"
+        - name: HTTP_SEARCH_USER_NAME
+          value: "cortex-search-user"
+        - name: RABBIT_HOSTS
+          value: "rabbitmq-cluster.rabbit.svc.cluster.local:5672"
+        - name: RABBIT_USERNAME
+          value: "default_user_0fqxmX2qjVi6Bljb-8K"
+        - name: ARIES_REST_URL
+          value: "http://aries-rest-api.aries-rest.svc.cluster.local:9000"
+        - name: ARIES_REST_VERSION
+          value: "v1"
+        - name: ARIES_SEARCH_USER_NAME
+          value: "aries-search-user"
+        - name: ARIES_COMMAND_USER_NAME
+          value: "aries-command-user"
+        - name: ARIES_SEARCH_USER_PASSWORD
+          value: "iCIYNwKA84uP6D0SM"
+        - name: ARIES_COMMAND_USER_PASSWORD
+          value: "cEmZTl0N5TMEP5Rkb"
+        - name: HTTP_SEARCH_USER_PASSWORD
+          value: "FPYswXogTOysZLApo"
+        - name: RABBIT_PASSWORD
+          value: "CNAWBPm7-oOBX-FWunoNN4t8I6WJV29j"
+        livenessProbe:
+          httpGet: 
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1

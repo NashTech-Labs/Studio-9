@@ -1,0 +1,119 @@
+syntax = "proto3";
+
+package cortex.api.job.pipeline;
+
+import "cortex/api/job/common.proto";
+import "google/protobuf/wrappers.proto";
+
+message PipelineRunRequest {
+    repeated PipelineStepRequest pipeline_steps_request = 1;
+    string baile_auth_token = 2;
+}
+
+message PipelineStepRequest {
+    string step_id = 1;
+    cortex.api.job.common.ClassReference operator = 2;
+    map<string, PipelineOutputReference> inputs = 3;
+    map<string, PipelineParam> params = 4;
+}
+
+message PipelineOutputReference {
+    string step_id = 1;
+    int32 output_index = 2;
+}
+
+message PipelineParam {
+    oneof param {
+        string string_param = 1;
+        int32 int_param = 2;
+        float float_param = 3;
+        bool boolean_param = 4;
+        StringSequenceParams string_params = 5;
+        IntSequenceParams int_params = 6;
+        FloatSequenceParams float_params = 7;
+        BooleanSequenceParams boolean_params = 8;
+        EmptySequenceParams empty_params = 9;
+    }
+}
+
+message EmptySequenceParams {
+}
+
+message StringSequenceParams {
+    repeated string string_params = 1;
+}
+
+message IntSequenceParams {
+    repeated int32 int_params = 1;
+}
+
+message FloatSequenceParams {
+    repeated float float_params = 1;
+}
+
+message BooleanSequenceParams {
+    repeated bool boolean_params = 1;
+}
+
+message PipelineStepGeneralResponse {
+    string step_id = 1;
+    repeated TrackedAssetReference tracked_asset_references = 2;
+    repeated OperatorApplicationSummary summaries = 3;
+    map<int32, PipelineValue> output_values = 4;
+    int64 step_execution_time = 6;
+}
+
+message PipelineStepFailureResponse {
+    PipelineStepGeneralResponse pipeline_step_general_response = 1;
+    google.protobuf.StringValue error_message = 2;
+}
+
+message PipelineStepResponse {
+    oneof response {
+        PipelineStepGeneralResponse pipeline_step_general_response = 1;
+        PipelineStepFailureResponse pipeline_step_failure_response = 2;
+    }
+}
+
+message PipelineRunResponse {
+    repeated PipelineStepResponse pipeline_steps_response = 1;
+}
+
+message OperatorApplicationSummary {
+    oneof summary {
+        cortex.api.job.common.ConfusionMatrix confusion_matrix = 1;
+        SimpleSummary simple_summary = 2;
+    }
+}
+
+message SimpleSummary {
+    map<string, PipelineValue> values = 1;
+}
+
+message PipelineValue {
+    oneof value {
+        string string_value = 1;
+        int32 int_value = 2;
+        float float_value = 3;
+        bool boolean_value = 4;
+    }
+}
+
+message TrackedAssetReference {
+    string asset_id = 1;
+    AssetType asset_type = 2;
+}
+
+enum AssetType {
+    TabularModel = 0;
+    TabularPrediction = 1;
+    Table = 2;
+    Flow = 3;
+    Album = 4;
+    CvModel = 5;
+    CvPrediction = 6;
+    OnlineJob = 7;
+    DCProject = 8;
+    Experiment = 9;
+    Pipeline = 10;
+}

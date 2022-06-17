@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <!--General settings.-->
+  <general>
+    <!--If set to true, text direction is right-to-left.-->
+    <rightToLeft>false</rightToLeft>
+  </general>
+  <!--Theme settings.-->
+  <theme>
+    <!--This setting is set to true for built-in themes. Predefined themes are read-only.-->
+    <predefined>true</predefined>
+  </theme>
+  <!--Topic widget settings.-->
+  <topic>
+    <!--String values for the Topic widget-->
+    <strings>
+      <!--This message is shown when a topic cannot be loaded.-->
+      <notfoundText>Topic not found</notfoundText>
+      <!--This window title is shown when a topic cannot be loaded.-->
+      <notfoundTitle>Topic not found</notfoundTitle>
+    </strings>
+    <!--Breadcrumbs settings.-->
+    <breadcrumbs>
+      <!--Text label that is shown before breadcrumb links.-->
+      <label></label>
+      <!--Character or text that separates links in breadcrumbs.-->
+      <separator>&amp;nbsp;/&amp;nbsp;</separator>
+    </breadcrumbs>
+    <!--Collapsible sections settings.-->
+    <collapsibleSections>
+      <expandAll>
+        <!--Label of the button for expanding all collapsible sections.-->
+        <label>Expand All</label>
+      </expandAll>
+      <!--Settings of the button for collapsing all collapsible sections.-->
+      <collapseAll>
+        <!--Label of the button for collapsing all collapsible sections.-->
+        <label>Collapse All</label>
+      </collapseAll>
+    </collapsibleSections>
+    <!--Spinner is a popup message that is displayed while a topic is loading.-->
+    <spinner>
+      <!--Text displayed in the Spinner popup.-->
+      <messageText></messageText>
+    </spinner>
+  </topic>
+  <!--Settings of the Contents tab.-->
+  <toc>
+    <!--Text of the Contents tab.-->
+    <label>Contents</label>
+    <!--Back button for the Contents widget.-->
+    <backButton>
+      <!--Tooltip for the Back button.-->
+      <label>Back</label>
+    </backButton>
+  </toc>
+  <index>
+    <!--Text of the Index tab.-->
+    <label>Index</label>
+    <!--String values for the Index widget.-->
+    <strings>
+      <!--Tooltip for the Index text box.-->
+      <filterTooltip>Filter keywords</filterTooltip>
+      <!--Text displayed in the Index text box when it is empty.-->
+      <filterPlaceholder>Filter...</filterPlaceholder>
+      <!--This message is shown when keywords aren't found in Index.-->
+      <notfound>No keywords found.</notfound>
+      <!--This message is shown when one or more keywords are found. This message can contain a #{count} macro that is replaced with the number of found keywords.-->
+      <found>#{count} keyword(s) found.</found>
+    </strings>
+  </index>
+  <!--Settings of the Search page.-->
+  <search>
+    <!--Text of the Search tab.-->
+    <label>Search</label>
+    <!--String values for the Search widget.-->
+    <strings>
+      <!--Tooltip for the Search text box.-->
+      <filterTooltip>Search topics</filterTooltip>
+      <!--Text displayed in the Search text box when it is empty.-->
+      <filterPlaceholder>Search...</filterPlaceholder>
+      <!--This message is shown in the search results area while data is loading during initialization.-->
+      <loading>Loading search engine...</loading>
+      <!--This message is shown if data fails to load.-->
+      <loaderror>Error: Search engine failed to load.</loaderror>
+      <!--This message is shown when search is disabled.-->
+      <disabled>Search is disabled.</disabled>
+      <!--This message is shown when no topics are found for the search string entered by the user.-->
+      <notfound>No topics found.</notfound>
+      <!--This message is shown when topics are found for the search string entered by the user. This message can contain a #{count} macro that is replaced with the number of found topics.-->
+      <found>#{count} topic(s) found.</found>
+      <!--This message is shown when Search suggests a correction of the search string entered by the user. This message can contain a #{query} macro that is replaced with a link to the corrected search string.-->
+      <correcting>Did you mean: #{query}</correcting>
+      <!--This message is shown when Search finds results only after modifying the original search string entered by the user. This message can contain a #{query} macro that is replaced with the original search string.-->
+      <queryModified>Original search #{query} has been changed because it did not produce results.</queryModified>
+    </strings>
+    <!--These strings define logical operators for search.-->
+    <operators>
+      <!--The logical operator AND.-->
+      <and>AND</and>
+      <!--The logical operator OR.-->
+      <or>OR</or>
+      <!--The logical operator NOT.-->
+      <not>NOT</not>
+    </operators>
+  </search>
+  <!--Settings of the Favorites page.-->
+  <favorites>
+    <!--Text of the Favorites tab.-->
+    <label>Favorites</label>
+    <!--String values for the Favorites widget.-->
+    <strings>
+      <!--Text displayed in the Favorites filter text box when it is empty.-->
+      <filterPlaceholder>Filter favorites...</filterPlaceholder>
+      <!--Text displayed in the tooltip of the Delete button.-->
+      <remove>Delete</remove>
+    </strings>
+  </favorites>
+  <!--Settings for context-sensitive help.-->
+  <contextSensitive>
+    <!--String values used in context-sensitive help.-->
+    <strings>
+      <!--Title of the page. It is used as the browser window title when a list of keywords, groups, or search results is shown on the page. This string can contain macros #{key} and #{value} that are replaced with context key ("keyword", "group", "id" or "search") and context value (string after context key and the "=" character in URL).-->
+      <title>Topics for "#{key}": "#{value}"</title>
+      <!--This message is shown when the result is empty (if context key is "keyword", "group" or "id").-->
+      <notfound>No topics found.</notfound>
+      <!--This message is shown when specified context key is not supported.-->
+      <notsupported>The key "#{key}" is not supported.</notsupported>
+    </strings>
+  </contextSensitive>
+  <!--Buttons listed here can be included in the Content property of a toolbar.-->
+  <buttons>
+    <!--The built-in button "Previous topic".-->
+    <prev>
+      <!--Text (or tooltip) for the Previous button.-->
+      <label>Previous</label>
+    </prev>
+    <!--The built-in button "Next topic".-->
+    <next>
+      <!--Text (or tooltip) for the Next button.-->
+      <label>Next</label>
+    </next>
+    <!--The built-in button "Home topic".-->
+    <home>
+      <!--Text (or tooltip) for the Home button.-->
+      <label>Home</label>
+    </home>
+    <!--The built-in button "Print topic".-->
+    <print>
+      <!--Text (or tooltip) for the Print button.-->
+      <label>Print</label>
+    </print>
+    <!--The built-in button "Email topic".-->
+    <email>
+      <!--Text (or tooltip) for the Email button.-->
+      <label>Email</label>
+    </email>
+    <!--The built-in button "Twitter".-->
+    <twitter>
+      <!--Text (or tooltip) for the Twitter button.-->
+      <label>Twitter</label>
+    </twitter>
+    <!--The built-in button "Facebook".-->
+    <facebook>
+      <!--Text (or tooltip) for the Facebook button.-->
+      <label>Facebook</label>
+    </facebook>
+    <!--The built-in button "Favorites".-->
+    <favorites>
+      <!--Text (or tooltip) for the Favorites button.-->
+      <label>Favorites</label>
+    </favorites>
+    <!--The built-in button "Side panel".-->
+    <sidePanel>
+      <!--Text (or tooltip) for the Side panel button.-->
+      <label>Side panel</label>
+    </sidePanel>
+    <!--The built-in button "Actions". Shown when the toolbar is collapsed on a small screen.-->
+    <actions>
+      <!--Text (or tooltip) for the Actions button.-->
+      <label>Actions</label>
+    </actions>
+    <!--The built-in button "Powered by".-->
+    <poweredBy>
+      <!--Text (or tooltip) for the button.-->
+      <label>Created&amp;nbsp;with&amp;nbsp;Doc-To-Help&amp;nbsp;®</label>
+    </poweredBy>  
+</buttons>
+  <!--Strings used only if Accessibility Mode is set to Section 508.-->
+  <accessibility>
+    <!--List header for the list of topics of a keyword or group link (if there is more than one topic). This string can contain "#{count}" macro.-->
+    <akLinksMenuHeader>#{count} topics found</akLinksMenuHeader>
+    <!--Titles for icons in the table of contents.-->
+    <toc>
+      <!--The title for closed books without topic.-->
+      <closedBook>Closed book without topic</closedBook>
+      <!--The title for open books without topic.-->
+      <openBook>Open book without topic</openBook>
+      <!--The title for closed books with topic.-->
+      <closedBookTopic>Closed book with topic</closedBookTopic>
+      <!--The title for open books with topic.-->
+      <openBookTopic>Open book with topic</openBookTopic>
+      <!--The title for topics.-->
+      <topic>Topic</topic>
+    </toc>
+    <!--The title for collapsible section icons.-->
+    <collapsibleSections>
+      <!--The title for sections in collapsed state.-->
+      <collapsed>Click to expand</collapsed>
+      <!--The title for sections in expanded state.-->
+      <expanded>Click to collapse</expanded>
+    </collapsibleSections>
+  </accessibility>
+</settings>

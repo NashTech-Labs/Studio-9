@@ -1,0 +1,103 @@
+#Apps management
+
+###
+#  summary: Create a new applicationInfo
+#  description: Create a new applicationInfo
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.CreateApplicationInfoRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /apps                                       com.sentrana.umserver.controllers.ApplicationInfoController.create()
+
+
+###
+#  summary: Find applicationInfos by specific parameters
+#  description: Find applicationInfos by specific parameters
+#  parameters:
+#    - name: limit
+#      in: query
+#      format: int32
+#      required: false
+#    - name: offset
+#      in: query
+#      format: int32
+#      required: false
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        type: array
+#        data:
+#          $ref: '#/definitions/com.sentrana.umserver.shared.dtos.ApplicationInfo'
+###
+GET           /apps                                       com.sentrana.umserver.controllers.ApplicationInfoController.find()
+
+
+###
+#  summary: Get applicationInfo by appId
+#  description: Get applicationInfo by appId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.ApplicationInfo'
+###
+GET           /apps/:appId                                com.sentrana.umserver.controllers.ApplicationInfoController.get(appId)
+
+
+###
+#  summary: Update applicationInfo
+#  description: Update applicationInfo
+#  parameters:
+#    - name: body
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.dtos.UpdateApplicationInfoRequest'
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+PUT           /apps/:appId                                com.sentrana.umserver.controllers.ApplicationInfoController.update(appId)
+
+
+###
+#  summary: Delete applicationInfo by appId
+#  description: Delete applicationInfo by appId
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+DELETE        /apps/:appId                                com.sentrana.umserver.controllers.ApplicationInfoController.delete(appId)
+
+
+###
+#  summary: Get client secret for a specific applicationInfo
+#  description: Get client secret for a specific applicationInfo
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.ClientSecretInfo'
+###
+GET           /apps/:appId/clientsecret                   com.sentrana.umserver.controllers.ApplicationInfoController.getClientSecret(appId)
+
+
+###
+#  summary: Regenerate client secret for a specific applicationInfo
+#  description: Regenerate client secret for a specific applicationInfo
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/com.sentrana.umserver.shared.dtos.GenericResponse'
+###
+POST          /apps/:appId/clientsecret/regenerate        com.sentrana.umserver.controllers.ApplicationInfoController.regenerateClientSecret(appId)

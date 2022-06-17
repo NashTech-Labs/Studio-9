@@ -1,0 +1,27 @@
+// override BS classes that cannot be tweaked by variables
+
+
+.btn-group .nowrap {
+  display: flex; /* aka no-wrap */
+}
+
+.carousel-control{
+  color: inherit;
+  text-shadow: none;
+  opacity: initial;
+  width: 2em;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background: none;
+}
+.carousel-control.left {
+  text-align: left !important;
+}
+.carousel-control.right {
+  text-align: right !important;
+}
+.carousel-control:focus, .carousel-control:hover {
+  color: $brand-primary;
+  opacity: initial;
+}

@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package cortex.api.job.common;
+
+import "google/protobuf/wrappers.proto";
+
+message ClassReference {
+    google.protobuf.StringValue package_location = 1;
+    string class_name = 2;
+    string module_name = 3;
+}
+
+message ModelReference {
+    string id = 1;
+    string file_path = 2;
+}
+
+message ConfusionMatrix {
+    repeated ConfusionMatrixCell confusion_matrix_cells = 1;
+    repeated string labels = 2;
+}
+
+message ConfusionMatrixCell {
+    google.protobuf.Int32Value actual_label_index = 1;
+    google.protobuf.Int32Value predicted_label_index = 2;
+    int32 value = 3;
+}
+
+message File {
+    string file_path = 1;
+    int64 file_size = 2;
+    string file_name = 3;
+}
+
+message FailedFile {
+    string file_path = 1;
+    google.protobuf.StringValue error_message = 2;
+    google.protobuf.StringValue reference_id = 3;
+}

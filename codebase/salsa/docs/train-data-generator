@@ -1,0 +1,97 @@
+//http://www.convertcsv.com/csv-to-json.htm
+{lb}
+  "index": "{f1}",
+  "auroc": "{f2}",
+  "stages": [
+    {
+      "name": "REMOVE_OUTLIERS",
+      "parameters": [
+        {
+          "name": "{h3}",
+          "stringValue": "{f3}"
+        },
+        {
+          "name": "{h4}",
+          "value": "{f4}"
+        }
+      ]
+    },
+    {
+      "name": "DE_SKEW",
+      "parameters": [
+        {
+          "name": "{h5}",
+          "stringValue": "{f5}"
+        }
+      ]
+    },
+    {
+      "name": "NORMALIZE",
+      "parameters": [
+        {
+          "name": "{h6}",
+          "stringValue": "{f6}"
+        }
+      ]
+    },
+    {
+      "name": "INTERPOLATE",
+      "parameters": [
+        {
+          "name": "{h7}",
+          "stringValue": "{f7}"
+        }
+      ]
+    },
+    {
+      "name": "HANDLE_MULTICOLLINEARITY",
+      "parameters": [
+        {
+          "name": "?",
+          "stringValue": ""
+        }
+      ]
+    },
+    {
+      "name": "CLASSIFIER",
+      "parameters": [
+        {
+          "name": "{h9}",
+          "stringValue": "{f9}"
+        },
+        {
+          "name": "{h10}",
+          "value": "{f10}"
+        },
+        {
+          "name": "{h11}",
+          "value": "{f11}"
+        },
+        {
+          "name": "{h12}",
+          "value": "{f12}"
+        },
+        {
+          "name": "{h13}",
+          "value": "{f13}"
+        },
+        {
+          "name": "{h14}",
+          "value": "{f14}"
+        },
+        {
+          "name": "{h15}",
+          "value": "{f15}"
+        },
+        {
+          "name": "{h16}",
+          "value": "{f16}"
+        },
+        {
+          "name": "{h17}",
+          "value": "{f17}"
+        }
+      ]
+    }
+  ]
+{rb}

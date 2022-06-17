@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gemini
+spec:
+  selector:
+    matchLabels:
+      app: gemini
+  template:
+    metadata:
+      labels:
+        app: gemini
+    spec:
+      containers:
+      - name: gemini
+        image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/gemini:1.0
+        resources: {}
+        ports:
+        - containerPort: 7777
+        env:
+        - name: HOSTNAME 
+          value: "gemini.s9.devopscloud.link"
+
+        - name: HTTP_AUTH_PASSWORD 
+          value: "uqguU47S7zlX7IZGU"
+
+        - name: JUPYTER_APP_FORCE_PULL 
+          value: "true"
+
+        - name: ZOOKEEPER_URL 
+          value: "zookeeper.zookeeper.svc.cluster.local:2181"
+
+        - name: JUPYTER_APP_DOCKER_IMAGE 
+          value: "jupyter/datascience-notebook"
+
+        - name: BASE_JUPYTER_LAB_DOMAIN 
+          value: "jupyter.s9.devopscloud.link"
+
+        - name: HTTP_AUTH_USERNAME
+          value: "gemini-studio9"
+
+        - name: AKKA_PERSISTENCE_MONGODB_URI 
+          value: "mongodb://root:studio9@mongo-mongodb.mongo.svc.cluster.local:27017/gemini-akka-persistence?authSource=admin"
+
+        - name: MARATHON_CLIENT_URL
+          value: "http://10.100.0.65:8080"
+
+        - name: USE_HTTPS_FOR_JUPYTER_LAB
+          value: "false"
+
+        - name: AKKA_PERSISTENCE_MONGODB_WRITE_CONCERN
+          value: "Journaled"
+
+        - name: TASK_RESOURCES_WAIT_PERIOD
+          value: "5minutes"
+
+        - name: TASK_KILL_GRACE_PERIOD 
+          value: "30seconds"
+
+        - name: JUPYTER_APP_MEMORY_LIMIT
+          value: "4096"
+
+        - name: SQL_SERVER_URL
+          value: "http://sql-server.sql-server.svc.cluster.local:8000/sql-server/v0.1"
+        
+        - name: DEEPCORTEX_URL
+          value: "http://baile.baile.svc.cluster.local:9000/baile/v2.0"
+
+        - name: AKKA_LOGLEVEL
+          value: "ERROR"
+        livenessProbe:
+          httpGet:
+            path: /v0.1/health
+            port: 7777
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /v0.1/health
+            port: 7777
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1

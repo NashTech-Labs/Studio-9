@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
+    "lib": ["dom", "es2017"],
+    "paths": {
+      "loki-indexed-adapter": ["../node_modules/lokijs/src/loki-indexed-adapter.js"],
+      "bootstrap-multiselect": ["../node_modules/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"]
+    }
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}

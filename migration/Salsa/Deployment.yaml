@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: salsa
+spec:
+  selector:
+    matchLabels:
+      app: salsa
+  template:
+    metadata:
+      labels:
+        app: salsa
+    spec:
+      containers:
+      - name: salsa
+        image: 086351999451.dkr.ecr.ap-south-1.amazonaws.com/salsa-service:2.0.1
+        resources: {}
+        #   limits:
+        #     memory: "128Mi"
+        #     cpu: "500m"
+        env:
+        - name: BAILE_URL
+          value: "http://baile.s9.devopscloud.link"
+        - name: SALSA_URL
+          value: "salsa.s9.devopscloud.link"
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1
