@@ -42,7 +42,7 @@ Below are described the major components of Studio-9.
 >You now have the power to deploy and run your Data Processing pipelines, Models, and AI anywhere – from infinitely scalable Cloud computing infrastructure to your own laptop to ultra-low power edge computing devices – with no additional programming or engineering effort required. We designed Studio9 for deployment flexibility so you can build, train, share, and execute your AI anywhere you want.
 
 
-# How to deploy Studio9 on Local?
+# How to deploy Studio9 on Local using Docker-Compose?
 ![Studio-9_flow](https://user-images.githubusercontent.com/86958663/171150086-22fb8783-bc07-45a0-a989-d100a3f50de8.png)
 
 
@@ -93,3 +93,42 @@ For running the Studio-9 on local, we are using docker-compose.
 - SQL-Server depends on UM Service and will be accessible at 9000.
 - Salsa service is responsible for the UI of Studio-9 and it depends on Baile with port 80.
 - Postgres service depends on postgres-db and will be accessible at 8080.
+
+
+# How to deploy Studio9 on Local without Docker-Compose?
+So for deploying the Studio-9 on local without docker-compose, we have to understand the sequence of the services to be deployed.
+In the first phase, we will deploy four services and they are:
+
+##Elastic Search
+##MongoDB
+##RabbutMQ
+##Postgress
+
+After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
+
+##Aries
+[Deploying Aries Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/aries)
+
+##Argo
+[Deploying Argo Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/argo)
+
+##Orion
+[Deploying Orion Service on loal](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion)
+
+##Cortex
+[Deploying Cortex Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/cortex)
+
+##Pegasus
+[Deploying Pegasus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/pegasus)
+
+##Taurus
+[Deploying Taurus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/taurus)
+
+##UM-Service
+[Deploying UM-Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/user-management)
+
+##Baile
+[Deploying Baile Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/Baile)
+
+##Salsa
+[Deploying Salsa Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/salsa)
