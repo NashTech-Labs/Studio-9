@@ -49,7 +49,7 @@ Below are described the major components of Studio-9.
 
 # How to deploy Studio9 on Local?
 So for deploying the Studio-9 on local without docker-compose, we have to understand the sequence of the services to be deployed.
-In the first phase, we will deploy four services and they are:
+In the first phase, we will deploy the below services:
 
 ## Elastic Search
 [Deploying Elastic Search on local](https://phoenixnap.com/kb/install-elasticsearch-ubuntu)
@@ -71,6 +71,7 @@ In the first phase, we will deploy four services and they are:
 
 ## Zookeeper
 [Deploying Zookeeper on local](https://phoenixnap.com/kb/install-apache-zookeeper)
+
 
 After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
 
