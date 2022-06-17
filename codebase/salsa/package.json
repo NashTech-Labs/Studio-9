@@ -67,7 +67,7 @@
     "jsplumb": "^2.9.3",
     "lodash": "~4.17.4",
     "lokijs": "~1.5.1",
-    "moment": "~2.18.0",
+    "moment": "~2.29.2",
     "ng2-dnd": "~5.0.2",
     "ngx-bootstrap": "~2.0.0-beta.8",
     "notebookjs": "^0.4.2",
