@@ -107,28 +107,28 @@ In the first phase, we will deploy four services and they are:
 After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
 
 ## Aries
-[Deploying Aries Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/aries)
+[Deploying Aries Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/aries/README.md)
 
 ## Argo
-[Deploying Argo Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/argo)
+[Deploying Argo Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/argo/README.md)
 
 ## Orion
-[Deploying Orion Service on loal](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion)
+[Deploying Orion Service on loal](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion/README.md)
 
 ## Cortex
-[Deploying Cortex Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/cortex)
+[Deploying Cortex Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/cortexREADME.md)
 
 ## Pegasus
-[Deploying Pegasus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/pegasus)
+[Deploying Pegasus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/pegasus/README.md)
 
 ## Taurus
-[Deploying Taurus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/taurus)
+[Deploying Taurus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/taurus/README.md)
 
 ## UM-Service
-[Deploying UM-Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/user-management)
+[Deploying UM-Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/user-management/README.md)
 
 ## Baile
-[Deploying Baile Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/Baile)
+[Deploying Baile Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/Baile/README.md)
 
 ## Salsa
-[Deploying Salsa Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/salsa)
+[Deploying Salsa Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/salsa/README.md)
