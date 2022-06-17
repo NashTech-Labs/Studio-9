@@ -99,36 +99,36 @@ For running the Studio-9 on local, we are using docker-compose.
 So for deploying the Studio-9 on local without docker-compose, we have to understand the sequence of the services to be deployed.
 In the first phase, we will deploy four services and they are:
 
-##Elastic Search
-##MongoDB
-##RabbutMQ
-##Postgress
+## Elastic Search
+## MongoDB
+## RabbutMQ
+## Postgress
 
 After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
 
-##Aries
+## Aries
 [Deploying Aries Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/aries)
 
-##Argo
+## Argo
 [Deploying Argo Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/argo)
 
-##Orion
+## Orion
 [Deploying Orion Service on loal](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion)
 
-##Cortex
+## Cortex
 [Deploying Cortex Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/cortex)
 
-##Pegasus
+## Pegasus
 [Deploying Pegasus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/pegasus)
 
-##Taurus
+## Taurus
 [Deploying Taurus Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/taurus)
 
-##UM-Service
+## UM-Service
 [Deploying UM-Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/user-management)
 
-##Baile
+## Baile
 [Deploying Baile Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/Baile)
 
-##Salsa
+## Salsa
 [Deploying Salsa Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/salsa)
