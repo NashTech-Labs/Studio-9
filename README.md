@@ -93,3 +93,6 @@ For running the Studio-9 on local, we are using docker-compose.
 - SQL-Server depends on UM Service and will be accessible at 9000.
 - Salsa service is responsible for the UI of Studio-9 and it depends on Baile with port 80.
 - Postgres service depends on postgres-db and will be accessible at 8080.
+
+
+# How to deploy Studio-9 on local without Docker-compose?
