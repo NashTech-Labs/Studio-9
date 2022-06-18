@@ -92,13 +92,13 @@ So for deploying the Studio-9 on local, we have to understand the sequence of th
 [Deploying Elastic Search on local](https://phoenixnap.com/kb/install-elasticsearch-ubuntu)
 
 ## MongoDB
-[Deploying MongoDB on local](https://hevodata.com/blog/install-mongodb-on-ubuntu/)
+[Deploying MongoDB on local](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ## RabbutMQ
-[Deploying RabbitMQ on local](https://www.hackerxone.com/2021/08/24/steps-to-install-rabbitmq-on-ubuntu-20-04/)
+[Deploying RabbitMQ on local](https://www.rabbitmq.com/install-debian.html)
 
 ## Postgress
-[Deploying Postgres on local](https://phoenixnap.com/kb/how-to-install-postgresql-on-ubuntu)
+[Deploying Postgres on local](https://www.postgresql.org/download/linux/ubuntu/)
 
 After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
 
