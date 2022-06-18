@@ -1,4 +1,6 @@
 
+[![STUDIO-9](img/banner.png)](https://do.co/nginxconfig)
+
 # What is Studio-9?
 > Studio9 is an open source platform for doing collaborative Data Management & AI/ML anywhere Whether your data is trapped in silos or you’re generating data at the edge, Studio9 gives you the flexibility to create AI and data engineering pipelines wherever your data is. And you can share your AI, Data, and Pipelines with anyone anywhere. With Studio9, you can achieve newfound agility to effortlessly move between compute environments, while all your data and your work replicates automatically to wherever you want.
 
@@ -184,3 +186,28 @@ For running the Studio-9 on local, we are using docker-compose.
 - SQL-Server depends on UM Service and will be accessible at 9000.
 - Salsa service is responsible for the UI of Studio-9 and it depends on Baile with port 80.
 - Postgres service depends on postgres-db and will be accessible at 8080.
+
+## 👨‍💻 Author
+
+
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create.
+Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## ⭐️ Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [knoldus, Inc  (https://www.knoldus.com)](https://www.knoldus.com).
+<br />
+This project is licensed under the [MIT](https://github.com/knoldus/Studio-9/blob/master/LICENSE.md) license.
