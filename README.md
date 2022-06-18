@@ -51,12 +51,12 @@ Below are described the major components of Studio-9.
 So for deploying the Studio-9 on local, we have to understand the sequence of the services to be deployed. But before deployment of services we need to see some pre-requisites for application.
   
   ## Pre-requisites:
-        1. OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
-        2. Mesos-marathon Cluster
-        3. AWS account
-        4. AWS IAM 
-        5. AWS S3 buckets
-        6. AWS S3 buckets accessible to AWS IAM
+  - OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
+  - Mesos-marathon Cluster
+  - AWS account
+  - AWS IAM 
+  - AWS S3 buckets
+  - AWS S3 buckets accessible to AWS IAM
         
 ## Mesos-Marathon Cluster Setup
 
@@ -135,6 +135,12 @@ After the deployment of above services, we will deploy the below services in the
 We'll be deploying Studio9 on local using a docker-compose file.
 
 ## Prerequisites
+- OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
+- Mesos-marathon Cluster
+- AWS account
+- AWS IAM 
+- AWS S3 buckets
+- AWS S3 buckets accessible to AWS IAM
 - Docker should be installed on your local system.
 - If you don't have docker installed in your system, kindly refer to this [link](https://docs.docker.com/engine/install/ubuntu/)
 - After successfully installing Docker, clone the [Repository](https://github.com/knoldus/Studio-9.git).
