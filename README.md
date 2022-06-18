@@ -49,7 +49,8 @@ Below are described the major components of Studio-9.
 
 # How to deploy Studio9 on Local?
 So for deploying the Studio-9 on local, we have to understand the sequence of the services to be deployed. But before deployment of services we need to see some pre-requisites for application.
-    #**Pre-requisites:**
+  
+  ## Pre-requisites:
         1. OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
         2. Mesos-marathon Cluster
         3. AWS account
@@ -60,27 +61,32 @@ So for deploying the Studio-9 on local, we have to understand the sequence of th
 ## Mesos-Marathon Cluster Setup
 
 
-    ## **Apache Zookeeper**
+  ## **Apache Zookeeper**
          Version: 3.7.1
-        [Deploying Zookeeper on local](https://phoenixnap.com/kb/install-apache-zookeeper)
+  [Deploying Zookeeper on local](https://phoenixnap.com/kb/install-apache-zookeeper)
 
-    ## **Apache Mesos**
+  ## **Apache Mesos**
          Version: 1.7.2
-        [Deploying Mesos on local](https://mesos.apache.org/documentation/latest/building/)
+  [Deploying Mesos on local](https://mesos.apache.org/documentation/latest/building/)
             
-    ## **Marathon**
+  ## **Marathon**
          Version: 1.5.0
-        [Deploying Marathon on local](https://mesosphere.github.io/marathon/docs/)
+  [Deploying Marathon on local](https://mesosphere.github.io/marathon/docs/)
        
   Here we need one more machine so for this we will create a VM on local machine by using Vagrant because mesos-marathon cluster work on master slave architecture.
   
-    ## **Vagrant**
-        [Deploying Vagrant on local](https://blog.knoldus.com/creating-virtual-machines-using-vagrant-2/)
+  ## **Vagrant**
+  [Deploying Vagrant on local](https://blog.knoldus.com/creating-virtual-machines-using-vagrant-2/)
         
-We will run Marathon on Slave VM and Mesos-Master on base machine. Process to run mesos-slave on slave is same as specified above only difference is the command we will use to 
-        Mesos-Slave: ./bin/mesos-slave.sh --master=<base-machine IP>:5050  --work_dir=/var/run/mesos --log_dir=/var/log/mesos --    containerizers=docker,mesos --image_providers=appc,docker --isolation=filesystem/linux,docker/runtime
+   Note: We will run Mesos-Master on base machine and Marathon as well as Mesos-Slave on VM.
+       
+  ## Mesos-Slave: 
+  
+  Process to run mesos-slave on slave is same as specified above only difference is the command we will use to run.
+  
+    ./bin/mesos-slave.sh --master=<base-machine IP>:5050  --work_dir=/var/run/mesos --log_dir=/var/log/mesos --    containerizers=docker,mesos --image_providers=appc,docker --isolation=filesystem/linux,docker/runtime
 
-Now, we will deploy the below services:
+**Now, we will deploy the below services:**
 
 ## Elastic Search
 [Deploying Elastic Search on local](https://phoenixnap.com/kb/install-elasticsearch-ubuntu)
