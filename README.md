@@ -1,5 +1,5 @@
-[![GitHub stars](https://img.shields.io/github/stars/digitalocean/nginxconfig.io.svg)](https://github.com/knoldus/Studio-9/stargazers)
-[![GitHub contributors](https://img.shields.io/github/contributors/digitalocean/nginxconfig.io.svg?color=blue)](https://github.com/knoldus/Studio-9/graphs/contributors)
+[![GitHub stars](https://img.shields.io/badge/Stars-5-blue)](https://github.com/knoldus/Studio-9/stargazers)
+[![GitHub contributors](https://img.shields.io/badge/Contributors-6-yellow)](https://github.com/knoldus/Studio-9/graphs/contributors)
 [![MIT License](https://img.shields.io/github/license/digitalocean/nginxconfig.io.svg?color=blue)](https://github.com/knoldus/Studio-9/blob/master/LICENSE)
 
 ![STUDIO-9](https://www.linkpicture.com/q/banner_1.png)
