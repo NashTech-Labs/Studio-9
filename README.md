@@ -48,8 +48,39 @@ Below are described the major components of Studio-9.
 
 
 # How to deploy Studio9 on Local?
-So for deploying the Studio-9 on local without docker-compose, we have to understand the sequence of the services to be deployed.
-In the first phase, we will deploy the below services:
+So for deploying the Studio-9 on local, we have to understand the sequence of the services to be deployed. But before deployment of services we need to see some pre-requisites for application.
+    #**Pre-requisites:**
+        1. OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
+        2. Mesos-marathon Cluster
+        3. AWS account
+        4. AWS IAM 
+        5. AWS S3 buckets
+        6. AWS S3 buckets accessible to AWS IAM
+        
+## Mesos-Marathon Cluster Setup
+
+
+    ## **Apache Zookeeper**
+         Version: 3.7.1
+        [Deploying Zookeeper on local](https://phoenixnap.com/kb/install-apache-zookeeper)
+
+    ## **Apache Mesos**
+         Version: 1.7.2
+        [Deploying Mesos on local](https://mesos.apache.org/documentation/latest/building/)
+            
+    ## **Marathon**
+         Version: 1.5.0
+        [Deploying Marathon on local](https://mesosphere.github.io/marathon/docs/)
+       
+  Here we need one more machine so for this we will create a VM on local machine by using Vagrant because mesos-marathon cluster work on master slave architecture.
+  
+    ## **Vagrant**
+        [Deploying Vagrant on local](https://blog.knoldus.com/creating-virtual-machines-using-vagrant-2/)
+        
+We will run Marathon on Slave VM and Mesos-Master on base machine. Process to run mesos-slave on slave is same as specified above only difference is the command we will use to 
+        Mesos-Slave: ./bin/mesos-slave.sh --master=<base-machine IP>:5050  --work_dir=/var/run/mesos --log_dir=/var/log/mesos --    containerizers=docker,mesos --image_providers=appc,docker --isolation=filesystem/linux,docker/runtime
+
+Now, we will deploy the below services:
 
 ## Elastic Search
 [Deploying Elastic Search on local](https://phoenixnap.com/kb/install-elasticsearch-ubuntu)
@@ -62,16 +93,6 @@ In the first phase, we will deploy the below services:
 
 ## Postgress
 [Deploying Postgres on local](https://phoenixnap.com/kb/how-to-install-postgresql-on-ubuntu)
-
-## Mesos
-[Deploying Mesos on local](https://mesos.apache.org/documentation/latest/building/)
-
-## Marathon
-[Deploying Marathon on local](https://mesosphere.github.io/marathon/docs/)
-
-## Zookeeper
-[Deploying Zookeeper on local](https://phoenixnap.com/kb/install-apache-zookeeper)
-
 
 After the deployment of above services, we will deploy the below services in the same sequence as they are listed below:
 
