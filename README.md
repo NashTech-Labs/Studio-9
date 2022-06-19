@@ -53,9 +53,9 @@ Below are described the major components of Studio-9.
 
 
 # How to deploy Studio9 on Local?
-So for deploying the Studio-9 on local, we have to understand the sequence of the services to be deployed. But before deployment of services we need to see some pre-requisites for application.
+So for deploying the Studio-9 on local, we have to understand the sequence of the services to be deployed. But before deployment of services we need to see some prerequisites for application.
   
-  ## Pre-requisites:
+  ## Prerequisites:
   - OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
   - Mesos-marathon Cluster
   - AWS account
