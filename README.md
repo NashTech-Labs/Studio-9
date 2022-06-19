@@ -59,9 +59,9 @@ So for deploying the Studio-9 on local, we have to understand the sequence of th
   - OS: Ubuntu 16.04 LTS - 4vCPUs and 16GB memory.
   - Mesos-marathon Cluster
   - AWS account
-  - AWS IAM 
-  - AWS S3 buckets
-  - AWS S3 buckets accessible to AWS IAM
+  - [AWS IAM Role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html)
+  - [AWS S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+  - [AWS S3 buckets accessible to AWS IAM](https://aws.amazon.com/premiumsupport/knowledge-center/copy-s3-objects-account/)
         
 ## Mesos-Marathon Cluster Setup
 
