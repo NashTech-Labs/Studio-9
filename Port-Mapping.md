@@ -1,8 +1,8 @@
 ## Ports when deployed on local
-- 5050 -> Mesos-Master
-- 5051 -> Mesos-Slave
-- 2181 -> Zookeeper
-- 8080 -> Marathon
+- '5050' -> 'Mesos-Master'
+- '5051' -> 'Mesos-Slave'
+- '2181' -> 'Zookeeper'
+- '8080' -> 'Marathon'
 
 ## Ports of Services
 - `20000` -> `Elastic search`
