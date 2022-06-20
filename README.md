@@ -114,7 +114,7 @@ After the deployment of above services, we will deploy the below services in the
 [Deploying Argo Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/argo/README.md)
 
 ## Orion
-[Deploying Orion Service on loal](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion/README.md)
+[Deploying Orion Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/orion/README.md)
 
 ## Cortex
 [Deploying Cortex Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/cortexREADME.md)
