@@ -134,7 +134,47 @@ After the deployment of above services, we will deploy the below services in the
 ## Salsa
 [Deploying Salsa Service on local](https://github.com/knoldus/Studio-9/tree/mono-repo/codebase/salsa/README.md)
 
+--- 
+# How to Create a docker images ?
 
+
+### Step1: When we change something in the code then we need to build a new docker image.
+
+
+### Step 2 :  We just need to run the below command to build the image from the dockerfile.
+
+If you are int he same directory where you have docker file.
+   
+         docker build -t <image_name>:<version> .
+EX-
+
+        docker build -t python:1.0 .         
+
+If you are buling a image from the other side of your dockerfile 's Path then you can simply pass the path at the end of command :
+
+        docker build -t <image_name>:<version> ./<PATH to file>
+
+Ex- 
+
+        docker build -t python:1.0 ./<PATH to dockerfile>
+
+### Step 3: First you should tag the image accourding to your preferance:
+
+        docker tag <image_name>:<version> <user_name>/repo_name>:<version>
+
+
+Ex:
+
+        docker tag python:latest username/python:1.0  
+
+Step 4: Now we can push the image to the dockerhub or other cotainer registory:
+
+
+        docker push username/python:1.0 
+
+### Step5 : Now we can change the image name in the code or where we are using this perticular image.
+
+---
 
 # How to deploy Studio9 using Docker-Compose?
 We'll be deploying Studio9 on local using a docker-compose file.
