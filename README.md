@@ -143,7 +143,7 @@ After the deployment of above services, we will deploy the below services in the
 
 ### Step 2 :  We just need to run the below command to build the image from the dockerfile.
 
-If you are int he same directory where you have docker file.
+If you are in the same directory where you have docker file.
    
          docker build -t <image_name>:<version> .
 EX-
@@ -167,7 +167,7 @@ Ex:
 
         docker tag python:latest username/python:1.0  
 
-Step 4: Now we can push the image to the dockerhub or other cotainer registory:
+### Step 4: Now we can push the image to the dockerhub or other cotainer registory:
 
 
         docker push username/python:1.0 
