@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pegasus-api-rest
+spec:
+  selector:
+    matchLabels:
+      app: pegasus-api-rest
+  template:
+    metadata:
+      labels:
+        app: pegasus-api-rest
+    spec:
+      containers:
+      - name: pegasus
+        image: knoldusstudio9/pegasus-rest-api:1.0
+        resources: {}
+          # limit:
+          #   cpu: 
+          #   memory: 
+        ports:
+        - containerPort: 9000
+        env:
+        - name: HTTP_AUTH_USER_NAME
+          value: pegasus-user
+        - name: AWS_S3_REGION
+          value: ap-south-1
+        - name: AWS_S3_ACCCESS_KEY_ID
+          value: AKIAYGPRP4LW7XNZN2LN
+        - name: AWS_S3_SECRET_ACCESS_KEY
+          value: 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
+        - name: AWS_REDSHIFT_URL
+        - name: AWS_REDSHIFT_USER
+        - name: AWS_REDSHIFT_PASSWORD
+        - name: RABBIT_HOSTS
+          value: rabbitmq-cluster.rabbitmq.svc.cluster.local
+        - name: RABBIT_USERNAME
+          value: default_user_EysrLQr_f4xl042sG9b
+        - name: HTTP_AUTH_USER_PASSWORD
+          value: 8V02BoeQDO9u7LDy7
+        - name: RABBIT_PASSWORD
+          value: YDWFLCC3AX8aHkeSYo6lp3PqWsMYKuVX
+        - name: AKKA_LOGLEVEL
+          value: DEBUG
+       
+        livenessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /v1/health
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1

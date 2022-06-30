@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: um-service
+spec:
+  selector:
+    matchLabels:
+      app: um-service
+  template:
+    metadata:
+      labels:
+        app: um-service
+    spec:
+      containers:
+      - name: um-service
+        image: knoldusstudio9/um-service:1.02
+        resources: {}
+        ports:
+        - containerPort: 9000
+        env:
+        - name: MONGODB_URI 
+          value: "mongodb://root:studio9@mongo-mongodb.mongo.svc.cluster.local:27017/um-service?authSource=admin"
+        - name: AKKA_LOGLEVEL
+          value: "DEBUG"
+        livenessProbe:
+          httpGet:
+            path: /api/um-service/v0.1/healthCheck
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 4
+          failureThreshold: 10
+          initialDelaySeconds: 25
+          successThreshold: 1
+        readinessProbe:
+          httpGet:
+            path: /api/um-service/v0.1/healthCheck
+            port: 9000
+          timeoutSeconds: 10
+          periodSeconds: 2
+          failureThreshold: 10
+          initialDelaySeconds: 15
+          successThreshold: 1
