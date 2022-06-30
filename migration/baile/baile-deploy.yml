@@ -1,0 +1,125 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: baile
+spec:
+  selector:
+    matchLabels:
+      app: baile
+  template:
+    metadata:
+      labels:
+        app: baile
+    spec:
+      containers:
+      - name: baile
+        image: knoldusstudio9/baile:1.0
+        resources: {}
+        ports:
+        - containerPort: 9000
+        env:
+        - name: MONGODB_URL
+          value: "mongodb://root:studio9@mongodb.mongo.svc.cluster.local:27017/baile?authSource=admin"
+        - name: AKKA_LOGLEVEL
+          value: "ERROR"
+        - name: MONGODB_DB_NAME
+          value: "baile"
+        - name: UM_CLIENT_ID
+          value: "baile_app_id"
+        - name: UM_CLIENT_SECRET
+          value: "baileDevSecret"
+        - name: UM_SERVICE_ORG_ID
+          value: "orgs_self_service"
+        - name: UM_SERVICE_URL
+          value: "http://um_service.um_service.svc.cluster.local:9000/api/um-service/v0.1"
+        - name : UM_TIMEOUT
+          value: "30"
+        - name : UM_USER_TOKEN_TTL
+          value: "5 minutes"
+        - name: AWS_S3_BUCKET
+          value: "studio9-red-dcos-apps"
+        - name: AWS_REGION
+          value: "ap-south-1"
+        - name: AWS_ACCESS_KEY
+          value: "AKIARIGX26HNZNZLS76A"
+        - name: AWS_SECRET_KEY
+          value: "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"
+        - name: CORTEX_URL
+          value: "http://cortex-api-rest.cortex-rest.svc.cluster.local:9000"
+        - name: CORTEX_USER
+          value: "cortex-search-user"
+        - name: ARIES_URL
+          value: "http://aries-rest-api.aries-rest.svc.cluster.local:9000"
+        - name: ARIES_USER
+          value: "aries-search-user"
+        - name: SIGNUP_BASE_URL
+          value: "http://baile.s9.devopscloud.link/signup"
+        - name: WEB_APP_URL
+          value: "http://baile.s9.devopscloud.link"
+        - name: BASE_APP_URL
+          value: "http://baile.s9.devopscloud.link"
+        - name: LOGIN_URL
+          value: "http://baile.s9.devopscloud.link/signin"
+        - name: REQUIRE_EMAIL_CONFIRMATION
+          value: "false"
+        - name: ADMIN_ROLE_ID
+          value: "groups_superuser"
+        - name: GEMINI_URL
+          value: "http://gemini.gemini.svc.cluster.local:7777"
+        - name: GEMINI_USER
+          value: "gemini-studio9"
+        - name: INTERNAL_API_USERNAME
+          value: "studio9"
+        - name: JUPYTER_SESSION_NODE_CPUS
+          value: "1"
+        - name: JUPYTER_SESSION_NODE_GPUS 
+          value: "1"
+        - name: PREDEF_BUCKET_0_NAME
+          value: "studio9-red-dcos-apps"
+        - name: PREDEF_BUCKET_0_REGION
+          value: "ap-south-1"
+      
+        - name: PREDEF_BUCKET_0_ACCESS_KEY
+          value: "AKIARIGX26HNZNZLS76A"
+        - name: PREDEF_BUCKET_0_SECRET_KEY
+          value: "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"
+        - name: PREDEF_BUCKET_0_REGION
+          value: "ap-south-1"
+
+        - name: DEBUG_EXCEPTIONS 
+          value: "true"
+    
+        - name: TEMPORARY_CREDENTIALS_ROLE_ARN
+          value: "arn:aws:iam::086351999451:role/redshift-s3-full-access"
+        - name : HTTP_SERVER_PREFIX
+          value: "baile/v2.0"
+        - name: PRIVATE_HTTP_SERVER_PREFIX
+          value: "v2.0"
+        - name: ZOOKEEPER_URL
+          value: "zookeeper.zookeeper.svc.cluster.local:2181"
+        - name: READ_STORED_PROCESSES
+          value: "true"
+    
+        - name: TABLE_STORAGE_USERNAME
+          value: "studio9"
+        - name: TABLE_STORAGE_HOST    
+          value: "studio9-cluster.cxvldradn3zy.ap-south-1.redshift.amazonaws.com:5439/database_cluster"
+        - name: TABLE_STORAGE_DATABASE
+          value: "database_cluster"
+
+        - name: TABLE_STORAGE_PORT
+          value: "5439"
+        - name: TABLE_STORAGE_PROTOCOL   
+          value: "postgresql"
+        - name: TABLE_STORAGE_PASSWORD
+          value: "Admin123"
+        - name: ARIES_PASSWORD
+          value: "iCIYNwKA84uP6D0SM"
+        - name: CORTEX_PASSWORD
+          value: "FPYswXogTOysZLApo"
+        - name: ONLINE_PREDICTION_PASSWORD
+          value: "Baile_online_123"
+        - name: GEMINI_PASSWORD
+          value: "uqguU47S7zlX7IZGU"
+        - name: INTERNAL_API_PASSWORD
+          value: "N2EefTyCxt2FZUwYH"
