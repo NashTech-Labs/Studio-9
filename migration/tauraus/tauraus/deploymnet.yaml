@@ -55,9 +55,9 @@ spec:
           - name: ARIES_PASSWORD
             value: iCIYNwKA84uP6D0SM
           - name: S3_ACCESS_KEY
-            value: AKIARIGX26HNZNZLS76A
+            value: "<add your access key>"
           - name: S3_SECRET_KEY
-            value: bme6UPQezHyNp7TcDTMHCfNMAvlZ7Ghh70CO5Ls9
+            value: "<add your secret key>"
           - name: S3_REGION
             value: ap-south-1
           - name: S3_BUCKET
@@ -75,9 +75,9 @@ spec:
           - name: ARGO_PASSWORD
             value: saMJiIYKEsCpjha5h
           - name: SQS_ACCESS_KEY
-            value: AKIARIGX26HNZNZLS76A
+            value: "<add your access key>"
           - name: SQS_SECRET_KEY
-            value: bme6UPQezHyNp7TcDTMHCfNMAvlZ7Ghh70CO5Ls9
+            value: "<add your secret key>"
           - name: SQS_REGION
             value: ap-south-1
           - name: SQS_QUEUE_NAME

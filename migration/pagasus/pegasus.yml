@@ -26,9 +26,9 @@ spec:
         - name: AWS_S3_REGION
           value: ap-south-1
         - name: AWS_S3_ACCCESS_KEY_ID
-          value: AKIAYGPRP4LW7XNZN2LN
+          value: "<add your access key>"
         - name: AWS_S3_SECRET_ACCESS_KEY
-          value: q+tLRh5XmQBxVYaAdwiAbqCeSRL/gNaw43Dsf8be
+          value: "<add your secret key>"
         - name: AWS_REDSHIFT_URL
         - name: AWS_REDSHIFT_USER
         - name: AWS_REDSHIFT_PASSWORD

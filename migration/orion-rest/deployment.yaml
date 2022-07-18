@@ -58,9 +58,9 @@ spec:
         - name: JOB_MASTER_S3_BUCKET
           value: "studio9-red-dcos-apps"
         - name: JOB_MASTER_S3_ACCESS_KEY
-          value: "AKIARIGX26HNZNZLS76A"
+          value: "<add your access key>"
         - name: JOB_MASTER_S3_SECRET_KEY
-          value: "bme6UPQezHyNp7TcDTMHCfNMAvlZ7Ghh70CO5Ls9"
+          value: "<add your secret key>"
         - name: JOB_MASTER_S3_TABLES_DIR
           value: "dataset"
         - name: JOB_MASTER_CORTEX_TASK_VERSION
