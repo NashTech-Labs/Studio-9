@@ -231,7 +231,7 @@ For running the Studio-9 on local, we are using docker-compose.
 - Postgres service depends on postgres-db and will be accessible at 8080.
 
 ## 👨‍💻 Author
-
+* [Bhavya Aggarwal](bhavya@knoldus.com), CTO, [knoldus, Inc  (https://www.knoldus.com)] 
 
 
 ## 🤝 Contributing
