@@ -2,7 +2,7 @@
 [![GitHub contributors](https://img.shields.io/badge/Contributors-6-yellow)](https://github.com/knoldus/Studio-9/graphs/contributors)
 [![MIT License](https://img.shields.io/github/license/digitalocean/nginxconfig.io.svg?color=blue)](https://github.com/knoldus/Studio-9/blob/master/LICENSE.md)
 
-![STUDIO-9](https://www.linkpicture.com/q/banner_1.png)
+
 
 # What is Studio-9?
 > Studio9 is an open source platform for doing collaborative Data Management & AI/ML anywhere Whether your data is trapped in silos or you’re generating data at the edge, Studio9 gives you the flexibility to create AI and data engineering pipelines wherever your data is. And you can share your AI, Data, and Pipelines with anyone anywhere. With Studio9, you can achieve newfound agility to effortlessly move between compute environments, while all your data and your work replicates automatically to wherever you want.
